@@ -6,7 +6,7 @@ landscape:
         name: Bikes
         items:
           - item:
-            name: General Bikshare Feed Specification
+            name: General Bikeshare Feed Specification
             description: The General Bikeshare Feed Specification, known as GBFS, is the open data standard for bikeshare. GBFS makes real-time data feeds in a uniform format publicly available online, with an emphasis on findability.
             homepage_url: 'https://nabsa.net/resources/gbfs/'
             repo_url: 'https://github.com/NABSA/gbfs'
@@ -22,7 +22,7 @@ landscape:
             logo: citybikes.svg
             twitter: null
             jurisdictions: 300
-            internationl: true
+            international: true
       - subcategory:
         name: Trains
         items:
@@ -49,7 +49,7 @@ landscape:
            logo: transportapi.svg
            jurisdictions: 1000
            twitter: null
-           internationl: false
+           international: false
            open_source: false
          - item:
            name: Open Trip Planner
@@ -59,7 +59,7 @@ landscape:
            logo: opentripplanner.svg
            jurisdictions: 100
            twitter: null
-           internationl: true
+           international: true
       - subcategory:
          name: Schedules
          items:
@@ -70,7 +70,7 @@ landscape:
             repo_url: null
             logo: netex.svg
             jurisdictions: 500
-            internationl: true
+            international: true
             twitter: null
       - subcategory:
         name: Maps
@@ -83,7 +83,7 @@ landscape:
             logo: openmapstreet.svg
             jurisdictions: 1000
             twitter: 'https://twitter.com/openstreetmap?lang=en'
-            internationl: true
+            international: true
           - item:
             name: City Lines
             description: Crowdsourced map of transit systems across the world
@@ -92,7 +92,7 @@ landscape:
             logo: citylines.svg
             jurisdictions: 100
             twitter: null
-            internationl: true
+            international: true
           - itme:
             name: Transmodel
             description: Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of public transport information systems
@@ -101,7 +101,7 @@ landscape:
             logo: transmodel.svg
             jurisdictions: 500
             twitter: null
-            internationl: true
+            international: true
   - category:
     name: People
     subcategories:
@@ -116,7 +116,7 @@ landscape:
             logo: netex.svg
             jurisdictions: 500
             twitter: null
-            internationl: true
+            international: true
   - category:
     name: GTFS
     subcategories:
@@ -131,7 +131,7 @@ landscape:
             logo: gtfs.svg
             twitter: null
             jurisdictions: 350
-            internationl: true
+            international: true
       - subcategory:
         name: Real Time
         items:
@@ -144,7 +144,7 @@ landscape:
             twitter: null
             jurisdictions: 10
             twitter: null
-            internationl: true
+            international: true
       - subcategory:
         name: 3rd Party Directories
         items:
@@ -156,7 +156,7 @@ landscape:
             logo: transitland_logo.svg
             twitter: 'https://twitter.com/transitland'
             jurisdictions: 300
-            internationl: true
+            international: true
           - item:
             name: Open Mobility Data
             description: An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime feeds from around the world.
@@ -165,7 +165,7 @@ landscape:
             logo: openmobilitydata.svg
             twitter: 'https://twitter.com/OpenMobilityOrg'
             jurisdictions: 1000
-            internationl: true
+            international: true
   - category:
     name: Apps
     subcategories:
@@ -180,7 +180,7 @@ landscape:
             logo: nextbus.svg
             twitter: 'https://twitter.com/nextbus?lang=en'
             jurisdictions: 350
-            internationl: true
+            international: true
   - category: Real Time
     subcategories:
       - subcategory:
