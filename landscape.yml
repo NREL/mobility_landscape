@@ -35,6 +35,18 @@ landscape:
             twitter: 'https://twitter.com/databasetransit'
             jurisdictions: 850
             international: false
+      - subcategory:
+        name: Ride Sharing
+        items:
+          - item:
+            name: Chicago Ride-Sharing Data
+            description: All trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as part of routine reporting required by ordinance.
+            homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
+            repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
+            logo: chicagotnp.svg
+            twitter: null
+            jurisdictions: 1
+            international: false
   - category:
     name: Infastructure
     subcategories:
@@ -61,61 +73,61 @@ landscape:
             jurisdictions: 100
             international: true
       - subcategory:
-          name: Schedules
-          items:
-            -item:
-              name: NeTEx
-              description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
-              homepage_url: 'http://netex-cen.eu/'
-              repo_url: null
-              logo: netex.svg
-              twitter: null
-              jurisdictions: 500
-              international: true
-        - subcategory:
-          name: Maps
-          items:
-            - item:
-              name: Shared Streets
-              description:SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system, or a commercial basemap.
-              homepage_url:'https://sharedstreets.io'
-              repo_url:'https://github.com/sharedstreets/sharedstreets-ref-system'
-              logo:
-              twitter: 'https://twitter.com/sharedstreetsio?lang=en'
-              jurisdictions: 20
-              international: false
-            - item:
-              name: Open Street Map
-              description: OpenStreetMap, the project that creates and distributes free geographic data for the world.
-              homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
-              repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
-              logo: openmapstreet.svg
-              twitter: 'https://twitter.com/openstreetmap?lang=en'
-              jurisdictions: 1000
-              international: true
-            - item:
-              name: City Lines
-              description: Crowdsourced map of transit systems across the world
-              homepage_url: 'https://www.citylines.co/'
-              repo_url: 'https://github.com/citylines/citylines'
-              logo: citylines.svg
-              twitter: null
-              jurisdictions: 100
-              international: true
-            - item:
-              name: Transmodel
-              description: Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of public transport information systems
-              homepage_url: 'http://www.transmodel-cen.eu/'
-              repo_url: null
-              logo: transmodel.svg
-              twitter: null
-              jurisdictions: 500
-              international: true
+        name: Schedules
+        items:
+          - item:
+            name: NeTEx
+            description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
+            homepage_url: 'http://netex-cen.eu/'
+            repo_url: null
+            logo: netex.svg
+            twitter: null
+            jurisdictions: 500
+            international: true
+      - subcategory:
+        name: Maps
+        items:
+          - item:
+            name: Shared Streets
+            description: SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system, or a commercial basemap.
+            homepage_url: 'https://sharedstreets.io'
+            repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
+            logo: sharedstreets.svg
+            twitter: 'https://twitter.com/sharedstreetsio?lang=en'
+            jurisdictions: 20
+            international: false
+          - item:
+            name: Open Street Map
+            description: OpenStreetMap, the project that creates and distributes free geographic data for the world.
+            homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
+            repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
+            logo: openmapstreet.svg
+            twitter: 'https://twitter.com/openstreetmap?lang=en'
+            jurisdictions: 1000
+            international: true
+          - item:
+            name: City Lines
+            description: Crowdsourced map of transit systems across the world
+            homepage_url: 'https://www.citylines.co/'
+            repo_url: 'https://github.com/citylines/citylines'
+            logo: citylines.svg
+            twitter: null
+            jurisdictions: 100
+            international: true
+          - item:
+            name: Transmodel
+            description: Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of public transport information systems
+            homepage_url: 'http://www.transmodel-cen.eu/'
+            repo_url: null
+            logo: transmodel.svg
+            twitter: null
+            jurisdictions: 500
+            international: true
   - category:
     name: People
     subcategories:
       - subcategory:
-        name: Google 
+        name: Google
         items:
           - item:
             name: CoVid19 Data
@@ -136,7 +148,7 @@ landscape:
             name: GTFS Main
             description: The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a format that can be consumed by a wide variety of software applications. Today, the GTFS data format is used by thousands of public transport providers.
             homepage_url: 'https://gtfs.org/'
-            repo_url: 'https://github.com/google/transit/tree/master/gtfs/spec/en'
+            repo_url: 'https://github.com/google/transit'
             logo: gtfs.svg
             twitter: null
             jurisdictions: 350
@@ -148,7 +160,7 @@ landscape:
             name: GTFS Real Time
             description: A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines not operating, important delays, etc.) location of their vehicles, and expected arrival times.
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
-            repo_url: 'https://github.com/google/transit/tree/master/gtfs-realtime'
+            repo_url: 'https://github.com/google/transit'
             logo: gtfs_rt.svg
             twitter: null
             jurisdictions: 100
@@ -189,7 +201,8 @@ landscape:
             twitter: 'https://twitter.com/nextbus?lang=en'
             jurisdictions: 350
             international: true
-  - category: Real Time
+  - category:
+    name: Real Time
     subcategories:
       - subcategory:
         name: Europe
@@ -203,17 +216,18 @@ landscape:
             twitter: null
             jurisdictions: 500
             international: true
-  - category: Closed Source
+  - category:
+    name: Closed Source
     subcategories:
       - subcategory:
-        name:
+        name: Mobility Data At Cost
         items:
         - item:
-          name:
-          description:
-          homepage_url:
-          repo_url: 
+          name: Streetlight Data
+          description: Affortable and intuitive mobiilty data at a low cost
+          homepage_url: 'https://www.streetlightdata.com/'
+          repo_url: 'https://github.com/StreetLight-Data'
           logo: null
-          twitter: null
-          jurisdictions: 
-          international:
+          twitter: 'https://twitter.com/StreetLightData?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+          jurisdictions: 100
+          international: false
