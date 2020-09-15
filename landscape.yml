@@ -47,18 +47,18 @@ landscape:
            homepage_url: 'https://www.transportapi.com/'
            repo_url: null
            logo: transportapi.svg
-           jurisdictions: 1000
            twitter: null
-           international: false
            open_source: false
+           jurisdictions: 1000
+           international: false
          - item:
            name: Open Trip Planner
            description: OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis services.
            homepage_url: 'http://www.opentripplanner.org/'
            repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
            logo: opentripplanner.svg
-           jurisdictions: 100
            twitter: null
+           jurisdictions: 100
            international: true
       - subcategory:
          name: Schedules
@@ -69,20 +69,29 @@ landscape:
             homepage_url: 'http://netex-cen.eu/'
             repo_url: null
             logo: netex.svg
+            twitter: null
             jurisdictions: 500
             international: true
-            twitter: null
       - subcategory:
         name: Maps
         items:
+          - item:
+            name: Shared Streets
+            description:SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system, or a commercial basemap.
+            homepage_url:'https://sharedstreets.io'
+            repo_url:'https://github.com/sharedstreets/sharedstreets-ref-system'
+            logo:
+            twitter: 'https://twitter.com/sharedstreetsio?lang=en'
+            jurisdictions: 20
+            international: false
           - item:
             name: Open Street Map
             description: OpenStreetMap, the project that creates and distributes free geographic data for the world.
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
             logo: openmapstreet.svg
-            jurisdictions: 1000
             twitter: 'https://twitter.com/openstreetmap?lang=en'
+            jurisdictions: 1000
             international: true
           - item:
             name: City Lines
@@ -90,8 +99,8 @@ landscape:
             homepage_url: 'https://www.citylines.co/'
             repo_url: 'https://github.com/citylines/citylines'
             logo: citylines.svg
-            jurisdictions: 100
             twitter: null
+            jurisdictions: 100
             international: true
           - itme:
             name: Transmodel
@@ -99,23 +108,23 @@ landscape:
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
             logo: transmodel.svg
-            jurisdictions: 500
             twitter: null
+            jurisdictions: 500
             international: true
   - category:
     name: People
     subcategories:
       - subcategory:
-        name:
+        name: Google 
         items:
           - item:
-            name: NetEx
-            description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
-            homepage_url: 'http://netex-cen.eu/'
-            repo_url: null
-            logo: netex.svg
-            jurisdictions: 500
+            name: CoVid19 Data
+            description: As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available for a short period of time.
+            homepage_url: 'https://www.google.com/covid19/mobility/'
+            repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
+            logo: null
             twitter: null
+            jurisdictions: 1000
             international: true
   - category:
     name: GTFS
@@ -142,8 +151,7 @@ landscape:
             repo_url: 'https://github.com/google/transit/tree/master/gtfs-realtime'
             logo: gtfs_rt.svg
             twitter: null
-            jurisdictions: 10
-            twitter: null
+            jurisdictions: 100
             international: true
       - subcategory:
         name: 3rd Party Directories
@@ -192,6 +200,20 @@ landscape:
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
             logo: null
-            jurisdictions: 500
             twitter: null
+            jurisdictions: 500
             international: true
+  - category: Closed Source
+    subcategories:
+     - subcategory:
+       name:
+       items:
+        - item:
+          name:
+          description:
+          homepage_url:
+          repo_url: 
+          logo: null
+          twitter: null
+          jurisdictions: 
+          international:
