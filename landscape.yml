@@ -7,7 +7,9 @@ landscape:
         items:
           - item:
             name: General Bikeshare Feed Specification
-            description: The General Bikeshare Feed Specification, known as GBFS, is the open data standard for bikeshare. GBFS makes real-time data feeds in a uniform format publicly available online, with an emphasis on findability.
+            description: >-
+              The General Bikeshare Feed Specification, known as GBFS, is the open data standard for bikeshare. GBFS makes real-time data feeds in a uniform
+              format publicly available online, with an emphasis on findability.
             homepage_url: 'https://nabsa.net/resources/gbfs/'
             repo_url: 'https://github.com/NABSA/gbfs'
             logo: gbfs.svg
@@ -40,7 +42,9 @@ landscape:
         items:
           - item:
             name: Chicago Ride-Sharing Data
-            description: All trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as part of routine reporting required by ordinance.
+            description: >-
+              All trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as
+              part of routine reporting required by ordinance.
             homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
             repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
             logo: chicagotnp.svg
@@ -65,7 +69,9 @@ landscape:
             international: false
           - item:
             name: Open Trip Planner
-            description: OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis services.
+            description: >-
+              OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis
+              services.
             homepage_url: 'http://www.opentripplanner.org/'
             repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
             logo: opentripplanner.svg
@@ -89,7 +95,10 @@ landscape:
         items:
           - item:
             name: Shared Streets
-            description: SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system, or a commercial basemap.
+            description: >-
+              SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps
+              connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system,
+              or a commercial basemap.
             homepage_url: 'https://sharedstreets.io'
             repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
             logo: sharedstreets.svg
@@ -98,7 +107,7 @@ landscape:
             international: false
           - item:
             name: Open Street Map
-            description: OpenStreetMap, the project that creates and distributes free geographic data for the world.
+            description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
             logo: openmapstreet.svg
@@ -116,7 +125,9 @@ landscape:
             international: true
           - item:
             name: Transmodel
-            description: Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of public transport information systems
+            description: >-
+              Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
+              public transport information systems
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
             logo: transmodel.svg
@@ -131,7 +142,9 @@ landscape:
         items:
           - item:
             name: CoVid19 Data
-            description: As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available for a short period of time.
+            description: >-
+              As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available
+              for a short period of time.
             homepage_url: 'https://www.google.com/covid19/mobility/'
             repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
             logo: null
@@ -146,7 +159,10 @@ landscape:
         items:
           - item:
             name: GTFS Main
-            description: The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a format that can be consumed by a wide variety of software applications. Today, the GTFS data format is used by thousands of public transport providers.
+            description: >-
+              The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a
+              format that can be consumed by a wide variety of software applications. Today, the GTFS data format is used by thousands of public transport
+              providers.
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
             logo: gtfs.svg
@@ -158,7 +174,9 @@ landscape:
         items:
           - item:
             name: GTFS Real Time
-            description: A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines not operating, important delays, etc.) location of their vehicles, and expected arrival times.
+            description: >-
+              A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
+              not operating, important delays, etc.) location of their vehicles, and expected arrival times.
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
             repo_url: 'https://github.com/google/transit'
             logo: gtfs_rt.svg
@@ -179,7 +197,9 @@ landscape:
             international: true
           - item:
             name: Open Mobility Data
-            description: An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime feeds from around the world.
+            description: >-
+              An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime
+              feeds from around the world.
             homepage_url: 'https://openmobilitydata.org/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
             logo: openmobilitydata.svg
@@ -194,7 +214,9 @@ landscape:
         items:
           - item:
             name: NextBus
-            description: NextBus is a cloud-based solution providing real-time passenger information systems to over 100 transit agencies, organizations, institutions, and airports and serves more than 300 million travelers each year.
+            description: >-
+              NextBus is a cloud-based solution providing real-time passenger information systems to over 100 transit agencies, organizations, institutions, and
+              airports and serves more than 300 million travelers each year.
             homepage_url: 'https://www.nextbus.com/'
             repo_url: null
             logo: nextbus.svg
@@ -209,7 +231,7 @@ landscape:
         items:
           - item:
             name: Siri
-            description: SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.
+            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
             logo: null
@@ -222,12 +244,12 @@ landscape:
       - subcategory:
         name: Mobility Data At Cost
         items:
-        - item:
-          name: Streetlight Data
-          description: Affortable and intuitive mobiilty data at a low cost
-          homepage_url: 'https://www.streetlightdata.com/'
-          repo_url: null
-          logo: null
-          twitter: 'https://twitter.com/StreetLightData?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
-          jurisdictions: 100
-          international: false
+          - item:
+            name: Streetlight Data
+            description: Affortable and intuitive mobiilty data at a low cost
+            homepage_url: 'https://www.streetlightdata.com/'
+            repo_url: null
+            logo: null
+            twitter: 'https://twitter.com/StreetLightData?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+            jurisdictions: 100
+            international: false
