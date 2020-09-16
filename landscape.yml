@@ -134,7 +134,7 @@ landscape:
             description: As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available for a short period of time.
             homepage_url: 'https://www.google.com/covid19/mobility/'
             repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
-            logo: null
+            logo: googlecovid.svg
             twitter: null
             jurisdictions: 1000
             international: true
@@ -208,11 +208,11 @@ landscape:
         name: Europe
         items:
           - item:
-            name: Siri
+            name: Transmodel - Siri
             description: SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
-            logo: null
+            logo: transmodel.svg
             twitter: null
             jurisdictions: 500
             international: true
@@ -227,7 +227,7 @@ landscape:
           description: Affortable and intuitive mobiilty data at a low cost
           homepage_url: 'https://www.streetlightdata.com/'
           repo_url: 'https://github.com/StreetLight-Data'
-          logo: null
+          logo: streetlight.svg
           twitter: 'https://twitter.com/StreetLightData?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
           jurisdictions: 100
           international: false
