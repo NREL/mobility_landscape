@@ -12,7 +12,7 @@ landscape:
               format publicly available online, with an emphasis on findability.
             homepage_url: 'https://nabsa.net/resources/gbfs/'
             repo_url: 'https://github.com/NABSA/gbfs'
-            logo: gbfs.svg
+            logo: carbon-relay.svg
             twitter: null
             jurisdictions: 230
             international: true
