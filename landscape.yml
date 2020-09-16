@@ -34,7 +34,7 @@ landscape:
             homepage_url: 'https://www.transit.dot.gov/ntd'
             repo_url: null
             logo: ntd.svg
-            twitter: 'https://twitter.com/databasetransit'
+            twitter: null
             jurisdictions: 850
             international: false
       - subcategory:
@@ -102,7 +102,7 @@ landscape:
             homepage_url: 'https://sharedstreets.io'
             repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
             logo: sharedstreets.svg
-            twitter: 'https://twitter.com/sharedstreetsio?lang=en'
+            twitter: null
             jurisdictions: 20
             international: false
           - item:
@@ -111,7 +111,7 @@ landscape:
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
             logo: openmapstreet.svg
-            twitter: 'https://twitter.com/openstreetmap?lang=en'
+            twitter: null
             jurisdictions: 1000
             international: true
           - item:
@@ -192,7 +192,7 @@ landscape:
             homepage_url: 'https://transit.land/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
             logo: transitland_logo.svg
-            twitter: 'https://twitter.com/transitland'
+            twitter: null
             jurisdictions: 300
             international: true
           - item:
@@ -203,7 +203,7 @@ landscape:
             homepage_url: 'https://openmobilitydata.org/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
             logo: openmobilitydata.svg
-            twitter: 'https://twitter.com/OpenMobilityOrg'
+            twitter: null
             jurisdictions: 1000
             international: true
   - category:
@@ -220,7 +220,7 @@ landscape:
             homepage_url: 'https://www.nextbus.com/'
             repo_url: null
             logo: nextbus.svg
-            twitter: 'https://twitter.com/nextbus?lang=en'
+            twitter: null
             jurisdictions: 350
             international: true
   - category:
@@ -231,7 +231,7 @@ landscape:
         items:
           - item:
             name: Transmodel - Siri
-            description: SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.
+            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
             logo: transmodel.svg
@@ -250,6 +250,6 @@ landscape:
             homepage_url: 'https://www.streetlightdata.com/'
             repo_url: null
             logo: streetlight.svg
-            twitter: 'https://twitter.com/StreetLightData?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+            twitter: null
             jurisdictions: 100
             international: false
