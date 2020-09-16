@@ -13,7 +13,6 @@ landscape:
             homepage_url: 'https://nabsa.net/resources/gbfs/'
             repo_url: 'https://github.com/NABSA/gbfs'
             logo: carbon-relay.svg
-            twitter: null
             jurisdictions: 230
             international: true
           - item:
@@ -21,8 +20,7 @@ landscape:
             description: REST API for aggregated bikeshare data from around the world.
             homepage_url: 'http://api.citybik.es/v2/'
             repo_url: 'https://github.com/eskerda/pybikes'
-            logo: citybikes.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 300
             international: true
       - subcategory:
@@ -33,8 +31,7 @@ landscape:
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
             homepage_url: 'https://www.transit.dot.gov/ntd'
             repo_url: null
-            logo: ntd.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 850
             international: false
       - subcategory:
@@ -47,8 +44,7 @@ landscape:
               part of routine reporting required by ordinance.
             homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
             repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
-            logo: chicagotnp.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 1
             international: false
   - category:
@@ -62,8 +58,7 @@ landscape:
             description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
             homepage_url: 'https://www.transportapi.com/'
             repo_url: null
-            logo: transportapi.svg
-            twitter: null
+            logo: carbon-relay.svg
             open_source: false
             jurisdictions: 1000
             international: false
@@ -74,8 +69,7 @@ landscape:
               services.
             homepage_url: 'http://www.opentripplanner.org/'
             repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
-            logo: opentripplanner.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 100
             international: true
       - subcategory:
@@ -86,8 +80,7 @@ landscape:
             description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
             homepage_url: 'http://netex-cen.eu/'
             repo_url: null
-            logo: netex.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 500
             international: true
       - subcategory:
@@ -101,8 +94,7 @@ landscape:
               or a commercial basemap.
             homepage_url: 'https://sharedstreets.io'
             repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
-            logo: sharedstreets.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 20
             international: false
           - item:
@@ -110,8 +102,7 @@ landscape:
             description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
-            logo: openmapstreet.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 1000
             international: true
           - item:
@@ -119,8 +110,7 @@ landscape:
             description: Crowdsourced map of transit systems across the world
             homepage_url: 'https://www.citylines.co/'
             repo_url: 'https://github.com/citylines/citylines'
-            logo: citylines.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 100
             international: true
           - item:
@@ -130,8 +120,7 @@ landscape:
               public transport information systems
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
-            logo: transmodel.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 500
             international: true
   - category:
@@ -147,8 +136,7 @@ landscape:
               for a short period of time.
             homepage_url: 'https://www.google.com/covid19/mobility/'
             repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
-            logo: googlecovid.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 1000
             international: true
   - category:
@@ -165,8 +153,7 @@ landscape:
               providers.
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
-            logo: gtfs.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 350
             international: true
       - subcategory:
@@ -179,8 +166,7 @@ landscape:
               not operating, important delays, etc.) location of their vehicles, and expected arrival times.
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
             repo_url: 'https://github.com/google/transit'
-            logo: gtfs_rt.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 100
             international: true
       - subcategory:
@@ -191,8 +177,7 @@ landscape:
             description: A community-edit data service aggregating transit networks across metropolitan and rurla areas around the world.
             homepage_url: 'https://transit.land/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
-            logo: transitland_logo.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 300
             international: true
           - item:
@@ -202,8 +187,7 @@ landscape:
               feeds from around the world.
             homepage_url: 'https://openmobilitydata.org/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
-            logo: openmobilitydata.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 1000
             international: true
   - category:
@@ -219,8 +203,7 @@ landscape:
               airports and serves more than 300 million travelers each year.
             homepage_url: 'https://www.nextbus.com/'
             repo_url: null
-            logo: nextbus.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 350
             international: true
   - category:
@@ -234,8 +217,7 @@ landscape:
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
-            logo: transmodel.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 500
             international: true
   - category:
@@ -249,7 +231,6 @@ landscape:
             description: Affortable and intuitive mobiilty data at a low cost
             homepage_url: 'https://www.streetlightdata.com/'
             repo_url: null
-            logo: streetlight.svg
-            twitter: null
+            logo: carbon-relay.svg
             jurisdictions: 100
             international: false
