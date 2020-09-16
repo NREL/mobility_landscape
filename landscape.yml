@@ -165,7 +165,7 @@ landscape:
               A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
               not operating, important delays, etc.) location of their vehicles, and expected arrival times.
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
-            repo_url: 'https://github.com/google/transit'
+            repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
             logo: carbon-relay.svg
             jurisdictions: 100
             international: true
@@ -186,7 +186,7 @@ landscape:
               An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime
               feeds from around the world.
             homepage_url: 'https://openmobilitydata.org/'
-            repo_url: 'https://github.com/transitland/transitland-atlas'
+            repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
             logo: carbon-relay.svg
             jurisdictions: 1000
             international: true
