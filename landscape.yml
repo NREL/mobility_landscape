@@ -153,7 +153,7 @@ landscape:
               providers.
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
-            logo: GTFS.svg
+            logo: carbon_relay.svg
             jurisdictions: 350
             international: true
       - subcategory:
