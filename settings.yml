@@ -1,8 +1,8 @@
 global:
-  name: CNCF Interactive Landscape
-  short_name: CNCF
+  name: Interactive Mobility Landscape
+  short_name: IML
   mode: CNCF
-  repo: cncf/landscape
+  repo: cncf/mobility_landscape
   website: 'https://landscape.cncf.io'
   short_domain: l.cncf.io
   company_url: 'https://www.cncf.io'
@@ -146,7 +146,7 @@ big_picture:
     fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
     elements:
       - type: HorizontalCategory
-        category: App Definition and Development
+        category: Vehicles
         rows: 6
         width: 1175
         height: 227
@@ -154,7 +154,7 @@ big_picture:
         left: 0
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
-        category: Orchestration & Management
+        category: Infastructure
         rows: 4
         width: 1175
         height: 162
@@ -162,7 +162,7 @@ big_picture:
         left: 0
         color: 'rgb(46,107,46)'
       - type: HorizontalCategory
-        category: Runtime
+        category: People
         rows: 4
         width: 1175
         height: 160
@@ -170,7 +170,7 @@ big_picture:
         left: 0
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
-        category: Provisioning
+        category: GTFS
         rows: 4
         width: 1175
         height: 195
@@ -178,7 +178,7 @@ big_picture:
         left: 0
         color: 'rgb(46,97,107)'
       - type: VerticalCategory
-        category: Platform
+        category: Apps
         cols: 9
         width: 315
         height: 770
@@ -186,7 +186,7 @@ big_picture:
         left: 1190
         color: 'rgb(107,97,46)'
       - type: VerticalCategory
-        category: Observability and Analysis
+        category: Real Time
         cols: 10
         width: 420
         height: 515
@@ -194,7 +194,7 @@ big_picture:
         left: 1520
         color: 'rgb(107,61,46)'
       - type: HorizontalCategory
-        category: Special
+        category: Closed Source
         rows: 7
         width: 1195
         height: 260
