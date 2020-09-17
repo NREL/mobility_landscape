@@ -145,7 +145,7 @@ landscape:
               e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
               aggregate them to make data available to urban planners and transportation engineers.
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: 'https://github.com/e-mission/e-mission-server.git'
+            repo_url: null
             logo: emission.svg
             jurisdictions: null
             international: null
@@ -220,12 +220,12 @@ landscape:
         name: People
         items:
           - item:
-            name: e-mission
+            name: e-mission App
             description: >-
               e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
               aggregate them to make data available to urban planners and transportation engineers.
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: 'https://github.com/e-mission/e-mission-phone.git'
+            repo_url: null
             logo: emission.svg
             jurisdictions: null
             international: null

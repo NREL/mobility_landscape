@@ -163,7 +163,7 @@ big_picture:
       - type: HorizontalCategory
         category: People
         rows: 4
-        width: 250
+        width: 375
         height: 150
         top: 406
         left: 0
