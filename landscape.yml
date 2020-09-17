@@ -31,7 +31,7 @@ landscape:
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
             homepage_url: 'https://www.transit.dot.gov/ntd'
             repo_url: null
-            logo: ntd.svg
+            logo: NTD.svg
             jurisdictions: 850
             international: false
       - subcategory:
@@ -69,7 +69,7 @@ landscape:
               services.
             homepage_url: 'http://www.opentripplanner.org/'
             repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
-            logo: opentripplaner.svg
+            logo: opentripplanner.svg
             jurisdictions: 100
             international: true
       - subcategory:
@@ -102,7 +102,7 @@ landscape:
             description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
-            logo: openmapstreet.svg
+            logo: openstreetmap.svg
             jurisdictions: 1000
             international: true
           - item:
@@ -153,7 +153,7 @@ landscape:
               providers.
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
-            logo: gtfs.svg
+            logo: GTFS.svg
             jurisdictions: 350
             international: true
       - subcategory:
@@ -166,7 +166,7 @@ landscape:
               not operating, important delays, etc.) location of their vehicles, and expected arrival times.
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
             repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
-            logo: gtfs.svg
+            logo: GTFS.svg
             jurisdictions: 100
             international: true
       - subcategory:
