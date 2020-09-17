@@ -1,3 +1,4 @@
+# THIS FILE IS GENERATED AUTOMATICALLY!
 landscape:
   - category:
     name: Vehicles
@@ -12,7 +13,7 @@ landscape:
               format publicly available online, with an emphasis on findability.
             homepage_url: 'https://nabsa.net/resources/gbfs/'
             repo_url: 'https://github.com/NABSA/gbfs'
-            logo: carbon-relay.svg
+            logo: gbfs.svg
             jurisdictions: 230
             international: true
             github_data:
@@ -36,7 +37,7 @@ landscape:
               start_date: '2015-12-05T00:03:37Z'
             image_data:
               fileName: general-bikeshare-feed-specification.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: yizP9wcKq4qFFnxoqjcHH8h5BX0FmM9Z9wwdd7V5n3o=
             best_practice_data:
               badge: false
               percentage: null
@@ -45,7 +46,7 @@ landscape:
             description: REST API for aggregated bikeshare data from around the world.
             homepage_url: 'http://api.citybik.es/v2/'
             repo_url: 'https://github.com/eskerda/pybikes'
-            logo: carbon-relay.svg
+            logo: citybikes.svg
             jurisdictions: 300
             international: true
             github_data:
@@ -73,7 +74,7 @@ landscape:
               start_date: '2010-07-16T10:11:30Z'
             image_data:
               fileName: city-bikes.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: JOeM7ND/Ts05dZCu9bNYV/WSxOj1TAB3eWqXL4Fjh2s=
             best_practice_data:
               badge: false
               percentage: null
@@ -85,12 +86,12 @@ landscape:
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
             homepage_url: 'https://www.transit.dot.gov/ntd'
             repo_url: null
-            logo: carbon-relay.svg
+            logo: NTD.svg
             jurisdictions: 850
             international: false
             image_data:
               fileName: national-transit-database.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: 937y3R0mKzKPNpy7mfn7sKBVFNxg+h8h1k7y3u+22pA=
             best_practice_data:
               badge: false
               percentage: null
@@ -104,7 +105,7 @@ landscape:
               part of routine reporting required by ordinance.
             homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
             repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
-            logo: carbon-relay.svg
+            logo: chicagotnp.svg
             jurisdictions: 1
             international: false
             github_data:
@@ -140,7 +141,7 @@ landscape:
               start_date: '2016-10-13T17:30:09Z'
             image_data:
               fileName: chicago-ride-sharing-data.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: PQFuO3VJjQMca+t3RpUzPmX/F9JINER0oysLMprzKh4=
             best_practice_data:
               badge: false
               percentage: null
@@ -155,13 +156,13 @@ landscape:
             description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
             homepage_url: 'https://www.transportapi.com/'
             repo_url: null
-            logo: carbon-relay.svg
+            logo: transportapi.svg
             open_source: false
             jurisdictions: 1000
             international: false
             image_data:
               fileName: transport-api.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: IQatl/JLagdGoSKN7UCykBbcrTl27dYfu8w0GeVCKhM=
             best_practice_data:
               badge: false
               percentage: null
@@ -172,7 +173,7 @@ landscape:
               services.
             homepage_url: 'http://www.opentripplanner.org/'
             repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
-            logo: carbon-relay.svg
+            logo: opentripplanner.svg
             jurisdictions: 100
             international: true
             github_data:
@@ -218,7 +219,7 @@ landscape:
               start_date: '2009-09-10T16:49:17Z'
             image_data:
               fileName: open-trip-planner.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: lUiFa7kaxnc63PuGgvpdXikG558mO4Hx8oPMXV5+RtI=
             best_practice_data:
               badge: false
               percentage: null
@@ -230,12 +231,12 @@ landscape:
             description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
             homepage_url: 'http://netex-cen.eu/'
             repo_url: null
-            logo: carbon-relay.svg
+            logo: netex.svg
             jurisdictions: 500
             international: true
             image_data:
               fileName: ne-t-ex.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: lUEntGhxfvj9sLDjLQDhxY1O6MxKHUDbmVa4ahv0pjc=
             best_practice_data:
               badge: false
               percentage: null
@@ -250,7 +251,7 @@ landscape:
               or a commercial basemap.
             homepage_url: 'https://sharedstreets.io'
             repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
-            logo: carbon-relay.svg
+            logo: sharedstreets.svg
             jurisdictions: 20
             international: false
             github_data:
@@ -272,7 +273,7 @@ landscape:
               start_date: '2017-10-20T01:58:26Z'
             image_data:
               fileName: shared-streets.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: p4Abp3GkGyh+X2JM5GvkcWTBCEjDKgdpv3PIkYrCYMg=
             best_practice_data:
               badge: false
               percentage: null
@@ -281,7 +282,7 @@ landscape:
             description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
-            logo: carbon-relay.svg
+            logo: openstreetmap.svg
             jurisdictions: 1000
             international: true
             github_data:
@@ -334,7 +335,7 @@ landscape:
               start_date: '2006-07-28T21:41:39Z'
             image_data:
               fileName: open-street-map.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: iXOSqjX8Vni8rKD/XCaTWbMJY2lCxQfaZ3Sje+V2WWg=
             best_practice_data:
               badge: false
               percentage: null
@@ -343,7 +344,7 @@ landscape:
             description: Crowdsourced map of transit systems across the world
             homepage_url: 'https://www.citylines.co/'
             repo_url: 'https://github.com/citylines/citylines'
-            logo: carbon-relay.svg
+            logo: citylines.svg
             jurisdictions: 100
             international: true
             github_data:
@@ -383,7 +384,7 @@ landscape:
               start_date: '2016-12-17T11:30:14Z'
             image_data:
               fileName: city-lines.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: x9SETWidN93iJyxjHWOA2w/7pNFBoqk9YnIJWtt+R1M=
             best_practice_data:
               badge: false
               percentage: null
@@ -394,12 +395,12 @@ landscape:
               public transport information systems
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
-            logo: carbon-relay.svg
+            logo: transmodel.svg
             jurisdictions: 500
             international: true
             image_data:
               fileName: transmodel.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: F3Qc0KlKV/7jwpj5TF9TX7sFjklRQppB9h9qS0GliZU=
             best_practice_data:
               badge: false
               percentage: null
@@ -416,7 +417,7 @@ landscape:
               for a short period of time.
             homepage_url: 'https://www.google.com/covid19/mobility/'
             repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
-            logo: carbon-relay.svg
+            logo: googlecovid.svg
             jurisdictions: 1000
             international: true
             github_data:
@@ -446,7 +447,7 @@ landscape:
               start_date: '2020-04-04T12:36:56Z'
             image_data:
               fileName: co-vid19-data.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: Fr8PoBiCnHDZK01McUbw1usCKYCHa99dVwvEUANcJ24=
             best_practice_data:
               badge: false
               percentage: null
@@ -464,7 +465,7 @@ landscape:
               providers.
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
-            logo: carbon-relay.svg
+            logo: GTFS.svg
             jurisdictions: 350
             international: true
             github_data:
@@ -486,7 +487,7 @@ landscape:
               start_date: '2015-07-10T16:39:10Z'
             image_data:
               fileName: gtfs-main.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: KHnGKQVXb5qMokHSi2FVPeYl+GSIwp6e/swNzuzNxM4=
             best_practice_data:
               badge: false
               percentage: null
@@ -500,7 +501,7 @@ landscape:
               not operating, important delays, etc.) location of their vehicles, and expected arrival times.
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
             repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
-            logo: carbon-relay.svg
+            logo: GTFS.svg
             jurisdictions: 100
             international: true
             github_data:
@@ -540,7 +541,7 @@ landscape:
               start_date: '2015-01-07T07:47:44Z'
             image_data:
               fileName: gtfs-real-time.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: KHnGKQVXb5qMokHSi2FVPeYl+GSIwp6e/swNzuzNxM4=
             best_practice_data:
               badge: false
               percentage: null
@@ -552,7 +553,7 @@ landscape:
             description: A community-edit data service aggregating transit networks across metropolitan and rurla areas around the world.
             homepage_url: 'https://transit.land/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
-            logo: carbon-relay.svg
+            logo: transitland_logo.svg
             jurisdictions: 300
             international: true
             github_data:
@@ -580,7 +581,7 @@ landscape:
               start_date: '2019-11-16T00:14:06Z'
             image_data:
               fileName: transitland.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: pX8CPHRf4I/weVtjfD82BjT3NFPQnOajEe7SFyYaqOA=
             best_practice_data:
               badge: false
               percentage: null
@@ -591,7 +592,7 @@ landscape:
               feeds from around the world.
             homepage_url: 'https://openmobilitydata.org/'
             repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
-            logo: carbon-relay.svg
+            logo: openmobilitydata.svg
             jurisdictions: 1000
             international: true
             github_data:
@@ -618,7 +619,7 @@ landscape:
               start_date: '2018-05-03T18:21:02Z'
             image_data:
               fileName: open-mobility-data.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: vE0CqP3Y7GosarUeNN7wa5vG8EuBAxdGNDl4n6ZnB0k=
             best_practice_data:
               badge: false
               percentage: null
@@ -635,12 +636,12 @@ landscape:
               airports and serves more than 300 million travelers each year.
             homepage_url: 'https://www.nextbus.com/'
             repo_url: null
-            logo: carbon-relay.svg
+            logo: nextbus.svg
             jurisdictions: 350
             international: true
             image_data:
               fileName: next-bus.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: fIDCIrDB/9frT7zOOP1WKt+kKeb6zzM+5zOBWiOf9KM=
             best_practice_data:
               badge: false
               percentage: null
@@ -655,12 +656,12 @@ landscape:
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
-            logo: carbon-relay.svg
+            logo: transmodel.svg
             jurisdictions: 500
             international: true
             image_data:
               fileName: transmodel-siri.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: F3Qc0KlKV/7jwpj5TF9TX7sFjklRQppB9h9qS0GliZU=
             best_practice_data:
               badge: false
               percentage: null
@@ -675,12 +676,12 @@ landscape:
             description: Affortable and intuitive mobiilty data at a low cost
             homepage_url: 'https://www.streetlightdata.com/'
             repo_url: null
-            logo: carbon-relay.svg
+            logo: streetlight.svg
             jurisdictions: 100
             international: false
             image_data:
               fileName: streetlight-data.svg
-              hash: fJALHT8q301BVoy8Ttdmv1GVnR3LD0PpriWcL82cKbQ=
+              hash: 0U4upxHStWXPYOB6nfzanF2/u9kxxFnOrpsOmTT4RX0=
             best_practice_data:
               badge: false
               percentage: null

@@ -10,7 +10,7 @@ global:
   self: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
   slack_channel: T08PSQ7BQ/BC07DVB0C/jqc0ANnvpVddAp651jgyMKdr
   meta:
-    title: CNCF Cloud Native Interactive Landscape
+    title: Interactive Mobility Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
     twitter: '@CloudNativeFdn'
@@ -109,12 +109,11 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>CNCF Cloud Native Interactive Landscape</h1> The Cloud Native Trail Map (<a target="_blank" rel="noopener noreferrer"
+    <h1>Interactive Mobility Landscape</h1> Interactive Mobility Landscape Trail Map (<a target="_blank" rel="noopener noreferrer"
     href="https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.png">png</a>, <a target="_blank" rel="noopener noreferrer"
-    href="https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.pdf">pdf</a>) is CNCF&apos;s recommended path through the cloud native
-    landscape. The cloud native landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
-    serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>), and member
-    landscape (<a target="_blank" href="images/members.png">png</a>, <a target="_blank" href="images/members.pdf">pdf</a>) are dynamically generated below.
+    href="https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.pdf">pdf</a>) is the recommended path through the cloud native
+    landscape. The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
+    and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
 ads:
@@ -142,14 +141,14 @@ big_picture:
     url: landscape
     name: Landscape
     short_name: Land...
-    title: CNCF Cloud Native Landscape
+    title: Interactive Mobility Landscape
     fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
     elements:
       - type: HorizontalCategory
         category: Vehicles
         rows: 6
-        width: 1175
-        height: 227
+        width: 1000
+        height: 150
         top: 0
         left: 0
         color: 'rgb(109,61,143)'
@@ -157,47 +156,47 @@ big_picture:
         category: Infastructure
         rows: 4
         width: 1175
-        height: 162
+        height: 150
         top: 236
         left: 0
         color: 'rgb(46,107,46)'
       - type: HorizontalCategory
         category: People
         rows: 4
-        width: 1175
-        height: 160
+        width: 250
+        height: 150
         top: 406
         left: 0
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
         category: GTFS
         rows: 4
-        width: 1175
-        height: 195
+        width: 1000
+        height: 150
         top: 575
         left: 0
         color: 'rgb(46,97,107)'
       - type: VerticalCategory
         category: Apps
         cols: 9
-        width: 315
-        height: 770
+        width: 200
+        height: 400
         top: 0
         left: 1190
         color: 'rgb(107,97,46)'
       - type: VerticalCategory
         category: Real Time
         cols: 10
-        width: 420
-        height: 515
+        width: 200
+        height: 175
         top: 0
         left: 1520
         color: 'rgb(107,61,46)'
       - type: HorizontalCategory
         category: Closed Source
         rows: 7
-        width: 1195
-        height: 260
+        width: 250
+        height: 150
         top: 780
         left: 310
         color: 'rgb(179,77,77)'
@@ -251,24 +250,6 @@ big_picture:
             right: 75
             top: 42
             title: Redpoint Logo
-      - type: LandscapeLink
-        url: serverless
-        title: Serverless
-        layout: category
-        left: 1520
-        top: 530
-        width: 420
-        height: 240
-        color: 'rgb(64,117,191)'
-      - type: LandscapeLink
-        url: members
-        title: Members
-        layout: category
-        left: 1520
-        top: 800
-        width: 420
-        height: 240
-        color: 'rgb(64,117,191)'
   extra:
     tab_index: 1
     url: serverless
@@ -378,7 +359,6 @@ big_picture:
         width: 185
         height: 125
         color: 'rgb(118, 181, 237)'
-    category: Serverless
   third:
     tab_index: 2
     url: members
@@ -497,7 +477,7 @@ big_picture:
             title: CNCF Logo
     category: CNCF Members
 test:
-  header: CNCF Cloud Native Interactive Landscape
+  header: Interactive Mobility Landscape
   section: CNCF Graduated Projects
   logo: kubernetes.svg
 anonymous_organization:

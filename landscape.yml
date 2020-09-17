@@ -139,6 +139,16 @@ landscape:
             logo: googlecovid.svg
             jurisdictions: 1000
             international: true
+          - item:
+            name: e-mission
+            description: >-
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
+            repo_url: 'https://github.com/e-mission/e-mission-server.git'
+            logo: emission.svg
+            jurisdictions: null
+            international: null
   - category:
     name: GTFS
     subcategories:
@@ -206,6 +216,19 @@ landscape:
             logo: nextbus.svg
             jurisdictions: 350
             international: true
+      - subcategory:
+        name: People
+        items:
+          - item:
+            name: e-mission
+            description: >-
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
+            repo_url: 'https://github.com/e-mission/e-mission-phone.git'
+            logo: emission.svg
+            jurisdictions: null
+            international: null
   - category:
     name: Real Time
     subcategories:
