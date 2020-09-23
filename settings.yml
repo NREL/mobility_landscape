@@ -109,10 +109,9 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Interactive Mobility Landscape</h1> Interactive Mobility Landscape Trail Map (<a target="_blank" rel="noopener noreferrer"
-    href="https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.png">png</a>, <a target="_blank" rel="noopener noreferrer"
-    href="https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.pdf">pdf</a>) is the recommended path through the cloud native
-    landscape. The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
+    <h1>Interactive Mobility Specifications Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility specifications.
+    This landscape does not capture the specifications for areas such as physical infastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
+    The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
     and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
@@ -195,7 +194,7 @@ big_picture:
       - type: HorizontalCategory
         category: Closed Source
         rows: 7
-        width: 250
+        width: 500
         height: 150
         top: 780
         left: 310

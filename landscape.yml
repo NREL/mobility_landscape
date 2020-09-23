@@ -13,16 +13,16 @@ landscape:
             homepage_url: 'https://nabsa.net/resources/gbfs/'
             repo_url: 'https://github.com/NABSA/gbfs'
             logo: gbfs.svg
-            jurisdictions: 230
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
           - item:
             name: City Bikes
             description: REST API for aggregated bikeshare data from around the world.
             homepage_url: 'http://api.citybik.es/v2/'
             repo_url: 'https://github.com/eskerda/pybikes'
             logo: citybikes.svg
-            jurisdictions: 300
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
       - subcategory:
         name: Trains
         items:
@@ -32,8 +32,8 @@ landscape:
             homepage_url: 'https://www.transit.dot.gov/ntd'
             repo_url: null
             logo: NTD.svg
-            jurisdictions: 850
-            international: false
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
       - subcategory:
         name: Ride Sharing
         items:
@@ -45,8 +45,31 @@ landscape:
             homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
             repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
             logo: chicagotnp.svg
-            jurisdictions: 1
-            international: false
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: CITY
+          - item:
+            name: New York City Ride-Sharing Data
+            description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
+            homepage_url: 'https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
+            repo_url: null
+            logo: nyc.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: CITY
+      - subcategory:
+        name: Cars
+        items:
+          - item:
+            name: Work Zone Data Exchange
+            description: >-
+              The Work Zone Data Exchange (WZDx) Specification enables infrastructure owners and operators (IOOs) to make harmonized work zone data available
+              for third party use. The intent is to make travel on public roads safer and more efficient through ubiquitous access to data on work zone
+              activity. Specifically, the project aims to get data on work zones into vehicles to help automated driving systems (ADS) and human drivers
+              navigate more safely.
+            homepage_url: 'https://www.transportation.gov/av/data/wzdx'
+            repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
+            logo: wzdx.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
   - category:
     name: Infastructure
     subcategories:
@@ -60,8 +83,8 @@ landscape:
             repo_url: null
             logo: transportapi.svg
             open_source: false
-            jurisdictions: 1000
-            international: false
+            privacy: LINKED_TRAJECTORY
+            geo_scope: COUNTRY
           - item:
             name: Open Trip Planner
             description: >-
@@ -70,8 +93,8 @@ landscape:
             homepage_url: 'http://www.opentripplanner.org/'
             repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
             logo: opentripplanner.svg
-            jurisdictions: 100
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
       - subcategory:
         name: Schedules
         items:
@@ -81,8 +104,8 @@ landscape:
             homepage_url: 'http://netex-cen.eu/'
             repo_url: null
             logo: netex.svg
-            jurisdictions: 500
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
       - subcategory:
         name: Maps
         items:
@@ -95,24 +118,24 @@ landscape:
             homepage_url: 'https://sharedstreets.io'
             repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
             logo: sharedstreets.svg
-            jurisdictions: 20
-            international: false
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: MULTI_COUNTRY
           - item:
             name: Open Street Map
             description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
             logo: openstreetmap.svg
-            jurisdictions: 1000
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
           - item:
             name: City Lines
             description: Crowdsourced map of transit systems across the world
             homepage_url: 'https://www.citylines.co/'
             repo_url: 'https://github.com/citylines/citylines'
             logo: citylines.svg
-            jurisdictions: 100
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
           - item:
             name: Transmodel
             description: >-
@@ -121,8 +144,18 @@ landscape:
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
             logo: transmodel.svg
-            jurisdictions: 500
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+          - item:
+            name: GPX
+            description: >-
+              GPX (the GPS Exchange Format) is a light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between
+              applications and Web services on the Internet.
+            homepage_url: 'https://www.topografix.com/gpx.asp'
+            repo_url: null
+            logo: gpx.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: COUNTRY
   - category:
     name: People
     subcategories:
@@ -137,8 +170,8 @@ landscape:
             homepage_url: 'https://www.google.com/covid19/mobility/'
             repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
             logo: googlecovid.svg
-            jurisdictions: 1000
-            international: true
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: MULTI_COUNTRY
           - item:
             name: e-mission
             description: >-
@@ -147,8 +180,8 @@ landscape:
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
             repo_url: null
             logo: emission.svg
-            jurisdictions: null
-            international: null
+            privacy: LINKED_FUZZY_OD
+            geo_scope: COUNTRY
   - category:
     name: GTFS
     subcategories:
@@ -164,8 +197,8 @@ landscape:
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
             logo: GTFS.svg
-            jurisdictions: 350
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
       - subcategory:
         name: Real Time
         items:
@@ -177,8 +210,8 @@ landscape:
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
             repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
             logo: GTFS.svg
-            jurisdictions: 100
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
       - subcategory:
         name: 3rd Party Directories
         items:
@@ -188,8 +221,8 @@ landscape:
             homepage_url: 'https://transit.land/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
             logo: transitland_logo.svg
-            jurisdictions: 300
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
           - item:
             name: Open Mobility Data
             description: >-
@@ -198,8 +231,8 @@ landscape:
             homepage_url: 'https://openmobilitydata.org/'
             repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
             logo: openmobilitydata.svg
-            jurisdictions: 1000
-            international: true
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
   - category:
     name: Apps
     subcategories:
@@ -214,8 +247,8 @@ landscape:
             homepage_url: 'https://www.nextbus.com/'
             repo_url: null
             logo: nextbus.svg
-            jurisdictions: 350
-            international: true
+            privacy: LINKED_TRAJECTORY
+            geo_scope: MULTI_COUNTRY
       - subcategory:
         name: People
         items:
@@ -227,8 +260,8 @@ landscape:
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
             repo_url: null
             logo: emission.svg
-            jurisdictions: null
-            international: null
+            privacy: LINKED_FUZZY_OD
+            geo_scope: COUNTRY
   - category:
     name: Real Time
     subcategories:
@@ -241,8 +274,8 @@ landscape:
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
             logo: transmodel.svg
-            jurisdictions: 500
-            international: true
+            privacy: LINKED_TRAJECTORY
+            geo_scope: MULTI_COUNTRY
   - category:
     name: Closed Source
     subcategories:
@@ -255,5 +288,23 @@ landscape:
             homepage_url: 'https://www.streetlightdata.com/'
             repo_url: null
             logo: streetlight.svg
-            jurisdictions: 100
-            international: false
+            privacy: LINKED_TRAJECTORY
+            geo_scope: MULTI_CITY
+          - item:
+            name: Walkscore
+            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
+            homepage_url: 'https://www.walkscore.com/professional/research.php'
+            repo_url: null
+            logo: walkscore.svg
+            privacy: LINKED_TRAJECTORY
+            geo_scope: MULTI_COUNTRY
+          - item:
+            name: INRIX Road Rules
+            description: >-
+              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
+              information in a centralized location.
+            homepage_url: 'https://inrix.com/products/road-rules/'
+            repo_url: null
+            logo: inrix.svg
+            privacy: LINKED_TRAJECTORY
+            geo_scope: COUNTRY
