@@ -68,7 +68,7 @@ landscape:
             homepage_url: 'https://www.transportation.gov/av/data/wzdx'
             repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
             logo: wzdx.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
   - category:
     name: Infastructure
@@ -83,7 +83,7 @@ landscape:
             repo_url: null
             logo: transportapi.svg
             open_source: false
-            privacy: LINKED_TRAJECTORY
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
           - item:
             name: Open Trip Planner
@@ -93,7 +93,7 @@ landscape:
             homepage_url: 'http://www.opentripplanner.org/'
             repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
             logo: opentripplanner.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
       - subcategory:
         name: Schedules
@@ -104,7 +104,7 @@ landscape:
             homepage_url: 'http://netex-cen.eu/'
             repo_url: null
             logo: netex.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
       - subcategory:
         name: Maps
@@ -126,7 +126,7 @@ landscape:
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
             logo: openstreetmap.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
           - item:
             name: City Lines
@@ -134,7 +134,7 @@ landscape:
             homepage_url: 'https://www.citylines.co/'
             repo_url: 'https://github.com/citylines/citylines'
             logo: citylines.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
           - item:
             name: Transmodel
@@ -144,7 +144,7 @@ landscape:
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
             logo: transmodel.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
           - item:
             name: GPX
@@ -154,7 +154,7 @@ landscape:
             homepage_url: 'https://www.topografix.com/gpx.asp'
             repo_url: null
             logo: gpx.svg
-            privacy: LINKED_FUZZY_OD
+            privacy: NO_MOBILITY
             geo_scope: COUNTRY
   - category:
     name: People
@@ -170,7 +170,7 @@ landscape:
             homepage_url: 'https://www.google.com/covid19/mobility/'
             repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
             logo: googlecovid.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
           - item:
             name: e-mission
@@ -180,7 +180,7 @@ landscape:
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
             repo_url: null
             logo: emission.svg
-            privacy: LINKED_FUZZY_OD
+            privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
   - category:
     name: GTFS
@@ -197,7 +197,7 @@ landscape:
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
             logo: GTFS.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
       - subcategory:
         name: Real Time
@@ -210,7 +210,7 @@ landscape:
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
             repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
             logo: GTFS.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
       - subcategory:
         name: 3rd Party Directories
@@ -221,7 +221,7 @@ landscape:
             homepage_url: 'https://transit.land/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
             logo: transitland_logo.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
           - item:
             name: Open Mobility Data
@@ -231,7 +231,7 @@ landscape:
             homepage_url: 'https://openmobilitydata.org/'
             repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
             logo: openmobilitydata.svg
-            privacy: COUNT_RESULTS_ONLY
+            privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
   - category:
     name: Apps
@@ -247,7 +247,7 @@ landscape:
             homepage_url: 'https://www.nextbus.com/'
             repo_url: null
             logo: nextbus.svg
-            privacy: LINKED_TRAJECTORY
+            privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
       - subcategory:
         name: People
@@ -260,7 +260,7 @@ landscape:
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
             repo_url: null
             logo: emission.svg
-            privacy: LINKED_FUZZY_OD
+            privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
   - category:
     name: Real Time
@@ -274,7 +274,7 @@ landscape:
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
             logo: transmodel.svg
-            privacy: LINKED_TRAJECTORY
+            privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
   - category:
     name: Closed Source
@@ -288,7 +288,7 @@ landscape:
             homepage_url: 'https://www.streetlightdata.com/'
             repo_url: null
             logo: streetlight.svg
-            privacy: LINKED_TRAJECTORY
+            privacy: UNLINKED_FUZZY_OD
             geo_scope: MULTI_CITY
           - item:
             name: Walkscore
@@ -296,7 +296,7 @@ landscape:
             homepage_url: 'https://www.walkscore.com/professional/research.php'
             repo_url: null
             logo: walkscore.svg
-            privacy: LINKED_TRAJECTORY
+            privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
           - item:
             name: INRIX Road Rules
@@ -306,5 +306,5 @@ landscape:
             homepage_url: 'https://inrix.com/products/road-rules/'
             repo_url: null
             logo: inrix.svg
-            privacy: LINKED_TRAJECTORY
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
