@@ -74,6 +74,25 @@ landscape:
     name: Infastructure
     subcategories:
       - subcategory:
+        name: Highways
+        items:
+          - item:
+            name: USDOT Highway Data
+            description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
+            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+            repo_url: null
+            logo: highway_usdot.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+          - item:
+            name: USDOT Data Governance
+            description: It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk management for handling of data within FHWA.
+            homepage_url: 'https://www.fhwa.dot.gov/datagov/'
+            repo_url: null
+            logo: data_usdot.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+      - subcategory:
         name: Mulitmodal Transport
         items:
           - item:
