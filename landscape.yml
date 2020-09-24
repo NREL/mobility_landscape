@@ -81,12 +81,14 @@ landscape:
             description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
             homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
             repo_url: null
-            logo: highway_usdot.svg
+            logo: Highway_usdot.svg
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
           - item:
             name: USDOT Data Governance
-            description: It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk management for handling of data within FHWA.
+            description: >-
+              It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
+              management for handling of data within FHWA.
             homepage_url: 'https://www.fhwa.dot.gov/datagov/'
             repo_url: null
             logo: data_usdot.svg
@@ -177,8 +179,7 @@ landscape:
             geo_scope: COUNTRY
           - item:
             name: EPA Smart Location Mapping
-            description: >-
-              Interactive maps and data for measuring location efficiency and the built environment using EPA meta-analysis and data
+            description: Interactive maps and data for measuring location efficiency and the built environment using EPA meta-analysis and data
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
             logo: epa_smart.svg
@@ -230,10 +231,10 @@ landscape:
           - item:
             name: GTFS Ride
             description: >-
-              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of
-              Transportation and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
+              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of Transportation
+              and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
             homepage_url: 'https://www.gtfs-ride.org'
-            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride/'
+            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
             logo: gtfs_ride.svg
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: STATE
@@ -330,7 +331,7 @@ landscape:
             geo_scope: MULTI_CITY
           - item:
             name: Walkscore
-            description: Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.
+            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
             homepage_url: 'https://www.walkscore.com/professional/research.php'
             repo_url: null
             logo: walkscore.svg
