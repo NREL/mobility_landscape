@@ -175,6 +175,15 @@ landscape:
             logo: gpx.svg
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
+          - item:
+            name: EPA Smart Location Mapping
+            description: >-
+              Interactive maps and data for measuring location efficiency and the built environment using EPA meta-analysis and data
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
   - category:
     name: People
     subcategories:
@@ -218,6 +227,16 @@ landscape:
             logo: GTFS.svg
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
+          - item:
+            name: GTFS Ride
+            description: >-
+              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of
+              Transportation and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
+            homepage_url: 'https://www.gtfs-ride.org'
+            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride/'
+            logo: gtfs_ride.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: STATE
       - subcategory:
         name: Real Time
         items:
@@ -311,7 +330,7 @@ landscape:
             geo_scope: MULTI_CITY
           - item:
             name: Walkscore
-            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
+            description: Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.
             homepage_url: 'https://www.walkscore.com/professional/research.php'
             repo_url: null
             logo: walkscore.svg
