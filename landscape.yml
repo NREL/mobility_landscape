@@ -75,30 +75,6 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
             item_type: open_source
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
-      - subcategory:
-        name: Libraries
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
   - category:
     name: Vehicles
     subcategories:
@@ -114,6 +90,7 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: open_data
+          - item:
             name: National Transit Database
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
             homepage_url: 'https://www.transit.dot.gov/ntd'
@@ -122,42 +99,6 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: open_data
-      - subcategory:
-        name: Tools
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
-      - subcategory:
-        name: Libraries
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
   - category:
     name: People
     subcategories:
@@ -198,42 +139,6 @@ landscape:
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
-      - subcategory:
-        name: Tools
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
-      - subcategory:
-        name: Libraries
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
   - category:
     name: Infastructure-Vehicles
     subcategories:
@@ -275,6 +180,7 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
             item_type: closed_data
+          - item:
             name: Transmodel
             description: >-
               Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
@@ -285,6 +191,7 @@ landscape:
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
+          - item:
             name: GTFS Main
             description: >-
               The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a
@@ -310,18 +217,6 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
             item_type: closed_source
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
       - subcategory:
         name: Libraries
         items:
@@ -405,30 +300,6 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
             item_type: closed_source
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
-      - subcategory:
-        name: Libraries
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
   - category:
     name: Vehicles-People
     subcategories:
@@ -467,18 +338,6 @@ landscape:
             geo_scope: CITY
             item_type: open_data
       - subcategory:
-        name: Tools
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:
-      - subcategory:
         name: Apps
         items:
           - item:
@@ -503,15 +362,3 @@ landscape:
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
             item_type: open_source
-      - subcategory:
-        name: Libraries
-        items:
-          - item:
-            name:
-            description:
-            homepage_url:
-            repo_url:
-            logo:
-            privacy:
-            geo_scope:
-            item_type:

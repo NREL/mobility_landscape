@@ -144,61 +144,53 @@ big_picture:
     fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
     elements:
       - type: HorizontalCategory
-        category: Vehicles
+        category: Infastructure
         rows: 6
         width: 1000
-        height: 150
+        height: 270
         top: 0
         left: 0
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
-        category: Infastructure
+        category: Vehicles
         rows: 4
-        width: 1175
-        height: 270
-        top: 120
+        width: 400
+        height: 200
+        top: 290
         left: 0
         color: 'rgb(46,107,46)'
       - type: HorizontalCategory
         category: People
         rows: 4
-        width: 375
+        width: 580
         height: 150
-        top: 406
+        top: 515
         left: 0
         color: 'rgb(143,88,61)'
-      - type: HorizontalCategory
-        category: GTFS
+      - type: VerticalCategory
+        category: Infastructure-Vehicles
         rows: 4
-        width: 1000
-        height: 150
-        top: 575
-        left: 0
+        width: 200
+        height: 1100
+        top: 0
+        left: 1150
         color: 'rgb(46,97,107)'
       - type: VerticalCategory
-        category: Apps
+        category: Infastructure-People
         cols: 9
         width: 200
-        height: 400
+        height: 850
         top: 0
-        left: 1190
+        left: 1400
         color: 'rgb(107,97,46)'
       - type: VerticalCategory
-        category: Real Time
+        category: Vehicles-People
         cols: 10
         width: 200
-        height: 175
+        height: 700
         top: 0
-        left: 1520
+        left: 1650
         color: 'rgb(107,61,46)'
-      - type: HorizontalCategory
-        category: Closed Source
-        rows: 7
-        width: 500
-        height: 150
-        top: 780
-        left: 310
-        color: 'rgb(179,77,77)'
       - type: LandscapeInfo
         width: 295
         height: 260
