@@ -155,8 +155,8 @@ big_picture:
         category: Infastructure
         rows: 4
         width: 1175
-        height: 300
-        top: 236
+        height: 270
+        top: 120
         left: 0
         color: 'rgb(46,107,46)'
       - type: HorizontalCategory

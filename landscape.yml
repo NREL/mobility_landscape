@@ -1,20 +1,110 @@
 landscape:
   - category:
+    name: Infastructure
+    subcategories:
+      - subcategory:
+        name: Data
+        items:
+          - item:
+            name: USDOT Highway Data
+            description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
+            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+            repo_url: null
+            logo: Highway_usdot.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
+          - item:
+            name: USDOT Data Governance
+            description: >-
+              It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
+              management for handling of data within FHWA.
+            homepage_url: 'https://www.fhwa.dot.gov/datagov/'
+            repo_url: null
+            logo: data_usdot.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
+          - item:
+            name: NeTEx
+            description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
+            homepage_url: 'http://netex-cen.eu/'
+            repo_url: null
+            logo: netex.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
+          - item:
+            name: Open Street Map
+            description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
+            homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
+            repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
+            logo: openstreetmap.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+          - item:
+            name: City Lines
+            description: Crowdsourced map of transit systems across the world
+            homepage_url: 'https://www.citylines.co/'
+            repo_url: 'https://github.com/citylines/citylines'
+            logo: citylines.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+          - item:
+            name: Transitland
+            description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
+            homepage_url: 'https://transit.land/'
+            repo_url: 'https://github.com/transitland/transitland-atlas'
+            logo: transitland_logo.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: GPX
+            description: >-
+              GPX (the GPS Exchange Format) is a light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between
+              applications and Web services on the Internet.
+            homepage_url: 'https://www.topografix.com/gpx.asp'
+            repo_url: null
+            logo: gpx.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_source
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+      - subcategory:
+        name: Libraries
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+  - category:
     name: Vehicles
     subcategories:
       - subcategory:
-        name: Bikes
+        name: Data
         items:
-          - item:
-            name: General Bikeshare Feed Specification
-            description: >-
-              The General Bikeshare Feed Specification, known as GBFS, is the open data standard for bikeshare. GBFS makes real-time data feeds in a uniform
-              format publicly available online, with an emphasis on findability.
-            homepage_url: 'https://nabsa.net/resources/gbfs/'
-            repo_url: 'https://github.com/NABSA/gbfs'
-            logo: gbfs.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
           - item:
             name: City Bikes
             description: REST API for aggregated bikeshare data from around the world.
@@ -23,10 +113,7 @@ landscape:
             logo: citybikes.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-      - subcategory:
-        name: Trains
-        items:
-          - item:
+            item_type: open_data
             name: National Transit Database
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
             homepage_url: 'https://www.transit.dot.gov/ntd'
@@ -34,29 +121,124 @@ landscape:
             logo: NTD.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
+            item_type: open_data
       - subcategory:
-        name: Ride Sharing
+        name: Tools
         items:
           - item:
-            name: Chicago Ride-Sharing Data
-            description: >-
-              All trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as
-              part of routine reporting required by ordinance.
-            homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
-            repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
-            logo: chicagotnp.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: CITY
-          - item:
-            name: New York City Ride-Sharing Data
-            description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
-            homepage_url: 'https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
-            repo_url: null
-            logo: nyc.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: CITY
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
       - subcategory:
-        name: Cars
+        name: Apps
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+      - subcategory:
+        name: Libraries
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+  - category:
+    name: People
+    subcategories:
+      - subcategory:
+        name: Data
+        items:
+          - item:
+            name: CoVid19 Data
+            description: >-
+              As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available
+              for a short period of time.
+            homepage_url: 'https://www.google.com/covid19/mobility/'
+            repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
+            logo: googlecovid.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+          - item:
+            name: GTFS Real Time
+            description: >-
+              A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
+              not operating, important delays, etc.) location of their vehicles, and expected arrival times.
+            homepage_url: 'https://gtfs.org/reference/realtime/v2/'
+            repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
+            logo: GTFS.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+      - subcategory:
+        name: Europe
+        items:
+          - item:
+            name: Transmodel - Siri
+            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
+            homepage_url: 'http://www.siri.org.uk/'
+            repo_url: null
+            logo: transmodel.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+      - subcategory:
+        name: Libraries
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+  - category:
+    name: Infastructure-Vehicles
+    subcategories:
+      - subcategory:
+        name: Data
         items:
           - item:
             name: Work Zone Data Exchange
@@ -70,33 +252,7 @@ landscape:
             logo: wzdx.svg
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-  - category:
-    name: Infastructure
-    subcategories:
-      - subcategory:
-        name: Highways
-        items:
-          - item:
-            name: USDOT Highway Data
-            description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
-            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
-            repo_url: null
-            logo: Highway_usdot.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-          - item:
-            name: USDOT Data Governance
-            description: >-
-              It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
-              management for handling of data within FHWA.
-            homepage_url: 'https://www.fhwa.dot.gov/datagov/'
-            repo_url: null
-            logo: data_usdot.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-      - subcategory:
-        name: Mulitmodal Transport
-        items:
+            item_type: open_specification
           - item:
             name: Transport API
             description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
@@ -106,30 +262,7 @@ landscape:
             open_source: false
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-          - item:
-            name: Open Trip Planner
-            description: >-
-              OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis
-              services.
-            homepage_url: 'http://www.opentripplanner.org/'
-            repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
-            logo: opentripplanner.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-      - subcategory:
-        name: Schedules
-        items:
-          - item:
-            name: NeTEx
-            description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
-            homepage_url: 'http://netex-cen.eu/'
-            repo_url: null
-            logo: netex.svg
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
-      - subcategory:
-        name: Maps
-        items:
+            item_type: closed_data
           - item:
             name: Shared Streets
             description: >-
@@ -141,23 +274,7 @@ landscape:
             logo: sharedstreets.svg
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
-          - item:
-            name: Open Street Map
-            description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
-            homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
-            repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
-            logo: openstreetmap.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-          - item:
-            name: City Lines
-            description: Crowdsourced map of transit systems across the world
-            homepage_url: 'https://www.citylines.co/'
-            repo_url: 'https://github.com/citylines/citylines'
-            logo: citylines.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-          - item:
+            item_type: closed_data
             name: Transmodel
             description: >-
               Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
@@ -167,57 +284,7 @@ landscape:
             logo: transmodel.svg
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
-          - item:
-            name: GPX
-            description: >-
-              GPX (the GPS Exchange Format) is a light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between
-              applications and Web services on the Internet.
-            homepage_url: 'https://www.topografix.com/gpx.asp'
-            repo_url: null
-            logo: gpx.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-          - item:
-            name: EPA Smart Location Mapping
-            description: Interactive maps and data for measuring location efficiency and the built environment using EPA meta-analysis and data
-            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
-            repo_url: null
-            logo: epa_smart.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-  - category:
-    name: People
-    subcategories:
-      - subcategory:
-        name: Google
-        items:
-          - item:
-            name: CoVid19 Data
-            description: >-
-              As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available
-              for a short period of time.
-            homepage_url: 'https://www.google.com/covid19/mobility/'
-            repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
-            logo: googlecovid.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
-          - item:
-            name: e-mission
-            description: >-
-              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
-              aggregate them to make data available to urban planners and transportation engineers.
-            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: null
-            logo: emission.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-  - category:
-    name: GTFS
-    subcategories:
-      - subcategory:
-        name: Static
-        items:
-          - item:
+            item_type: open_specification
             name: GTFS Main
             description: >-
               The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a
@@ -228,40 +295,36 @@ landscape:
             logo: GTFS.svg
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
-          - item:
-            name: GTFS Ride
-            description: >-
-              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of Transportation
-              and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
-            homepage_url: 'https://www.gtfs-ride.org'
-            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
-            logo: gtfs_ride.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: STATE
+            item_type: open_data
       - subcategory:
-        name: Real Time
+        name: Tools
         items:
           - item:
-            name: GTFS Real Time
+            name: INRIX Road Rules
             description: >-
-              A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
-              not operating, important delays, etc.) location of their vehicles, and expected arrival times.
-            homepage_url: 'https://gtfs.org/reference/realtime/v2/'
-            repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
-            logo: GTFS.svg
+              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
+              information in a centralized location.
+            homepage_url: 'https://inrix.com/products/road-rules/'
+            repo_url: null
+            logo: inrix.svg
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: MULTI_COUNTRY
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
-        name: 3rd Party Directories
+        name: Apps
         items:
           - item:
-            name: Transitland
-            description: A community-edit data service aggregating transit networks across metropolitan and rurla areas around the world.
-            homepage_url: 'https://transit.land/'
-            repo_url: 'https://github.com/transitland/transitland-atlas'
-            logo: transitland_logo.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+      - subcategory:
+        name: Libraries
+        items:
           - item:
             name: Open Mobility Data
             description: >-
@@ -272,11 +335,151 @@ landscape:
             logo: openmobilitydata.svg
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
+            item_type: open_source
   - category:
-    name: Apps
+    name: Infastructure-People
     subcategories:
       - subcategory:
-        name: Buses
+        name: Data
+        items:
+          - item:
+            name: Open Trip Planner
+            description: >-
+              OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis
+              services.
+            homepage_url: 'http://www.opentripplanner.org/'
+            repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
+            logo: opentripplanner.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+          - item:
+            name: e-mission
+            description: >-
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
+            repo_url: null
+            logo: emission.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: open_source
+          - item:
+            name: GTFS Ride
+            description: >-
+              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of Transportation
+              and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
+            homepage_url: 'https://www.gtfs-ride.org'
+            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
+            logo: gtfs_ride.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: STATE
+            item_type: open_source
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: EPA Smart Location Mapping
+            description: Interactive maps and data for measuring location efficiency and the built environment using EPA meta-analysis and data
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: closed_data
+          - item:
+            name: Streetlight Data
+            description: Affortable and intuitive mobiilty data at a low cost
+            homepage_url: 'https://www.streetlightdata.com/'
+            repo_url: null
+            logo: streetlight.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: MULTI_CITY
+            item_type: closed_data
+          - item:
+            name: Walkscore
+            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
+            homepage_url: 'https://www.walkscore.com/professional/research.php'
+            repo_url: null
+            logo: walkscore.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+      - subcategory:
+        name: Libraries
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+  - category:
+    name: Vehicles-People
+    subcategories:
+      - subcategory:
+        name: Data
+        items:
+          - item:
+            name: General Bikeshare Feed Specification
+            description: >-
+              The General Bikeshare Feed Specification, known as GBFS, is the open data standard for bikeshare. GBFS makes real-time data feeds in a uniform
+              format publicly available online, with an emphasis on findability.
+            homepage_url: 'https://nabsa.net/resources/gbfs/'
+            repo_url: 'https://github.com/NABSA/gbfs'
+            logo: gbfs.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
+          - item:
+            name: Chicago Ride-Sharing Data
+            description: >-
+              All trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as
+              part of routine reporting required by ordinance.
+            homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
+            repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
+            logo: chicagotnp.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: CITY
+            item_type: open_data
+          - item:
+            name: New York City Ride-Sharing Data
+            description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
+            homepage_url: 'https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
+            repo_url: null
+            logo: nyc.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: CITY
+            item_type: open_data
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
+      - subcategory:
+        name: Apps
         items:
           - item:
             name: NextBus
@@ -288,9 +491,7 @@ landscape:
             logo: nextbus.svg
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
-      - subcategory:
-        name: People
-        items:
+            item_type: open_data
           - item:
             name: e-mission App
             description: >-
@@ -301,49 +502,16 @@ landscape:
             logo: emission.svg
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-  - category:
-    name: Real Time
-    subcategories:
+            item_type: open_source
       - subcategory:
-        name: Europe
+        name: Libraries
         items:
           - item:
-            name: Transmodel - Siri
-            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
-            homepage_url: 'http://www.siri.org.uk/'
-            repo_url: null
-            logo: transmodel.svg
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
-  - category:
-    name: Closed Source
-    subcategories:
-      - subcategory:
-        name: Mobility Data At Cost
-        items:
-          - item:
-            name: Streetlight Data
-            description: Affortable and intuitive mobiilty data at a low cost
-            homepage_url: 'https://www.streetlightdata.com/'
-            repo_url: null
-            logo: streetlight.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: MULTI_CITY
-          - item:
-            name: Walkscore
-            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
-            homepage_url: 'https://www.walkscore.com/professional/research.php'
-            repo_url: null
-            logo: walkscore.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-          - item:
-            name: INRIX Road Rules
-            description: >-
-              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
-              information in a centralized location.
-            homepage_url: 'https://inrix.com/products/road-rules/'
-            repo_url: null
-            logo: inrix.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
+            name:
+            description:
+            homepage_url:
+            repo_url:
+            logo:
+            privacy:
+            geo_scope:
+            item_type:
