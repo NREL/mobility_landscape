@@ -224,6 +224,90 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: TransAM
+            description: >-
+              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
+              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
+            homepage_url: 'http://camsys.software/products/transam'
+            repo_url: 'https://github.com/camsys/transam_core'
+            logo: transam.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_source
+            github_data:
+              languages:
+                - name: Ruby
+                  value: 1449948
+                  color: '#701516'
+                - name: Haml
+                  value: 489961
+                - name: JavaScript
+                  value: 82870
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 77480
+                  color: '#563d7c'
+                - name: HTML
+                  value: 42386
+                  color: '#e34c26'
+                - name: SCSS
+                  value: 30208
+                - name: Gherkin
+                  value: 4110
+                  color: '#5B2063'
+                - name: CoffeeScript
+                  value: 2169
+                  color: '#244776'
+                - name: Shell
+                  value: 1386
+                  color: '#89e051'
+              contributions: 5;11;11;3;5;3;7;3;0;5;1;5;3;6;3;12;2;6;18;10;11;9;9;14;24;11;5;28;22;5;4;14;18;17;10;24;15;20;21;0;21;15;9;11;9;17;22;15;5;11;11;6
+              firstWeek: 2019-10-06Z
+              stars: 7
+              license: MIT License
+              description: Core Rails engine for the TransAM open source software platform for managing transportation assets.
+              latest_commit_date: '2020-09-25T18:49:26Z'
+              latest_commit_link: /camsys/transam_core/commit/335872c0f64146f78a2eb725995d83d8c5c8d8e3
+              release_date: '2020-09-18T18:50:10Z'
+              release_link: 'https://github.com/camsys/transam_core/releases'
+              contributors_count: 29
+              contributors_link: 'https://github.com/camsys/transam_core/graphs/contributors'
+            repos:
+              - url: 'https://github.com/camsys/transam_core'
+                stars: 7
+            github_start_commit_data:
+              start_commit_link: /camsys/transam_core/commit/1129287ee88f924684b751d5dbc90f2d1c7a6ab0
+              start_date: '2013-12-12T18:43:49Z'
+            image_data:
+              fileName: trans-am.svg
+              hash: qFcHsueIvh6pU+/Sg7d5x0fmupg5aYUTBPuqZWvHm3Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Infastructure Apps for Government and NGO
+            description: >-
+              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
+              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
+              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
+              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
+              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
+            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
+            repo_url: null
+            logo: usdot_apps.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: closed_data
+            image_data:
+              fileName: infastructure-apps-for-government-and-ngo.svg
+              hash: jbOHDALwVX9PnflRy/LlcZ8qgmji1paxa01LqNZEUE4=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: Vehicles
     subcategories:
@@ -280,6 +364,46 @@ landscape:
             image_data:
               fileName: national-transit-database.svg
               hash: 937y3R0mKzKPNpy7mfn7sKBVFNxg+h8h1k7y3u+22pA=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: ADOPT
+            description: >-
+              Developed by NREL, the Automotive Deployment Options Projection Tool (ADOPT) is a light-duty vehicle consumer choice and stock model. ADOPT
+              estimates vehicle technology improvement impacts on future U.S. light-duty vehicle sales, energy use, and emissions.
+            homepage_url: 'https://www.nrel.gov/transportation/adopt.html'
+            repo_url: null
+            logo: adopt.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: adopt.svg
+              hash: sbpeWv6jdEvtPw4rme4jzdZGx3Bl/vwj/JqM641FC7U=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Sigalert Traffic Reports
+            description: >-
+              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
+              US
+            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
+            repo_url: null
+            logo: sigalert.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_CITY
+            item_type: closed_source
+            image_data:
+              fileName: sigalert-traffic-reports.svg
+              hash: I2LC/HxEQdIePl34wXgxsndlf7mSXEg1IbXbSLI0xBs=
             best_practice_data:
               badge: false
               percentage: null
@@ -398,6 +522,66 @@ landscape:
             image_data:
               fileName: transmodel-siri.svg
               hash: F3Qc0KlKV/7jwpj5TF9TX7sFjklRQppB9h9qS0GliZU=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Route Trends
+            description: >-
+              STL is a versatile and robust method for decomposing time series. STL is an acronym for “Seasonal and Trend decomposition using Loess”, while
+              Loess is a method for estimating nonlinear relationships. The STL method was developed by Cleveland, Cleveland, McRae, & Terpenning (1990).
+            homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
+            repo_url: 'https://github.com/metrotransit/route-trends'
+            logo: route_trends.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+            github_data:
+              languages:
+                - name: R
+                  value: 40652
+                  color: '#198CE7'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
+              stars: 8
+              license: Mozilla Public License 2.0
+              description: RShiny app to upload and analyze trend and seasonality of transit ridership data
+              latest_commit_date: '2019-05-29T18:10:26Z'
+              latest_commit_link: /metrotransit/route-trends/commit/62fefbeb9a478bf07c9c10d1a40502a2ed9e4704
+              contributors_count: 3
+              contributors_link: 'https://github.com/metrotransit/route-trends/graphs/contributors'
+            repos:
+              - url: 'https://github.com/metrotransit/route-trends'
+                stars: 8
+            github_start_commit_data:
+              start_commit_link: /metrotransit/route-trends/commit/3481ff42dd0ed61966c84c6fa3752796bff4db14
+              start_date: '2019-05-23T03:46:28Z'
+            image_data:
+              fileName: route-trends.svg
+              hash: 7wXF3eEzmccAHKqb+F9d3xUWZonrw8tAfQWAoKROQOg=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Places
+            description: >-
+              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
+              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
+            homepage_url: 'https://cloud.google.com/maps-platform'
+            repo_url: null
+            logo: places.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: places.svg
+              hash: 6srPI7/ioZXHwq6gvPwjYCma5uOugPX/uXbk9KJjGwI=
             best_practice_data:
               badge: false
               percentage: null
@@ -550,29 +734,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Tools
-        items:
-          - item:
-            name: INRIX Road Rules
-            description: >-
-              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
-              information in a centralized location.
-            homepage_url: 'https://inrix.com/products/road-rules/'
-            repo_url: null
-            logo: inrix.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
-            item_type: closed_source
-            image_data:
-              fileName: inrix-road-rules.svg
-              hash: FXwTq2zHh1xQaslP3qta4CK/SjcFbX6VDHoCEPwijLI=
-            best_practice_data:
-              badge: false
-              percentage: null
-      - subcategory:
-        name: Libraries
-        items:
           - item:
             name: Open Mobility Data
             description: >-
@@ -609,6 +770,59 @@ landscape:
             image_data:
               fileName: open-mobility-data.svg
               hash: vE0CqP3Y7GosarUeNN7wa5vG8EuBAxdGNDl4n6ZnB0k=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: INRIX Road Rules
+            description: >-
+              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
+              information in a centralized location.
+            homepage_url: 'https://inrix.com/products/road-rules/'
+            repo_url: null
+            logo: inrix.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: inrix-road-rules.svg
+              hash: FXwTq2zHh1xQaslP3qta4CK/SjcFbX6VDHoCEPwijLI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: remix
+            description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
+            homepage_url: 'https://www.remix.com'
+            repo_url: null
+            logo: remix.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: MULTI_CITY
+            item_type: closed_source
+            image_data:
+              fileName: remix.svg
+              hash: kboHD76P8A5Dr+k5PUM0feJ5XaABMpgpbWagl0qGPdU=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Moovit
+            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of the best urban mobility app'
+            homepage_url: 'https://moovit.com'
+            repo_url: null
+            logo: moovit.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: moovit.svg
+              hash: +vRQWpHljCOPPIWknGwKKaEElywTg8RxfnfGAh5zd7k=
             best_practice_data:
               badge: false
               percentage: null
@@ -723,7 +937,7 @@ landscape:
               start_date: '2017-02-23T18:17:23Z'
             image_data:
               fileName: gtfs-ride.svg
-              hash: Z3qL+p+pKBdvBPSLd92lMDEtTgQwh7uZXaDSHrzn2SU=
+              hash: ZQBpunazF16bVCVJe1ZaLQv1fCcTSDpKhNGWxXdevxw=
             best_practice_data:
               badge: false
               percentage: null
@@ -771,6 +985,26 @@ landscape:
             item_type: closed_source
             image_data:
               fileName: walkscore.svg
+              hash: yl2kFlSLMWh+J6JwP4DS2AENdkBNAbX0o3e/OZBvN80=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Walkscore App
+            description: >-
+              Find apartments and rentals and see the Walk Score of any address on your phone or tablet. Walk Score is the leading measure of neighborhood
+              walkability. Walk Score helps you compare locations so you can find a place where you can drive less and live more.
+            homepage_url: 'https://www.walkscore.com/android/'
+            repo_url: null
+            logo: walkscore.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: walkscore-app.svg
               hash: yl2kFlSLMWh+J6JwP4DS2AENdkBNAbX0o3e/OZBvN80=
             best_practice_data:
               badge: false
@@ -881,6 +1115,61 @@ landscape:
               badge: false
               percentage: null
       - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: RidePilot
+            description: >-
+              RidePilot is an open-source, web-based transportation scheduling system designed to meet the needs and budgets of smaller public and nonprofit
+              specialized transportation agencies.
+            homepage_url: 'http://camsys.software/products/ridepilot'
+            repo_url: 'https://github.com/camsys/ridepilot'
+            logo: ride_pilot.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+            github_data:
+              languages:
+                - name: Ruby
+                  value: 1492569
+                  color: '#701516'
+                - name: HTML
+                  value: 1392784
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 512418
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 142481
+                  color: '#563d7c'
+                - name: CoffeeScript
+                  value: 3119
+                  color: '#244776'
+                - name: Dockerfile
+                  value: 2092
+                  color: '#384d54'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
+              stars: 11
+              license: GNU Affero General Public License v3.0
+              description: A dispatching and ride coordination tool.
+              latest_commit_date: '2019-07-19T20:10:49Z'
+              latest_commit_link: /camsys/ridepilot/commit/dab91750eb40ab5a54159d3c1900fdb01ea00734
+              contributors_count: 19
+              contributors_link: 'https://github.com/camsys/ridepilot/graphs/contributors'
+            repos:
+              - url: 'https://github.com/camsys/ridepilot'
+                stars: 11
+            github_start_commit_data:
+              start_commit_link: /camsys/ridepilot/commit/ff0105b47bb29b16a1335b56df3b52608f213361
+              start_date: '2011-03-01T21:51:56Z'
+            image_data:
+              fileName: ride-pilot.svg
+              hash: 1vT3t4DsmGAvNAmCLzTDdXnJX7wBO7eTcWZzuxC9JKU=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
         name: Apps
         items:
           - item:
@@ -914,6 +1203,38 @@ landscape:
             image_data:
               fileName: e-mission-app.svg
               hash: 83OOKfZZ3eov/HREmujnAtonwzNvRdMUcIIMhzWWkGQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: OneBusAway
+            description: OneBusAway is an open source software system for real-time transit information in urban centers.
+            homepage_url: 'https://onebusaway.org'
+            repo_url: 'https://github.com/OneBusAway/onebusaway'
+            logo: one_bus_away.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;2;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
+              stars: 285
+              license: Other
+              description: Parent module for all OneBusAway projects with common configuration information.
+              latest_commit_date: '2020-04-23T14:02:41Z'
+              latest_commit_link: /OneBusAway/onebusaway/commit/0dc39015120dfc7bea8b9f885345d6dc67854145
+              contributors_count: 5
+              contributors_link: 'https://github.com/OneBusAway/onebusaway/graphs/contributors'
+            repos:
+              - url: 'https://github.com/OneBusAway/onebusaway'
+                stars: 285
+            github_start_commit_data:
+              start_commit_link: /OneBusAway/onebusaway/commit/1a51cd47753ea211410ff59cd69a66299e0009cc
+              start_date: '2009-10-17T21:09:03Z'
+            image_data:
+              fileName: one-bus-away.svg
+              hash: GD+hmNsHzKKdX3tbxcoebSro4IWBzFQdrvrgKqbqoLE=
             best_practice_data:
               badge: false
               percentage: null

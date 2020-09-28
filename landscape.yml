@@ -75,6 +75,34 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
             item_type: open_source
+          - item:
+            name: TransAM
+            description: >-
+              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
+              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
+            homepage_url: 'http://camsys.software/products/transam'
+            repo_url: 'https://github.com/camsys/transam_core'
+            logo: transam.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_source
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Infastructure Apps for Government and NGO
+            description: >-
+              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
+              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
+              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
+              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
+              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
+            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
+            repo_url: null
+            logo: usdot_apps.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: closed_data
   - category:
     name: Vehicles
     subcategories:
@@ -99,6 +127,34 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: open_data
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: ADOPT
+            description: >-
+              Developed by NREL, the Automotive Deployment Options Projection Tool (ADOPT) is a light-duty vehicle consumer choice and stock model. ADOPT
+              estimates vehicle technology improvement impacts on future U.S. light-duty vehicle sales, energy use, and emissions.
+            homepage_url: 'https://www.nrel.gov/transportation/adopt.html'
+            repo_url: null
+            logo: adopt.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Sigalert Traffic Reports
+            description: >-
+              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
+              US
+            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
+            repo_url: null
+            logo: sigalert.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_CITY
+            item_type: closed_source
   - category:
     name: People
     subcategories:
@@ -139,6 +195,34 @@ landscape:
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Route Trends
+            description: >-
+              STL is a versatile and robust method for decomposing time series. STL is an acronym for “Seasonal and Trend decomposition using Loess”, while
+              Loess is a method for estimating nonlinear relationships. The STL method was developed by Cleveland, Cleveland, McRae, & Terpenning (1990).
+            homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
+            repo_url: 'https://github.com/metrotransit/route-trends'
+            logo: route_trends.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Places
+            description: >-
+              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
+              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
+            homepage_url: 'https://cloud.google.com/maps-platform'
+            repo_url: null
+            logo: places.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
   - category:
     name: Infastructure-Vehicles
     subcategories:
@@ -203,6 +287,17 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
             item_type: open_data
+          - item:
+            name: Open Mobility Data
+            description: >-
+              An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime
+              feeds from around the world.
+            homepage_url: 'https://openmobilitydata.org/'
+            repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
+            logo: openmobilitydata.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
       - subcategory:
         name: Tools
         items:
@@ -217,20 +312,27 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
             item_type: closed_source
+          - item:
+            name: remix
+            description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
+            homepage_url: 'https://www.remix.com'
+            repo_url: null
+            logo: remix.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: MULTI_CITY
+            item_type: closed_source
       - subcategory:
-        name: Libraries
+        name: Apps
         items:
           - item:
-            name: Open Mobility Data
-            description: >-
-              An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime
-              feeds from around the world.
-            homepage_url: 'https://openmobilitydata.org/'
-            repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
-            logo: openmobilitydata.svg
-            privacy: NO_MOBILITY
+            name: Moovit
+            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of the best urban mobility app'
+            homepage_url: 'https://moovit.com'
+            repo_url: null
+            logo: moovit.svg
+            privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type: closed_source
   - category:
     name: Infastructure-People
     subcategories:
@@ -300,6 +402,20 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
             item_type: closed_source
+      - subcategory:
+        name: Apps
+        items:
+          - item:
+            name: Walkscore App
+            description: >-
+              Find apartments and rentals and see the Walk Score of any address on your phone or tablet. Walk Score is the leading measure of neighborhood
+              walkability. Walk Score helps you compare locations so you can find a place where you can drive less and live more.
+            homepage_url: 'https://www.walkscore.com/android/'
+            repo_url: null
+            logo: walkscore.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: closed_source
   - category:
     name: Vehicles-People
     subcategories:
@@ -338,6 +454,20 @@ landscape:
             geo_scope: CITY
             item_type: open_data
       - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: RidePilot
+            description: >-
+              RidePilot is an open-source, web-based transportation scheduling system designed to meet the needs and budgets of smaller public and nonprofit
+              specialized transportation agencies.
+            homepage_url: 'http://camsys.software/products/ridepilot'
+            repo_url: 'https://github.com/camsys/ridepilot'
+            logo: ride_pilot.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+      - subcategory:
         name: Apps
         items:
           - item:
@@ -361,4 +491,13 @@ landscape:
             logo: emission.svg
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
+            item_type: open_source
+          - item:
+            name: OneBusAway
+            description: OneBusAway is an open source software system for real-time transit information in urban centers.
+            homepage_url: 'https://onebusaway.org'
+            repo_url: 'https://github.com/OneBusAway/onebusaway'
+            logo: one_bus_away.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_CITY
             item_type: open_source
