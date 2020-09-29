@@ -8,7 +8,7 @@ landscape:
           - item:
             name: USDOT Highway Data
             description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
-            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+            homepage_url: 'https://www.fhwa.dot.gov/policyinformation/statistics.cfm'
             repo_url: null
             logo: Highway_usdot.svg
             privacy: NO_MOBILITY
@@ -19,7 +19,7 @@ landscape:
             description: >-
               It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
               management for handling of data within FHWA.
-            homepage_url: 'https://www.fhwa.dot.gov/datagov/'
+            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
             repo_url: null
             logo: data_usdot.svg
             privacy: NO_MOBILITY
@@ -74,7 +74,7 @@ landscape:
             logo: gpx.svg
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_source
+            item_type: open_specification
           - item:
             name: TransAM
             description: >-
@@ -127,6 +127,15 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: open_data
+          - item:
+            name: High Mobility
+            description: Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.
+            homepage_url: 'https://about.high-mobility.com'
+            repo_url: null
+            logo: high_mobility.svg
+            privacy: NO_MOBILITY
+            geo_scope: country
+            item_type: closed_data
       - subcategory:
         name: Tools
         items:
@@ -139,6 +148,28 @@ landscape:
             repo_url: null
             logo: adopt.svg
             privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
+          - item:
+            name: Auto API
+            description: >-
+              The Auto API specification is an open source vehicle data model built for the purpose of providing a consistent data protocol for communication between cars and external 3rd party services.
+            homepage_url: 'https://high-mobility.com/learn/documentation/rest/reference/v3/'
+            repo_url: 'https://github.com/highmobility/auto-api'
+            logo: high_mobility.svg
+            privacy: NO_MOBILITY
+            geo_scope: country
+            item_type: closed_data
+          - item:
+            name: RITIS
+            description: >-
+              RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems.
+              Its broad spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation –
+              provides enhanced, multi-faceted insight of the transportation system across geographic and agency boundaries.
+            homepage_url: 'https://www.ritis.org/intro'
+            repo_url: null
+            logo: ritis.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
             item_type: closed_source
       - subcategory:
@@ -183,9 +214,6 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
             item_type: open_source
-      - subcategory:
-        name: Europe
-        items:
           - item:
             name: Transmodel - Siri
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
@@ -272,7 +300,7 @@ landscape:
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
             logo: transmodel.svg
-            privacy: LINKED_FUZZY_OD
+            privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
           - item:
@@ -501,3 +529,30 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_CITY
             item_type: open_source
+landscape:
+  - category:
+    name: Infastructure-Vehicles-People
+    subcategories:
+      - subcategory:
+        name: Route Planning
+        items:
+          - item:
+            name: USDOT Highway Data
+            description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
+            homepage_url: 'https://www.fhwa.dot.gov/policyinformation/statistics.cfm'
+            repo_url: null
+            logo: Highway_usdot.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
+          - item:
+            name: USDOT Data Governance
+            description: >-
+              It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
+              management for handling of data within FHWA.
+            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+            repo_url: null
+            logo: data_usdot.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
