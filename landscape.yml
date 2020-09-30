@@ -61,9 +61,6 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
             item_type: open_source
-      - subcategory:
-        name: Tools
-        items:
           - item:
             name: GPX
             description: >-
@@ -75,6 +72,9 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
             item_type: open_specification
+      - subcategory:
+        name: Tools
+        items:
           - item:
             name: TransAM
             description: >-
@@ -86,6 +86,28 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
             item_type: open_source
+          - item:
+            name: OSMnx
+            description: >-
+              OSMnx is a Python package that lets you download spatial geometries and model, project, visualize, and analyze real-world street networks from
+              OpenStreetMap’s APIs. Users can download and model walkable, drivable, or bikeable urban networks with a single line of Python code, and then
+              easily analyze and visualize them. You can just as easily download and work with amenities/points of interest, building footprints, elevation
+              data, street bearings/orientations, speed/travel time, and network routing.
+            homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
+            repo_url: 'https://github.com/gboeing/osmnx'
+            logo: openstreetmap.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+          - item:
+            name: GPX Tool
+            description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
+            homepage_url: 'https://github.com/topics/gpx'
+            repo_url: 'https://github.com/tkrajina/gpxpy'
+            logo: gpx.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
       - subcategory:
         name: Apps
         items:
@@ -110,15 +132,6 @@ landscape:
         name: Data
         items:
           - item:
-            name: City Bikes
-            description: REST API for aggregated bikeshare data from around the world.
-            homepage_url: 'http://api.citybik.es/v2/'
-            repo_url: 'https://github.com/eskerda/pybikes'
-            logo: citybikes.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
-            item_type: open_data
-          - item:
             name: National Transit Database
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
             homepage_url: 'https://www.transit.dot.gov/ntd'
@@ -129,13 +142,35 @@ landscape:
             item_type: open_data
           - item:
             name: High Mobility
-            description: Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.
+            description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
             homepage_url: 'https://about.high-mobility.com'
             repo_url: null
             logo: high_mobility.svg
             privacy: NO_MOBILITY
             geo_scope: country
             item_type: closed_data
+          - item:
+            name: GTFS Real Time
+            description: >-
+              A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
+              not operating, important delays, etc.) location of their vehicles, and expected arrival times.
+            homepage_url: 'https://gtfs.org/reference/realtime/v2/'
+            repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
+            logo: GTFS.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+          - item:
+            name: wejo
+            description: >-
+              Wejo creates journey intelligence from connected car data to analyze the way we live, work and travel. Brings together global businesses to share,
+              access and benefit from connected car data through tailored products and services.
+            homepage_url: 'https://www.wejo.com'
+            repo_url: null
+            logo: citybikes.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Tools
         items:
@@ -153,7 +188,8 @@ landscape:
           - item:
             name: Auto API
             description: >-
-              The Auto API specification is an open source vehicle data model built for the purpose of providing a consistent data protocol for communication between cars and external 3rd party services.
+              The Auto API specification is an open source vehicle data model built for the purpose of providing a consistent data protocol for communication
+              between cars and external 3rd party services.
             homepage_url: 'https://high-mobility.com/learn/documentation/rest/reference/v3/'
             repo_url: 'https://github.com/highmobility/auto-api'
             logo: high_mobility.svg
@@ -163,15 +199,35 @@ landscape:
           - item:
             name: RITIS
             description: >-
-              RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems.
-              Its broad spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation –
-              provides enhanced, multi-faceted insight of the transportation system across geographic and agency boundaries.
+              RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems. Its broad
+              spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation – provides enhanced, multi-faceted
+              insight of the transportation system across geographic and agency boundaries.
             homepage_url: 'https://www.ritis.org/intro'
             repo_url: null
             logo: ritis.svg
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
             item_type: closed_source
+          - item:
+            name: City Bikes API
+            description: REST API for aggregated bikeshare data from around the world.
+            homepage_url: 'http://api.citybik.es/v2/'
+            repo_url: null
+            logo: citybikes.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: open_data
+          - item:
+            name: pybikes
+            description: >-
+              pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of
+              classes and methods to access this sort of information.
+            homepage_url: 'https://pypi.org/project/python-citybikes/'
+            repo_url: 'https://github.com/eskerda/pybikes'
+            logo: citybikes.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_CITY
+            item_type: open_source
       - subcategory:
         name: Apps
         items:
@@ -204,17 +260,6 @@ landscape:
             geo_scope: MULTI_COUNTRY
             item_type: closed_source
           - item:
-            name: GTFS Real Time
-            description: >-
-              A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
-              not operating, important delays, etc.) location of their vehicles, and expected arrival times.
-            homepage_url: 'https://gtfs.org/reference/realtime/v2/'
-            repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
-            logo: GTFS.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: MULTI_COUNTRY
-            item_type: open_source
-          - item:
             name: Transmodel - Siri
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
@@ -223,6 +268,42 @@ landscape:
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
+          - item:
+            name: cubeiq
+            description: >-
+              Cuebiq is an offline intelligence and measurement company helping marketers understand the true impact of their cross-channel advertising in the
+              offline world.
+            homepage_url: 'https://www.cuebiq.com/about/'
+            repo_url: null
+            logo: cubeiq.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
+          - item:
+            name: Itinerum
+            description: >-
+              The Itinerum™ platform was developed as part of a research project conducted by Zachary Patterson from the Department of Geography, Planning &
+              Environment at Concordia University in Montreal. The original purpose of the Itinerum™ smart phone application (previously DataMobile) was to
+              collect travel behaviour data from Concordia University students, faculty and staff. The application records locational information on user trips
+              through their smartphone.
+            homepage_url: 'https://itinerum.ca/about.html'
+            repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
+            logo: citybikes.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: CITY
+            item_type: open_data
+          - item:
+            name: rMove
+            description: >-
+              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
+              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
+              insights inform transportation solutions suited to everyone’s needs.
+            homepage_url: 'https://rmove.rsginc.com'
+            repo_url: null
+            logo: citybikes.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Tools
         items:
@@ -292,17 +373,6 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
             item_type: closed_data
-          - item:
-            name: Transmodel
-            description: >-
-              Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
-              public transport information systems
-            homepage_url: 'http://www.transmodel-cen.eu/'
-            repo_url: null
-            logo: transmodel.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-            item_type: open_specification
           - item:
             name: GTFS Main
             description: >-
@@ -377,28 +447,6 @@ landscape:
             logo: opentripplanner.svg
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
-          - item:
-            name: e-mission
-            description: >-
-              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
-              aggregate them to make data available to urban planners and transportation engineers.
-            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: null
-            logo: emission.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: open_source
-          - item:
-            name: GTFS Ride
-            description: >-
-              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of Transportation
-              and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
-            homepage_url: 'https://www.gtfs-ride.org'
-            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
-            logo: gtfs_ride.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: STATE
             item_type: open_source
       - subcategory:
         name: Tools
@@ -481,6 +529,17 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: CITY
             item_type: open_data
+          - item:
+            name: GTFS Ride
+            description: >-
+              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of Transportation
+              and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
+            homepage_url: 'https://www.gtfs-ride.org'
+            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
+            logo: gtfs_ride.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: STATE
+            item_type: open_source
       - subcategory:
         name: Tools
         items:
@@ -495,9 +554,24 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
             item_type: open_source
+  - category:
+    name: Infastructure-Vehicles-People
+    subcategories:
       - subcategory:
-        name: Apps
+        name: Route Planning
         items:
+          - item:
+            name: Google Maps
+            description: >-
+              Google Maps is a web mapping service developed by Google. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic
+              views of streets (Street View), real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air (in beta), or public
+              transportation. In 2020, Google Maps was used by over 1 billion people every month
+            homepage_url: 'https://www.google.com/maps'
+            repo_url: null
+            logo: googlecovid.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
           - item:
             name: NextBus
             description: >-
@@ -510,7 +584,30 @@ landscape:
             geo_scope: MULTI_COUNTRY
             item_type: open_data
           - item:
-            name: e-mission App
+            name: OneBusAway
+            description: OneBusAway is an open source software system for real-time transit information in urban centers.
+            homepage_url: 'https://onebusaway.org'
+            repo_url: 'https://github.com/OneBusAway/onebusaway'
+            logo: one_bus_away.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+          - item:
+            name: Transmodel
+            description: >-
+              Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
+              public transport information systems
+            homepage_url: 'http://www.transmodel-cen.eu/'
+            repo_url: null
+            logo: transmodel.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
+      - subcategory:
+        name: Data
+        items:
+          - item:
+            name: e-mission
             description: >-
               e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
               aggregate them to make data available to urban planners and transportation engineers.
@@ -521,38 +618,27 @@ landscape:
             geo_scope: COUNTRY
             item_type: open_source
           - item:
-            name: OneBusAway
-            description: OneBusAway is an open source software system for real-time transit information in urban centers.
-            homepage_url: 'https://onebusaway.org'
-            repo_url: 'https://github.com/OneBusAway/onebusaway'
-            logo: one_bus_away.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_CITY
-            item_type: open_source
-landscape:
-  - category:
-    name: Infastructure-Vehicles-People
-    subcategories:
+            name: TomTom
+            description: >-
+              Our location technology is made to help you move freely, safely and efficiently. Whether you’re an automaker developing self-driving cars, a city
+              going greener or a developer creating the next big location-based app, our tech helps keep you moving.
+            homepage_url: 'https://www.tomtom.com/en_us/'
+            repo_url: null
+            logo: citybikes.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
-        name: Route Planning
+        name: Apps
         items:
           - item:
-            name: USDOT Highway Data
-            description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
-            homepage_url: 'https://www.fhwa.dot.gov/policyinformation/statistics.cfm'
-            repo_url: null
-            logo: Highway_usdot.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-            item_type: open_specification
-          - item:
-            name: USDOT Data Governance
+            name: e-mission App
             description: >-
-              It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
-              management for handling of data within FHWA.
-            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
             repo_url: null
-            logo: data_usdot.svg
-            privacy: NO_MOBILITY
+            logo: emission.svg
+            privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type: open_source

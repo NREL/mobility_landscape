@@ -190,11 +190,18 @@ big_picture:
         height: 270
         top: 1210
         left: 0
+      - type: HorizontalCategory
+        category: Infastructure-Vehicles-People
+        rows: 6
+        width: 1000
+        height: 270
+        top: 1500
+        left: 0
         color: 'rgb(107,61,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1500
+        top: 1700
         left: 0
         children:
           - type: text
