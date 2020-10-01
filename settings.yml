@@ -163,7 +163,7 @@ big_picture:
         category: People
         rows: 4
         width: 950
-        height: 150
+        height: 270
         top: 575
         left: 0
         color: 'rgb(143,88,61)'
@@ -172,7 +172,7 @@ big_picture:
         rows: 6
         width: 1000
         height: 150
-        top: 740
+        top: 850
         left: 0
         color: 'rgb(46,97,107)'
       - type: HorizontalCategory
@@ -180,7 +180,7 @@ big_picture:
         rows: 6
         width: 1000
         height: 270
-        top: 900
+        top: 1010
         left: 0
         color: 'rgb(107,97,46)'
       - type: HorizontalCategory
@@ -188,21 +188,21 @@ big_picture:
         rows: 6
         width: 1000
         height: 150
-        top: 1200
+        top: 1300
         left: 0
         color: 'rgb(107,97,46)'
       - type: VerticalCategory
         category: Infastructure-Vehicles-People
         cols: 9
         width: 315
-        height: 1400
+        height: 1000
         top: 0
-        left: 1200
+        left: 1100
         color: 'rgb(107,61,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1400
+        top: 1450
         left: 0
         children:
           - type: text

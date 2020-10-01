@@ -271,30 +271,87 @@ landscape:
     name: People
     subcategories:
       - subcategory:
-        name: Data
+        name: Location Broker Data
         items:
           - item:
-            name: CoVid19 Data
-            description: >-
-              As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available
-              for a short period of time.
-            homepage_url: 'https://www.google.com/covid19/mobility/'
-            repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
-            logo: googlecovid.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
-            item_type: closed_source
-          - item:
-            name: TSA Traveler Data
-            description: >-
-              The TSA is releasing data on checkpoints for 2019 and 2020 to the public, in relation to the need for increased mobility data after the CO-VID19
-              pandemic.
-            homepage_url: 'https://www.tsa.gov/coronavirus/passenger-throughput'
+            name: Streetlight Data
+            description: Affortable and intuitive mobiilty data at a low cost
+            homepage_url: 'https://www.streetlightdata.com/'
             repo_url: null
-            logo: tsa.svg
+            logo: streetlight.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: MULTI_CITY
+            item_type: closed_data
+          - item:
+            name: cubeiq
+            description: >-
+              Cuebiq is an offline intelligence and measurement company helping marketers understand the true impact of their cross-channel advertising in the
+              offline world.
+            homepage_url: 'https://www.cuebiq.com/about/'
+            repo_url: null
+            logo: cubeiq.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
+            item_type: closed_source
+          - item:
+            name: veraset
+            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
+            homepage_url: 'https://www.veraset.com/about-veraset'
+            repo_url: null
+            logo: veraset.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
+          - item:
+            name: SafeGraph
+            description: >-
+              Unlock innovation with the most accurate points-of-interest (POI) data, business listings, and store visitor insights data for commercial places
+              in the U.S.
+            homepage_url: 'https://www.safegraph.com'
+            repo_url: null
+            logo: safegraph.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
+      - subcategory:
+        name: Travel Behavior Collection
+        items:
+          - item:
+            name: e-mission
+            description: >-
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
+            repo_url: 'https://github.com/e-mission/e-mission-server'
+            logo: emission.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: open_source
+          - item:
+            name: Itinerum
+            description: >-
+              The Itinerum™ platform was developed as part of a research project conducted by Zachary Patterson from the Department of Geography, Planning &
+              Environment at Concordia University in Montreal. The original purpose of the Itinerum™ smart phone application (previously DataMobile) was to
+              collect travel behaviour data from Concordia University students, faculty and staff. The application records locational information on user trips
+              through their smartphone.
+            homepage_url: 'https://itinerum.ca/about.html'
+            repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
+            logo: itinerum.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: CITY
             item_type: open_data
+          - item:
+            name: rMove
+            description: >-
+              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
+              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
+              insights inform transportation solutions suited to everyone’s needs.
+            homepage_url: 'https://rmove.rsginc.com'
+            repo_url: null
+            logo: rmove.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Tools
         items:
@@ -391,48 +448,30 @@ landscape:
     name: Infastructure-People
     subcategories:
       - subcategory:
-        name: Location Broker Data
+        name: Mobility Count Results
         items:
           - item:
-            name: Streetlight Data
-            description: Affortable and intuitive mobiilty data at a low cost
-            homepage_url: 'https://www.streetlightdata.com/'
-            repo_url: null
-            logo: streetlight.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: MULTI_CITY
-            item_type: closed_data
-          - item:
-            name: cubeiq
+            name: CoVid19 Data
             description: >-
-              Cuebiq is an offline intelligence and measurement company helping marketers understand the true impact of their cross-channel advertising in the
-              offline world.
-            homepage_url: 'https://www.cuebiq.com/about/'
+              As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available
+              for a short period of time.
+            homepage_url: 'https://www.google.com/covid19/mobility/'
+            repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
+            logo: googlecovid.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+          - item:
+            name: TSA Traveler Data
+            description: >-
+              The TSA is releasing data on checkpoints for 2019 and 2020 to the public, in relation to the need for increased mobility data after the CO-VID19
+              pandemic.
+            homepage_url: 'https://www.tsa.gov/coronavirus/passenger-throughput'
             repo_url: null
-            logo: cubeiq.svg
+            logo: tsa.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: closed_source
-          - item:
-            name: veraset
-            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
-            homepage_url: 'https://www.veraset.com/about-veraset'
-            repo_url: null
-            logo: veraset.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: closed_source
-          - item:
-            name: SafeGraph
-            description: >-
-              Unlock innovation with the most accurate points-of-interest (POI) data, business listings, and store visitor insights data for commercial places
-              in the U.S.
-            homepage_url: 'https://www.safegraph.com'
-            repo_url: null
-            logo: safegraph.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: closed_source
+            item_type: open_data
       - subcategory:
         name: Metrics
         items:
@@ -634,45 +673,6 @@ landscape:
             repo_url: null
             logo: tomtom.svg
             privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: closed_source
-      - subcategory:
-        name: Travel Behavior Collection
-        items:
-          - item:
-            name: e-mission
-            description: >-
-              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
-              aggregate them to make data available to urban planners and transportation engineers.
-            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: 'https://github.com/e-mission/e-mission-server'
-            logo: emission.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: open_source
-          - item:
-            name: Itinerum
-            description: >-
-              The Itinerum™ platform was developed as part of a research project conducted by Zachary Patterson from the Department of Geography, Planning &
-              Environment at Concordia University in Montreal. The original purpose of the Itinerum™ smart phone application (previously DataMobile) was to
-              collect travel behaviour data from Concordia University students, faculty and staff. The application records locational information on user trips
-              through their smartphone.
-            homepage_url: 'https://itinerum.ca/about.html'
-            repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
-            logo: itinerum.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: CITY
-            item_type: open_data
-          - item:
-            name: rMove
-            description: >-
-              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
-              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
-              insights inform transportation solutions suited to everyone’s needs.
-            homepage_url: 'https://rmove.rsginc.com'
-            repo_url: null
-            logo: rmove.svg
-            privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: closed_source
       - subcategory:
