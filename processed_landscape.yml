@@ -1648,6 +1648,61 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Mapbox
+            description: >-
+              The Mapbox Navigation SDK is a precise and flexible platform which enables your users to explore the world's streets. We are designing new maps
+              specifically for navigation that highlight traffic conditions and helpful landmarks.
+            homepage_url: 'https://www.mapbox.com'
+            repo_url: 'https://github.com/mapbox/mapbox-navigation-android'
+            logo: mapbox.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+            github_data:
+              languages:
+                - name: Kotlin
+                  value: 1206776
+                  color: '#F18E33'
+                - name: Java
+                  value: 770285
+                  color: '#b07219'
+                - name: Python
+                  value: 7210
+                  color: '#3572A5'
+                - name: Makefile
+                  value: 4388
+                  color: '#427819'
+                - name: JavaScript
+                  value: 2362
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 1300
+                  color: '#89e051'
+              contributions: >-
+                114;122;23;60;29;12;31;38;20;24;36;35;4;16;32;51;65;26;7;11;17;24;31;37;35;34;41;29;45;22;42;35;28;19;22;25;27;22;25;14;13;14;18;20;15;33;15;14;11;14;5;11
+              firstWeek: 2019-10-06Z
+              stars: 376
+              license: Other
+              description: Mapbox Navigation SDK for Android
+              latest_commit_date: '2020-10-01T14:34:56Z'
+              latest_commit_link: /mapbox/mapbox-navigation-android/commit/ab9af29aa122d6ba05116cb578436e7b601dc24f
+              release_date: '2020-09-25T09:33:52Z'
+              release_link: 'https://github.com/mapbox/mapbox-navigation-android/releases'
+              contributors_count: 39
+              contributors_link: 'https://github.com/mapbox/mapbox-navigation-android/graphs/contributors'
+            repos:
+              - url: 'https://github.com/mapbox/mapbox-navigation-android'
+                stars: 376
+            github_start_commit_data:
+              start_commit_link: /mapbox/mapbox-navigation-android/commit/fede27bd97210542957015bb82e6a928b83cc5fe
+              start_date: '2017-04-06T17:18:23Z'
+            image_data:
+              fileName: mapbox.svg
+              hash: Y9H81dy5oJPSCpDVEebFRpm9dmuZPl62LDYSEsEmxjk=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Apps
         items:

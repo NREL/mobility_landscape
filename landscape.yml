@@ -675,6 +675,17 @@ landscape:
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
             item_type: closed_source
+          - item:
+            name: Mapbox
+            description: >-
+              The Mapbox Navigation SDK is a precise and flexible platform which enables your users to explore the world's streets. We are designing new maps
+              specifically for navigation that highlight traffic conditions and helpful landmarks.
+            homepage_url: 'https://www.mapbox.com'
+            repo_url: 'https://github.com/mapbox/mapbox-navigation-android'
+            logo: mapbox.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Apps
         items:
