@@ -128,6 +128,17 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
             item_type: closed_data
+          - item:
+            name: Places
+            description: >-
+              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
+              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
+            homepage_url: 'https://cloud.google.com/maps-platform'
+            repo_url: null
+            logo: places.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
   - category:
     name: Vehicles
     subcategories:
@@ -328,20 +339,6 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_CITY
             item_type: open_source
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name: Places
-            description: >-
-              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
-              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
-            homepage_url: 'https://cloud.google.com/maps-platform'
-            repo_url: null
-            logo: places.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
-            item_type: closed_source
   - category:
     name: Infastructure-Vehicles
     subcategories:
