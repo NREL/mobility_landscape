@@ -224,6 +224,23 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Places
+            description: >-
+              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
+              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
+            homepage_url: 'https://cloud.google.com/maps-platform'
+            repo_url: null
+            logo: places.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: places.svg
+              hash: 6srPI7/ioZXHwq6gvPwjYCma5uOugPX/uXbk9KJjGwI=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Tools
         items:
@@ -715,54 +732,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Transmodel - Siri
-            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
-            homepage_url: 'http://www.siri.org.uk/'
-            repo_url: null
-            logo: transmodel.svg
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
-            item_type: open_specification
-            image_data:
-              fileName: transmodel-siri.svg
-              hash: F3Qc0KlKV/7jwpj5TF9TX7sFjklRQppB9h9qS0GliZU=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: rMove
-            description: >-
-              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
-              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
-              insights inform transportation solutions suited to everyone’s needs.
-            homepage_url: 'https://rmove.rsginc.com'
-            repo_url: null
-            logo: rmove.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
-            item_type: closed_source
-            image_data:
-              fileName: r-move.svg
-              hash: UwZsG/mHvAWZjfvX1IUnd2JE8lOQFI//0pcI8YheW7o=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: veraset
-            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
-            homepage_url: 'https://www.veraset.com/about-veraset'
-            repo_url: null
-            logo: veraset.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: closed_source
-            image_data:
-              fileName: veraset.svg
-              hash: jSm9JBJtRwudVZGKMbq1xABDn7T8wRIFPNR8Y5H8wkA=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: TSA Traveler Data
             description: >-
               The TSA is releasing data on checkpoints for 2019 and 2020 to the public, in relation to the need for increased mobility data after the CO-VID19
@@ -816,26 +785,6 @@ landscape:
             image_data:
               fileName: route-trends.svg
               hash: 7wXF3eEzmccAHKqb+F9d3xUWZonrw8tAfQWAoKROQOg=
-            best_practice_data:
-              badge: false
-              percentage: null
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name: Places
-            description: >-
-              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
-              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
-            homepage_url: 'https://cloud.google.com/maps-platform'
-            repo_url: null
-            logo: places.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
-            item_type: closed_source
-            image_data:
-              fileName: places.svg
-              hash: 6srPI7/ioZXHwq6gvPwjYCma5uOugPX/uXbk9KJjGwI=
             best_practice_data:
               badge: false
               percentage: null
@@ -1068,8 +1017,40 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: veraset
+            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
+            homepage_url: 'https://www.veraset.com/about-veraset'
+            repo_url: null
+            logo: veraset.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: veraset.svg
+              hash: jSm9JBJtRwudVZGKMbq1xABDn7T8wRIFPNR8Y5H8wkA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SafeGraph
+            description: >-
+              Unlock innovation with the most accurate points-of-interest (POI) data, business listings, and store visitor insights data for commercial places
+              in the U.S.
+            homepage_url: 'https://www.safegraph.com'
+            repo_url: null
+            logo: safegraph.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: safe-graph.svg
+              hash: nda9BEAr4lFocmx3f+CZh/X+fIZyXfRLx4N2XWbcU4U=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
-        name: Tools
+        name: Metrics
         items:
           - item:
             name: EPA Smart Location Mapping
@@ -1461,6 +1442,21 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Transmodel - Siri
+            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
+            homepage_url: 'http://www.siri.org.uk/'
+            repo_url: null
+            logo: transmodel.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
+            image_data:
+              fileName: transmodel-siri.svg
+              hash: F3Qc0KlKV/7jwpj5TF9TX7sFjklRQppB9h9qS0GliZU=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Navigation
         items:
@@ -1501,26 +1497,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Data
-        items:
-          - item:
-            name: e-mission
-            description: >-
-              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
-              aggregate them to make data available to urban planners and transportation engineers.
-            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: null
-            logo: emission.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: open_source
-            image_data:
-              fileName: e-mission.svg
-              hash: 83OOKfZZ3eov/HREmujnAtonwzNvRdMUcIIMhzWWkGQ=
-            best_practice_data:
-              badge: false
-              percentage: null
           - item:
             name: TomTom
             description: >-
@@ -1535,6 +1511,71 @@ landscape:
             image_data:
               fileName: tom-tom.svg
               hash: k/upsBWHwHkX+dOENlEdylpuHqSal44Ok38C6SHLm7s=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Travel Behavior Collection
+        items:
+          - item:
+            name: e-mission
+            description: >-
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
+            repo_url: 'https://github.com/e-mission/e-mission-server'
+            logo: emission.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: open_source
+            github_data:
+              languages:
+                - name: Jupyter Notebook
+                  value: 4656584
+                  color: '#DA5B0B'
+                - name: JavaScript
+                  value: 3503509
+                  color: '#f1e05a'
+                - name: Python
+                  value: 1815188
+                  color: '#3572A5'
+                - name: SCSS
+                  value: 356826
+                - name: CSS
+                  value: 355101
+                  color: '#563d7c'
+                - name: HTML
+                  value: 107674
+                  color: '#e34c26'
+                - name: Shell
+                  value: 9477
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 445
+                  color: '#C1F12E'
+                - name: Dockerfile
+                  value: 327
+                  color: '#384d54'
+              contributions: 0;0;7;0;1;0;0;2;0;0;0;0;0;0;1;0;0;0;0;0;0;0;14;33;10;0;0;4;12;0;3;4;0;0;1;2;4;11;0;0;0;0;0;6;4;23;2;2;1;3;0;0
+              firstWeek: 2019-10-06Z
+              stars: 10
+              license: BSD 3-Clause "New" or "Revised" License
+              description: The backend (server) code for the e-mission server
+              latest_commit_date: '2020-09-15T04:32:14Z'
+              latest_commit_link: /e-mission/e-mission-server/commit/0475b456db197edacb524c5ab7a1124cd33b5333
+              release_date: '2019-03-25T00:34:11Z'
+              release_link: 'https://github.com/e-mission/e-mission-server/releases'
+              contributors_count: 50
+              contributors_link: 'https://github.com/e-mission/e-mission-server/graphs/contributors'
+            repos:
+              - url: 'https://github.com/e-mission/e-mission-server'
+                stars: 10
+            github_start_commit_data:
+              start_commit_link: /e-mission/e-mission-server/commit/118e5f4d9c2679965770ecb7b624c38d7a7df4ad
+              start_date: '2014-11-07T06:39:41Z'
+            image_data:
+              fileName: e-mission.svg
+              hash: 83OOKfZZ3eov/HREmujnAtonwzNvRdMUcIIMhzWWkGQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -1589,6 +1630,24 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: rMove
+            description: >-
+              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
+              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
+              insights inform transportation solutions suited to everyone’s needs.
+            homepage_url: 'https://rmove.rsginc.com'
+            repo_url: null
+            logo: rmove.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: r-move.svg
+              hash: UwZsG/mHvAWZjfvX1IUnd2JE8lOQFI//0pcI8YheW7o=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Apps
         items:
@@ -1598,11 +1657,47 @@ landscape:
               e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
               aggregate them to make data available to urban planners and transportation engineers.
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: null
+            repo_url: 'https://github.com/e-mission/e-mission-phone'
             logo: emission.svg
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
             item_type: open_source
+            github_data:
+              languages:
+                - name: JavaScript
+                  value: 3793774
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 688420
+                  color: '#563d7c'
+                - name: SCSS
+                  value: 315418
+                - name: HTML
+                  value: 141572
+                  color: '#e34c26'
+                - name: Shell
+                  value: 6793
+                  color: '#89e051'
+                - name: Python
+                  value: 2590
+                  color: '#3572A5'
+              contributions: 0;0;0;4;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;1;1;0;15;13;1;20;0;0;2;0;0;0;0;0;3;6;0;24;20;0;18;10;2;5;7;0;0;2;0
+              firstWeek: 2019-10-06Z
+              stars: 7
+              license: BSD 3-Clause "New" or "Revised" License
+              description: The frontend (phone) code for the e-mission server
+              latest_commit_date: '2020-09-22T22:24:19Z'
+              latest_commit_link: /e-mission/e-mission-phone/commit/07f38fc8560b5cc3ecc887a82d94f6ea2277fb27
+              release_date: '2020-07-11T16:48:52Z'
+              release_link: 'https://github.com/e-mission/e-mission-phone/releases'
+              contributors_count: 23
+              contributors_link: 'https://github.com/e-mission/e-mission-phone/graphs/contributors'
+            repos:
+              - url: 'https://github.com/e-mission/e-mission-phone'
+                stars: 7
+            github_start_commit_data:
+              start_commit_link: /e-mission/e-mission-phone/commit/2507f972492926c8d794caef166296aed5564c74
+              start_date: '2016-01-28T06:51:34Z'
             image_data:
               fileName: e-mission-app.svg
               hash: 83OOKfZZ3eov/HREmujnAtonwzNvRdMUcIIMhzWWkGQ=

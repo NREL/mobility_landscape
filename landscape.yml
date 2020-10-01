@@ -75,6 +75,17 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
             item_type: open_source
+          - item:
+            name: Places
+            description: >-
+              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
+              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
+            homepage_url: 'https://cloud.google.com/maps-platform'
+            repo_url: null
+            logo: places.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Tools
         items:
@@ -128,17 +139,6 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
             item_type: closed_data
-          - item:
-            name: Places
-            description: >-
-              With Places, you can provide users data on location names, addresses, ratings, reviews, contact information, and atmosphere. Local guides and
-              users submit tens of millions of updates every day, so you can count on accurate, reliable information from Google Mobility Data
-            homepage_url: 'https://cloud.google.com/maps-platform'
-            repo_url: null
-            logo: places.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
-            item_type: closed_source
   - category:
     name: Vehicles
     subcategories:
@@ -285,36 +285,6 @@ landscape:
             geo_scope: MULTI_COUNTRY
             item_type: closed_source
           - item:
-            name: Transmodel - Siri
-            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
-            homepage_url: 'http://www.siri.org.uk/'
-            repo_url: null
-            logo: transmodel.svg
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
-            item_type: open_specification
-          - item:
-            name: rMove
-            description: >-
-              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
-              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
-              insights inform transportation solutions suited to everyone’s needs.
-            homepage_url: 'https://rmove.rsginc.com'
-            repo_url: null
-            logo: rmove.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
-            item_type: closed_source
-          - item:
-            name: veraset
-            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
-            homepage_url: 'https://www.veraset.com/about-veraset'
-            repo_url: null
-            logo: veraset.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: closed_source
-          - item:
             name: TSA Traveler Data
             description: >-
               The TSA is releasing data on checkpoints for 2019 and 2020 to the public, in relation to the need for increased mobility data after the CO-VID19
@@ -443,8 +413,28 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: closed_source
+          - item:
+            name: veraset
+            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
+            homepage_url: 'https://www.veraset.com/about-veraset'
+            repo_url: null
+            logo: veraset.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
+          - item:
+            name: SafeGraph
+            description: >-
+              Unlock innovation with the most accurate points-of-interest (POI) data, business listings, and store visitor insights data for commercial places
+              in the U.S.
+            homepage_url: 'https://www.safegraph.com'
+            repo_url: null
+            logo: safegraph.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
-        name: Tools
+        name: Metrics
         items:
           - item:
             name: EPA Smart Location Mapping
@@ -598,6 +588,15 @@ landscape:
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
             item_type: closed_data
+          - item:
+            name: Transmodel - Siri
+            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
+            homepage_url: 'http://www.siri.org.uk/'
+            repo_url: null
+            logo: transmodel.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
       - subcategory:
         name: Navigation
         items:
@@ -626,20 +625,6 @@ landscape:
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
             item_type: closed_source
-      - subcategory:
-        name: Data
-        items:
-          - item:
-            name: e-mission
-            description: >-
-              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
-              aggregate them to make data available to urban planners and transportation engineers.
-            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: null
-            logo: emission.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: open_source
           - item:
             name: TomTom
             description: >-
@@ -651,6 +636,20 @@ landscape:
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
             item_type: closed_source
+      - subcategory:
+        name: Travel Behavior Collection
+        items:
+          - item:
+            name: e-mission
+            description: >-
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
+            repo_url: 'https://github.com/e-mission/e-mission-server'
+            logo: emission.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: open_source
           - item:
             name: Itinerum
             description: >-
@@ -664,6 +663,18 @@ landscape:
             privacy: UNLINKED_FUZZY_OD
             geo_scope: CITY
             item_type: open_data
+          - item:
+            name: rMove
+            description: >-
+              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
+              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
+              insights inform transportation solutions suited to everyone’s needs.
+            homepage_url: 'https://rmove.rsginc.com'
+            repo_url: null
+            logo: rmove.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Apps
         items:
@@ -673,7 +684,7 @@ landscape:
               e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
               aggregate them to make data available to urban planners and transportation engineers.
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: null
+            repo_url: 'https://github.com/e-mission/e-mission-phone'
             logo: emission.svg
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY

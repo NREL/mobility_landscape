@@ -162,7 +162,7 @@ big_picture:
       - type: HorizontalCategory
         category: People
         rows: 4
-        width: 1100
+        width: 950
         height: 150
         top: 575
         left: 0
@@ -195,7 +195,7 @@ big_picture:
         category: Infastructure-Vehicles-People
         cols: 9
         width: 315
-        height: 1250
+        height: 1400
         top: 0
         left: 1200
         color: 'rgb(107,61,46)'
