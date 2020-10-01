@@ -1703,62 +1703,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name: e-mission App
-            description: >-
-              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
-              aggregate them to make data available to urban planners and transportation engineers.
-            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: 'https://github.com/e-mission/e-mission-phone'
-            logo: emission.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
-            item_type: open_source
-            github_data:
-              languages:
-                - name: JavaScript
-                  value: 3793774
-                  color: '#f1e05a'
-                - name: CSS
-                  value: 688420
-                  color: '#563d7c'
-                - name: SCSS
-                  value: 315418
-                - name: HTML
-                  value: 141572
-                  color: '#e34c26'
-                - name: Shell
-                  value: 6793
-                  color: '#89e051'
-                - name: Python
-                  value: 2590
-                  color: '#3572A5'
-              contributions: 0;0;0;4;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;1;1;0;15;13;1;20;0;0;2;0;0;0;0;0;3;6;0;24;20;0;18;10;2;5;7;0;0;2;0
-              firstWeek: 2019-10-06Z
-              stars: 7
-              license: BSD 3-Clause "New" or "Revised" License
-              description: The frontend (phone) code for the e-mission server
-              latest_commit_date: '2020-09-22T22:24:19Z'
-              latest_commit_link: /e-mission/e-mission-phone/commit/07f38fc8560b5cc3ecc887a82d94f6ea2277fb27
-              release_date: '2020-07-11T16:48:52Z'
-              release_link: 'https://github.com/e-mission/e-mission-phone/releases'
-              contributors_count: 23
-              contributors_link: 'https://github.com/e-mission/e-mission-phone/graphs/contributors'
-            repos:
-              - url: 'https://github.com/e-mission/e-mission-phone'
-                stars: 7
-            github_start_commit_data:
-              start_commit_link: /e-mission/e-mission-phone/commit/2507f972492926c8d794caef166296aed5564c74
-              start_date: '2016-01-28T06:51:34Z'
-            image_data:
-              fileName: e-mission-app.svg
-              hash: 83OOKfZZ3eov/HREmujnAtonwzNvRdMUcIIMhzWWkGQ=
-            best_practice_data:
-              badge: false
-              percentage: null
 twitter_options:
   count: 1290
   since_id: '1304185576887812100'
