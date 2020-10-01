@@ -35,6 +35,20 @@ landscape:
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
           - item:
+            name: GPX
+            description: >-
+              GPX (the GPS Exchange Format) is a light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between
+              applications and Web services on the Internet.
+            homepage_url: 'https://www.topografix.com/gpx.asp'
+            repo_url: null
+            logo: gpx.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
+      - subcategory:
+        name: Crowdsourced Maps
+        items:
+          - item:
             name: Open Street Map
             description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
@@ -61,17 +75,6 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
             item_type: open_source
-          - item:
-            name: GPX
-            description: >-
-              GPX (the GPS Exchange Format) is a light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between
-              applications and Web services on the Internet.
-            homepage_url: 'https://www.topografix.com/gpx.asp'
-            repo_url: null
-            logo: gpx.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-            item_type: open_specification
       - subcategory:
         name: Tools
         items:
@@ -167,7 +170,7 @@ landscape:
               access and benefit from connected car data through tailored products and services.
             homepage_url: 'https://www.wejo.com'
             repo_url: null
-            logo: citybikes.svg
+            logo: wejo.svg
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
             item_type: closed_source
@@ -224,10 +227,21 @@ landscape:
               classes and methods to access this sort of information.
             homepage_url: 'https://pypi.org/project/python-citybikes/'
             repo_url: 'https://github.com/eskerda/pybikes'
-            logo: citybikes.svg
+            logo: pybikes.svg
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
             item_type: open_source
+          - item:
+            name: INRIX Road Rules
+            description: >-
+              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
+              information in a centralized location.
+            homepage_url: 'https://inrix.com/products/road-rules/'
+            repo_url: null
+            logo: inrix.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Apps
         items:
@@ -269,30 +283,6 @@ landscape:
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
           - item:
-            name: cubeiq
-            description: >-
-              Cuebiq is an offline intelligence and measurement company helping marketers understand the true impact of their cross-channel advertising in the
-              offline world.
-            homepage_url: 'https://www.cuebiq.com/about/'
-            repo_url: null
-            logo: cubeiq.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
-            item_type: closed_source
-          - item:
-            name: Itinerum
-            description: >-
-              The Itinerum™ platform was developed as part of a research project conducted by Zachary Patterson from the Department of Geography, Planning &
-              Environment at Concordia University in Montreal. The original purpose of the Itinerum™ smart phone application (previously DataMobile) was to
-              collect travel behaviour data from Concordia University students, faculty and staff. The application records locational information on user trips
-              through their smartphone.
-            homepage_url: 'https://itinerum.ca/about.html'
-            repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
-            logo: citybikes.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: CITY
-            item_type: open_data
-          - item:
             name: rMove
             description: >-
               rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
@@ -300,18 +290,38 @@ landscape:
               insights inform transportation solutions suited to everyone’s needs.
             homepage_url: 'https://rmove.rsginc.com'
             repo_url: null
-            logo: citybikes.svg
+            logo: rmove.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: closed_source
+          - item:
+            name: veraset
+            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
+            homepage_url: 'https://www.veraset.com/about-veraset'
+            repo_url: null
+            logo: veraset.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_source
+          - item:
+            name: TSA Traveler Data
+            description: >-
+              The TSA is releasing data on checkpoints for 2019 and 2020 to the public, in relation to the need for increased mobility data after the CO-VID19
+              pandemic.
+            homepage_url: 'https://www.tsa.gov/coronavirus/passenger-throughput'
+            repo_url: null
+            logo: tsa.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: open_data
       - subcategory:
         name: Tools
         items:
           - item:
             name: Route Trends
             description: >-
-              STL is a versatile and robust method for decomposing time series. STL is an acronym for “Seasonal and Trend decomposition using Loess”, while
-              Loess is a method for estimating nonlinear relationships. The STL method was developed by Cleveland, Cleveland, McRae, & Terpenning (1990).
+              Route Trends is a tool which uses several different forecasting methods, including Seasonal-Trend Decomposition Procedure based on Loess and more,
+              to help analyze mobility data.
             homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
             repo_url: 'https://github.com/metrotransit/route-trends'
             logo: route_trends.svg
@@ -352,16 +362,6 @@ landscape:
             geo_scope: COUNTRY
             item_type: open_specification
           - item:
-            name: Transport API
-            description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
-            homepage_url: 'https://www.transportapi.com/'
-            repo_url: null
-            logo: transportapi.svg
-            open_source: false
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
-            item_type: closed_data
-          - item:
             name: Shared Streets
             description: >-
               SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps
@@ -400,17 +400,6 @@ landscape:
         name: Tools
         items:
           - item:
-            name: INRIX Road Rules
-            description: >-
-              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
-              information in a centralized location.
-            homepage_url: 'https://inrix.com/products/road-rules/'
-            repo_url: null
-            logo: inrix.svg
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
-            item_type: closed_source
-          - item:
             name: remix
             description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
             homepage_url: 'https://www.remix.com'
@@ -435,19 +424,28 @@ landscape:
     name: Infastructure-People
     subcategories:
       - subcategory:
-        name: Data
+        name: Location Broker Data
         items:
           - item:
-            name: Open Trip Planner
+            name: Streetlight Data
+            description: Affortable and intuitive mobiilty data at a low cost
+            homepage_url: 'https://www.streetlightdata.com/'
+            repo_url: null
+            logo: streetlight.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: MULTI_CITY
+            item_type: closed_data
+          - item:
+            name: cubeiq
             description: >-
-              OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis
-              services.
-            homepage_url: 'http://www.opentripplanner.org/'
-            repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
-            logo: opentripplanner.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-            item_type: open_source
+              Cuebiq is an offline intelligence and measurement company helping marketers understand the true impact of their cross-channel advertising in the
+              offline world.
+            homepage_url: 'https://www.cuebiq.com/about/'
+            repo_url: null
+            logo: cubeiq.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Tools
         items:
@@ -459,15 +457,6 @@ landscape:
             logo: epa_smart.svg
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: closed_data
-          - item:
-            name: Streetlight Data
-            description: Affortable and intuitive mobiilty data at a low cost
-            homepage_url: 'https://www.streetlightdata.com/'
-            repo_url: null
-            logo: streetlight.svg
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: MULTI_CITY
             item_type: closed_data
           - item:
             name: Walkscore
@@ -561,18 +550,6 @@ landscape:
         name: Route Planning
         items:
           - item:
-            name: Google Maps
-            description: >-
-              Google Maps is a web mapping service developed by Google. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic
-              views of streets (Street View), real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air (in beta), or public
-              transportation. In 2020, Google Maps was used by over 1 billion people every month
-            homepage_url: 'https://www.google.com/maps'
-            repo_url: null
-            logo: googlecovid.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
-            item_type: closed_source
-          - item:
             name: NextBus
             description: >-
               NextBus is a cloud-based solution providing real-time passenger information systems to over 100 transit agencies, organizations, institutions, and
@@ -603,6 +580,55 @@ landscape:
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
+          - item:
+            name: Open Trip Planner
+            description: >-
+              OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis
+              services.
+            homepage_url: 'http://www.opentripplanner.org/'
+            repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
+            logo: opentripplanner.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: open_source
+          - item:
+            name: Transport API
+            description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
+            homepage_url: 'https://www.transportapi.com/'
+            repo_url: null
+            logo: transportapi.svg
+            open_source: false
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: COUNTRY
+            item_type: closed_data
+      - subcategory:
+        name: Navigation
+        items:
+          - item:
+            name: Waze
+            description: >-
+              Waze develops practical solutions that empower people to make better choices, from taking the fastest route, to leaving at the right time, to
+              sharing daily commutes. Wazers—including drivers, riders, map editors, beta testers—contribute to our real-time, live navigation, and depend on
+              each other to get places with fewer headaches. Waze partners with cities, transportation authorities, broadcasters, businesses, and first
+              responders to put community-driven data to work for anyone.
+            homepage_url: 'https://www.waze.com/waze'
+            repo_url: null
+            logo: waze.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: COUNTRY
+            item_type: closed_data
+          - item:
+            name: Google Maps
+            description: >-
+              Google Maps is a web mapping service developed by Google. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic
+              views of streets (Street View), real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air (in beta), or public
+              transportation. In 2020, Google Maps was used by over 1 billion people every month
+            homepage_url: 'https://www.google.com/maps'
+            repo_url: null
+            logo: googlecovid.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
       - subcategory:
         name: Data
         items:
@@ -624,10 +650,23 @@ landscape:
               going greener or a developer creating the next big location-based app, our tech helps keep you moving.
             homepage_url: 'https://www.tomtom.com/en_us/'
             repo_url: null
-            logo: citybikes.svg
+            logo: tomtom.svg
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
             item_type: closed_source
+          - item:
+            name: Itinerum
+            description: >-
+              The Itinerum™ platform was developed as part of a research project conducted by Zachary Patterson from the Department of Geography, Planning &
+              Environment at Concordia University in Montreal. The original purpose of the Itinerum™ smart phone application (previously DataMobile) was to
+              collect travel behaviour data from Concordia University students, faculty and staff. The application records locational information on user trips
+              through their smartphone.
+            homepage_url: 'https://itinerum.ca/about.html'
+            repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
+            logo: itinerum.svg
+            privacy: UNLINKED_FUZZY_OD
+            geo_scope: CITY
+            item_type: open_data
       - subcategory:
         name: Apps
         items:

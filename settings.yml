@@ -154,9 +154,9 @@ big_picture:
       - type: HorizontalCategory
         category: Vehicles
         rows: 6
-        width: 1450
-        height: 150
-        top: 300
+        width: 1050
+        height: 270
+        top: 285
         left: 0
         color: 'rgb(46,107,46)'
       - type: HorizontalCategory
@@ -164,15 +164,15 @@ big_picture:
         rows: 4
         width: 1100
         height: 150
-        top: 475
+        top: 575
         left: 0
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
         category: Infastructure-Vehicles
         rows: 6
         width: 1000
-        height: 270
-        top: 640
+        height: 150
+        top: 740
         left: 0
         color: 'rgb(46,97,107)'
       - type: HorizontalCategory
@@ -180,29 +180,29 @@ big_picture:
         rows: 6
         width: 1000
         height: 270
-        top: 925
+        top: 900
         left: 0
         color: 'rgb(107,97,46)'
       - type: HorizontalCategory
         category: Vehicles-People
         rows: 6
         width: 1000
-        height: 270
-        top: 1210
+        height: 150
+        top: 1200
         left: 0
         color: 'rgb(107,97,46)'
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: Infastructure-Vehicles-People
-        rows: 6
-        width: 1000
-        height: 270
-        top: 1500
-        left: 0
+        cols: 9
+        width: 315
+        height: 1250
+        top: 0
+        left: 1200
         color: 'rgb(107,61,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1800
+        top: 1400
         left: 0
         children:
           - type: text
