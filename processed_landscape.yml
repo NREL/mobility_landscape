@@ -391,6 +391,23 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Scenario Evaluation and Regionalization Analysis Model
+            description: >-
+              The Scenario Evaluation and Regionalization Analysis (SERA) model provides insights that can guide infrastructure development and transportation
+              investment decisions and accelerate the adoption of electric vehicles.
+            homepage_url: 'https://www.nrel.gov/hydrogen/sera-model.html'
+            repo_url: null
+            logo: sera.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_source
+            image_data:
+              fileName: scenario-evaluation-and-regionalization-analysis-model.svg
+              hash: IIqgjfAeUbtvkqJVCRuIqYeIjhuN0gtLGodXLhuHdak=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Apps
         items:
@@ -516,6 +533,21 @@ landscape:
             image_data:
               fileName: wejo.svg
               hash: ZefBIV16d32oo3LaXVriVUBt0weg/cWNzwWHCqkJoj4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: OpenFlights
+            description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
+            homepage_url: 'https://openflights.org/data.html'
+            repo_url: null
+            logo: openflights.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: open-flights.svg
+              hash: ooRvkkZ6rdlGJe6ewnh/ohKP7dVJiK9wDdu7jmpIRWE=
             best_practice_data:
               badge: false
               percentage: null
@@ -974,6 +1006,25 @@ landscape:
               badge: false
               percentage: null
           - item:
+            name: Mobility Data MarketPlace
+            description: >-
+              Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
+              standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
+              constantly expanding traffic data coverage. The MDM is part of the Federal Government's innovation programme and is funded by the Federal Ministry
+              of Transport and Digital Infrastructure. The Federal Highway Research Institute (BASt) is responsible for managing the project
+            homepage_url: 'https://www.datex2.eu/implementations/profile_directory/german-roadworks-profile'
+            repo_url: null
+            logo: mdm.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
+            image_data:
+              fileName: mobility-data-market-place.svg
+              hash: XzqgX4adMDElo0xoBt1NtyAzT1AsIYj36vPQtb8Bx70=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: Shared Streets
             description: >-
               SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps
@@ -1082,6 +1133,46 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Transportation Secure Data Center
+            description: >-
+              The TSDC relieves individual agencies from the burden of fielding numerous data-access requests. It also provides additional features such as
+              linked reference layers, data filtering, road grade and road network matching, summary statistics, and data set comparisons.
+            homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/tsdc-about.html'
+            repo_url: 'https://github.com/NREL/TSDC'
+            logo: tsdc.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+            github_data:
+              languages:
+                - name: Jupyter Notebook
+                  value: 28661373
+                  color: '#DA5B0B'
+                - name: Python
+                  value: 21202
+                  color: '#3572A5'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-13Z
+              stars: 2
+              license: Unknown License
+              description: null
+              latest_commit_date: '2018-12-14T00:28:23Z'
+              latest_commit_link: /NREL/TSDC/commit/0c43a3c0f2f6ec8ba4b5ba294ed5db3413216141
+              contributors_count: 3
+              contributors_link: 'https://github.com/NREL/TSDC/graphs/contributors'
+            repos:
+              - url: 'https://github.com/NREL/TSDC'
+                stars: 2
+            github_start_commit_data:
+              start_commit_link: /NREL/TSDC/commit/9bfef7411844efdf560fe0e822f72529016384c4
+              start_date: '2018-01-08T21:18:48Z'
+            image_data:
+              fileName: transportation-secure-data-center.svg
+              hash: F8Uxwd9BGu7TWIDtKhCF2NsOXsqfq4GKvXrtnt/YGMY=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Tools
         items:
@@ -1097,6 +1188,43 @@ landscape:
             image_data:
               fileName: remix.svg
               hash: kboHD76P8A5Dr+k5PUM0feJ5XaABMpgpbWagl0qGPdU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: RouteE
+            description: >-
+              The Route Energy Prediction Model (RouteE) was developed under ARPA-e TRANSNET and SMART Mobility - CAVs. Applications include vehicle route
+              selection, energy accounting and optimization in transportation simulation, and corridor energy analyses, among others. This tool is applicable in
+              any situation where past, present, or future trip information is available, and does not require high-resolution (i.e. 1 Hz+) like what is
+              required to run a powertrain simulation.
+            homepage_url: 'https://www.nrel.gov/transportation/route-energy-prediction-model.html'
+            repo_url: null
+            logo: routee.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_CITY
+            item_type: open_source
+            image_data:
+              fileName: route-e.svg
+              hash: NT0JevW07JGibWbh2w7oR3E1vBIJx4poFcz1fYaCk3M=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Transportation Energy & Mobility Pathway Options
+            description: >-
+              The TEMPO model explores pathway options to produce long-term scenarios that reach strategic transportation-energy-environment objectives and
+              assess synergies with energy supply. It characterizes opportunities for existing and future fuels, technologies, and business models across
+              transportation sub-sectors and segments.
+            homepage_url: 'https://www.nrel.gov/transportation/tempo-model.html'
+            repo_url: null
+            logo: tempo.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: closed_data
+            image_data:
+              fileName: transportation-energy-mobility-pathway-options.svg
+              hash: QigUdR8o2EPPBxCG5YCGH+bXHdQRcN6VuUSuvj2BVC8=
             best_practice_data:
               badge: false
               percentage: null
@@ -1187,16 +1315,71 @@ landscape:
         name: Metrics
         items:
           - item:
-            name: EPA Smart Location Mapping
-            description: Interactive maps and data for measuring location efficiency and the built environment using EPA meta-analysis and data
+            name: EPA Smart Location Database
+            description: >-
+              The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes
+              summarizing characteristics such as housing density, diversity of land use, neighborhood design, destination accessibility, transit service,
+              employment, and demographics. Most attributes are available for every census block group in the United States.
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
             logo: epa_smart.svg
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: closed_data
+            item_type: open_data
             image_data:
-              fileName: epa-smart-location-mapping.svg
+              fileName: epa-smart-location-database.svg
+              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: EPA Access to Jobs and Workers Via Transit Tool
+            description: >-
+              Access to Jobs and Workers Via Transit is a free geospatial data resource and web mapping tool for comparing the accessibility of neighborhoods
+              via public transit service. Indicators summarize accessibility to jobs as well as accessibility by workers, households, and population.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: epa-access-to-jobs-and-workers-via-transit-tool.svg
+              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: EPA National Walkability Index
+            description: >-
+              The Smart Location Calculator is a simple tool for exploring how workplace location affects worker commute travel. The tool provides location
+              efficiency scores for a user-entered address, as well as location efficiency data summarized at the block group level. All of the scores are
+              relative to the region.
+            homepage_url: 'https://www.slc.gsa.gov/slc/'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: epa-national-walkability-index.svg
+              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: EPA Smart Location Calculator
+            description: >-
+              The National Walkability Index is a nationwide geographic data resource that ranks block groups according to their relative walkability. The
+              national dataset includes walkability scores for all block groups as well as the underlying attributes that are used to rank the block groups.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: epa-smart-location-calculator.svg
               hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
             best_practice_data:
               badge: false
@@ -1216,9 +1399,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Apps
-        items:
           - item:
             name: Walkscore App
             description: >-
@@ -1372,6 +1552,39 @@ landscape:
             image_data:
               fileName: gtfs-ride.svg
               hash: ZQBpunazF16bVCVJe1ZaLQv1fCcTSDpKhNGWxXdevxw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Otonomo
+            description: >-
+              Connected car data was designed for vehicle operations, not for powering mobility services. In order for it to be effectively used in apps and
+              services, its raw format requires additional processing. Connected car data must be acquired, cleaned, normalized, and restructured which is the
+              service that Otonomo provides.
+            homepage_url: 'https://www.otonomo.io/connected-car-data/'
+            repo_url: null
+            logo: otonomo.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: otonomo.svg
+              hash: vPncUfPL57cltRDyrRjH8evgJTtm9lHK5N6ui/EevPI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Fleetsu
+            description: 'Fleetsu transform fleet management by enabling businesses to instantly collect, analyse and monetise fleet data, from light cars to trucks'
+            homepage_url: 'https://fleetsu.com'
+            repo_url: null
+            logo: fleetsu.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: fleetsu.svg
+              hash: qJMN9VacsIOBUx2QQXRnYhDdzLtv/yr67NSFA6FAcEg=
             best_practice_data:
               badge: false
               percentage: null

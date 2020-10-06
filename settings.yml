@@ -109,7 +109,7 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Interactive Mobility Specifications Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility specifications.
+    <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility specifications.
     This landscape does not capture the specifications for areas such as physical infastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
     The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
     and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
@@ -171,7 +171,7 @@ big_picture:
         category: Infastructure-Vehicles
         rows: 6
         width: 1000
-        height: 150
+        height: 270
         top: 850
         left: 0
         color: 'rgb(46,97,107)'
@@ -180,29 +180,29 @@ big_picture:
         rows: 6
         width: 1000
         height: 270
-        top: 1010
+        top: 1130
         left: 0
         color: 'rgb(107,97,46)'
       - type: HorizontalCategory
         category: Vehicles-People
         rows: 6
-        width: 1000
+        width: 1050
         height: 150
-        top: 1300
+        top: 1420
         left: 0
         color: 'rgb(107,97,46)'
       - type: VerticalCategory
         category: Infastructure-Vehicles-People
         cols: 9
         width: 315
-        height: 1000
+        height: 800
         top: 0
         left: 1100
         color: 'rgb(107,61,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1450
+        top: 1570
         left: 0
         children:
           - type: text
