@@ -1,7 +1,7 @@
 # THIS FILE IS GENERATED AUTOMATICALLY!
 landscape:
   - category:
-    name: Infastructure
+    name: Infrastructure
     subcategories:
       - subcategory:
         name: Data
@@ -412,7 +412,7 @@ landscape:
         name: Apps
         items:
           - item:
-            name: Infastructure Apps for Government and NGO
+            name: Infrastructure Apps for Government and NGO
             description: >-
               Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
               specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
@@ -426,7 +426,7 @@ landscape:
             geo_scope: COUNTRY
             item_type: closed_data
             image_data:
-              fileName: infastructure-apps-for-government-and-ngo.svg
+              fileName: infrastructure-apps-for-government-and-ngo.svg
               hash: jbOHDALwVX9PnflRy/LlcZ8qgmji1paxa01LqNZEUE4=
             best_practice_data:
               badge: false
@@ -548,6 +548,21 @@ landscape:
             image_data:
               fileName: open-flights.svg
               hash: ooRvkkZ6rdlGJe6ewnh/ohKP7dVJiK9wDdu7jmpIRWE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: TranStats
+            description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
+            homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
+            repo_url: null
+            logo: transtats.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: tran-stats.svg
+              hash: VPUrS70TgIQ257crDWy3y0Wlm5i776cnf5r1W9We96w=
             best_practice_data:
               badge: false
               percentage: null
@@ -960,7 +975,7 @@ landscape:
               badge: false
               percentage: null
   - category:
-    name: Infastructure-Vehicles
+    name: Infrastructure-Vehicles
     subcategories:
       - subcategory:
         name: Data
@@ -1247,7 +1262,7 @@ landscape:
               badge: false
               percentage: null
   - category:
-    name: Infastructure-People
+    name: Infrastructure-People
     subcategories:
       - subcategory:
         name: Mobility Count Results
@@ -1644,7 +1659,7 @@ landscape:
               badge: false
               percentage: null
   - category:
-    name: Infastructure-Vehicles-People
+    name: Infrastructure-Vehicles-People
     subcategories:
       - subcategory:
         name: Route Planning

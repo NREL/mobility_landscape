@@ -110,7 +110,7 @@ membership:
 home:
   header: >
     <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility specifications.
-    This landscape does not capture the specifications for areas such as physical infastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
+    This landscape does not capture the specifications for areas such as physical Infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
     The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
     and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
   footer: |
@@ -144,7 +144,7 @@ big_picture:
     fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
     elements:
       - type: HorizontalCategory
-        category: Infastructure
+        category: Infrastructure
         rows: 6
         width: 1050
         height: 270
@@ -168,7 +168,7 @@ big_picture:
         left: 0
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
-        category: Infastructure-Vehicles
+        category: Infrastructure-Vehicles
         rows: 6
         width: 1000
         height: 270
@@ -176,7 +176,7 @@ big_picture:
         left: 0
         color: 'rgb(46,97,107)'
       - type: HorizontalCategory
-        category: Infastructure-People
+        category: Infrastructure-People
         rows: 6
         width: 1000
         height: 270
@@ -192,7 +192,7 @@ big_picture:
         left: 0
         color: 'rgb(107,97,46)'
       - type: VerticalCategory
-        category: Infastructure-Vehicles-People
+        category: Infrastructure-Vehicles-People
         cols: 9
         width: 315
         height: 800
@@ -249,232 +249,6 @@ big_picture:
             right: 75
             top: 42
             title: Redpoint Logo
-  extra:
-    tab_index: 1
-    url: serverless
-    name: Serverless
-    short_name: Server...
-    title: CNCF Serverless Landscape
-    fullscreen_header: See the serverless interactive display at s.cncf.io
-    elements:
-      - type: HorizontalCategory
-        category: Tools
-        rows: 1
-        width: 570
-        height: 90
-        top: 0
-        left: 0
-        color: 'rgb(143,109,61)'
-        fit_width: true
-      - type: HorizontalCategory
-        category: Framework
-        rows: 1
-        width: 820
-        height: 90
-        top: 100
-        left: 0
-        fit_width: true
-        offset: 10
-        color: 'rgb(102,61,143)'
-      - type: HorizontalCategory
-        category: Security
-        rows: 1
-        width: 240
-        height: 90
-        top: 0
-        left: 580
-        color: 'rgb(179,94,77)'
-        fit_width: true
-        offset: 40
-      - type: HorizontalCategory
-        category: Hosted Platform
-        rows: 2
-        width: 480
-        height: 120
-        top: 200
-        left: 0
-        fit_width: true
-        color: 'rgb(83,115,38)'
-      - type: HorizontalCategory
-        category: Installable Platform
-        rows: 2
-        width: 330
-        height: 120
-        top: 200
-        left: 490
-        fit_width: true
-        color: 'rgb(83,115,38)'
-      - type: LandscapeInfo
-        width: 520
-        height: 120
-        top: 330
-        left: 0
-        children:
-          - type: text
-            text: >
-              Serverless computing refers to a new model of cloud native computing, enabled by architectures that do not require server management to build and
-              run applications. This landscape illustrates a finer-grained deployment model where applications, bundled as one or more functions, are uploaded
-              to a platform and then executed, scaled, and billed in response to the exact demand needed at the moment
-            top: 10
-            left: 90
-            right: 150
-            font_size: 9
-          - type: image
-            image: qr-s.svg
-            top: 10
-            left: 5
-            width: 70
-            height: 70
-            title: QR Code
-          - type: title
-            title: s.cncf.io
-            top: 75
-            left: 10
-            font_size: 16
-          - type: image
-            image: left-logo.svg
-            width: 110
-            right: 15
-            top: 10
-            title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            width: 109
-            right: 15
-            top: 45
-            title: CNCF Logo
-          - type: image
-            image: redpoint.svg
-            width: 109
-            right: 15
-            top: 70
-            title: Redpoint Logo
-      - type: LandscapeLink
-        url: landscape
-        title: Cloud Native Landscape
-        layout: subcategory
-        left: 635
-        top: 325
-        width: 185
-        height: 125
-        color: 'rgb(118, 181, 237)'
-  third:
-    tab_index: 2
-    url: members
-    name: Members
-    title: CNCF Members
-    fullscreen_header: Become a CNCF member at cncf.io/join or view the interactive member landscape at m.cncf.io
-    fullscreen_hide_grey_logos: true
-    elements:
-      - type: HorizontalCategory
-        category: Platinum
-        rows: 4
-        width: 1250
-        height: 200
-        top: 0
-        left: 0
-        color: '#c5c4c2'
-        fit_width: true
-        offset: 60
-      - type: HorizontalCategory
-        category: Gold
-        rows: 4
-        width: 1250
-        height: 200
-        top: 200
-        left: 0
-        color: '#D4AF37'
-        fit_width: true
-        offset: 70
-      - type: HorizontalCategory
-        category: Silver
-        rows: 23
-        width: 1250
-        height: 770
-        top: 400
-        left: 0
-        color: '#909090'
-        fit_width: true
-      - type: HorizontalCategory
-        category: End User Supporter
-        rows: 15
-        width: 300
-        height: 520
-        top: 0
-        left: 1280
-        color: 'rgb(38,115,57)'
-        fit_width: true
-        offset: 40
-      - type: HorizontalCategory
-        category: Nonprofit
-        rows: 4
-        width: 300
-        height: 170
-        top: 525
-        left: 1280
-        color: 'rgb(143,61,122)'
-        fit_width: true
-        offset: 0
-      - type: HorizontalCategory
-        category: Academic
-        rows: 1
-        width: 300
-        height: 80
-        top: 700
-        left: 1280
-        color: 'rgb(115,83,38)'
-        fit_width: true
-        offset: 0
-      - type: LandscapeLink
-        url: landscape
-        title: Landscape
-        layout: category
-        left: 1280
-        top: 795
-        width: 300
-        height: 180
-        color: 'rgb(64,117,191)'
-      - type: LandscapeInfo
-        width: 300
-        height: 200
-        top: 970
-        left: 1280
-        children:
-          - type: text
-            text: >
-              CNCF has over 500 members including the world’s largest public cloud and enterprise software companies as well over two hundred innovative
-              startups. Join your industry peers in helping build and shape the cloud native ecosystem.
-            top: 15
-            left: 100
-            right: 15
-            font_size: 11
-          - type: image
-            image: qr-l.svg
-            top: 15
-            left: 5
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: m.cncf.io
-            top: 105
-            left: 5
-            font_size: 21
-          - type: image
-            image: left-logo.svg
-            left: 4
-            height: 30
-            bottom: 13
-            width: 116
-            title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            left: 127
-            height: 30
-            bottom: 13
-            width: 161
-            title: CNCF Logo
-    category: CNCF Members
 test:
   header: Interactive Mobility Landscape
   section: CNCF Graduated Projects
