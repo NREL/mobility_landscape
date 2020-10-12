@@ -769,6 +769,17 @@ landscape:
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
+          - item:
+            name: Simulation of Urban MObility
+            description: >-
+              Eclipse SUMO (Simulation of Urban MObility) is an open source, highly portable, microscopic and continuous multi-modal traffic simulation package
+              designed to handle large networks.
+            homepage_url: 'https://www.eclipse.org/sumo/'
+            repo_url: 'https://github.com/eclipse/sumo'
+            logo: sumo.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
       - subcategory:
         name: Navigation
         items:

@@ -1819,6 +1819,88 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Simulation of Urban MObility
+            description: >-
+              Eclipse SUMO (Simulation of Urban MObility) is an open source, highly portable, microscopic and continuous multi-modal traffic simulation package
+              designed to handle large networks.
+            homepage_url: 'https://www.eclipse.org/sumo/'
+            repo_url: 'https://github.com/eclipse/sumo'
+            logo: sumo.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
+            github_data:
+              languages:
+                - name: C++
+                  value: 20336784
+                  color: '#f34b7d'
+                - name: Python
+                  value: 17186946
+                  color: '#3572A5'
+                - name: C
+                  value: 1421760
+                  color: '#555555'
+                - name: Java
+                  value: 1127159
+                  color: '#b07219'
+                - name: CMake
+                  value: 145834
+                - name: C#
+                  value: 102602
+                  color: '#178600'
+                - name: SWIG
+                  value: 35602
+                - name: Shell
+                  value: 31315
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 17320
+                  color: '#f1e05a'
+                - name: Batchfile
+                  value: 12680
+                  color: '#C1F12E'
+                - name: Objective-C
+                  value: 7694
+                  color: '#438eff'
+                - name: HTML
+                  value: 4970
+                  color: '#e34c26'
+                - name: Makefile
+                  value: 3198
+                  color: '#427819'
+                - name: CSS
+                  value: 2657
+                  color: '#563d7c'
+                - name: Dockerfile
+                  value: 1451
+                  color: '#384d54'
+                - name: Charity
+                  value: 24
+              contributions: >-
+                60;70;37;69;101;148;133;129;132;159;18;32;127;223;178;116;96;154;114;115;155;181;134;123;101;14;90;88;61;127;131;44;119;119;126;174;111;153;60;37;46;64;114;129;132;107;166;118;131;101;155;126
+              firstWeek: 2019-10-20Z
+              stars: 798
+              license: Eclipse Public License 2.0
+              description: >-
+                Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It
+                allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.
+              latest_commit_date: '2020-10-12T13:47:38Z'
+              latest_commit_link: /eclipse/sumo/commit/51838c0a76df1e7906b391b2c88c70ece5d58db7
+              contributors_count: 47
+              contributors_link: 'https://github.com/eclipse/sumo/graphs/contributors'
+            repos:
+              - url: 'https://github.com/eclipse/sumo'
+                stars: 798
+            github_start_commit_data:
+              start_commit_link: /eclipse/sumo/commit/61b58fbf780d2cc31e15438dd590a5270c4da0c9
+              start_date: '2018-04-10T10:10:26Z'
+            image_data:
+              fileName: simulation-of-urban-m-obility.svg
+              hash: uvgc4JYHweifuwel3FZOl7czGaYIOmgdBcp2LxonSz8=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Navigation
         items:
