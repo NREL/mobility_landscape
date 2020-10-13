@@ -539,7 +539,7 @@ landscape:
           - item:
             name: OpenFlights
             description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
-            homepage_url: 'https://openflights.org/data.html'
+            homepage_url: 'https://openfligFnydothts.org/data.html'
             repo_url: null
             logo: openflights.svg
             privacy: LINKED_FUZZY_OD
@@ -563,6 +563,23 @@ landscape:
             image_data:
               fileName: tran-stats.svg
               hash: VPUrS70TgIQ257crDWy3y0Wlm5i776cnf5r1W9We96w=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Federal Aviation Administration
+            description: >-
+              The FAA conducts research to ensure that commercial and general aviation is the safest in the world. Here you will find information about how the
+              research is done, the resulting data and statistics, and information on funding and grant data.
+            homepage_url: 'https://www.faa.gov/data_research/'
+            repo_url: null
+            logo: faa.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: federal-aviation-administration.svg
+              hash: Zk4O/5ZK9xtrxqChksXJ6PZBM2XbuxwyK7vdPSYECNs=
             best_practice_data:
               badge: false
               percentage: null
@@ -595,7 +612,7 @@ landscape:
             repo_url: 'https://github.com/highmobility/auto-api'
             logo: high_mobility.svg
             privacy: NO_MOBILITY
-            geo_scope: country
+            geo_scope: COUNTRY
             item_type: closed_data
             github_data:
               languages: []
@@ -707,6 +724,25 @@ landscape:
             image_data:
               fileName: inrix-road-rules.svg
               hash: FXwTq2zHh1xQaslP3qta4CK/SjcFbX6VDHoCEPwijLI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Autopilot
+            description: >-
+              AUTOPILOT is a European research project funded by the European Commission under the new Framework Programme for Research and Innovation H2020.
+              AUTOPILOT project will especially focus on utilizing the IoT potential for automated driving. The overall objective is to bring together relevant
+              knowledge and technology from the automotive and the IoT value chains in order to develop IoT-architectures and platforms, which will bring
+              Automated Driving towards a new dimension.
+            homepage_url: 'https://zenodo.org/communities/autopilot?page=1&size=20'
+            repo_url: null
+            logo: autopilot.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_specification
+            image_data:
+              fileName: autopilot.svg
+              hash: ikARQqQJ6J5DehbbreI/8PGlu/RYxCL6fFZp5HfT+/o=
             best_practice_data:
               badge: false
               percentage: null
@@ -930,6 +966,24 @@ landscape:
             item_type: closed_source
             image_data:
               fileName: r-move.svg
+              hash: UwZsG/mHvAWZjfvX1IUnd2JE8lOQFI//0pcI8YheW7o=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: NYC DOT Citywide Mobility Survey
+            description: >-
+              DOT conducts a robust annual travel survey called the Citywide Mobility Survey (CMS). Launched in 2017, it seeks to assess the travel behavior,
+              preferences, and attitudes of New York City residents. Annual reports with results from each year’s survey, as well as accompanying datasets, are
+              available below.
+            homepage_url: 'https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml'
+            repo_url: null
+            logo: rmove.svg
+            privacy: COUNT_RESULTS_ONLY
+            geo_scope: CITY
+            item_type: open_data
+            image_data:
+              fileName: nyc-dot-citywide-mobility-survey.svg
               hash: UwZsG/mHvAWZjfvX1IUnd2JE8lOQFI//0pcI8YheW7o=
             best_practice_data:
               badge: false
@@ -1600,6 +1654,21 @@ landscape:
             image_data:
               fileName: fleetsu.svg
               hash: qJMN9VacsIOBUx2QQXRnYhDdzLtv/yr67NSFA6FAcEg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Carto
+            description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
+            homepage_url: 'https://carto.com/spatial-data-catalog/'
+            repo_url: null
+            logo: carto.svg
+            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: carto.svg
+              hash: T+xeXbc5fT3eyo1meSut+6BaZlFd0xeU9VJZV4RLLos=
             best_practice_data:
               badge: false
               percentage: null

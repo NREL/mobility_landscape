@@ -155,7 +155,7 @@ big_picture:
         category: Vehicles
         rows: 6
         width: 1050
-        height: 270
+        height: 280
         top: 285
         left: 0
         color: 'rgb(46,107,46)'
@@ -195,7 +195,7 @@ big_picture:
         category: Infrastructure-Vehicles-People
         cols: 9
         width: 315
-        height: 800
+        height: 600
         top: 0
         left: 1100
         color: 'rgb(107,61,46)'
