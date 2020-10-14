@@ -547,7 +547,7 @@ landscape:
             item_type: open_data
             image_data:
               fileName: open-flights.svg
-              hash: ooRvkkZ6rdlGJe6ewnh/ohKP7dVJiK9wDdu7jmpIRWE=
+              hash: 0b3Zxu77/8RgTXphi++fASbjUGPWZsamzzlAobjLh2M=
             best_practice_data:
               badge: false
               percentage: null
@@ -556,13 +556,13 @@ landscape:
             description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
             homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
             repo_url: null
-            logo: transtats.svg
+            logo: usdot_apps.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: open_data
             image_data:
               fileName: tran-stats.svg
-              hash: VPUrS70TgIQ257crDWy3y0Wlm5i776cnf5r1W9We96w=
+              hash: jbOHDALwVX9PnflRy/LlcZ8qgmji1paxa01LqNZEUE4=
             best_practice_data:
               badge: false
               percentage: null
@@ -978,13 +978,13 @@ landscape:
               available below.
             homepage_url: 'https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml'
             repo_url: null
-            logo: rmove.svg
+            logo: nycdot.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: CITY
             item_type: open_data
             image_data:
               fileName: nyc-dot-citywide-mobility-survey.svg
-              hash: UwZsG/mHvAWZjfvX1IUnd2JE8lOQFI//0pcI8YheW7o=
+              hash: Zogf1MVBTszuvyzC5xG+fCoiQANpt2CxhRLpqStnniQ=
             best_practice_data:
               badge: false
               percentage: null

@@ -210,7 +210,7 @@ landscape:
             description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
             homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
             repo_url: null
-            logo: transtats.svg
+            logo: usdot_apps.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
             item_type: open_data
@@ -413,7 +413,7 @@ landscape:
               available below.
             homepage_url: 'https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml'
             repo_url: null
-            logo: rmove.svg
+            logo: nycdot.svg
             privacy: COUNT_RESULTS_ONLY
             geo_scope: CITY
             item_type: open_data

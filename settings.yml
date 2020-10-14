@@ -169,16 +169,16 @@ big_picture:
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
         category: Infrastructure-Vehicles
-        rows: 6
-        width: 1000
-        height: 270
+        rows: 2
+        width: 700
+        height: 275
         top: 850
         left: 0
         color: 'rgb(46,97,107)'
       - type: HorizontalCategory
         category: Infrastructure-People
         rows: 6
-        width: 1000
+        width: 800
         height: 270
         top: 1130
         left: 0
@@ -186,7 +186,7 @@ big_picture:
       - type: HorizontalCategory
         category: Vehicles-People
         rows: 6
-        width: 1050
+        width: 950
         height: 150
         top: 1420
         left: 0
