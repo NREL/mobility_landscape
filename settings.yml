@@ -58,7 +58,7 @@ relation:
           big_picture_color: 'rgb(108, 165, 209)'
           additional_relation: member
     - id: member
-      label: CNCF Member Products/Projects
+      label: Mobility Data Landscape Projects
       tag: CNCF Member
     - id: false
       label: Non-CNCF Member Products/Projects
@@ -143,66 +143,42 @@ big_picture:
     title: Interactive Mobility Landscape
     fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
     elements:
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: Infrastructure
-        rows: 6
-        width: 1050
-        height: 270
-        top: 0
+        cols: 9
+        width: 300
+        height: 1300
+        top: 450
         left: 0
         color: 'rgb(109,61,143)'
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: Vehicles
-        rows: 6
-        width: 1050
-        height: 280
-        top: 285
-        left: 0
+        cols: 9
+        width: 300
+        height: 1300
+        top: 450
+        left: 350
         color: 'rgb(46,107,46)'
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: People
-        rows: 4
-        width: 950
-        height: 270
-        top: 575
-        left: 0
+        cols: 9
+        width: 300
+        height: 550
+        top: 450
+        left: 700
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
-        category: Infrastructure-Vehicles
-        rows: 2
-        width: 700
-        height: 275
-        top: 850
-        left: 0
-        color: 'rgb(46,97,107)'
-      - type: HorizontalCategory
-        category: Infrastructure-People
-        rows: 6
-        width: 800
-        height: 270
-        top: 1130
-        left: 0
-        color: 'rgb(107,97,46)'
-      - type: HorizontalCategory
-        category: Vehicles-People
-        rows: 6
-        width: 950
-        height: 150
-        top: 1420
-        left: 0
-        color: 'rgb(107,97,46)'
-      - type: VerticalCategory
         category: Infrastructure-Vehicles-People
-        cols: 9
-        width: 315
-        height: 600
+        rows: 6
+        width: 1200
+        height: 400
         top: 0
-        left: 1100
+        left: 0
         color: 'rgb(107,61,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1570
+        top: 1800
         left: 0
         children:
           - type: text
