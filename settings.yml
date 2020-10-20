@@ -146,31 +146,31 @@ big_picture:
       - type: VerticalCategory
         category: Infrastructure
         cols: 9
-        width: 300
-        height: 1300
+        width: 275
+        height: 1200
         top: 450
         left: 0
         color: 'rgb(109,61,143)'
       - type: VerticalCategory
         category: Vehicles
         cols: 9
-        width: 300
-        height: 1300
+        width: 275
+        height: 1000
         top: 450
         left: 350
         color: 'rgb(46,107,46)'
       - type: VerticalCategory
         category: People
         cols: 9
-        width: 300
-        height: 550
+        width: 275
+        height: 400
         top: 450
         left: 700
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
         category: Infrastructure-Vehicles-People
         rows: 6
-        width: 1200
+        width: 1000
         height: 400
         top: 0
         left: 0
@@ -179,7 +179,7 @@ big_picture:
         width: 295
         height: 260
         top: 1800
-        left: 0
+        left: 700
         children:
           - type: text
             text: >

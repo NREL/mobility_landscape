@@ -735,6 +735,93 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+      - subcategory:
+        name: Metrics
+        items:
+          - item:
+            name: EPA Access to Jobs and Workers Via Transit Tool
+            description: >-
+              Access to Jobs and Workers Via Transit is a free geospatial data resource and web mapping tool for comparing the accessibility of neighborhoods
+              via public transit service. Indicators summarize accessibility to jobs as well as accessibility by workers, households, and population.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: epa-access-to-jobs-and-workers-via-transit-tool.svg
+              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: EPA National Walkability Index
+            description: >-
+              The Smart Location Calculator is a simple tool for exploring how workplace location affects worker commute travel. The tool provides location
+              efficiency scores for a user-entered address, as well as location efficiency data summarized at the block group level. All of the scores are
+              relative to the region.
+            homepage_url: 'https://www.slc.gsa.gov/slc/'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: epa-national-walkability-index.svg
+              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: EPA Smart Location Calculator
+            description: >-
+              The National Walkability Index is a nationwide geographic data resource that ranks block groups according to their relative walkability. The
+              national dataset includes walkability scores for all block groups as well as the underlying attributes that are used to rank the block groups.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: epa-smart-location-calculator.svg
+              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Walkscore
+            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
+            homepage_url: 'https://www.walkscore.com/professional/research.php'
+            repo_url: null
+            logo: walkscore.svg
+            privacy: NO_MOBILITY
+            geo_scope: MULTI_COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: walkscore.svg
+              hash: yl2kFlSLMWh+J6JwP4DS2AENdkBNAbX0o3e/OZBvN80=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Walkscore App
+            description: >-
+              Find apartments and rentals and see the Walk Score of any address on your phone or tablet. Walk Score is the leading measure of neighborhood
+              walkability. Walk Score helps you compare locations so you can find a place where you can drive less and live more.
+            homepage_url: 'https://www.walkscore.com/android/'
+            repo_url: null
+            logo: walkscore.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: closed_source
+            image_data:
+              fileName: walkscore-app.svg
+              hash: yl2kFlSLMWh+J6JwP4DS2AENdkBNAbX0o3e/OZBvN80=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: Vehicles
     subcategories:
@@ -1283,6 +1370,88 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Simulation of Urban MObility
+            description: >-
+              Eclipse SUMO (Simulation of Urban MObility) is an open source, highly portable, microscopic and continuous multi-modal traffic simulation package
+              designed to handle large networks.
+            homepage_url: 'https://www.eclipse.org/sumo/'
+            repo_url: 'https://github.com/eclipse/sumo'
+            logo: sumo.svg
+            privacy: LINKED_FUZZY_OD
+            geo_scope: MULTI_COUNTRY
+            item_type: open_specification
+            github_data:
+              languages:
+                - name: C++
+                  value: 20336784
+                  color: '#f34b7d'
+                - name: Python
+                  value: 17186946
+                  color: '#3572A5'
+                - name: C
+                  value: 1421760
+                  color: '#555555'
+                - name: Java
+                  value: 1127159
+                  color: '#b07219'
+                - name: CMake
+                  value: 145834
+                - name: C#
+                  value: 102602
+                  color: '#178600'
+                - name: SWIG
+                  value: 35602
+                - name: Shell
+                  value: 31315
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 17320
+                  color: '#f1e05a'
+                - name: Batchfile
+                  value: 12680
+                  color: '#C1F12E'
+                - name: Objective-C
+                  value: 7694
+                  color: '#438eff'
+                - name: HTML
+                  value: 4970
+                  color: '#e34c26'
+                - name: Makefile
+                  value: 3198
+                  color: '#427819'
+                - name: CSS
+                  value: 2657
+                  color: '#563d7c'
+                - name: Dockerfile
+                  value: 1451
+                  color: '#384d54'
+                - name: Charity
+                  value: 24
+              contributions: >-
+                60;70;37;69;101;148;133;129;132;159;18;32;127;223;178;116;96;154;114;115;155;181;134;123;101;14;90;88;61;127;131;44;119;119;126;174;111;153;60;37;46;64;114;129;132;107;166;118;131;101;155;126
+              firstWeek: 2019-10-20Z
+              stars: 798
+              license: Eclipse Public License 2.0
+              description: >-
+                Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It
+                allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.
+              latest_commit_date: '2020-10-12T13:47:38Z'
+              latest_commit_link: /eclipse/sumo/commit/51838c0a76df1e7906b391b2c88c70ece5d58db7
+              contributors_count: 47
+              contributors_link: 'https://github.com/eclipse/sumo/graphs/contributors'
+            repos:
+              - url: 'https://github.com/eclipse/sumo'
+                stars: 798
+            github_start_commit_data:
+              start_commit_link: /eclipse/sumo/commit/61b58fbf780d2cc31e15438dd590a5270c4da0c9
+              start_date: '2018-04-10T10:10:26Z'
+            image_data:
+              fileName: simulation-of-urban-m-obility.svg
+              hash: uvgc4JYHweifuwel3FZOl7czGaYIOmgdBcp2LxonSz8=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Apps
         items:
@@ -1315,6 +1484,27 @@ landscape:
             image_data:
               fileName: moovit.svg
               hash: +vRQWpHljCOPPIWknGwKKaEElywTg8RxfnfGAh5zd7k=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Metrics
+        items:
+          - item:
+            name: EPA Smart Location Database
+            description: >-
+              The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes
+              summarizing characteristics such as housing density, diversity of land use, neighborhood design, destination accessibility, transit service,
+              employment, and demographics. Most attributes are available for every census block group in the United States.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_smart.svg
+            privacy: NO_MOBILITY
+            geo_scope: COUNTRY
+            item_type: open_data
+            image_data:
+              fileName: epa-smart-location-database.svg
+              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
             best_practice_data:
               badge: false
               percentage: null
@@ -1744,88 +1934,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: Simulation of Urban MObility
-            description: >-
-              Eclipse SUMO (Simulation of Urban MObility) is an open source, highly portable, microscopic and continuous multi-modal traffic simulation package
-              designed to handle large networks.
-            homepage_url: 'https://www.eclipse.org/sumo/'
-            repo_url: 'https://github.com/eclipse/sumo'
-            logo: sumo.svg
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
-            item_type: open_specification
-            github_data:
-              languages:
-                - name: C++
-                  value: 20336784
-                  color: '#f34b7d'
-                - name: Python
-                  value: 17186946
-                  color: '#3572A5'
-                - name: C
-                  value: 1421760
-                  color: '#555555'
-                - name: Java
-                  value: 1127159
-                  color: '#b07219'
-                - name: CMake
-                  value: 145834
-                - name: C#
-                  value: 102602
-                  color: '#178600'
-                - name: SWIG
-                  value: 35602
-                - name: Shell
-                  value: 31315
-                  color: '#89e051'
-                - name: JavaScript
-                  value: 17320
-                  color: '#f1e05a'
-                - name: Batchfile
-                  value: 12680
-                  color: '#C1F12E'
-                - name: Objective-C
-                  value: 7694
-                  color: '#438eff'
-                - name: HTML
-                  value: 4970
-                  color: '#e34c26'
-                - name: Makefile
-                  value: 3198
-                  color: '#427819'
-                - name: CSS
-                  value: 2657
-                  color: '#563d7c'
-                - name: Dockerfile
-                  value: 1451
-                  color: '#384d54'
-                - name: Charity
-                  value: 24
-              contributions: >-
-                60;70;37;69;101;148;133;129;132;159;18;32;127;223;178;116;96;154;114;115;155;181;134;123;101;14;90;88;61;127;131;44;119;119;126;174;111;153;60;37;46;64;114;129;132;107;166;118;131;101;155;126
-              firstWeek: 2019-10-20Z
-              stars: 798
-              license: Eclipse Public License 2.0
-              description: >-
-                Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It
-                allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.
-              latest_commit_date: '2020-10-12T13:47:38Z'
-              latest_commit_link: /eclipse/sumo/commit/51838c0a76df1e7906b391b2c88c70ece5d58db7
-              contributors_count: 47
-              contributors_link: 'https://github.com/eclipse/sumo/graphs/contributors'
-            repos:
-              - url: 'https://github.com/eclipse/sumo'
-                stars: 798
-            github_start_commit_data:
-              start_commit_link: /eclipse/sumo/commit/61b58fbf780d2cc31e15438dd590a5270c4da0c9
-              start_date: '2018-04-10T10:10:26Z'
-            image_data:
-              fileName: simulation-of-urban-m-obility.svg
-              hash: uvgc4JYHweifuwel3FZOl7czGaYIOmgdBcp2LxonSz8=
-            best_practice_data:
-              badge: false
-              percentage: null
       - subcategory:
         name: Navigation
         items:
@@ -2016,111 +2124,6 @@ landscape:
             image_data:
               fileName: tsa-traveler-data.svg
               hash: rLMFLC/A2jHm8pPqb8b9VbpQerCMEOANJzduGvzn+oU=
-            best_practice_data:
-              badge: false
-              percentage: null
-      - subcategory:
-        name: Metrics
-        items:
-          - item:
-            name: EPA Smart Location Database
-            description: >-
-              The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes
-              summarizing characteristics such as housing density, diversity of land use, neighborhood design, destination accessibility, transit service,
-              employment, and demographics. Most attributes are available for every census block group in the United States.
-            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
-            repo_url: null
-            logo: epa_smart.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-            item_type: open_data
-            image_data:
-              fileName: epa-smart-location-database.svg
-              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: EPA Access to Jobs and Workers Via Transit Tool
-            description: >-
-              Access to Jobs and Workers Via Transit is a free geospatial data resource and web mapping tool for comparing the accessibility of neighborhoods
-              via public transit service. Indicators summarize accessibility to jobs as well as accessibility by workers, households, and population.
-            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
-            repo_url: null
-            logo: epa_smart.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-            item_type: open_data
-            image_data:
-              fileName: epa-access-to-jobs-and-workers-via-transit-tool.svg
-              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: EPA National Walkability Index
-            description: >-
-              The Smart Location Calculator is a simple tool for exploring how workplace location affects worker commute travel. The tool provides location
-              efficiency scores for a user-entered address, as well as location efficiency data summarized at the block group level. All of the scores are
-              relative to the region.
-            homepage_url: 'https://www.slc.gsa.gov/slc/'
-            repo_url: null
-            logo: epa_smart.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-            item_type: open_data
-            image_data:
-              fileName: epa-national-walkability-index.svg
-              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: EPA Smart Location Calculator
-            description: >-
-              The National Walkability Index is a nationwide geographic data resource that ranks block groups according to their relative walkability. The
-              national dataset includes walkability scores for all block groups as well as the underlying attributes that are used to rank the block groups.
-            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
-            repo_url: null
-            logo: epa_smart.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-            item_type: open_data
-            image_data:
-              fileName: epa-smart-location-calculator.svg
-              hash: Y/ylSUW84U8zTK331AmCM5h3LkBnErY5dxEpPe5eu/U=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Walkscore
-            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
-            homepage_url: 'https://www.walkscore.com/professional/research.php'
-            repo_url: null
-            logo: walkscore.svg
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-            item_type: closed_source
-            image_data:
-              fileName: walkscore.svg
-              hash: yl2kFlSLMWh+J6JwP4DS2AENdkBNAbX0o3e/OZBvN80=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Walkscore App
-            description: >-
-              Find apartments and rentals and see the Walk Score of any address on your phone or tablet. Walk Score is the leading measure of neighborhood
-              walkability. Walk Score helps you compare locations so you can find a place where you can drive less and live more.
-            homepage_url: 'https://www.walkscore.com/android/'
-            repo_url: null
-            logo: walkscore.svg
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
-            item_type: closed_source
-            image_data:
-              fileName: walkscore-app.svg
-              hash: yl2kFlSLMWh+J6JwP4DS2AENdkBNAbX0o3e/OZBvN80=
             best_practice_data:
               badge: false
               percentage: null
