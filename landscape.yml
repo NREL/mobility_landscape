@@ -11,9 +11,16 @@ landscape:
             homepage_url: 'https://www.fhwa.dot.gov/policyinformation/statistics.cfm'
             repo_url: null
             logo: Highway_usdot.svg
+            mode: [auto, heavy, light]
+            data_duration: 10
+            data_freq: yearly
+            data_format: excel
+            data_owner: [government, federal]
+            region: [north_america, usa]
+            publication: not_published
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type: [open_specification, Free]
           - item:
             name: USDOT Data Governance
             description: >-
@@ -860,17 +867,6 @@ landscape:
       - subcategory:
         name: Mobility Count Results
         items:
-          - item:
-            name: CoVid19 Data
-            description: >-
-              As global communities respond to COVID-19, Google released aggregated, anonymized data from products such as Google Maps. Will only be available
-              for a short period of time.
-            homepage_url: 'https://www.google.com/covid19/mobility/'
-            repo_url: 'https://github.com/ActiveConclusion/COVID19_mobility'
-            logo: googlecovid.svg
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
-            item_type: closed_source
           - item:
             name: TSA Traveler Data
             description: >-
