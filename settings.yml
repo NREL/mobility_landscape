@@ -148,7 +148,7 @@ big_picture:
         cols: 9
         width: 275
         height: 1200
-        top: 450
+        top: 350
         left: 0
         color: 'rgb(109,61,143)'
       - type: VerticalCategory
@@ -156,7 +156,7 @@ big_picture:
         cols: 9
         width: 275
         height: 1000
-        top: 450
+        top: 350
         left: 350
         color: 'rgb(46,107,46)'
       - type: VerticalCategory
@@ -164,14 +164,14 @@ big_picture:
         cols: 9
         width: 275
         height: 400
-        top: 450
+        top: 350
         left: 700
         color: 'rgb(143,88,61)'
       - type: HorizontalCategory
         category: Infrastructure-Vehicles-People
         rows: 6
         width: 1000
-        height: 400
+        height: 300
         top: 0
         left: 0
         color: 'rgb(107,61,46)'
