@@ -12,9 +12,14 @@ landscape:
             repo_url: null
             logo: Highway_usdot.svg
             mode:
-              - auto
-              - heavy
-              - light
+              - primary: auto
+                secondary:
+                  - heavy
+                  - light
+              - primary: transit
+                secondary:
+                  - bus
+                  - train
             data_details:
               duration: 10
               frequency: yearly
