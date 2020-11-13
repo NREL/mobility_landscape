@@ -12,25 +12,23 @@ landscape:
             repo_url: null
             logo: Highway_usdot.svg
             mode:
-              - primary: auto
+              - primary: Auto
                 secondary:
-                  - heavy
-                  - light
-              - primary: transit
+                  - Heavy
+                  - Light
+              - primary: Transit
                 secondary:
-                  - bus
-                  - train
-            data_details:
-              duration: 10
-              frequency: yearly
-              format: excel
-              owner:
-                - government
-                - federal
+                  - Bus
+                  - Train
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
             region:
-              - north_america
-              - usa
-            publication: false
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
             item_type:
@@ -44,18 +42,47 @@ landscape:
             homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
             repo_url: null
             logo: data_usdot.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: PDF
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: NeTEx
             description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
             homepage_url: 'http://netex-cen.eu/'
             repo_url: null
             logo: netex.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+              - primary: Bus
+                secondary:
+                  - Shuttle
+                  - Short Haul
+            data_duration: Ten Years
+            data_frequency: yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - Europe
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: GPX
             description: >-
@@ -64,9 +91,28 @@ landscape:
             homepage_url: 'https://www.topografix.com/gpx.asp'
             repo_url: null
             logo: gpx.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: Work Zone Data Exchange
             description: >-
@@ -77,9 +123,25 @@ landscape:
             homepage_url: 'https://www.transportation.gov/av/data/wzdx'
             repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
             logo: wzdx.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: PDF
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: Mobility Data MarketPlace
             description: >-
@@ -90,9 +152,24 @@ landscape:
             homepage_url: 'https://www.datex2.eu/implementations/profile_directory/german-roadworks-profile'
             repo_url: null
             logo: mdm.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Government
+            region:
+              - Europe
+              - Germany
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: Shared Streets
             description: >-
@@ -102,9 +179,28 @@ landscape:
             homepage_url: 'https://sharedstreets.io'
             repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
             logo: sharedstreets.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Scooter
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
-            item_type: closed_data
+            item_type:
+              - closed_data
+              - Pay
           - item:
             name: GTFS Main
             description: >-
@@ -114,9 +210,31 @@ landscape:
             homepage_url: 'https://gtfs.org/'
             repo_url: 'https://github.com/google/transit'
             logo: GTFS.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Text
+            data_owner:
+              - Government
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: Open Mobility Data
             description: >-
@@ -125,9 +243,31 @@ landscape:
             homepage_url: 'https://openmobilitydata.org/'
             repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
             logo: openmobilitydata.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Transit Agency
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Transportation Secure Data Center
             description: >-
@@ -136,9 +276,28 @@ landscape:
             homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/tsdc-about.html'
             repo_url: 'https://github.com/NREL/TSDC'
             logo: tsdc.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Open Sidewalks
             description: >-
@@ -147,9 +306,22 @@ landscape:
             homepage_url: 'https://www.opensidewalks.com'
             repo_url: 'https://github.com/OpenSidewalks/opensidewalks-data'
             logo: opensidewalks.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
       - subcategory:
         name: Crowdsourced Maps
         items:
@@ -159,27 +331,110 @@ landscape:
             homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
             repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
             logo: openstreetmap.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: City Lines
             description: Crowdsourced map of transit systems across the world
             homepage_url: 'https://www.citylines.co/'
             repo_url: 'https://github.com/citylines/citylines'
             logo: citylines.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Transitland
             description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
             homepage_url: 'https://transit.land/'
             repo_url: 'https://github.com/transitland/transitland-atlas'
             logo: transitland_logo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Places
             description: >-
@@ -188,9 +443,38 @@ landscape:
             homepage_url: 'https://cloud.google.com/maps-platform'
             repo_url: null
             logo: places.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
       - subcategory:
         name: Tools
         items:
@@ -202,9 +486,24 @@ landscape:
             homepage_url: 'http://camsys.software/products/transam'
             repo_url: 'https://github.com/camsys/transam_core'
             logo: transam.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: OSMnx
             description: >-
@@ -215,18 +514,56 @@ landscape:
             homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
             repo_url: 'https://github.com/gboeing/osmnx'
             logo: openstreetmap.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: GPX Tool
             description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
             homepage_url: 'https://github.com/topics/gpx'
             repo_url: 'https://github.com/tkrajina/gpxpy'
             logo: gpx.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: Scenario Evaluation and Regionalization Analysis Model
             description: >-
@@ -235,18 +572,59 @@ landscape:
             homepage_url: 'https://www.nrel.gov/hydrogen/sera-model.html'
             repo_url: null
             logo: sera.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: remix
             description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
             homepage_url: 'https://www.remix.com'
             repo_url: null
             logo: remix.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Long Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_CITY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Transportation Energy & Mobility Pathway Options
             description: >-
@@ -256,9 +634,29 @@ landscape:
             homepage_url: 'https://www.nrel.gov/transportation/tempo-model.html'
             repo_url: null
             logo: tempo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: closed_data
+            item_type:
+              - closed_data
+              - Pay
           - item:
             name: California Statewide Integrated Traffic Records System
             description: >-
@@ -270,9 +668,25 @@ landscape:
             homepage_url: 'https://www.chp.ca.gov/Programs-Services/Services-Information/SWITRS-Internet-Statewide-Integrated-Traffic-Records-System'
             repo_url: null
             logo: switrs.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: PDF
+            data_owner:
+              - Government
+              - State
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: STATE
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
       - subcategory:
         name: Apps
         items:
@@ -287,9 +701,23 @@ landscape:
             homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
             repo_url: null
             logo: usdot_apps.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: PDF
+            data_owner:
+              - Government
+            region:
+              - North America
+              - Federal
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: closed_data
+            item_type:
+              - closed_data
       - subcategory:
         name: Metrics
         items:
@@ -301,9 +729,29 @@ landscape:
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
             logo: epa_smart.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Long Haul
+                  - Shuttle
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: EPA National Walkability Index
             description: >-
@@ -313,9 +761,24 @@ landscape:
             homepage_url: 'https://www.slc.gsa.gov/slc/'
             repo_url: null
             logo: epa_smart.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: EPA Smart Location Calculator
             description: >-
@@ -324,18 +787,57 @@ landscape:
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
             logo: epa_smart.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: Walkscore
             description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
             homepage_url: 'https://www.walkscore.com/professional/research.php'
             repo_url: null
             logo: walkscore.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+              - primary: Bus
+                secondary:
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - Europe
+              - USA
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Walkscore App
             description: >-
@@ -344,9 +846,32 @@ landscape:
             homepage_url: 'https://www.walkscore.com/android/'
             repo_url: null
             logo: walkscore.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+              - primary: Bus
+                secondary:
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
   - category:
     name: Vehicles
     subcategories:
@@ -359,18 +884,47 @@ landscape:
             homepage_url: 'https://www.transit.dot.gov/ntd'
             repo_url: null
             logo: NTD.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
+              - USA
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: High Mobility
             description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
             homepage_url: 'https://about.high-mobility.com'
             repo_url: null
             logo: high_mobility.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
             privacy: NO_MOBILITY
-            geo_scope: country
-            item_type: closed_data
+            geo_scope: COUNTRY
+            item_type:
+              - closed_data
+              - Pay
           - item:
             name: GTFS Real Time
             description: >-
@@ -379,9 +933,31 @@ landscape:
             homepage_url: 'https://gtfs.org/reference/realtime/v2/'
             repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
             logo: GTFS.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Continuous
+            data_format: Text
+            data_owner:
+              - Government
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type:
+              - open_data
+              - Free
           - item:
             name: wejo
             description: >-
@@ -390,27 +966,72 @@ landscape:
             homepage_url: 'https://www.wejo.com'
             repo_url: null
             logo: wejo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: OpenFlights
             description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
             homepage_url: 'https://openfligFnydothts.org/data.html'
             repo_url: null
             logo: openflights.svg
+            mode:
+              - primary: Air
+                secondary:
+                  - Public
+            data_duration: Ten Years
+            data_frequency: Monthly
+            data_format: Text
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - South America
+              - Europe
+              - Asia
+              - Ocenia
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: TranStats
             description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
             homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
             repo_url: null
             logo: usdot_apps.svg
+            mode:
+              - primary: Air
+                secondary:
+                  - Public
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: Federal Aviation Administration
             description: >-
@@ -419,9 +1040,24 @@ landscape:
             homepage_url: 'https://www.faa.gov/data_research/'
             repo_url: null
             logo: faa.svg
+            mode:
+              - primary: Air
+                secondary:
+                  - Public
+            data_duration: Ten Years
+            data_frequency: Monthly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: General Bikeshare Feed Specification
             description: >-
@@ -430,9 +1066,26 @@ landscape:
             homepage_url: 'https://nabsa.net/resources/gbfs/'
             repo_url: 'https://github.com/NABSA/gbfs'
             logo: gbfs.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+            data_duration: Five Years
+            data_frequency: Continuous
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - South America
+              - Asia
+              - Europe
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: Chicago Ride-Sharing Data
             description: >-
@@ -441,18 +1094,48 @@ landscape:
             homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
             repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
             logo: chicagotnp.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Rideshare
+            data_duration: Three Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: CITY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: New York City Ride-Sharing Data
             description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
             homepage_url: 'https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
             repo_url: null
             logo: nyc.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Rideshare
+            data_duration: Three Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: CITY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: GTFS Ride
             description: >-
@@ -461,9 +1144,27 @@ landscape:
             homepage_url: 'https://www.gtfs-ride.org'
             repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
             logo: gtfs_ride.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Text
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: STATE
-            item_type: open_source
+            item_type:
+              - open_data
+              - Free
           - item:
             name: Otonomo
             description: >-
@@ -473,27 +1174,73 @@ landscape:
             homepage_url: 'https://www.otonomo.io/connected-car-data/'
             repo_url: null
             logo: otonomo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Fleetsu
             description: 'Fleetsu transform fleet management by enabling businesses to instantly collect, analyse and monetise fleet data, from light cars to trucks'
             homepage_url: 'https://fleetsu.com'
             repo_url: null
             logo: fleetsu.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Monthly
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Carto
             description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
             homepage_url: 'https://carto.com/spatial-data-catalog/'
             repo_url: null
             logo: carto.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
       - subcategory:
         name: Tools
         items:
@@ -505,9 +1252,22 @@ landscape:
             homepage_url: 'https://www.nrel.gov/transportation/adopt.html'
             repo_url: null
             logo: adopt.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - North America
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Auto API
             description: >-
@@ -516,9 +1276,23 @@ landscape:
             homepage_url: 'https://high-mobility.com/learn/documentation/rest/reference/v3/'
             repo_url: 'https://github.com/highmobility/auto-api'
             logo: high_mobility.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: closed_data
+            item_type:
+              - closed_data
+              - Pay
           - item:
             name: RITIS
             description: >-
@@ -528,18 +1302,51 @@ landscape:
             homepage_url: 'https://www.ritis.org/intro'
             repo_url: null
             logo: ritis.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: City Bikes API
             description: REST API for aggregated bikeshare data from around the world.
             homepage_url: 'http://api.citybik.es/v2/'
             repo_url: null
             logo: citybikes.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - North America
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: pybikes
             description: >-
@@ -548,9 +1355,22 @@ landscape:
             homepage_url: 'https://pypi.org/project/python-citybikes/'
             repo_url: 'https://github.com/eskerda/pybikes'
             logo: pybikes.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - North America
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: INRIX Road Rules
             description: >-
@@ -559,9 +1379,23 @@ landscape:
             homepage_url: 'https://inrix.com/products/road-rules/'
             repo_url: null
             logo: inrix.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Autopilot
             description: >-
@@ -572,20 +1406,50 @@ landscape:
             homepage_url: 'https://zenodo.org/communities/autopilot?page=1&size=20'
             repo_url: null
             logo: autopilot.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: PDF
+            data_owner:
+              - Government
+            region:
+              - Europe
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: RidePilot
             description: >-
-              RidePilot is an open-source, web-based transportation scheduling system designed to meet the needs and budgets of smaller public and nonprofit
+              RidePilot is an open-source, web-based transportation scheduling system designed to meet the needs and budgets of smaller public and Open Project
               specialized transportation agencies.
             homepage_url: 'http://camsys.software/products/ridepilot'
             repo_url: 'https://github.com/camsys/ridepilot'
             logo: ride_pilot.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Long Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - North America
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Simulation of Urban MObility
             description: >-
@@ -594,9 +1458,23 @@ landscape:
             homepage_url: 'https://www.eclipse.org/sumo/'
             repo_url: 'https://github.com/eclipse/sumo'
             logo: sumo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open
+            region:
+              - North America
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
       - subcategory:
         name: Apps
         items:
@@ -608,18 +1486,55 @@ landscape:
             homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
             repo_url: null
             logo: sigalert.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Continuous
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Moovit
             description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of the best urban mobility app'
             homepage_url: 'https://moovit.com'
             repo_url: null
             logo: moovit.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North  America
+              - Europe
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
       - subcategory:
         name: Metrics
         items:
@@ -632,9 +1547,32 @@ landscape:
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
             logo: epa_smart.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Long Haul
+                  - Shuttle
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
   - category:
     name: People
     subcategories:
@@ -647,9 +1585,23 @@ landscape:
             homepage_url: 'https://www.streetlightdata.com/'
             repo_url: null
             logo: streetlight.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_FUZZY_OD
             geo_scope: MULTI_CITY
-            item_type: closed_data
+            item_type:
+              - closed_data
+              - Pay
           - item:
             name: cubeiq
             description: >-
@@ -658,18 +1610,45 @@ landscape:
             homepage_url: 'https://www.cuebiq.com/about/'
             repo_url: null
             logo: cubeiq.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: veraset
             description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
             homepage_url: 'https://www.veraset.com/about-veraset'
             repo_url: null
             logo: veraset.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: SafeGraph
             description: >-
@@ -678,9 +1657,23 @@ landscape:
             homepage_url: 'https://www.safegraph.com'
             repo_url: null
             logo: safegraph.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
       - subcategory:
         name: Travel Behavior Collection
         items:
@@ -692,9 +1685,38 @@ landscape:
             homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
             repo_url: 'https://github.com/e-mission/e-mission-server'
             logo: emission.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Three Years
+            data_frequency: Continuous
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Itinerum
             description: >-
@@ -705,9 +1727,23 @@ landscape:
             homepage_url: 'https://itinerum.ca/about.html'
             repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
             logo: itinerum.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Three Years
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - Canada
             privacy: UNLINKED_FUZZY_OD
             geo_scope: CITY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: rMove
             description: >-
@@ -717,9 +1753,23 @@ landscape:
             homepage_url: 'https://rmove.rsginc.com'
             repo_url: null
             logo: rmove.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: NYC DOT Citywide Mobility Survey
             description: >-
@@ -729,9 +1779,38 @@ landscape:
             homepage_url: 'https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml'
             repo_url: null
             logo: nycdot.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Rideshare
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Three Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - State
+            region:
+              - North America
+              - USA
             privacy: COUNT_RESULTS_ONLY
             geo_scope: CITY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
       - subcategory:
         name: Tools
         items:
@@ -743,9 +1822,26 @@ landscape:
             homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
             repo_url: 'https://github.com/metrotransit/route-trends'
             logo: route_trends.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - USA
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_CITY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
   - category:
     name: Vehicles-People
     subcategories: null
@@ -763,18 +1859,48 @@ landscape:
             homepage_url: 'https://www.nextbus.com/'
             repo_url: null
             logo: nextbus.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - Europe
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
           - item:
             name: OneBusAway
             description: OneBusAway is an open source software system for real-time transit information in urban centers.
             homepage_url: 'https://onebusaway.org'
             repo_url: 'https://github.com/OneBusAway/onebusaway'
             logo: one_bus_away.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - USA
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_CITY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Transmodel
             description: >-
@@ -783,9 +1909,26 @@ landscape:
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
             logo: transmodel.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: PDF
+            data_owner:
+              - Government
+            region:
+              - Europe
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_specification
+            item_type:
+              - open_specification
+              - Free
           - item:
             name: Open Trip Planner
             description: >-
@@ -794,25 +1937,79 @@ landscape:
             homepage_url: 'http://www.opentripplanner.org/'
             repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
             logo: opentripplanner.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
           - item:
             name: Transport API
             description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
             homepage_url: 'https://www.transportapi.com/'
             repo_url: null
             logo: transportapi.svg
-            open_source: false
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - Europe
+              - United Kingdom
             privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
             geo_scope: COUNTRY
-            item_type: closed_data
+            item_type:
+              - closed_data
+              - Pay
           - item:
             name: Transmodel - Siri
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
             logo: transmodel.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Government
+            region:
+              - Europe
             privacy: LINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
             item_type: open_specification
@@ -829,9 +2026,23 @@ landscape:
             homepage_url: 'https://www.waze.com/waze'
             repo_url: null
             logo: waze.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Ten Years
+            data_frequency: Continuous
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-            item_type: closed_data
+            item_type:
+              - closed_data
+              - Pay
           - item:
             name: Google Maps
             description: >-
@@ -841,9 +2052,44 @@ landscape:
             homepage_url: 'https://www.google.com/maps'
             repo_url: null
             logo: googlecovid.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Ten Years
+            data_frequency: Continuous
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - South America
+              - Europe
+              - Africa
+              - Asia
+              - Oceania
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: TomTom
             description: >-
@@ -852,9 +2098,40 @@ landscape:
             homepage_url: 'https://www.tomtom.com/en_us/'
             repo_url: null
             logo: tomtom.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: UNLINKED_FUZZY_OD
             geo_scope: COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: Mapbox
             description: >-
@@ -863,9 +2140,24 @@ landscape:
             homepage_url: 'https://www.mapbox.com'
             repo_url: 'https://github.com/mapbox/mapbox-navigation-android'
             logo: mapbox.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - Europe
             privacy: UNLINKED_FUZZY_OD
             geo_scope: MULTI_COUNTRY
-            item_type: closed_source
+            item_type:
+              - closed_source
+              - Pay
           - item:
             name: RouteE
             description: >-
@@ -876,9 +2168,24 @@ landscape:
             homepage_url: 'https://www.nrel.gov/transportation/route-energy-prediction-model.html'
             repo_url: null
             logo: routee.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - North America
+              - USA
             privacy: NO_MOBILITY
             geo_scope: MULTI_CITY
-            item_type: open_source
+            item_type:
+              - open_source
+              - Free
       - subcategory:
         name: Mobility Count Results
         items:
@@ -890,6 +2197,20 @@ landscape:
             homepage_url: 'https://www.tsa.gov/coronavirus/passenger-throughput'
             repo_url: null
             logo: tsa.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: One Year
+            data_frequency: Weekly
+            data_format: Excel
+            data_owner:
+              - Industry
+            region:
+              - North America
+              - USA
             privacy: COUNT_RESULTS_ONLY
             geo_scope: COUNTRY
-            item_type: open_data
+            item_type:
+              - open_data
+              - Free
