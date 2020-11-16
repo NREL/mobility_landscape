@@ -175,48 +175,30 @@ big_picture:
         children:
           - type: text
             text: >
-              This landscape is intended as a map through the previously uncharted terrain of cloud native technologies. There are many routes to deploying a
-              cloud native application, with CNCF Projects representing a particularly well-traveled path.
+              This landscape is intended as a map through the previously uncharted terrain of mobility data. The hope is that this space
+              can be used for collaboration among mobility data researchers and creators.
             top: 80
             left: 120
             right: 20
             font_size: 11
           - type: image
-            image: qr-l.svg
+            image: qr-code.svg
             top: 80
             left: 15
             width: 90
             height: 90
             title: QR Code
           - type: title
-            title: l.cncf.io
+            title: NREL
             top: 168
             left: 18
             font_size: 23
           - type: image
-            image: right-logo.svg
-            width: 109
-            right: 15
-            top: 15
-            title: CNCF Logo
-          - type: image
-            image: left-logo.svg
+            image: iml_logo.svg
             width: 140
             left: 15
             top: 15
             title: Landscape Logo
-          - type: image
-            image: amplify.svg
-            width: 50
-            right: 15
-            top: 40
-            title: Amplify Logo
-          - type: image
-            image: redpoint.svg
-            width: 50
-            right: 75
-            top: 42
-            title: Redpoint Logo
 test:
   header: Interactive Mobility Landscape
   section: Graduated Projects
@@ -229,5 +211,5 @@ anonymous_organization:
   country: Antarctica
   twitter: 'https://twitter.com/CloudNativeFdn'
 mosaics:
-  - cncf-logo.svg
-  - landscape-logo.svg
+  - iml_logo.svg
+  - nrel.svg
