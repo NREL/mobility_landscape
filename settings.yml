@@ -3,9 +3,9 @@ global:
   short_name: IML
   mode: CNCF
   repo: cncf/mobility_landscape
-  website: 'https://landscape.cncf.io'
+  website: 'https://nrel.github.io/mobility_landscape/'
   short_domain: l.cncf.io
-  company_url: 'https://www.cncf.io'
+  company_url: 'https://www.nrel.gov/index.html'
   email: k.shankari@nrel.gov
   self: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
   slack_channel: T08PSQ7BQ/BC07DVB0C/jqc0ANnvpVddAp651jgyMKdr
@@ -141,7 +141,7 @@ big_picture:
     name: Landscape
     short_name: Land...
     title: Interactive Mobility Landscape
-    fullscreen_header: Overwhelmed? Please see the CNCF Trail Map. That and the interactive landscape are at l.cncf.io
+    fullscreen_header: Overwhelmed? Please see the Trail Map.
     elements:
       - type: VerticalCategory
         category: Infrastructure
@@ -210,11 +210,11 @@ big_picture:
 
 test:
   header: Interactive Mobility Landscape
-  section: CNCF Graduated Projects
+  section: Graduated Projects
   logo: kubernetes.svg
 anonymous_organization:
   name: Non-Public Unnamed Organization
-  homepage: 'https://www.cncf.io'
+  homepage: 'https://nrel.github.io/mobility_landscape/'
   city: Bouvet Island
   region: Antarctica
   country: Antarctica
