@@ -71,7 +71,7 @@ landscape:
                   - Shuttle
                   - Short Haul
             data_duration: Ten Years
-            data_frequency: yearly
+            data_frequency: Yearly
             data_format: Excel
             data_owner:
               - Government
@@ -1467,7 +1467,7 @@ landscape:
             data_frequency: Unknown
             data_format: Unknown
             data_owner:
-              - Open
+              - Open Project
             region:
               - North America
             privacy: LINKED_FUZZY_OD
