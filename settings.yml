@@ -4,7 +4,6 @@ global:
   mode: CNCF
   repo: cncf/mobility_landscape
   website: 'https://nrel.github.io/mobility_landscape/'
-  short_domain: l.cncf.io
   company_url: 'https://www.nrel.gov/index.html'
   email: k.shankari@nrel.gov
   meta:
