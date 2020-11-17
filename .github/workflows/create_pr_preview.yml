@@ -1,4 +1,4 @@
-name: exploratory-notebook-test-osx
+name: create_pr_preview
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -20,12 +20,14 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Check out the landscape version in the PR
       uses: actions/checkout@v2
-      path: 'landscape'
+      with:
+        path: 'landscape'
 
     - name: Check out the most recent version of the landscapeapp
       uses: actions/checkout@v2
-      repository: 'https://github.com/NREL/mobility_landscapeapp.git'
-      path: 'landscapeapp'
+      with:
+        repository: 'https://github.com/NREL/mobility_landscapeapp.git'
+        path: 'landscapeapp'
 
     - name: Install the landscapeapp dependencies
       run: |
