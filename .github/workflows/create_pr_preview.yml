@@ -12,6 +12,7 @@ jobs:
   build:
     env: 
       PROJECT_PATH: "../landscape"
+      SKIP_VERSION_CHECK: 1
     # We run only on macos here since the repo2docker tests will run on ubuntu
     runs-on: ubuntu-latest
 
