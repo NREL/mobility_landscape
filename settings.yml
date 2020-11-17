@@ -7,8 +7,6 @@ global:
   short_domain: l.cncf.io
   company_url: 'https://www.nrel.gov/index.html'
   email: k.shankari@nrel.gov
-  self: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
-  slack_channel: T08PSQ7BQ/BC07DVB0C/jqc0ANnvpVddAp651jgyMKdr
   meta:
     title: Interactive Mobility Landscape
     fb_admin: alex.contini.94
@@ -19,7 +17,7 @@ global:
   flags:
     hide_license_for_categories:
       - Special
-      - CNCF Members
+      - Members
     hide_category_from_subcategories:
       - End User Supporter
 twitter:
@@ -141,7 +139,7 @@ big_picture:
     name: Landscape
     short_name: Land...
     title: Interactive Mobility Landscape
-    fullscreen_header: Overwhelmed? Please see the Trail Map.
+    fullscreen_header: Overwhelmed? Please see the Trail Map. 
     elements:
       - type: VerticalCategory
         category: Infrastructure
@@ -207,7 +205,6 @@ big_picture:
             left: 15
             top: 15
             title: Landscape Logo
-
 test:
   header: Interactive Mobility Landscape
   section: Graduated Projects
