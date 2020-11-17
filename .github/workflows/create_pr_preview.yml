@@ -26,7 +26,7 @@ jobs:
     - name: Check out the most recent version of the landscapeapp
       uses: actions/checkout@v2
       with:
-        repository: 'https://github.com/NREL/mobility_landscapeapp.git'
+        repository: 'NREL/mobility_landscapeapp'
         path: 'landscapeapp'
 
     - name: Install the landscapeapp dependencies
