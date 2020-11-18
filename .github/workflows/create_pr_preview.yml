@@ -1,0 +1,56 @@
+name: create_pr_preview
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build-and-publish-image-artifacts:
+    env: 
+      PROJECT_PATH: "../landscape"
+      SKIP_VERSION_CHECK: 1
+    # We run only on macos here since the repo2docker tests will run on ubuntu
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - name: Check out the landscape version in the PR
+      uses: actions/checkout@v2
+      with:
+        path: 'landscape'
+
+    - name: Check out the most recent version of the landscapeapp
+      uses: actions/checkout@v2
+      with:
+        repository: 'NREL/mobility_landscapeapp'
+        path: 'landscapeapp'
+
+    - name: Install the landscapeapp dependencies
+      run: |
+        cd landscapeapp
+        npm install yarn
+        yarn
+
+    - name: Build and generate previews
+      run: |
+        cd landscapeapp
+        npx yarn build-only
+
+    - name: Upload the image file as a build artifact for the user to check
+      uses: actions/upload-artifact@v1
+      if: success()
+      with:
+        name: landscape.png
+        path: ./landscape/dist/mobility_landscape/images/landscape.png
+
+    - name: Upload the pdf preview a build artifact for the user to check
+      uses: actions/upload-artifact@v1
+      if: success()
+      with:
+        name: landscape.pdf
+        path: ./landscape/dist/mobility_landscape/images/landscape.pdf
