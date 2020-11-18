@@ -138,7 +138,7 @@ big_picture:
     name: Landscape
     short_name: Land...
     title: Interactive Mobility Landscape
-    fullscreen_header: Overwhelmed? Please see the Trail Map. 
+    fullscreen_header: Missing data? Submit a pull request to add! 
     elements:
       - type: VerticalCategory
         category: Infrastructure
