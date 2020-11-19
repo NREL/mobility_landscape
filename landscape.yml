@@ -700,7 +700,7 @@ landscape:
               infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
             homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
             repo_url: null
-            logo: usdot_apps.svg
+            logo: usdot_app.svg
             mode:
               - primary: Auto
                 secondary:
@@ -1874,7 +1874,7 @@ landscape:
               public transport information systems
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
-            logo: transmodel.svg
+            logo: transmodel_text.svg
             mode:
               - primary: Train
                 secondary:
