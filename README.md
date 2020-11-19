@@ -1,13 +1,14 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1767/badge)](https://bestpractices.coreinfrastructure.org/projects/1767)
 
-# Interactive Mobility Landscape
+# Interactive Data Mobility Landscape
 
-![Interactive Mobility Landscape](https://github.com/jpegburch/mobility_landscape/blob/master/images/imdl_logo.png)
+![Interactive Data Mobility Landscape](https://github.com/jpegburch/mobility_landscape/blob/master/images/imdl_logo.png)
 
 - [Mobility Data Landscape](#interactive-mobility-landscape)
   * [Interactive Version](#interactive-version)
   * [New Entries](#new-entries)
   * [Logos](#logos)
+  * [Filters](#filters)
   * [Corrections](#corrections)
   * [External Data](#external-data)
   * [Best Practices Badge](#best-practices-badge)
@@ -29,10 +30,11 @@ Please see [nrel.github.io](https://nrel.github.io/mobility_landscape/).
 
 These are the steps to go through to upload a new entry:
 
-1. After opening a pull request to landscape.yml, add a new entry within this file. Follow the order and format of previous entries.
+1. After opening a fork to landscape.yml, add a new entry within this file. Follow the order and format of previous entries. See [Filters] (#filters) for questions on the what the filters.
 1. Please search through the existing Categories and Subcategories before considering to add a new one. Generally speaking, a new subcategory is not created unless mulitple examples could exist within that subcategory.
 1. Survey the filter list to understand the different options available for each variable. Please ensure to follow the same formatting as other entries in the landscape. If none of the filter options fit your entry, add a new variable option.
 1. Please ensure that you additionally add a logo to your new entry as well, see [Logos](#logos)
+1. Once everything is running within your fork, submit a pull request.
 
 * We are unlikely to create a new category for products/projects as we'd rather find the best home with the current options.
 * We are generally not including commercial versions of open source software. The exception is that we are showing all Certified Kubernetes implementations.
@@ -51,6 +53,44 @@ The following rules will produce the most readable and attractive logos:
 1. Logos shouldn't include a tagline, which allows them to be larger and more readable. The only exception is if the only format that the logo is ever shown includes the tagline.
 1. Google images is often the best way to find a good version of the logo (but ensure it's the up-to-date version). Search for [grpc logo filetype:svg](https://www.google.com/search?q=grpc+logo&tbs=ift:svg,imgo:1&tbm=isch) but substitute your project or product name for grpc.
 1. You can either upload an SVG to the `hosted_logos` directory or put a URL as the value, and it will be fetched.
+1. If your logo is already submitted on the landscape, please submit your logo with text differentiating what is different between your entry and the previous one.
+
+## Filters
+
+There are several different filters for each entry, and every filter must be filled out. Below you will find an explanation of the major filters, as well as their options if confusing.
+
+* Mode -
+This is focusing on the type of transportation that is within the entry. You can enter multiple types of transportation. If the mode is not represented, enter a new type of mode.
+
+* Geographic Scope -
+This is focusing on the area that the data or tool covers, from a perspective of familiar perspectives such as city or country. Pick the largest scope that your entry can fit.
+
+* Privacy -
+This is focusing on the steps taken to protect the privacy of the mobility data. There are five options availalbe:
+ 1. Linked Trajectory - The data has its direction linked to the points
+ 1. Unlinked Trajectory with Fuzzy Edges - The data has its direction unlinked to the points, and efforts to 'fuzz' or hide specificity within the data have been taken
+ 1. Unlinked Fuzzy - The data has no trajectory associated with it, and efforts to 'fuzz' or hide specificity within the data have been taken
+ 1. Linked Fuzzy - The data has a direction associated with it, and efforts to 'fuzz' or hide specificity within the data have been taken
+ 1. Count Results Only - The data  has no direction or trajectory associated with it, and only represents results from requests that are anonymous
+ 1. No Mobility - The data has no privacy concerns
+ 
+* Item Type -
+This is focusing on whether or not the entry includes data, specifications, and if it is open source. Enter which of the options your data includes, if multiple include both.
+
+* Duration of Data -
+This is focusing on how long the entry was being released. If longer than 10 years, just say 10 years, and otherwise round to the nearest full year.
+
+* Region -
+This is focusing on what country the data is released within.
+
+* Data Owner -
+This is focusing on who controls and releases the data. Do not be too specific, and try to fit previous owner options if possible.
+
+* Data Format -
+This is focusing on how the data is released, such as PDF, XML, JSON, etc.
+
+* Frequency of Data -
+This is how often the data is released. It includes Continuous, Daily, Weekly, Monthly, Yearly, Random, and NA. 
 
 ## Corrections
 
@@ -79,7 +119,7 @@ Everything else is under the Apache License, Version 2.0, except for project and
 
 ## Formats
 
-The Mobility Landscape is available in these formats:
+The Mobility Data Landscape is available in these formats:
 
 * [PNG](https://nrel.github.io/mobility_landscape/images/landscape.png)
 * [PDF](https://nrel.github.io/mobility_landscape/images/landscape.pdf)
