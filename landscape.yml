@@ -1528,7 +1528,7 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North  America
+              - North America
               - Europe
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
