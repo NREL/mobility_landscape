@@ -2,7 +2,7 @@
 
 # Interactive Mobility Landscape
 
-![Interactive Mobility Landscape](https://github.com/NREL/mobility_landscape/images/iml_logo.svg)
+![Interactive Mobility Landscape](https://github.com/NREL/mobility_landscape/images/imdl_logo)
 
 - [Mobility Data Landscape](#interactive-mobility-landscape)
   * [Interactive Version](#interactive-version)
