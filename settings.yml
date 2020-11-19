@@ -199,7 +199,7 @@ big_picture:
             left: 18
             font_size: 23
           - type: image
-            image: iml_logo.svg
+            image: imdl_logo.svg
             width: 140
             left: 15
             top: 15
@@ -216,5 +216,5 @@ anonymous_organization:
   country: Antarctica
   twitter: 'https://twitter.com/CloudNativeFdn'
 mosaics:
-  - iml_logo.svg
+  - imdl_logo.svg
   - nrel_logo.svg
