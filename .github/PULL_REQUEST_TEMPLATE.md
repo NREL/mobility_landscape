@@ -10,5 +10,4 @@
 * [ ] Does your logo follow the [guidelines](https://github.com/NREL/mobility_landscape#logos)?
 * [ ] Does your project/product name match the text on the logo?
 * [ ] Have you ensured that all of your filter variables meet the standards of other entries?
-* [ ] Have you checked the pdf and png files to ensure that the landscape looks appropriate? To do so, go to Actions and then Artifacts, and download the png/pdf to see.
-* [ ] ~15 minutes after opening the pull request, the CNCF-Bot will post the URL for your staging server. Have you confirmed that it looks good to you and then added a comment to the PR saying "LGTM"?
+* [ ] Have you checked the pdf and png files to ensure that the landscape looks appropriate? To do so, go to Actions and then Artifacts, and download the png/pdf to see. After checking the landscape png/pdf, add a verification to the bug to finish this step.
