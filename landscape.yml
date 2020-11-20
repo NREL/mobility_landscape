@@ -10,7 +10,7 @@ landscape:
             description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
             homepage_url: 'https://www.fhwa.dot.gov/policyinformation/statistics.cfm'
             repo_url: null
-            logo: Highway_usdot.svg
+            logo: usdot_highway.svg
             mode:
               - primary: Auto
                 secondary:
@@ -41,7 +41,7 @@ landscape:
               management for handling of data within FHWA.
             homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
             repo_url: null
-            logo: data_usdot.svg
+            logo: usdot_data_gov.svg
             mode:
               - primary: Auto
                 secondary:
@@ -122,7 +122,7 @@ landscape:
               navigate more safely.
             homepage_url: 'https://www.transportation.gov/av/data/wzdx'
             repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
-            logo: wzdx.svg
+            logo: usdot_work_zone.svg
             mode:
               - primary: Auto
                 secondary:
@@ -700,7 +700,7 @@ landscape:
               infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
             homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
             repo_url: null
-            logo: usdot_apps.svg
+            logo: usdot_app.svg
             mode:
               - primary: Auto
                 secondary:
@@ -728,7 +728,7 @@ landscape:
               via public transit service. Indicators summarize accessibility to jobs as well as accessibility by workers, households, and population.
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
-            logo: epa_smart.svg
+            logo: epa_transit_tool.svg
             mode:
               - primary: Bus
                 secondary:
@@ -760,7 +760,7 @@ landscape:
               relative to the region.
             homepage_url: 'https://www.slc.gsa.gov/slc/'
             repo_url: null
-            logo: epa_smart.svg
+            logo: epa_walkability.svg
             mode:
               - primary: Walking
                 secondary:
@@ -786,7 +786,7 @@ landscape:
               national dataset includes walkability scores for all block groups as well as the underlying attributes that are used to rank the block groups.
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
-            logo: epa_smart.svg
+            logo: epa_calculator.svg
             mode:
               - primary: Walking
                 secondary:
@@ -835,40 +835,6 @@ landscape:
               - USA
             privacy: NO_MOBILITY
             geo_scope: MULTI_COUNTRY
-            item_type:
-              - closed_source
-              - Pay
-          - item:
-            name: Walkscore App
-            description: >-
-              Find apartments and rentals and see the Walk Score of any address on your phone or tablet. Walk Score is the leading measure of neighborhood
-              walkability. Walk Score helps you compare locations so you can find a place where you can drive less and live more.
-            homepage_url: 'https://www.walkscore.com/android/'
-            repo_url: null
-            logo: walkscore.svg
-            mode:
-              - primary: Walking
-                secondary:
-                  - Location
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-              - primary: Bus
-                secondary:
-                  - Short Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Ten Years
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
             item_type:
               - closed_source
               - Pay
@@ -1014,7 +980,7 @@ landscape:
             description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
             homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
             repo_url: null
-            logo: usdot_apps.svg
+            logo: usdot_transtats.svg
             mode:
               - primary: Air
                 secondary:
@@ -1528,7 +1494,7 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North  America
+              - North America
               - Europe
             privacy: COUNT_RESULTS_ONLY
             geo_scope: MULTI_COUNTRY
@@ -1546,7 +1512,7 @@ landscape:
               employment, and demographics. Most attributes are available for every census block group in the United States.
             homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
             repo_url: null
-            logo: epa_smart.svg
+            logo: epa_database.svg
             mode:
               - primary: Bus
                 secondary:
@@ -1908,7 +1874,7 @@ landscape:
               public transport information systems
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
-            logo: transmodel.svg
+            logo: transmodel_text.svg
             mode:
               - primary: Train
                 secondary:
@@ -1994,7 +1960,7 @@ landscape:
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
-            logo: transmodel.svg
+            logo: transmodel_siri.svg
             mode:
               - primary: Train
                 secondary:
