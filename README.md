@@ -30,7 +30,7 @@ Please see [nrel.github.io](https://nrel.github.io/mobility_landscape/).
 
 These are the steps to go through to upload a new entry:
 
-1. After opening a fork to landscape.yml, add a new entry within this file. Follow the order and format of previous entries. See [Filters] (#filters) for questions on the what the filters.
+1. After opening a fork to landscape.yml, add a new entry within this file. Follow the order and format of previous entries. See [Filters] (#filters) for questions on the what the filters are and the different variables within them.
 1. Please search through the existing Categories and Subcategories before considering to add a new one. Generally speaking, a new subcategory is not created unless mulitple examples could exist within that subcategory.
 1. Survey the filter list to understand the different options available for each variable. Please ensure to follow the same formatting as other entries in the landscape. If none of the filter options fit your entry, add a new variable option.
 1. Please ensure that you additionally add a logo to your new entry as well, see [Logos](#logos)
