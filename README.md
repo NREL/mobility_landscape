@@ -18,7 +18,7 @@
   * [Vulnerability reporting](#vulnerability-reporting)
   * [Adjusting the Landscape View](#adjusting-the-landscape-view)
 
-The [Interactive Mobility Data Landscape](https://nrel.github.io/mobility_landscape/) is a project intended as a map through the previously uncharted, growing mobility data science field. This attempts to categorize most of the data sources, specifications, and tools in the field of mobility. It has been built by the National Renewable Energy Laboratory's (NREL) Mobility, Behavior, and Advanced Powertrain (MBAP) research group as an internship project.
+The [Mobility Data Landscape](https://nrel.github.io/mobility_landscape/) is a project intended as a map through the previously uncharted, growing mobility data science field. This attempts to categorize most of the data sources, specifications, and tools in the field of mobility. It has been built by the National Renewable Energy Laboratory's (NREL) Mobility, Behavior, and Advanced Powertrain (MBAP) research group as an internship project.
 
 The software for the interactive landscape has been extracted to https://github.com/NREL/mobility_landscapeapp/tree/master/src. This repo includes all of the data and images specific to the mobility data landscape.
 
