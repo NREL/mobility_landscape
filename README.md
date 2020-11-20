@@ -1,8 +1,8 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1767/badge)](https://bestpractices.coreinfrastructure.org/projects/1767)
 
-# Interactive Data Mobility Landscape
+# Mobility Data Landscape
 
-![Interactive Data Mobility Landscape](https://github.com/jpegburch/mobility_landscape/blob/master/images/imdl_logo.png)
+![Mobility Data Landscape](https://github.com/jpegburch/mobility_landscape/blob/master/images/imdl_logo.png)
 
 - [Mobility Data Landscape](#interactive-mobility-landscape)
   * [Interactive Version](#interactive-version)
