@@ -138,7 +138,7 @@ big_picture:
     name: Landscape
     short_name: Land...
     title: Interactive Mobility Landscape
-    fullscreen_header: Missing data? Submit a pull request to add! Want us to remove a logo or change an entry? Contact k.shankari@nrel.gov and we will see to it.
+    fullscreen_header: Missing data? Submit a pull request to add! Want us to remove a logo or change an entry? Submit a pull request to update it!
     elements:
       - type: VerticalCategory
         category: Infrastructure
