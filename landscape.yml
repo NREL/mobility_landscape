@@ -1932,7 +1932,7 @@ landscape:
               public transport information systems
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
-            logo: transmodel_text.svg
+            logo: transmodel.svg
             mode:
               - primary: Train
                 secondary:
