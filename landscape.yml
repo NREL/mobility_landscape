@@ -2034,7 +2034,8 @@ landscape:
               - primary: Europe
             privacy: Linked Fuzzy
             geo_scope: Multiple Country
-            item_type: Open Specification
+            item_type: 
+              - Open Specification
       - subcategory:
         name: Navigation
         items:
