@@ -78,6 +78,8 @@ landscape:
               - Federal
             region:
               - primary: Europe
+                secondary:
+                  - France 
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -234,11 +236,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Unlinked Trajectory with Fuzzy Edges
             geo_scope: Multiple Country
             item_type:
@@ -268,11 +286,27 @@ landscape:
               - Government
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -297,6 +331,8 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
@@ -320,11 +356,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -356,11 +408,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -393,11 +461,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -430,11 +514,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -469,11 +569,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Count Results Only
             geo_scope: Multiple Country
             item_type:
@@ -534,6 +650,8 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -686,7 +804,7 @@ landscape:
                 secondary:
                   - USA
             privacy: No Mobility
-            geo_scope: State
+            geo_scope: STATE
             item_type:
               - Open Data
       - subcategory:
@@ -838,6 +956,8 @@ landscape:
                 secondary:
                   - USA
               - primary: Europe
+                secondary:
+                  - United Kingdom
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -890,6 +1010,8 @@ landscape:
               - Industry
             region:
               - primary: North America
+                secondary: 
+                  - USA 
             privacy: No Mobility
             geo_scope: Country
             item_type:
@@ -917,11 +1039,27 @@ landscape:
               - Government
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Unlinked Trajectory with Fuzzy Edges
             geo_scope: Multiple Country
             item_type:
@@ -968,10 +1106,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
-              - primary: Ocenia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Linked Fuzzy
             geo_scope: Multiple Country
             item_type:
@@ -994,6 +1149,8 @@ landscape:
               - Federal
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: Count Results Only
             geo_scope: Country
             item_type:
@@ -1044,9 +1201,20 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
-              - primary: Asia
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Count Results Only
             geo_scope: Multiple Country
             item_type:
@@ -1127,7 +1295,7 @@ landscape:
                 secondary:
                   - USA
             privacy: Unlinked Trajectory with Fuzzy Edges
-            geo_scope: State
+            geo_scope: STATE
             item_type:
               - Open Data
           - item:
@@ -1202,6 +1370,8 @@ landscape:
               - National Renewable Energy Laboratory
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: Count Results Only
             geo_scope: Country
             item_type:
@@ -1231,6 +1401,28 @@ landscape:
             data_owner:
               - Open Project
             region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - European Union 
+                  - United Kingdom  
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility 
             geo_scope: Multiple Country
             item_type:
@@ -1277,6 +1469,8 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: Count Results Only
             geo_scope: Country
             item_type:
@@ -1300,6 +1494,8 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
@@ -1325,6 +1521,9 @@ landscape:
               - Government
             region:
               - primary: Europe
+                secondary: 
+                  - Germany
+                  - France 
             privacy: No Mobility
             geo_scope: Country
             item_type:
@@ -1352,6 +1551,8 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
@@ -1376,6 +1577,8 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: Linked Fuzzy
             geo_scope: Multiple Country
             item_type:
@@ -1434,7 +1637,8 @@ landscape:
               - Industry
             region:
               - primary: North America
-              - primary: Europe
+                secondary: 
+                  - USA 
             privacy: Count Results Only
             geo_scope: Multiple Country
             item_type:
@@ -1525,6 +1729,8 @@ landscape:
               - Industry
             region:
               - primary: North America
+                secondary:  
+                  - USA 
             privacy: Count Results Only
             geo_scope: Country
             item_type:
@@ -1807,6 +2013,8 @@ landscape:
               - Industry
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: Unlinked Trajectory with Fuzzy Edges
             geo_scope: Country
             item_type:
@@ -1837,6 +2045,8 @@ landscape:
               - Industry
             region:
               - primary: North America
+                secondary:
+                  - USA 
             privacy: Unlinked Trajectory with Fuzzy Edges
             geo_scope: Country
             item_type:
@@ -1896,7 +2106,8 @@ landscape:
               - Open Project
             region:
               - primary: North America
-              - primary: Europe
+                secondary:
+                  - USA
             privacy: Linked Fuzzy
             geo_scope: Multiple Country
             item_type:
@@ -1932,7 +2143,7 @@ landscape:
               public transport information systems
             homepage_url: 'http://www.transmodel-cen.eu/'
             repo_url: null
-            logo: transmodel.svg
+            logo: transmodel_text.svg
             mode:
               - primary: Train
                 secondary:
@@ -1948,6 +2159,8 @@ landscape:
               - Government
             region:
               - primary: Europe
+                secondary:
+                  - European Union
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -1975,11 +2188,27 @@ landscape:
               - Open Project
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - European Union 
+                  - United Kingdom 
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -2032,6 +2261,8 @@ landscape:
               - Government
             region:
               - primary: Europe
+                secondary:
+                  - European Union
             privacy: Linked Fuzzy
             geo_scope: Multiple Country
             item_type: 
@@ -2103,11 +2334,26 @@ landscape:
               - Industry
             region:
               - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
               - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
+                secondary:
+                  - European Union
               - primary: Africa
+                secondary:
+                  - South Africa
               - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
               - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Count Results Only
             geo_scope: Multiple Country
             item_type:
@@ -2174,7 +2420,8 @@ landscape:
               - Industry
             region:
               - primary: North America
-              - primary: Europe
+                secondary:
+                  - USA
             privacy: Unlinked Fuzzy
             geo_scope: Multiple Country
             item_type:
