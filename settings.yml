@@ -138,7 +138,7 @@ big_picture:
     name: Landscape
     short_name: Land...
     title: Interactive Mobility Landscape
-    fullscreen_header: Missing data or want us to change something?  Submit a pull request!
+    fullscreen_header: Missing data or request a change?  Submit a pull request!
     elements:
       - type: VerticalCategory
         category: Infrastructure
