@@ -1844,11 +1844,11 @@ landscape:
           - item:
             name: INRIX Road Rules
             description: >-
-            INRIX pioneered the practice of managing traffic by analyzing data not just from road sensors, but also from vehicles. 
-            This breakthrough approach enabled INRIX to become one of the leading providers of data and insight into how people move around the world.
-            INRIX delivers innovative products for the automotive and transportation industries such as real-time parking and traffic information and 
-            solutions that facilitate the safe testing and deployment of autonomous vehicles. We also provide new insights to a 
-            variety of other industries that can make better business decisions by understanding how people move throughout the day.
+              INRIX pioneered the practice of managing traffic by analyzing data not just from road sensors, but also from vehicles. 
+              This breakthrough approach enabled INRIX to become one of the leading providers of data and insight into how people move around the world.
+              INRIX delivers innovative products for the automotive and transportation industries such as real-time parking and traffic information and 
+              solutions that facilitate the safe testing and deployment of autonomous vehicles. We also provide new insights to a 
+              variety of other industries that can make better business decisions by understanding how people move throughout the day.
             homepage_url: 'https://inrix.com/about/'
             repo_url: null
             logo: inrix.svg
