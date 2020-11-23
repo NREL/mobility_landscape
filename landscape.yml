@@ -26,7 +26,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Count Results Only
             geo_scope: Country
             item_type:
               - Open Specification
@@ -51,7 +51,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Count Results Only
             geo_scope: Country
             item_type:
               - Open Specification
@@ -79,7 +79,7 @@ landscape:
             region:
               - primary: Europe
                 secondary:
-                  - France 
+                  - France
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
@@ -112,7 +112,7 @@ landscape:
               - Open Project
             region:
               - primary: North America
-                secondary: 
+                secondary:
                   - USA
             privacy: No Mobility
             geo_scope: Country
@@ -143,13 +143,13 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Count Results Only
             geo_scope: Country
             item_type:
               - Open Specification
               - Open Data
           - item:
-            name: Mobility Data MarketPlace
+            name: Mobility Data MarketPlace and DATEX
             description: >-
               Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
               standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
@@ -172,7 +172,7 @@ landscape:
               - primary: Europe
                 secondary:
                   - Germany
-            privacy: No Mobility
+            privacy: Count Results Only
             geo_scope: Country
             item_type:
               - Open Specification
@@ -204,7 +204,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Closed Data
@@ -238,26 +238,26 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Open Data
@@ -288,26 +288,26 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: No Mobility
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Open Source
@@ -338,10 +338,10 @@ landscape:
             item_type:
               - Open Source
           - item:
-            name: Our Airports 
-            description: >- 
-              Welcome to OurAirports, a site for discovering and discussing the world's airports. This site currently has information about 58,785 airports around the world, 
-              and our members have personally visited 11,519 of them and left 13,984 comments.
+            name: Our Airports
+            description: >-
+              Welcome to OurAirports, a site for discovering and discussing the world's airports. This site currently has information about 58,785 airports
+              around the world,  and our members have personally visited 11,519 of them and left 13,984 comments.
             homepage_url: 'https://ourairports.com/help/'
             repo_url: null
             logo: our_airports.svg
@@ -358,29 +358,29 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Data 
+              - Open Data
       - subcategory:
         name: Crowdsourced Maps
         items:
@@ -410,22 +410,22 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
@@ -463,26 +463,26 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: No Mobility
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Open Source
@@ -516,26 +516,26 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: No Mobility
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Open Source
@@ -571,22 +571,22 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
@@ -622,7 +622,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Source  
+              - Open Source
           - item:
             name: OSMnx
             description: >-
@@ -655,7 +655,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Source      
+              - Open Source
           - item:
             name: GPX Tool
             description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
@@ -702,7 +702,7 @@ landscape:
             data_owner:
               - National Renewable Energy Laboratory
             region:
-              - primary:  North America
+              - primary: North America
                 secondary:
                   - USA
             privacy: No Mobility
@@ -741,7 +741,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Cities
             item_type:
               - Closed Source
@@ -803,7 +803,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Count Results Only
             geo_scope: STATE
             item_type:
               - Open Data
@@ -835,7 +835,7 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
+                  - USA
             privacy: No Mobility
             geo_scope: Country
             item_type:
@@ -1010,9 +1010,9 @@ landscape:
               - Industry
             region:
               - primary: North America
-                secondary: 
-                  - USA 
-            privacy: No Mobility
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Closed Data
@@ -1041,26 +1041,26 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Open Data
@@ -1085,10 +1085,10 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source    
+              - Closed Source
           - item:
             name: OpenFlights
             description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
@@ -1108,26 +1108,26 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: Linked Fuzzy
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Open Data
@@ -1150,16 +1150,17 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
+                  - USA
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Data  
+              - Open Data
           - item:
             name: Federal Aviation Administration
             description: >-
               The FAA conducts research to ensure that commercial and general aviation is the safest in the world. Here you will find information about how the
-              research is done, the resulting data and statistics, and information on funding and grant data. The data includes flight times, ridership information, delay information, and more.
+              research is done, the resulting data and statistics, and information on funding and grant data. The data includes flight times, ridership
+              information, delay information, and more.
             homepage_url: 'https://www.faa.gov/data_research/'
             repo_url: null
             logo: faa.svg
@@ -1177,10 +1178,10 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Data      
+              - Open Data
           - item:
             name: General Bikeshare Feed Specification
             description: >-
@@ -1203,19 +1204,19 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - Germany 
-                  - France 
+                  - Germany
+                  - France
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: Count Results Only
+            privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
               - Open Specification
@@ -1241,7 +1242,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: CITY
             item_type:
               - Open Data
@@ -1265,7 +1266,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: CITY
             item_type:
               - Open Data
@@ -1294,7 +1295,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: STATE
             item_type:
               - Open Data
@@ -1320,7 +1321,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Closed Source
@@ -1344,7 +1345,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Closed Source
@@ -1371,30 +1372,31 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
-            privacy: Count Results Only
+                  - USA
+            privacy: No Mobility
             geo_scope: Country
             item_type:
               - Closed Source
           - item:
-            name: Mobility Data Specification 
+            name: Mobility Data Specification
             description: >-
-              The Mobility Data Specification (MDS), a project of the Open Mobility Foundation (OMF), is a set of Application Programming Interfaces (APIs) focused on dockless e-scooters, bicycles, mopeds and carshare. 
-              Inspired by projects like GTFS and GBFS, the goals of MDS are to provide a standardized way for municipalities or other regulatory agencies to ingest, compare and analyze data from mobility service providers, 
-              and to give municipalities the ability to express regulation in machine-readable formats.
+              The Mobility Data Specification (MDS), a project of the Open Mobility Foundation (OMF), is a set of Application Programming Interfaces (APIs)
+              focused on dockless e-scooters, bicycles, mopeds and carshare.  Inspired by projects like GTFS and GBFS, the goals of MDS are to provide a
+              standardized way for municipalities or other regulatory agencies to ingest, compare and analyze data from mobility service providers,  and to give
+              municipalities the ability to express regulation in machine-readable formats.
             homepage_url: 'http://www.openmobilityfoundation.org'
             repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
             logo: mobility_data_specification.svg
             mode:
-              - primary: Micro Mobility 
+              - primary: Micro Mobility
                 secondary:
                   - Scooter
-                  - Bike 
-                  - Walking 
-                  - Other 
-              - primary: Auto 
+                  - Bike
+                  - Walking
+                  - Other
+              - primary: Auto
                 secondary:
-                  - Rideshare 
+                  - Rideshare
             data_duration: Unknown
             data_frequency: Unknown
             data_format: JSON
@@ -1404,29 +1406,29 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - European Union 
-                  - United Kingdom  
+                  - European Union
+                  - United Kingdom
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: No Mobility 
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Source 
+              - Open Source
           - item:
             name: Auto API
             description: >-
@@ -1448,13 +1450,13 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Data    
+              - Closed Data
           - item:
             name: City Bikes API
-            description: REST API for aggregated bikeshare data from around the world.
+            description: 'REST API for aggregated bikeshare data from around the world. Supports stations, not trips.'
             homepage_url: 'http://api.citybik.es/v2/'
             repo_url: null
             logo: citybikes.svg
@@ -1470,7 +1472,7 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
+                  - USA
             privacy: Count Results Only
             geo_scope: Country
             item_type:
@@ -1495,11 +1497,11 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
+                  - USA
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
-              - Open Source   
+              - Open Source
           - item:
             name: Autopilot
             description: >-
@@ -1521,10 +1523,10 @@ landscape:
               - Government
             region:
               - primary: Europe
-                secondary: 
+                secondary:
                   - Germany
-                  - France 
-            privacy: No Mobility
+                  - France
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Open Specification
@@ -1552,8 +1554,8 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
-            privacy: No Mobility
+                  - USA
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Cities
             item_type:
               - Open Source
@@ -1578,8 +1580,8 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
-            privacy: Linked Fuzzy
+                  - USA
+            privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
               - Open Specification
@@ -1608,7 +1610,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Count Results Only
             geo_scope: Multiple Cities
             item_type:
               - Closed Source
@@ -1637,9 +1639,9 @@ landscape:
               - Industry
             region:
               - primary: North America
-                secondary: 
-                  - USA 
-            privacy: Count Results Only
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Closed Source
@@ -1706,7 +1708,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Fuzzy
+            privacy: Linked Visits
             geo_scope: Multiple Cities
             item_type:
               - Closed Data
@@ -1729,9 +1731,9 @@ landscape:
               - Industry
             region:
               - primary: North America
-                secondary:  
-                  - USA 
-            privacy: Count Results Only
+                secondary:
+                  - USA
+            privacy: Linked Visits
             geo_scope: Country
             item_type:
               - Closed Source
@@ -1754,7 +1756,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Fuzzy
+            privacy: Linked Visits
             geo_scope: Country
             item_type:
               - Closed Source
@@ -1779,7 +1781,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Fuzzy
+            privacy: Count Results Only
             geo_scope: Country
             item_type:
               - Closed Source
@@ -1822,7 +1824,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Fuzzy
+            privacy: Linked Semantic Trajectories
             geo_scope: Country
             item_type:
               - Open Source
@@ -1849,7 +1851,7 @@ landscape:
               - primary: North America
                 secondary:
                   - Canada
-            privacy: Unlinked Fuzzy
+            privacy: Linked Semantic Trajectories
             geo_scope: CITY
             item_type:
               - Open Data
@@ -1875,17 +1877,18 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Count Results Only
+            privacy: Linked Semantic Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source 
+              - Closed Source
           - item:
             name: Transportation Secure Data Center
             description: >-
-              The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies conducted across the nation.
-              Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle characteristics and survey participant demographics. 
-              NREL screens the initial data for quality control, translates each data set into a consistent format, and interprets the data for spatial analysis. 
-              NREL’s processing routines add information on vehicle fuel economy and road grades and join data points to the road network.
+              The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies
+              conducted across the nation. Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle
+              characteristics and survey participant demographics.  NREL screens the initial data for quality control, translates each data set into a
+              consistent format, and interprets the data for spatial analysis.  NREL’s processing routines add information on vehicle fuel economy and road
+              grades and join data points to the road network.
             homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/index.html'
             repo_url: 'https://github.com/NREL/TSDC'
             logo: tsdc.svg
@@ -1907,10 +1910,10 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Linked Semantic Visits
             geo_scope: Multiple Cities
             item_type:
-              - Open Source  
+              - Open Source
           - item:
             name: NYC DOT Citywide Mobility Survey
             description: >-
@@ -1948,7 +1951,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Count Results Only
+            privacy: Linked Semantic Visits
             geo_scope: CITY
             item_type:
               - Open Data
@@ -1979,7 +1982,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Count Results Only
+            privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
               - Open Source
@@ -2014,8 +2017,8 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
-            privacy: Unlinked Trajectory with Fuzzy Edges
+                  - USA
+            privacy: Multiple Datasets
             geo_scope: Country
             item_type:
               - Closed Source
@@ -2023,7 +2026,8 @@ landscape:
             name: RITIS
             description: >-
               RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems. Its broad
-              spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation – provides enhanced, multi-faceted                insight of the transportation system across geographic and agency boundaries.
+              spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation – provides enhanced,
+              multi-faceted                insight of the transportation system across geographic and agency boundaries.
             homepage_url: 'https://www.ritis.org/intro'
             repo_url: null
             logo: ritis.svg
@@ -2046,19 +2050,19 @@ landscape:
             region:
               - primary: North America
                 secondary:
-                  - USA 
-            privacy: Unlinked Trajectory with Fuzzy Edges
+                  - USA
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Closed Source
           - item:
             name: INRIX Road Rules
             description: >-
-              INRIX pioneered the practice of managing traffic by analyzing data not just from road sensors, but also from vehicles. 
-              This breakthrough approach enabled INRIX to become one of the leading providers of data and insight into how people move around the world.
-              INRIX delivers innovative products for the automotive and transportation industries such as real-time parking and traffic information and 
-              solutions that facilitate the safe testing and deployment of autonomous vehicles. We also provide new insights to a 
-              variety of other industries that can make better business decisions by understanding how people move throughout the day.
+              INRIX pioneered the practice of managing traffic by analyzing data not just from road sensors, but also from vehicles.  This breakthrough approach
+              enabled INRIX to become one of the leading providers of data and insight into how people move around the world. INRIX delivers innovative products
+              for the automotive and transportation industries such as real-time parking and traffic information and  solutions that facilitate the safe testing
+              and deployment of autonomous vehicles. We also provide new insights to a  variety of other industries that can make better business decisions by
+              understanding how people move throughout the day.
             homepage_url: 'https://inrix.com/about/'
             repo_url: null
             logo: inrix.svg
@@ -2067,7 +2071,7 @@ landscape:
                 secondary:
                   - Light
                   - Heavy
-              - primary: Micro Mobility 
+              - primary: Micro Mobility
                 secondary:
                   - Walking
             data_duration: Unknown
@@ -2079,10 +2083,10 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source 
+              - Closed Source
       - subcategory:
         name: Route Planning
         items:
@@ -2108,10 +2112,10 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Linked Fuzzy
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Data  
+              - Open Data
           - item:
             name: OneBusAway
             description: OneBusAway is an open source software system for real-time transit information in urban centers.
@@ -2132,10 +2136,10 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Count Results Only
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Cities
             item_type:
-              - Open Source  
+              - Open Source
           - item:
             name: Transmodel
             description: >-
@@ -2190,26 +2194,26 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - European Union 
-                  - United Kingdom 
+                  - European Union
+                  - United Kingdom
               - primary: Africa
                 secondary:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: No Mobility
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Open Source
@@ -2236,7 +2240,7 @@ landscape:
               - primary: Europe
                 secondary:
                   - United Kingdom
-            privacy: Unlinked Trajectory with Fuzzy Edges
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Closed Data
@@ -2263,9 +2267,9 @@ landscape:
               - primary: Europe
                 secondary:
                   - European Union
-            privacy: Linked Fuzzy
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
-            item_type: 
+            item_type:
               - Open Specification
       - subcategory:
         name: Navigation
@@ -2293,7 +2297,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Fuzzy
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Closed Data
@@ -2336,7 +2340,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada 
+                  - Canada
                   - Mexico
               - primary: South America
                 secondary:
@@ -2349,12 +2353,12 @@ landscape:
                   - South Africa
               - primary: Asia
                 secondary:
-                  - China 
-                  - Japan 
+                  - China
+                  - Japan
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: Count Results Only
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Closed Source
@@ -2396,7 +2400,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Fuzzy
+            privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
               - Closed Source
@@ -2422,7 +2426,7 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Fuzzy
+            privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
               - Closed Source
