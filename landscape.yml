@@ -16,10 +16,6 @@ landscape:
                 secondary:
                   - Heavy
                   - Light
-              - primary: Transit
-                secondary:
-                  - Bus
-                  - Train
             data_duration: Ten Years
             data_frequency: Yearly
             data_format: Excel
@@ -27,13 +23,14 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
+              - Open Data
           - item:
             name: USDOT Data Governance
             description: >-
@@ -50,11 +47,14 @@ landscape:
             data_duration: Ten Years
             data_frequency: Yearly
             data_format: PDF
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
           - item:
             name: NeTEx
             description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
@@ -77,12 +77,13 @@ landscape:
               - Government
               - Federal
             region:
-              - Europe
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
+              - primary: Europe
+                secondary:
+                  - France 
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
           - item:
             name: GPX
             description: >-
@@ -100,19 +101,23 @@ landscape:
                 secondary:
                   - Bike
                   - Other
+              - primary: Transit
+                secondary:
+                  - Bus
+                  - Train
             data_duration: Unknown
             data_frequency: Unknown
             data_format: XML
             data_owner:
               - Open Project
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary: 
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
           - item:
             name: Work Zone Data Exchange
             description: >-
@@ -130,18 +135,19 @@ landscape:
                   - Heavy
             data_duration: Five Years
             data_frequency: Yearly
-            data_format: PDF
+            data_format: JSON
             data_owner:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
+              - Open Data
           - item:
             name: Mobility Data MarketPlace
             description: >-
@@ -149,7 +155,7 @@ landscape:
               standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
               constantly expanding traffic data coverage. The MDM is part of the Federal Government's innovation programme and is funded by the Federal Ministry
               of Transport and Digital Infrastructure. The Federal Highway Research Institute (BASt) is responsible for managing the project
-            homepage_url: 'https://www.datex2.eu/implementations/profile_directory/german-roadworks-profile'
+            homepage_url: 'https://www.mdm-portal.de/aktuell/'
             repo_url: null
             logo: mdm.svg
             mode:
@@ -163,13 +169,14 @@ landscape:
             data_owner:
               - Government
             region:
-              - Europe
-              - Germany
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: Europe
+                secondary:
+                  - Germany
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
+              - Closed Data
           - item:
             name: Shared Streets
             description: >-
@@ -194,13 +201,14 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Multiple Country
             item_type:
-              - closed_data
-              - Pay
+              - Closed Data
+              - Open Source
           - item:
             name: GTFS Main
             description: >-
@@ -213,7 +221,9 @@ landscape:
             mode:
               - primary: Train
                 secondary:
-                  - Rail
+                  - Commuter Rail
+                  - Light Rail
+                  - Subway
               - primary: Bus
                 secondary:
                   - Long Haul
@@ -223,25 +233,42 @@ landscape:
             data_format: Text
             data_owner:
               - Government
+              - Open Project
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Multiple Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
+              - Open Specification
           - item:
             name: Open Mobility Data
             description: >-
               An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime
               feeds from around the world.
             homepage_url: 'https://openmobilitydata.org/'
-            repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
+            repo_url: null
             logo: openmobilitydata.svg
             mode:
               - primary: Train
@@ -256,48 +283,35 @@ landscape:
             data_format: Unknown
             data_owner:
               - Transit Agency
+              - Government
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
-            item_type:
-              - open_source
-              - Free
-          - item:
-            name: Transportation Secure Data Center
-            description: >-
-              The TSDC relieves individual agencies from the burden of fielding numerous data-access requests. It also provides additional features such as
-              linked reference layers, data filtering, road grade and road network matching, summary statistics, and data set comparisons.
-            homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/tsdc-about.html'
-            repo_url: 'https://github.com/NREL/TSDC'
-            logo: tsdc.svg
-            mode:
-              - primary: Auto
+              - primary: North America
                 secondary:
-                  - Light
-                  - Heavy
-              - primary: Train
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
                 secondary:
-                  - Rail
-                  - High Speed
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_CITY
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_source
-              - Free
+              - Open Source
+              - Open Data
           - item:
             name: Open Sidewalks
             description: >-
@@ -316,12 +330,57 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
             item_type:
-              - open_source
-              - Free
+              - Open Source
+          - item:
+            name: Our Airports 
+            description: >- 
+              Welcome to OurAirports, a site for discovering and discussing the world's airports. This site currently has information about 58,785 airports around the world, 
+              and our members have personally visited 11,519 of them and left 13,984 comments.
+            homepage_url: 'https://ourairports.com/help/'
+            repo_url: null
+            logo: our_airports.svg
+            mode:
+              - primary: Air
+                secondary:
+                  - Public
+            data_duration: Three Years
+            data_frequency: Randomly
+            data_format: CSV
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility
+            geo_scope: Multiple Country
+            item_type:
+              - Open Data 
       - subcategory:
         name: Crowdsourced Maps
         items:
@@ -348,17 +407,32 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_source
-              - Free
+              - Open Source
           - item:
             name: City Lines
             description: Crowdsourced map of transit systems across the world
@@ -386,17 +460,32 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_source
-              - Free
+              - Open Source
           - item:
             name: Transitland
             description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
@@ -424,17 +513,32 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_source
-              - Free
+              - Open Source
           - item:
             name: Places
             description: >-
@@ -464,17 +568,32 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Count Results Only
+            geo_scope: Multiple Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
       - subcategory:
         name: Tools
         items:
@@ -485,7 +604,7 @@ landscape:
               existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
             homepage_url: 'http://camsys.software/products/transam'
             repo_url: 'https://github.com/camsys/transam_core'
-            logo: transam.svg
+            logo: transam_light.svg
             mode:
               - primary: Train
                 secondary:
@@ -497,13 +616,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_source
-              - Free
+              - Open Source  
           - item:
             name: OSMnx
             description: >-
@@ -524,18 +643,19 @@ landscape:
                   - Bike
                   - Scooter
                   - Other
-            data_duration: Five Years
+            data_duration: Unknown
             data_frequency: Unknown
             data_format: Shapefile
             data_owner:
               - Open Project
             region:
-              - North America
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_source
-              - Free
+              - Open Source      
           - item:
             name: GPX Tool
             description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
@@ -557,13 +677,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
           - item:
             name: Scenario Evaluation and Regionalization Analysis Model
             description: >-
@@ -582,13 +702,13 @@ landscape:
             data_owner:
               - National Renewable Energy Laboratory
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary:  North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_source
-              - Free
+              - Open Source
           - item:
             name: remix
             description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
@@ -618,13 +738,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Multiple Cities
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: Transportation Energy & Mobility Pathway Options
             description: >-
@@ -650,13 +770,13 @@ landscape:
             data_owner:
               - National Renewable Energy Laboratory
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - closed_data
-              - Pay
+              - Closed Data
           - item:
             name: California Statewide Integrated Traffic Records System
             description: >-
@@ -680,13 +800,13 @@ landscape:
               - Government
               - State
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
             geo_scope: STATE
             item_type:
-              - open_data
-              - Free
+              - Open Data
       - subcategory:
         name: Apps
         items:
@@ -711,13 +831,15 @@ landscape:
             data_format: PDF
             data_owner:
               - Government
-            region:
-              - North America
               - Federal
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+            region:
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - closed_data
+              - Closed Data
       - subcategory:
         name: Metrics
         items:
@@ -745,13 +867,13 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: EPA National Walkability Index
             description: >-
@@ -772,13 +894,13 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: EPA Smart Location Calculator
             description: >-
@@ -798,13 +920,13 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: Walkscore
             description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
@@ -830,14 +952,16 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - Europe
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+              - primary: Europe
+                secondary:
+                  - United Kingdom
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
   - category:
     name: Vehicles
     subcategories:
@@ -862,13 +986,13 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: High Mobility
             description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
@@ -885,12 +1009,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary: 
+                  - USA 
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - closed_data
-              - Pay
+              - Closed Data
           - item:
             name: GTFS Real Time
             description: >-
@@ -913,17 +1038,32 @@ landscape:
             data_owner:
               - Government
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Multiple Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: wejo
             description: >-
@@ -942,17 +1082,17 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source    
           - item:
             name: OpenFlights
             description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
-            homepage_url: 'https://openfligFnydothts.org/data.html'
+            homepage_url: 'https://openflights.org/'
             repo_url: null
             logo: openflights.svg
             mode:
@@ -965,16 +1105,32 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - South America
-              - Europe
-              - Asia
-              - Ocenia
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Linked Fuzzy
+            geo_scope: Multiple Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: TranStats
             description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
@@ -992,17 +1148,18 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data  
           - item:
             name: Federal Aviation Administration
             description: >-
               The FAA conducts research to ensure that commercial and general aviation is the safest in the world. Here you will find information about how the
-              research is done, the resulting data and statistics, and information on funding and grant data.
+              research is done, the resulting data and statistics, and information on funding and grant data. The data includes flight times, ridership information, delay information, and more.
             homepage_url: 'https://www.faa.gov/data_research/'
             repo_url: null
             logo: faa.svg
@@ -1017,13 +1174,13 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data      
           - item:
             name: General Bikeshare Feed Specification
             description: >-
@@ -1043,15 +1200,25 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - South America
-              - Asia
-              - Europe
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany 
+                  - France 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Count Results Only
+            geo_scope: Multiple Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
           - item:
             name: Chicago Ride-Sharing Data
             description: >-
@@ -1071,13 +1238,13 @@ landscape:
               - Government
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
             geo_scope: CITY
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: New York City Ride-Sharing Data
             description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
@@ -1095,13 +1262,13 @@ landscape:
               - Government
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
             geo_scope: CITY
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: GTFS Ride
             description: >-
@@ -1124,13 +1291,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
             geo_scope: STATE
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: Otonomo
             description: >-
@@ -1150,13 +1317,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: Fleetsu
             description: 'Fleetsu transform fleet management by enabling businesses to instantly collect, analyse and monetise fleet data, from light cars to trucks'
@@ -1174,39 +1341,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
-            item_type:
-              - closed_source
-              - Pay
-          - item:
-            name: Carto
-            description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
-            homepage_url: 'https://carto.com/spatial-data-catalog/'
-            repo_url: null
-            logo: carto.svg
-            mode:
-              - primary: Walking
+              - primary: North America
                 secondary:
-                  - Location
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-            data_duration: Five Years
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - North America
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
       - subcategory:
         name: Tools
         items:
@@ -1228,12 +1369,64 @@ landscape:
             data_owner:
               - National Renewable Energy Laboratory
             region:
-              - North America
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
+          - item:
+            name: Mobility Data Specification 
+            description: >-
+              The Mobility Data Specification (MDS), a project of the Open Mobility Foundation (OMF), is a set of Application Programming Interfaces (APIs) focused on dockless e-scooters, bicycles, mopeds and carshare. 
+              Inspired by projects like GTFS and GBFS, the goals of MDS are to provide a standardized way for municipalities or other regulatory agencies to ingest, compare and analyze data from mobility service providers, 
+              and to give municipalities the ability to express regulation in machine-readable formats.
+            homepage_url: 'http://www.openmobilityfoundation.org'
+            repo_url: 'https://github.com/openmobilityfoundation/mobility-data-specification'
+            logo: mobility_data_specification.svg
+            mode:
+              - primary: Micro Mobility 
+                secondary:
+                  - Scooter
+                  - Bike 
+                  - Walking 
+                  - Other 
+              - primary: Auto 
+                secondary:
+                  - Rideshare 
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: JSON
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - European Union 
+                  - United Kingdom  
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility 
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source 
           - item:
             name: Auto API
             description: >-
@@ -1252,45 +1445,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - closed_data
-              - Pay
-          - item:
-            name: RITIS
-            description: >-
-              RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems. Its broad
-              spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation – provides enhanced, multi-faceted
-              insight of the transportation system across geographic and agency boundaries.
-            homepage_url: 'https://www.ritis.org/intro'
-            repo_url: null
-            logo: ritis.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-              - primary: Walking
-                secondary:
-                  - Location
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Five Years
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - North America
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
-            item_type:
-              - closed_source
-              - Pay
+              - Closed Data    
           - item:
             name: City Bikes API
             description: REST API for aggregated bikeshare data from around the world.
@@ -1307,12 +1468,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: pybikes
             description: >-
@@ -1331,37 +1493,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_CITY
-            item_type:
-              - open_source
-              - Free
-          - item:
-            name: INRIX Road Rules
-            description: >-
-              INRIX Road Rules™ is an easy to use cloud-based platform that enables cities and road authorities to digitize and store all of their mobility
-              information in a centralized location.
-            homepage_url: 'https://inrix.com/products/road-rules/'
-            repo_url: null
-            logo: inrix.svg
-            mode:
-              - primary: Auto
+              - primary: North America
                 secondary:
-                  - Light
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - North America
-              - USA
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
+                  - USA 
+            privacy: No Mobility
+            geo_scope: Multiple Cities
             item_type:
-              - closed_source
-              - Pay
+              - Open Source   
           - item:
             name: Autopilot
             description: >-
@@ -1382,12 +1520,14 @@ landscape:
             data_owner:
               - Government
             region:
-              - Europe
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: Europe
+                secondary: 
+                  - Germany
+                  - France 
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
           - item:
             name: RidePilot
             description: >-
@@ -1410,12 +1550,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: No Mobility
+            geo_scope: Multiple Cities
             item_type:
-              - open_source
-              - Free
+              - Open Source
           - item:
             name: Simulation of Urban MObility
             description: >-
@@ -1435,12 +1576,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: Linked Fuzzy
+            geo_scope: Multiple Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
       - subcategory:
         name: Apps
         items:
@@ -1463,13 +1605,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: Moovit
             description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of the best urban mobility app'
@@ -1494,13 +1636,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - Europe
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary: 
+                  - USA 
+            privacy: Count Results Only
+            geo_scope: Multiple Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
       - subcategory:
         name: Metrics
         items:
@@ -1532,13 +1674,13 @@ landscape:
               - Government
               - Federal
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
   - category:
     name: People
     subcategories:
@@ -1561,13 +1703,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Fuzzy
+            geo_scope: Multiple Cities
             item_type:
-              - closed_data
-              - Pay
+              - Closed Data
           - item:
             name: cubeiq
             description: >-
@@ -1586,12 +1728,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:  
+                  - USA 
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: veraset
             description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
@@ -1608,13 +1751,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Fuzzy
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: SafeGraph
             description: >-
@@ -1633,13 +1776,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Fuzzy
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
       - subcategory:
         name: Travel Behavior Collection
         items:
@@ -1676,13 +1819,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Fuzzy
+            geo_scope: Country
             item_type:
-              - open_source
-              - Free
+              - Open Source
           - item:
             name: Itinerum
             description: >-
@@ -1703,13 +1846,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - Canada
-            privacy: UNLINKED_FUZZY_OD
+              - primary: North America
+                secondary:
+                  - Canada
+            privacy: Unlinked Fuzzy
             geo_scope: CITY
             item_type:
-              - open_data
-              - Free
+              - Open Data
           - item:
             name: rMove
             description: >-
@@ -1729,13 +1872,45 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source 
+          - item:
+            name: Transportation Secure Data Center
+            description: >-
+              The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies conducted across the nation.
+              Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle characteristics and survey participant demographics. 
+              NREL screens the initial data for quality control, translates each data set into a consistent format, and interprets the data for spatial analysis. 
+              NREL’s processing routines add information on vehicle fuel economy and road grades and join data points to the road network.
+            homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/index.html'
+            repo_url: 'https://github.com/NREL/TSDC'
+            logo: tsdc.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source  
           - item:
             name: NYC DOT Citywide Mobility Survey
             description: >-
@@ -1770,13 +1945,13 @@ landscape:
               - Government
               - State
             region:
-              - North America
-              - USA
-            privacy: COUNT_RESULTS_ONLY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
             geo_scope: CITY
             item_type:
-              - open_data
-              - Free
+              - Open Data
       - subcategory:
         name: Tools
         items:
@@ -1801,19 +1976,113 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - USA
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Multiple Cities
             item_type:
-              - open_source
-              - Free
+              - Open Source
   - category:
     name: Vehicles-People
     subcategories: null
   - category:
     name: Infrastructure-Vehicles-People
     subcategories:
+      - subcategory:
+        name: Data Set Broker
+        items:
+          - item:
+            name: Carto
+            description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
+            homepage_url: 'https://carto.com/spatial-data-catalog/'
+            repo_url: null
+            logo: carto.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Country
+            item_type:
+              - Closed Source
+          - item:
+            name: RITIS
+            description: >-
+              RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems. Its broad
+              spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation – provides enhanced, multi-faceted                insight of the transportation system across geographic and agency boundaries.
+            homepage_url: 'https://www.ritis.org/intro'
+            repo_url: null
+            logo: ritis.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA 
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Country
+            item_type:
+              - Closed Source
+          - item:
+            name: INRIX Road Rules
+            description: >-
+              INRIX pioneered the practice of managing traffic by analyzing data not just from road sensors, but also from vehicles. 
+              This breakthrough approach enabled INRIX to become one of the leading providers of data and insight into how people move around the world.
+              INRIX delivers innovative products for the automotive and transportation industries such as real-time parking and traffic information and 
+              solutions that facilitate the safe testing and deployment of autonomous vehicles. We also provide new insights to a 
+              variety of other industries that can make better business decisions by understanding how people move throughout the day.
+            homepage_url: 'https://inrix.com/about/'
+            repo_url: null
+            logo: inrix.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Micro Mobility 
+                secondary:
+                  - Walking
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Country
+            item_type:
+              - Closed Source 
       - subcategory:
         name: Route Planning
         items:
@@ -1836,13 +2105,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - Europe
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Linked Fuzzy
+            geo_scope: Multiple Country
             item_type:
-              - open_data
-              - Free
+              - Open Data  
           - item:
             name: OneBusAway
             description: OneBusAway is an open source software system for real-time transit information in urban centers.
@@ -1860,13 +2129,13 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - USA
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Multiple Cities
             item_type:
-              - open_source
-              - Free
+              - Open Source  
           - item:
             name: Transmodel
             description: >-
@@ -1889,12 +2158,13 @@ landscape:
             data_owner:
               - Government
             region:
-              - Europe
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+              - primary: Europe
+                secondary:
+                  - European Union
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_specification
-              - Free
+              - Open Specification
           - item:
             name: Open Trip Planner
             description: >-
@@ -1917,17 +2187,32 @@ landscape:
             data_owner:
               - Open Project
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - European Union 
+                  - United Kingdom 
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility
+            geo_scope: Multiple Country
             item_type:
-              - open_source
-              - Free
+              - Open Source
           - item:
             name: Transport API
             description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
@@ -1948,19 +2233,19 @@ landscape:
             data_owner:
               - Industry
             region:
-              - Europe
-              - United Kingdom
-            privacy: UNLINKED_TRAJECTORY_WITH_FUZZY_EDGES
-            geo_scope: COUNTRY
+              - primary: Europe
+                secondary:
+                  - United Kingdom
+            privacy: Unlinked Trajectory with Fuzzy Edges
+            geo_scope: Country
             item_type:
-              - closed_data
-              - Pay
+              - Closed Data
           - item:
             name: Transmodel - Siri
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
             homepage_url: 'http://www.siri.org.uk/'
             repo_url: null
-            logo: transmodel_siri.svg
+            logo: siri_transmodel.svg
             mode:
               - primary: Train
                 secondary:
@@ -1975,10 +2260,13 @@ landscape:
             data_owner:
               - Government
             region:
-              - Europe
-            privacy: LINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
-            item_type: open_specification
+              - primary: Europe
+                secondary:
+                  - European Union
+            privacy: Linked Fuzzy
+            geo_scope: Multiple Country
+            item_type: 
+              - Open Specification
       - subcategory:
         name: Navigation
         items:
@@ -2002,13 +2290,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Fuzzy
+            geo_scope: Country
             item_type:
-              - closed_data
-              - Pay
+              - Closed Data
           - item:
             name: Google Maps
             description: >-
@@ -2045,17 +2333,31 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - South America
-              - Europe
-              - Africa
-              - Asia
-              - Oceania
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada 
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - European Union
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China 
+                  - Japan 
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Count Results Only
+            geo_scope: Multiple Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: TomTom
             description: >-
@@ -2091,13 +2393,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Fuzzy
+            geo_scope: Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: Mapbox
             description: >-
@@ -2117,13 +2419,13 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - Europe
-            privacy: UNLINKED_FUZZY_OD
-            geo_scope: MULTI_COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Fuzzy
+            geo_scope: Multiple Country
             item_type:
-              - closed_source
-              - Pay
+              - Closed Source
           - item:
             name: RouteE
             description: >-
@@ -2145,13 +2447,13 @@ landscape:
             data_owner:
               - National Renewable Energy Laboratory
             region:
-              - North America
-              - USA
-            privacy: NO_MOBILITY
-            geo_scope: MULTI_CITY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
             item_type:
-              - open_source
-              - Free
+              - Open Source
       - subcategory:
         name: Mobility Count Results
         items:
@@ -2173,10 +2475,10 @@ landscape:
             data_owner:
               - Industry
             region:
-              - North America
-              - USA
-            privacy: COUNT_RESULTS_ONLY
-            geo_scope: COUNTRY
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
-              - open_data
-              - Free
+              - Open Data
