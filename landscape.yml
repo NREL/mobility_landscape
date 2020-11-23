@@ -250,7 +250,7 @@ landscape:
               An extensive archive of public transit data for software developers, transit agencies and more. Browse and download official GTFS & GTFS-realtime
               feeds from around the world.
             homepage_url: 'https://openmobilitydata.org/'
-            repo_url: 'https://github.com/OpenMobilityData/OpenMobilityData-Public'
+            repo_url: null
             logo: openmobilitydata.svg
             mode:
               - primary: Train
