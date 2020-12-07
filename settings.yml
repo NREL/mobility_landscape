@@ -206,8 +206,8 @@ big_picture:
             title: Landscape Logo
 test:
   header: Interactive Mobility Data Landscape
-  section: Navigation
-  logo: tomtom.svg
+  section: Landscape Projects
+  logo: tom-tom.svg
 anonymous_organization:
   name: Non-Public Unnamed Organization
   homepage: 'https://nrel.github.io/mobility_landscape/'
