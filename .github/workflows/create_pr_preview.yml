@@ -10,7 +10,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build-and-publish-image-artifacts:
-    env: 
+    env:
       PROJECT_PATH: "../landscape"
       SKIP_VERSION_CHECK: 1
     # We run only on macos here since the repo2docker tests will run on ubuntu
@@ -39,7 +39,7 @@ jobs:
     - name: Build and generate previews
       run: |
         cd landscapeapp
-        npx yarn build-only
+        npx yarn build
 
     - name: Upload the image file as a build artifact for the user to check
       uses: actions/upload-artifact@v1
