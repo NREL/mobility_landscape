@@ -1,200 +1,29 @@
 landscape:
   - category:
-    name: Infrastructure
+    name: Data Collection Method
     subcategories:
       - subcategory:
-        name: Data
+        name: Sensing
         items:
           - item:
-            name: USDOT Highway Data
-            description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
-            homepage_url: 'https://www.fhwa.dot.gov/policyinformation/statistics.cfm'
-            repo_url: null
-            logo: usdot_highway.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-            data_duration: Ten Years
-            data_frequency: Yearly
-            data_format: Excel
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Specification
-              - Open Data
-          - item:
-            name: USDOT Data Governance
+            name: INRIX Road Rules
             description: >-
-              It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
-              management for handling of data within FHWA.
-            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+              INRIX pioneered the practice of managing traffic by analyzing data not just from road sensors, but also from vehicles.  This breakthrough approach
+              enabled INRIX to become one of the leading providers of data and insight into how people move around the world. INRIX delivers innovative products
+              for the automotive and transportation industries such as real-time parking and traffic information and  solutions that facilitate the safe testing
+              and deployment of autonomous vehicles. We also provide new insights to a variety of other industries that can make better business decisions by
+              understanding how people move throughout the day.
+            homepage_url: 'https://inrix.com/about/'
             repo_url: null
-            logo: usdot_data_gov.svg
+            logo: inrix.svg
             mode:
               - primary: Auto
                 secondary:
                   - Light
                   - Heavy
-            data_duration: Ten Years
-            data_frequency: Yearly
-            data_format: PDF
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Specification
-          - item:
-            name: NeTEx
-            description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
-            homepage_url: 'http://netex-cen.eu/'
-            repo_url: null
-            logo: netex.svg
-            mode:
-              - primary: Train
-                secondary:
-                  - Rail
-                  - High Speed
-              - primary: Bus
-                secondary:
-                  - Shuttle
-                  - Short Haul
-            data_duration: Ten Years
-            data_frequency: Yearly
-            data_format: Excel
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: Europe
-                secondary:
-                  - France
-            privacy: No Mobility
-            geo_scope: Multiple Country
-            item_type:
-              - Open Specification
-          - item:
-            name: GPX
-            description: >-
-              GPX (the GPS Exchange Format) is a light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between
-              applications and Web services on the Internet.
-            homepage_url: 'https://www.topografix.com/gpx.asp'
-            repo_url: null
-            logo: gpx.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
               - primary: Micro Mobility
                 secondary:
-                  - Bike
-                  - Other
-              - primary: Transit
-                secondary:
-                  - Bus
-                  - Train
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: XML
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Specification
-          - item:
-            name: Work Zone Data Exchange
-            description: >-
-              The Work Zone Data Exchange (WZDx) Specification enables infrastructure owners and operators (IOOs) to make harmonized work zone data available
-              for third party use. The intent is to make travel on public roads safer and more efficient through ubiquitous access to data on work zone
-              activity. Specifically, the project aims to get data on work zones into vehicles to help automated driving systems (ADS) and human drivers
-              navigate more safely.
-            homepage_url: 'https://www.transportation.gov/av/data/wzdx'
-            repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
-            logo: usdot_work_zone.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Five Years
-            data_frequency: Yearly
-            data_format: JSON
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Specification
-              - Open Data
-          - item:
-            name: Mobility Data MarketPlace and DATEX
-            description: >-
-              Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
-              standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
-              constantly expanding traffic data coverage. The MDM is part of the Federal Government's innovation programme and is funded by the Federal Ministry
-              of Transport and Digital Infrastructure. The Federal Highway Research Institute (BASt) is responsible for managing the project
-            homepage_url: 'https://www.mdm-portal.de/aktuell/'
-            repo_url: null
-            logo: mdm.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: XML
-            data_owner:
-              - Government
-            region:
-              - primary: Europe
-                secondary:
-                  - Germany
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Specification
-              - Closed Data
-          - item:
-            name: Shared Streets
-            description: >-
-              SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps
-              connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system,
-              or a commercial basemap.
-            homepage_url: 'https://sharedstreets.io'
-            repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
-            logo: sharedstreets.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Scooter
-                  - Bike
-                  - Other
+                  - Walking
             data_duration: Unknown
             data_frequency: Unknown
             data_format: Unknown
@@ -205,34 +34,249 @@ landscape:
                 secondary:
                   - USA
             privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
+            geo_scope: Country
             item_type:
-              - Closed Data
-              - Open Source
+              - Closed Source
           - item:
-            name: GTFS Main
+            name: Itinerum
             description: >-
-              The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a
-              format that can be consumed by a wide variety of software applications. Today, the GTFS data format is used by thousands of public transport
-              providers.
-            homepage_url: 'https://gtfs.org/'
-            repo_url: 'https://github.com/google/transit'
-            logo: GTFS.svg
+              The Itinerum™ platform was developed as part of a research project conducted by Zachary Patterson from the Department of Geography, Planning &
+              Environment at Concordia University in Montreal. The original purpose of the Itinerum™ smart phone application (previously DataMobile) was to
+              collect travel behaviour data from Concordia University students, faculty and staff. The application records locational information on user trips
+              through their smartphone.
+            homepage_url: 'https://itinerum.ca/about.html'
+            repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
+            logo: itinerum.svg
             mode:
-              - primary: Train
+              - primary: Micro Mobility
                 secondary:
-                  - Commuter Rail
-                  - Light Rail
-                  - Subway
-              - primary: Bus
+                  - Public
+            data_duration: Three Years
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
                 secondary:
-                  - Long Haul
-                  - Short Haul
+                  - Canada
+            privacy: Linked Semantic Trajectories
+            geo_scope: CITY
+            item_type:
+              - Open Data
+          - item:
+            name: Streetlight Data
+            description: Affortable and intuitive mobiilty data at a low cost
+            homepage_url: 'https://www.streetlightdata.com/'
+            repo_url: null
+            logo: streetlight.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
             data_duration: Unknown
             data_frequency: Unknown
-            data_format: Text
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Linked Visits
+            geo_scope: Multiple Cities
+            item_type:
+              - Closed Data
+          - item:
+            name: Fleetsu
+            description: 'Fleetsu transform fleet management by enabling businesses to instantly collect, analyse and monetise fleet data, from light cars to trucks'
+            homepage_url: 'https://fleetsu.com'
+            repo_url: null
+            logo: fleetsu.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Monthly
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Country
+            item_type:
+              - Closed Source
+      - subcategory:
+        name: Surveying
+        items:
+          - item:
+            name: Sigalert Traffic Reports
+            description: >-
+              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
+              US
+            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
+            repo_url: null
+            logo: sigalert.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Continuous
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Multiple Cities
+            item_type:
+              - Closed Source
+          - item:
+            name: rMove
+          - item:
+            name: INRIX
+          - item: 
+            name: Itinerum
+      - subcategory:
+        name: Sensing and Surveying
+        items:
+          - item:
+            name: e-mission
+            description: >-
+              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
+              aggregate them to make data available to urban planners and transportation engineers.
+            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
+            repo_url: 'https://github.com/e-mission/e-mission-server'
+            logo: emission.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Three Years
+            data_frequency: Continuous
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Linked Semantic Trajectories
+            geo_scope: Country
+            item_type:
+              - Open Source
+          - item:
+            name: rMove
+            description: >-
+              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
+              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
+              insights inform transportation solutions suited to everyone’s needs.
+            homepage_url: 'https://rmove.rsginc.com'
+            repo_url: null
+            logo: rmove.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Linked Semantic Trajectories
+            geo_scope: Country
+            item_type:
+              - Closed Source
+  - category:
+    name: Data
+    subcategories:
+      - subcategory:
+        name: Infrastructure
+        items:
+          - item:
+            name: EPA Smart Location Database
+            description: >-
+              The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes
+              summarizing characteristics such as housing density, diversity of land use, neighborhood design, destination accessibility, transit service,
+              employment, and demographics. Most attributes are available for every census block group in the United States.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_database.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Long Haul
+                  - Shuttle
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
             data_owner:
               - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Data
+          - item:
+            name: Open Street Map
+            description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
+            homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
+            repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
+            logo: openstreetmap.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
               - Open Project
             region:
               - primary: North America
@@ -257,11 +301,10 @@ landscape:
               - primary: Oceania
                 secondary:
                   - Australia
-            privacy: Unlinked Trajectories
+            privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Data
-              - Open Specification
+              - Open Source
           - item:
             name: Open Mobility Data
             description: >-
@@ -381,164 +424,266 @@ landscape:
             geo_scope: Multiple Country
             item_type:
               - Open Data
+          - item:
+            name: Mobility Data MarketPlace and DATEX
+            description: >-
+              Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
+              standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
+              constantly expanding traffic data coverage. The MDM is part of the Federal Government's innovation programme and is funded by the Federal Ministry
+              of Transport and Digital Infrastructure. The Federal Highway Research Institute (BASt) is responsible for managing the project
+            homepage_url: 'https://www.mdm-portal.de/aktuell/'
+            repo_url: null
+            logo: mdm.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Government
+            region:
+              - primary: Europe
+                secondary:
+                  - Germany
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Specification
+              - Closed Data
+          - item:
+            name: Work Zone Data Exchange
+            description: >-
+              The Work Zone Data Exchange (WZDx) Specification enables infrastructure owners and operators (IOOs) to make harmonized work zone data available
+              for third party use. The intent is to make travel on public roads safer and more efficient through ubiquitous access to data on work zone
+              activity. Specifically, the project aims to get data on work zones into vehicles to help automated driving systems (ADS) and human drivers
+              navigate more safely.
+            homepage_url: 'https://www.transportation.gov/av/data/wzdx'
+            repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
+            logo: usdot_work_zone.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: JSON
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Specification
+              - Open Data
+          - item:
+            name: USDOT Highway Data
+            description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
+            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+            repo_url: null
+            logo: usdot_highway.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Specification
+              - Open Data
       - subcategory:
-        name: Crowdsourced Maps
+        name: People
         items:
           - item:
-            name: Open Street Map
-            description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
-            homepage_url: 'https://wiki.openstreetmap.org/wiki/Main_Page'
-            repo_url: 'https://github.com/openstreetmap/openstreetmap-website'
-            logo: openstreetmap.svg
+            name: TSA Traveler Data
+            description: >-
+              The TSA is releasing data on checkpoints for 2019 and 2020 to the public, in relation to the need for increased mobility data after the CO-VID19
+              pandemic.
+            homepage_url: 'https://www.tsa.gov/coronavirus/passenger-throughput'
+            repo_url: null
+            logo: tsa.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: One Year
+            data_frequency: Weekly
+            data_format: Excel
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Data
+          - item:
+            name: Transportation Secure Data Center
+            description: >-
+              The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies
+              conducted across the nation. Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle
+              characteristics and survey participant demographics.  NREL screens the initial data for quality control, translates each data set into a
+              consistent format, and interprets the data for spatial analysis.  NREL’s processing routines add information on vehicle fuel economy and road
+              grades and join data points to the road network.
+            homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/index.html'
+            repo_url: 'https://github.com/NREL/TSDC'
+            logo: tsdc.svg
             mode:
               - primary: Auto
                 secondary:
                   - Light
                   - Heavy
-              - primary: Walking
-                secondary:
-                  - Location
               - primary: Train
                 secondary:
                   - Rail
-            data_duration: Ten Years
-            data_frequency: Randomly
-            data_format: Shapefile
+                  - High Speed
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
             data_owner:
-              - Open Project
+              - National Renewable Energy Laboratory
             region:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: No Mobility
-            geo_scope: Multiple Country
+            privacy: Linked Semantic Visits
+            geo_scope: Multiple Cities
             item_type:
               - Open Source
           - item:
-            name: City Lines
-            description: Crowdsourced map of transit systems across the world
-            homepage_url: 'https://www.citylines.co/'
-            repo_url: 'https://github.com/citylines/citylines'
-            logo: citylines.svg
+            name: NYC DOT Citywide Mobility Survey
+            description: >-
+              DOT conducts a robust annual travel survey called the Citywide Mobility Survey (CMS). Launched in 2017, it seeks to assess the travel behavior,
+              preferences, and attitudes of New York City residents. Annual reports with results from each year’s survey, as well as accompanying datasets, are
+              available below.
+            homepage_url: 'https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml'
+            repo_url: null
+            logo: nycdot.svg
             mode:
               - primary: Auto
                 secondary:
                   - Light
-                  - Heavy
+                  - Rideshare
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
               - primary: Walking
                 secondary:
                   - Location
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Ten Years
-            data_frequency: Randomly
-            data_format: Shapefile
+            data_duration: Three Years
+            data_frequency: Yearly
+            data_format: Excel
             data_owner:
-              - Open Project
+              - Government
+              - State
             region:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
+            privacy: Linked Semantic Visits
+            geo_scope: CITY
             item_type:
-              - Open Source
+              - Open Data
           - item:
-            name: Transitland
-            description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
-            homepage_url: 'https://transit.land/'
-            repo_url: 'https://github.com/transitland/transitland-atlas'
-            logo: transitland_logo.svg
+            name: cubeiq
+            description: >-
+              Cuebiq is an offline intelligence and measurement company helping marketers understand the true impact of their cross-channel advertising in the
+              offline world.
+            homepage_url: 'https://www.cuebiq.com/about/'
+            repo_url: null
+            logo: cubeiq.svg
             mode:
-              - primary: Auto
+              - primary: Micro Mobility
                 secondary:
-                  - Light
-                  - Heavy
-              - primary: Walking
-                secondary:
-                  - Location
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Ten Years
-            data_frequency: Randomly
-            data_format: Shapefile
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
             data_owner:
-              - Open Project
+              - Industry
             region:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
+            privacy: Linked Visits
+            geo_scope: Country
             item_type:
-              - Open Source
+              - Closed Source
+          - item:
+            name: veraset
+            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
+            homepage_url: 'https://www.veraset.com/about/'
+            repo_url: null
+            logo: veraset.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Linked Visits
+            geo_scope: Country
+            item_type:
+              - Closed Source
+          - item:
+            name: SafeGraph
+            description: >-
+              Unlock innovation with the most accurate points-of-interest (POI) data, business listings, and store visitor insights data for commercial places
+              in the U.S.
+            homepage_url: 'https://www.safegraph.com'
+            repo_url: null
+            logo: safegraph.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Closed Source
           - item:
             name: Places
             description: >-
@@ -595,21 +740,22 @@ landscape:
             item_type:
               - Closed Source
       - subcategory:
-        name: Tools
+        name: Vehicles
         items:
           - item:
-            name: TransAM
-            description: >-
-              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
-              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
-            homepage_url: 'http://camsys.software/products/transam'
-            repo_url: 'https://github.com/camsys/transam_core'
-            logo: transam_light.svg
+            name: Carto
+            description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
+            homepage_url: 'https://carto.com/spatial-data-catalog/'
+            repo_url: null
+            logo: carto.svg
             mode:
-              - primary: Train
+              - primary: Walking
                 secondary:
-                  - Rail
-                  - High Speed
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
             data_duration: Five Years
             data_frequency: Unknown
             data_format: Unknown
@@ -619,449 +765,109 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
+            privacy: Multiple Datasets
             geo_scope: Country
-            item_type:
-              - Open Source
-          - item:
-            name: OSMnx
-            description: >-
-              OSMnx is a Python package that lets you download spatial geometries and model, project, visualize, and analyze real-world street networks from
-              OpenStreetMap’s APIs. Users can download and model walkable, drivable, or bikeable urban networks with a single line of Python code, and then
-              easily analyze and visualize them. You can just as easily download and work with amenities/points of interest, building footprints, elevation
-              data, street bearings/orientations, speed/travel time, and network routing.
-            homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
-            repo_url: 'https://github.com/gboeing/osmnx'
-            logo: openstreetmap.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Country
-            item_type:
-              - Open Source
-          - item:
-            name: GPX Tool
-            description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
-            homepage_url: 'https://github.com/topics/gpx'
-            repo_url: 'https://github.com/tkrajina/gpxpy'
-            logo: gpx.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: XML
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Specification
-          - item:
-            name: Scenario Evaluation and Regionalization Analysis Model
-            description: >-
-              The Scenario Evaluation and Regionalization Analysis (SERA) model provides insights that can guide infrastructure development and transportation
-              investment decisions and accelerate the adoption of electric vehicles.
-            homepage_url: 'https://www.nrel.gov/hydrogen/sera-model.html'
-            repo_url: null
-            logo: sera.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Short Haul
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Source
-          - item:
-            name: remix
-            description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
-            homepage_url: 'https://www.remix.com'
-            repo_url: null
-            logo: remix.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Long Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Cities
             item_type:
               - Closed Source
           - item:
-            name: Transportation Energy & Mobility Pathway Options
+            name: Autopilot
             description: >-
-              The TEMPO model explores pathway options to produce long-term scenarios that reach strategic transportation-energy-environment objectives and
-              assess synergies with energy supply. It characterizes opportunities for existing and future fuels, technologies, and business models across
-              transportation sub-sectors and segments.
-            homepage_url: 'https://www.nrel.gov/transportation/tempo-model.html'
+              AUTOPILOT is a European research project funded by the European Commission under the new Framework Programme for Research and Innovation H2020.
+              AUTOPILOT project will especially focus on utilizing the IoT potential for automated driving. The overall objective is to bring together relevant
+              knowledge and technology from the automotive and the IoT value chains in order to develop IoT-architectures and platforms, which will bring
+              Automated Driving towards a new dimension.
+            homepage_url: 'https://zenodo.org/communities/autopilot?page=1&size=20'
             repo_url: null
-            logo: tempo.svg
+            logo: autopilot.svg
             mode:
               - primary: Auto
                 secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Closed Data
-          - item:
-            name: California Statewide Integrated Traffic Records System
-            description: >-
-              The Statewide Integrated Traffic Records System (SWITRS) is a database that collects and processes data gathered from a collision scene.  The
-              Internet SWITRS application is a tool that leverages this database to allow California Highway Patrol (CHP) staff, members of its Allied Agencies,
-              as well as researchers and members of the public to request various types of statistical reports in an electronic format. The application allows
-              for the creation of custom reports requested by the user based on different categories including, but not limited to locations, dates, and
-              collision types.
-            homepage_url: 'https://www.chp.ca.gov/Programs-Services/Services-Information/SWITRS-Internet-Statewide-Integrated-Traffic-Records-System'
-            repo_url: null
-            logo: switrs.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-            data_duration: Five Years
-            data_frequency: Yearly
-            data_format: PDF
-            data_owner:
-              - Government
-              - State
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: STATE
-            item_type:
-              - Open Data
-      - subcategory:
-        name: Apps
-        items:
-          - item:
-            name: Infrastructure Apps for Government and NGO
-            description: >-
-              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
-              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
-              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
-              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
-              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
-            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
-            repo_url: null
-            logo: usdot_app.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
                   - Light
             data_duration: Unknown
             data_frequency: Unknown
             data_format: PDF
             data_owner:
               - Government
-              - Federal
             region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Closed Data
-      - subcategory:
-        name: Metrics
-        items:
-          - item:
-            name: EPA Access to Jobs and Workers Via Transit Tool
-            description: >-
-              Access to Jobs and Workers Via Transit is a free geospatial data resource and web mapping tool for comparing the accessibility of neighborhoods
-              via public transit service. Indicators summarize accessibility to jobs as well as accessibility by workers, households, and population.
-            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
-            repo_url: null
-            logo: epa_transit_tool.svg
-            mode:
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Long Haul
-                  - Shuttle
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Data
-          - item:
-            name: EPA National Walkability Index
-            description: >-
-              The Smart Location Calculator is a simple tool for exploring how workplace location affects worker commute travel. The tool provides location
-              efficiency scores for a user-entered address, as well as location efficiency data summarized at the block group level. All of the scores are
-              relative to the region.
-            homepage_url: 'https://www.slc.gsa.gov/slc/'
-            repo_url: null
-            logo: epa_walkability.svg
-            mode:
-              - primary: Walking
-                secondary:
-                  - Location
-            data_duration: Five Years
-            data_frequency: Yearly
-            data_format: Excel
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Data
-          - item:
-            name: EPA Smart Location Calculator
-            description: >-
-              The National Walkability Index is a nationwide geographic data resource that ranks block groups according to their relative walkability. The
-              national dataset includes walkability scores for all block groups as well as the underlying attributes that are used to rank the block groups.
-            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
-            repo_url: null
-            logo: epa_calculator.svg
-            mode:
-              - primary: Walking
-                secondary:
-                  - Location
-            data_duration: Five Years
-            data_frequency: Yearly
-            data_format: Excel
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Data
-          - item:
-            name: Walkscore
-            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
-            homepage_url: 'https://www.walkscore.com/professional/research.php'
-            repo_url: null
-            logo: walkscore.svg
-            mode:
-              - primary: Walking
-                secondary:
-                  - Location
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-              - primary: Bus
-                secondary:
-                  - Short Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Ten Years
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-              - primary: Europe
-                secondary:
-                  - United Kingdom
-            privacy: No Mobility
-            geo_scope: Multiple Country
-            item_type:
-              - Closed Source
-  - category:
-    name: Vehicles
-    subcategories:
-      - subcategory:
-        name: Data
-        items:
-          - item:
-            name: National Transit Database
-            description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
-            homepage_url: 'https://www.transit.dot.gov/ntd'
-            repo_url: null
-            logo: NTD.svg
-            mode:
-              - primary: Train
-                secondary:
-                  - Rail
-                  - High Speed
-            data_duration: Ten Years
-            data_frequency: Yearly
-            data_format: Text
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Data
-          - item:
-            name: High Mobility
-            description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
-            homepage_url: 'https://about.high-mobility.com'
-            repo_url: null
-            logo: high_mobility.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-            data_duration: Five Years
-            data_frequency: Yearly
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Country
-            item_type:
-              - Closed Data
-          - item:
-            name: GTFS Real Time
-            description: >-
-              A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
-              not operating, important delays, etc.) location of their vehicles, and expected arrival times.
-            homepage_url: 'https://gtfs.org/reference/realtime/v2/'
-            repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
-            logo: GTFS.svg
-            mode:
-              - primary: Train
-                secondary:
-                  - Rail
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
-            data_duration: Unknown
-            data_frequency: Continuous
-            data_format: Text
-            data_owner:
-              - Government
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
               - primary: Europe
                 secondary:
                   - Germany
                   - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
             privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
+            geo_scope: Country
+            item_type:
+              - Open Specification
+          - item:
+            name: City Bikes API
+            description: 'REST API for aggregated bikeshare data from around the world. Supports stations, not trips.'
+            homepage_url: 'http://api.citybik.es/v2/'
+            repo_url: null
+            logo: citybikes.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Data
+          - item:
+            name: Chicago Ride-Sharing Data
+            description: >-
+              All trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as
+              part of routine reporting required by ordinance.
+            homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
+            repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
+            logo: chicagotnp.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Rideshare
+            data_duration: Three Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: CITY
+            item_type:
+              - Open Data
+          - item:
+            name: New York City Ride-Sharing Data
+            description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
+            homepage_url: 'https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
+            repo_url: null
+            logo: nyc.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Rideshare
+            data_duration: Three Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: CITY
             item_type:
               - Open Data
           - item:
@@ -1183,137 +989,42 @@ landscape:
             item_type:
               - Open Data
           - item:
-            name: General Bikeshare Feed Specification
-            description: >-
-              The General Bikeshare Feed Specification, known as GBFS, is the open data standard for bikeshare. GBFS makes real-time data feeds in a uniform
-              format publicly available online, with an emphasis on findability.
-            homepage_url: 'https://nabsa.net/resources/gbfs/'
-            repo_url: 'https://github.com/NABSA/gbfs'
-            logo: gbfs.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-            data_duration: Five Years
-            data_frequency: Continuous
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: No Mobility
-            geo_scope: Multiple Country
-            item_type:
-              - Open Specification
-          - item:
-            name: Chicago Ride-Sharing Data
-            description: >-
-              All trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as
-              part of routine reporting required by ordinance.
-            homepage_url: 'https://chicago.github.io/tnp-reporting-manual/'
-            repo_url: 'https://github.com/Chicago/tnp-reporting-manual'
-            logo: chicagotnp.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Rideshare
-            data_duration: Three Years
-            data_frequency: Yearly
-            data_format: Text
-            data_owner:
-              - Government
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: CITY
-            item_type:
-              - Open Data
-          - item:
-            name: New York City Ride-Sharing Data
-            description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
-            homepage_url: 'https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
+            name: National Transit Database
+            description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
+            homepage_url: 'https://www.transit.dot.gov/ntd'
             repo_url: null
-            logo: nyc.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Rideshare
-            data_duration: Three Years
-            data_frequency: Yearly
-            data_format: Text
-            data_owner:
-              - Government
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: CITY
-            item_type:
-              - Open Data
-          - item:
-            name: GTFS Ride
-            description: >-
-              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of Transportation
-              and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
-            homepage_url: 'https://www.gtfs-ride.org'
-            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
-            logo: gtfs_ride.svg
+            logo: NTD.svg
             mode:
               - primary: Train
                 secondary:
                   - Rail
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
-            data_duration: Unknown
-            data_frequency: Unknown
+                  - High Speed
+            data_duration: Ten Years
+            data_frequency: Yearly
             data_format: Text
             data_owner:
-              - Open Project
+              - Government
+              - Federal
             region:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Unlinked Trajectories
-            geo_scope: STATE
+            privacy: Count Results Only
+            geo_scope: Country
             item_type:
               - Open Data
           - item:
-            name: Otonomo
-            description: >-
-              Connected car data was designed for vehicle operations, not for powering mobility services. In order for it to be effectively used in apps and
-              services, its raw format requires additional processing. Connected car data must be acquired, cleaned, normalized, and restructured which is the
-              service that Otonomo provides.
-            homepage_url: 'https://www.otonomo.io/connected-car-data/'
+            name: High Mobility
+            description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
+            homepage_url: 'https://about.high-mobility.com'
             repo_url: null
-            logo: otonomo.svg
+            logo: high_mobility.svg
             mode:
               - primary: Auto
                 secondary:
                   - Light
             data_duration: Five Years
-            data_frequency: Unknown
+            data_frequency: Yearly
             data_format: Unknown
             data_owner:
               - Industry
@@ -1324,59 +1035,46 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed Data
           - item:
-            name: Fleetsu
-            description: 'Fleetsu transform fleet management by enabling businesses to instantly collect, analyse and monetise fleet data, from light cars to trucks'
-            homepage_url: 'https://fleetsu.com'
+            name: California Statewide Integrated Traffic Records System
+            description: >-
+              The Statewide Integrated Traffic Records System (SWITRS) is a database that collects and processes data gathered from a collision scene.  The
+              Internet SWITRS application is a tool that leverages this database to allow California Highway Patrol (CHP) staff, members of its Allied Agencies,
+              as well as researchers and members of the public to request various types of statistical reports in an electronic format. The application allows
+              for the creation of custom reports requested by the user based on different categories including, but not limited to locations, dates, and
+              collision types.
+            homepage_url: 'https://www.chp.ca.gov/Programs-Services/Services-Information/SWITRS-Internet-Statewide-Integrated-Traffic-Records-System'
             repo_url: null
-            logo: fleetsu.svg
+            logo: switrs.svg
             mode:
               - primary: Auto
                 secondary:
-                  - Light
                   - Heavy
-            data_duration: Five Years
-            data_frequency: Monthly
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Country
-            item_type:
-              - Closed Source
-      - subcategory:
-        name: Tools
-        items:
-          - item:
-            name: ADOPT
-            description: >-
-              Developed by NREL, the Automotive Deployment Options Projection Tool (ADOPT) is a light-duty vehicle consumer choice and stock model. ADOPT
-              estimates vehicle technology improvement impacts on future U.S. light-duty vehicle sales, energy use, and emissions.
-            homepage_url: 'https://www.nrel.gov/transportation/adopt.html'
-            repo_url: null
-            logo: adopt.svg
-            mode:
-              - primary: Auto
-                secondary:
                   - Light
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: PDF
             data_owner:
-              - National Renewable Energy Laboratory
+              - Government
+              - State
             region:
               - primary: North America
                 secondary:
                   - USA
-            privacy: No Mobility
-            geo_scope: Country
+            privacy: Count Results Only
+            geo_scope: STATE
             item_type:
-              - Closed Source
+              - Open Data
+      - subcategory:
+        name: Infrastructure-People-Vehicles
+        items:
+  - category:
+    name: Data Formatting
+    subcategories:
+      - subcategory:
+        name: Specifications
+        items:
           - item:
             name: Mobility Data Specification
             description: >-
@@ -1430,68 +1128,149 @@ landscape:
             item_type:
               - Open Source
           - item:
-            name: Auto API
+            name: GTFS Ride
             description: >-
-              The Auto API specification is an open source vehicle data model built for the purpose of providing a consistent data protocol for communication
-              between cars and external 3rd party services.
-            homepage_url: 'https://high-mobility.com/learn/documentation/rest/reference/v3/'
-            repo_url: 'https://github.com/highmobility/auto-api'
-            logo: high_mobility.svg
+              GTFS-ride is an open, fixed-route transit ridership data standard developed through a partnership between the Oregon Department of Transportation
+              and Oregon State University. GTFS-ride allows for improved ridership data collection, storing, sharing, reporting, and analysis.
+            homepage_url: 'https://www.gtfs-ride.org'
+            repo_url: 'https://github.com/ODOT-PTS/GTFS-ride'
+            logo: gtfs_ride.svg
             mode:
-              - primary: Auto
+              - primary: Train
                 secondary:
-                  - Light
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
             data_duration: Unknown
             data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Country
-            item_type:
-              - Closed Data
-          - item:
-            name: City Bikes API
-            description: 'REST API for aggregated bikeshare data from around the world. Supports stations, not trips.'
-            homepage_url: 'http://api.citybik.es/v2/'
-            repo_url: null
-            logo: citybikes.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
+            data_format: Text
             data_owner:
               - Open Project
             region:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Count Results Only
-            geo_scope: Country
+            privacy: Unlinked Trajectories
+            geo_scope: STATE
             item_type:
               - Open Data
           - item:
-            name: pybikes
+            name: General Bikeshare Feed Specification
             description: >-
-              pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of
-              classes and methods to access this sort of information.
-            homepage_url: 'https://pypi.org/project/python-citybikes/'
-            repo_url: 'https://github.com/eskerda/pybikes'
-            logo: pybikes.svg
+              The General Bikeshare Feed Specification, known as GBFS, is the open data standard for bikeshare. GBFS makes real-time data feeds in a uniform
+              format publicly available online, with an emphasis on findability.
+            homepage_url: 'https://nabsa.net/resources/gbfs/'
+            repo_url: 'https://github.com/NABSA/gbfs'
+            logo: gbfs.svg
             mode:
               - primary: Micro Mobility
                 secondary:
                   - Bike
+                  - Scooter
+            data_duration: Five Years
+            data_frequency: Continuous
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: No Mobility
+            geo_scope: Multiple Country
+            item_type:
+              - Open Specification
+          - item:
+            name: GTFS Main
+            description: >-
+              The General Transit Feed Specification (GTFS) is a data specification that allows public transit agencies to publish their transit data in a
+              format that can be consumed by a wide variety of software applications. Today, the GTFS data format is used by thousands of public transport
+              providers.
+            homepage_url: 'https://gtfs.org/'
+            repo_url: 'https://github.com/google/transit'
+            logo: GTFS.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Commuter Rail
+                  - Light Rail
+                  - Subway
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
             data_duration: Unknown
             data_frequency: Unknown
-            data_format: Unknown
+            data_format: Text
+            data_owner:
+              - Government
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Data
+              - Open Specification
+          - item:
+            name: GPX
+            description: >-
+              GPX (the GPS Exchange Format) is a light-weight XML data format for the interchange of GPS data (waypoints, routes, and tracks) between
+              applications and Web services on the Internet.
+            homepage_url: 'https://www.topografix.com/gpx.asp'
+            repo_url: null
+            logo: gpx.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Other
+              - primary: Transit
+                secondary:
+                  - Bus
+                  - Train
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
             data_owner:
               - Open Project
             region:
@@ -1499,23 +1278,57 @@ landscape:
                 secondary:
                   - USA
             privacy: No Mobility
-            geo_scope: Multiple Cities
+            geo_scope: Country
             item_type:
-              - Open Source
+              - Open Specification
           - item:
-            name: Autopilot
-            description: >-
-              AUTOPILOT is a European research project funded by the European Commission under the new Framework Programme for Research and Innovation H2020.
-              AUTOPILOT project will especially focus on utilizing the IoT potential for automated driving. The overall objective is to bring together relevant
-              knowledge and technology from the automotive and the IoT value chains in order to develop IoT-architectures and platforms, which will bring
-              Automated Driving towards a new dimension.
-            homepage_url: 'https://zenodo.org/communities/autopilot?page=1&size=20'
+            name: NeTEx
+            description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
+            homepage_url: 'http://netex-cen.eu/'
             repo_url: null
-            logo: autopilot.svg
+            logo: netex.svg
             mode:
-              - primary: Auto
+              - primary: Train
                 secondary:
-                  - Light
+                  - Rail
+                  - High Speed
+              - primary: Bus
+                secondary:
+                  - Shuttle
+                  - Short Haul
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: Europe
+                secondary:
+                  - France
+            privacy: No Mobility
+            geo_scope: Multiple Country
+            item_type:
+              - Open Specification
+      - subcategory:
+        name: Standards
+        items:
+          - item:
+            name: Transmodel
+            description: >-
+              Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
+              public transport information systems
+            homepage_url: 'http://www.transmodel-cen.eu/'
+            repo_url: null
+            logo: transmodel_text.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
             data_duration: Unknown
             data_frequency: Unknown
             data_format: PDF
@@ -1524,439 +1337,40 @@ landscape:
             region:
               - primary: Europe
                 secondary:
-                  - Germany
-                  - France
-            privacy: Unlinked Trajectories
-            geo_scope: Country
-            item_type:
-              - Open Specification
-          - item:
-            name: RidePilot
-            description: >-
-              RidePilot is an open-source, web-based transportation scheduling system designed to meet the needs and budgets of smaller public and Open Project
-              specialized transportation agencies.
-            homepage_url: 'http://camsys.software/products/ridepilot'
-            repo_url: 'https://github.com/camsys/ridepilot'
-            logo: ride_pilot.svg
-            mode:
-              - primary: Train
-                secondary:
-                  - Rail
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Long Haul
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Cities
-            item_type:
-              - Open Source
-          - item:
-            name: Simulation of Urban MObility
-            description: >-
-              Eclipse SUMO (Simulation of Urban MObility) is an open source, highly portable, microscopic and continuous multi-modal traffic simulation package
-              designed to handle large networks.
-            homepage_url: 'https://www.eclipse.org/sumo/'
-            repo_url: 'https://github.com/eclipse/sumo'
-            logo: sumo.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
+                  - European Union
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
               - Open Specification
-      - subcategory:
-        name: Apps
-        items:
           - item:
-            name: Sigalert Traffic Reports
+            name: USDOT Data Governance
             description: >-
-              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
-              US
-            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
+              The reports that establish the criteria and requirements for data; their quality, management, policies, business process; and risk
+              management for handling of data within FHWA.
+            homepage_url: 'https://www.fhwa.dot.gov/datagov/?'
             repo_url: null
-            logo: sigalert.svg
+            logo: usdot_data_gov.svg
             mode:
               - primary: Auto
                 secondary:
                   - Light
                   - Heavy
-            data_duration: Five Years
-            data_frequency: Continuous
-            data_format: Unknown
-            data_owner:
-              - Industry
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: PDF
             region:
               - primary: North America
                 secondary:
                   - USA
             privacy: Count Results Only
-            geo_scope: Multiple Cities
-            item_type:
-              - Closed Source
-          - item:
-            name: Moovit
-            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of the best urban mobility app'
-            homepage_url: 'https://moovit.com'
-            repo_url: null
-            logo: moovit.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
-            item_type:
-              - Closed Source
-      - subcategory:
-        name: Metrics
-        items:
-          - item:
-            name: EPA Smart Location Database
-            description: >-
-              The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes
-              summarizing characteristics such as housing density, diversity of land use, neighborhood design, destination accessibility, transit service,
-              employment, and demographics. Most attributes are available for every census block group in the United States.
-            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
-            repo_url: null
-            logo: epa_database.svg
-            mode:
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Long Haul
-                  - Shuttle
-              - primary: Train
-                secondary:
-                  - Rail
-              - primary: Walking
-                secondary:
-                  - Location
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open Specification
   - category:
-    name: People
+    name: Tools
     subcategories:
       - subcategory:
-        name: Location Broker Data
-        items:
-          - item:
-            name: Streetlight Data
-            description: Affortable and intuitive mobiilty data at a low cost
-            homepage_url: 'https://www.streetlightdata.com/'
-            repo_url: null
-            logo: streetlight.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Visits
-            geo_scope: Multiple Cities
-            item_type:
-              - Closed Data
-          - item:
-            name: cubeiq
-            description: >-
-              Cuebiq is an offline intelligence and measurement company helping marketers understand the true impact of their cross-channel advertising in the
-              offline world.
-            homepage_url: 'https://www.cuebiq.com/about/'
-            repo_url: null
-            logo: cubeiq.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Visits
-            geo_scope: Country
-            item_type:
-              - Closed Source
-          - item:
-            name: veraset
-            description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
-            homepage_url: 'https://www.veraset.com/about-veraset'
-            repo_url: null
-            logo: veraset.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Visits
-            geo_scope: Country
-            item_type:
-              - Closed Source
-          - item:
-            name: SafeGraph
-            description: >-
-              Unlock innovation with the most accurate points-of-interest (POI) data, business listings, and store visitor insights data for commercial places
-              in the U.S.
-            homepage_url: 'https://www.safegraph.com'
-            repo_url: null
-            logo: safegraph.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Closed Source
-      - subcategory:
-        name: Travel Behavior Collection
-        items:
-          - item:
-            name: e-mission
-            description: >-
-              e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
-              aggregate them to make data available to urban planners and transportation engineers.
-            homepage_url: 'https://e-mission.eecs.berkeley.edu/#/home'
-            repo_url: 'https://github.com/e-mission/e-mission-server'
-            logo: emission.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Shuttle
-              - primary: Train
-                secondary:
-                  - Rail
-              - primary: Walking
-                secondary:
-                  - Location
-            data_duration: Three Years
-            data_frequency: Continuous
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Semantic Trajectories
-            geo_scope: Country
-            item_type:
-              - Open Source
-          - item:
-            name: Itinerum
-            description: >-
-              The Itinerum™ platform was developed as part of a research project conducted by Zachary Patterson from the Department of Geography, Planning &
-              Environment at Concordia University in Montreal. The original purpose of the Itinerum™ smart phone application (previously DataMobile) was to
-              collect travel behaviour data from Concordia University students, faculty and staff. The application records locational information on user trips
-              through their smartphone.
-            homepage_url: 'https://itinerum.ca/about.html'
-            repo_url: 'https://github.com/TRIP-Lab/itinerum-tripkit'
-            logo: itinerum.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-            data_duration: Three Years
-            data_frequency: Unknown
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - Canada
-            privacy: Linked Semantic Trajectories
-            geo_scope: CITY
-            item_type:
-              - Open Data
-          - item:
-            name: rMove
-            description: >-
-              rMove is revolutionizing transportation research by using in-app smartphone surveys and GPS data collection to reveal participants’ travel methods
-              and needs. As technologies and the way people get around continue to change, rMove reveals the “how, when, where, and why” of travel. These
-              insights inform transportation solutions suited to everyone’s needs.
-            homepage_url: 'https://rmove.rsginc.com'
-            repo_url: null
-            logo: rmove.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Semantic Trajectories
-            geo_scope: Country
-            item_type:
-              - Closed Source
-          - item:
-            name: Transportation Secure Data Center
-            description: >-
-              The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies
-              conducted across the nation. Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle
-              characteristics and survey participant demographics.  NREL screens the initial data for quality control, translates each data set into a
-              consistent format, and interprets the data for spatial analysis.  NREL’s processing routines add information on vehicle fuel economy and road
-              grades and join data points to the road network.
-            homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/index.html'
-            repo_url: 'https://github.com/NREL/TSDC'
-            logo: tsdc.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-              - primary: Train
-                secondary:
-                  - Rail
-                  - High Speed
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Semantic Visits
-            geo_scope: Multiple Cities
-            item_type:
-              - Open Source
-          - item:
-            name: NYC DOT Citywide Mobility Survey
-            description: >-
-              DOT conducts a robust annual travel survey called the Citywide Mobility Survey (CMS). Launched in 2017, it seeks to assess the travel behavior,
-              preferences, and attitudes of New York City residents. Annual reports with results from each year’s survey, as well as accompanying datasets, are
-              available below.
-            homepage_url: 'https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml'
-            repo_url: null
-            logo: nycdot.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Rideshare
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-                  - Bike
-                  - Scooter
-                  - Other
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Shuttle
-              - primary: Walking
-                secondary:
-                  - Location
-            data_duration: Three Years
-            data_frequency: Yearly
-            data_format: Excel
-            data_owner:
-              - Government
-              - State
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Semantic Visits
-            geo_scope: CITY
-            item_type:
-              - Open Data
-      - subcategory:
-        name: Tools
+        name: General
         items:
           - item:
             name: Route Trends
@@ -1986,29 +1400,80 @@ landscape:
             geo_scope: Multiple Cities
             item_type:
               - Open Source
-  - category:
-    name: Vehicles-People
-    subcategories: null
-  - category:
-    name: Infrastructure-Vehicles-People
-    subcategories:
-      - subcategory:
-        name: Data Set Broker
-        items:
           - item:
-            name: Carto
-            description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
-            homepage_url: 'https://carto.com/spatial-data-catalog/'
+            name: Moovit
+            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of an urban mobility app'
+            homepage_url: 'https://moovit.com'
             repo_url: null
-            logo: carto.svg
+            logo: moovit.svg
             mode:
-              - primary: Walking
-                secondary:
-                  - Location
               - primary: Micro Mobility
                 secondary:
                   - Bike
                   - Scooter
+                  - Other
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Closed Source
+          - item:
+            name: Infrastructure Apps for Government and NGO
+            description: >-
+              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
+              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
+              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
+              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
+              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
+            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
+            repo_url: null
+            logo: usdot_app.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: PDF
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Closed Data
+          - item:
+            name: TransAM
+            description: >-
+              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
+              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
+            homepage_url: 'http://camsys.software/platforms/transam'
+            repo_url: 'https://github.com/camsys/transam_core'
+            logo: transam_light.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
             data_duration: Five Years
             data_frequency: Unknown
             data_format: Unknown
@@ -2018,10 +1483,102 @@ landscape:
               - primary: North America
                 secondary:
                   - USA
-            privacy: Multiple Datasets
+            privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Open Source
+      - subcategory:
+        name: Python Libraries
+        items:
+          - item:
+            name: pybikes
+            description: >-
+              pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of
+              classes and methods to access this sort of information.
+            homepage_url: 'https://pypi.org/project/python-citybikes/'
+            repo_url: 'https://github.com/eskerda/pybikes'
+            logo: pybikes.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+          - item:
+            name: OSMnx
+            description: >-
+              OSMnx is a Python package that lets you download spatial geometries and model, project, visualize, and analyze real-world street networks from
+              OpenStreetMap’s APIs. Users can download and model walkable, drivable, or bikeable urban networks with a single line of Python code, and then
+              easily analyze and visualize them. You can just as easily download and work with amenities/points of interest, building footprints, elevation
+              data, street bearings/orientations, speed/travel time, and network routing.
+            homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
+            repo_url: 'https://github.com/gboeing/osmnx'
+            logo: openstreetmap.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+          - item:
+            name: GPX Tool
+            description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
+            homepage_url: 'https://github.com/topics/gpx'
+            repo_url: 'https://github.com/tkrajina/gpxpy'
+            logo: gpx.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Specification
+      - subcategory:
+        name: Data Processors
+        items:
           - item:
             name: RITIS
             description: >-
@@ -2056,25 +1613,19 @@ landscape:
             item_type:
               - Closed Source
           - item:
-            name: INRIX Road Rules
+            name: Otonomo
             description: >-
-              INRIX pioneered the practice of managing traffic by analyzing data not just from road sensors, but also from vehicles.  This breakthrough approach
-              enabled INRIX to become one of the leading providers of data and insight into how people move around the world. INRIX delivers innovative products
-              for the automotive and transportation industries such as real-time parking and traffic information and  solutions that facilitate the safe testing
-              and deployment of autonomous vehicles. We also provide new insights to a  variety of other industries that can make better business decisions by
-              understanding how people move throughout the day.
-            homepage_url: 'https://inrix.com/about/'
+              Connected car data was designed for vehicle operations, not for powering mobility services. In order for it to be effectively used in apps and
+              services, its raw format requires additional processing. Connected car data must be acquired, cleaned, normalized, and restructured which is the
+              service that Otonomo provides.
+            homepage_url: 'https://www.otonomo.io/connected-car-data/'
             repo_url: null
-            logo: inrix.svg
+            logo: otonomo.svg
             mode:
               - primary: Auto
                 secondary:
                   - Light
-                  - Heavy
-              - primary: Micro Mobility
-                secondary:
-                  - Walking
-            data_duration: Unknown
+            data_duration: Five Years
             data_frequency: Unknown
             data_format: Unknown
             data_owner:
@@ -2087,51 +1638,34 @@ landscape:
             geo_scope: Country
             item_type:
               - Closed Source
-      - subcategory:
-        name: Route Planning
-        items:
           - item:
-            name: NextBus
-            description: >-
-              NextBus is a cloud-based solution providing real-time passenger information systems to over 100 transit agencies, organizations, institutions, and
-              airports and serves more than 300 million travelers each year.
-            homepage_url: 'https://www.nextbus.com/'
+            name: remix
+            description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
+            homepage_url: 'https://www.remix.com'
             repo_url: null
-            logo: nextbus.svg
+            logo: remix.svg
             mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
               - primary: Bus
                 secondary:
                   - Short Haul
-                  - Shuttle
+                  - Long Haul
+              - primary: Train
+                secondary:
+                  - Rail
             data_duration: Unknown
             data_frequency: Unknown
-            data_format: Shapefile
+            data_format: Unknown
             data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
-            item_type:
-              - Open Data
-          - item:
-            name: OneBusAway
-            description: OneBusAway is an open source software system for real-time transit information in urban centers.
-            homepage_url: 'https://onebusaway.org'
-            repo_url: 'https://github.com/OneBusAway/onebusaway'
-            logo: one_bus_away.svg
-            mode:
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Shuttle
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Shapefile
-            data_owner:
-              - Open Project
+              - Industry
             region:
               - primary: North America
                 secondary:
@@ -2139,54 +1673,187 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Closed Source
           - item:
-            name: Transmodel
+            name: Shared Streets
             description: >-
-              Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
-              public transport information systems
-            homepage_url: 'http://www.transmodel-cen.eu/'
-            repo_url: null
-            logo: transmodel_text.svg
+              SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps
+              connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system,
+              or a commercial basemap.
+            homepage_url: 'https://sharedstreets.io'
+            repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
+            logo: sharedstreets.svg
             mode:
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Scooter
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Closed Data
+              - Open Source
+      - subcategory:
+        name: Accessibility Metrics
+        items:
+          - item:
+            name: EPA Access to Jobs and Workers Via Transit Tool
+            description: >-
+              Access to Jobs and Workers Via Transit is a free geospatial data resource and web mapping tool for comparing the accessibility of neighborhoods
+              via public transit service. Indicators summarize accessibility to jobs as well as accessibility by workers, households, and population.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_transit_tool.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Long Haul
+                  - Shuttle
               - primary: Train
                 secondary:
                   - Rail
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
             data_duration: Unknown
             data_frequency: Unknown
-            data_format: PDF
+            data_format: Unknown
             data_owner:
               - Government
+              - Federal
             region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Data
+          - item:
+            name: EPA National Walkability Index
+            description: >-
+              The National Walkability Index is a nationwide geographic data resource that ranks block groups according to their relative walkability. The
+              national dataset includes walkability scores for all block groups as well as the underlying attributes that are used to rank the block groups.
+            homepage_url: 'https://www.slc.gsa.gov/slc/'
+            repo_url: null
+            logo: epa_walkability.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Data
+          - item:
+            name: EPA Smart Location Calculator
+            description: >-
+              The Smart Location Calculator is a simple tool for exploring how workplace location affects worker commute travel. The tool provides location
+              efficiency scores for a user-entered address, as well as location efficiency data summarized at the block group level. All of the scores are
+              relative to the region.
+            homepage_url: 'https://www.epa.gov/smartgrowth/smart-location-mapping'
+            repo_url: null
+            logo: epa_calculator.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Data
+          - item:
+            name: Walkscore
+            description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
+            homepage_url: 'https://www.walkscore.com/professional/research.php'
+            repo_url: null
+            logo: walkscore.svg
+            mode:
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+              - primary: Bus
+                secondary:
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
               - primary: Europe
                 secondary:
-                  - European Union
+                  - United Kingdom
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Specification
+              - Closed Source
+      - subcategory:
+        name: Public Transit Maps
+        items:
           - item:
-            name: Open Trip Planner
-            description: >-
-              OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis
-              services.
-            homepage_url: 'http://www.opentripplanner.org/'
-            repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
-            logo: opentripplanner.svg
+            name: City Lines
+            description: Crowdsourced map of transit systems across the world
+            homepage_url: 'https://www.citylines.co/'
+            repo_url: 'https://github.com/citylines/citylines'
+            logo: citylines.svg
             mode:
-              - primary: Train
+              - primary: Auto
                 secondary:
-                  - Rail
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
               - primary: Bus
                 secondary:
                   - Long Haul
                   - Short Haul
-            data_duration: Unknown
-            data_frequency: Unknown
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
             data_format: Shapefile
             data_owner:
               - Open Project
@@ -2201,8 +1868,8 @@ landscape:
                   - Brazil
               - primary: Europe
                 secondary:
-                  - European Union
-                  - United Kingdom
+                  - Germany
+                  - France
               - primary: Africa
                 secondary:
                   - South Africa
@@ -2218,59 +1885,58 @@ landscape:
             item_type:
               - Open Source
           - item:
-            name: Transport API
-            description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
-            homepage_url: 'https://www.transportapi.com/'
-            repo_url: null
-            logo: transportapi.svg
+            name: Transitland
+            description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
+            homepage_url: 'https://transit.land/'
+            repo_url: 'https://github.com/transitland/transitland-atlas'
+            logo: transitland_logo.svg
             mode:
-              - primary: Bus
+              - primary: Auto
                 secondary:
-                  - Short Haul
-                  - Shuttle
-              - primary: Train
+                  - Light
+                  - Heavy
+              - primary: Walking
                 secondary:
-                  - Rail
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: Europe
-                secondary:
-                  - United Kingdom
-            privacy: Unlinked Trajectories
-            geo_scope: Country
-            item_type:
-              - Closed Data
-          - item:
-            name: Transmodel - Siri
-            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
-            homepage_url: 'http://www.siri.org.uk/'
-            repo_url: null
-            logo: siri_transmodel.svg
-            mode:
-              - primary: Train
-                secondary:
-                  - Rail
+                  - Location
               - primary: Bus
                 secondary:
                   - Long Haul
                   - Short Haul
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
             data_owner:
-              - Government
+              - Open Project
             region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
               - primary: Europe
                 secondary:
-                  - European Union
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Specification
+              - Open Source
       - subcategory:
         name: Navigation
         items:
@@ -2430,6 +2096,380 @@ landscape:
             geo_scope: Multiple Country
             item_type:
               - Closed Source
+  - category:
+    name: Simulations
+    subcategories:
+      - subcategory:
+        name: Infrastructure-based
+        items:
+          - item:
+            name: Transportation Energy & Mobility Pathway Options
+            description: >-
+              The TEMPO model explores pathway options to produce long-term scenarios that reach strategic transportation-energy-environment objectives and
+              assess synergies with energy supply. It characterizes opportunities for existing and future fuels, technologies, and business models across
+              transportation sub-sectors and segments.
+            homepage_url: 'https://www.nrel.gov/transportation/tempo-model.html'
+            repo_url: null
+            logo: tempo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Closed Data
+          - item:
+            name: Scenario Evaluation and Regionalization Analysis Model
+            description: >-
+              The Scenario Evaluation and Regionalization Analysis (SERA) model provides insights that can guide infrastructure development and transportation
+              investment decisions and accelerate the adoption of electric vehicles.
+            homepage_url: 'https://www.nrel.gov/hydrogen/sera-model.html'
+            repo_url: null
+            logo: sera.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Source
+      - subcategory:
+        name: Vehicle-based
+        items:
+          - item:
+            name: Simulation of Urban MObility
+            description: >-
+              Eclipse SUMO (Simulation of Urban MObility) is an open source, highly portable, microscopic and continuous multi-modal traffic simulation package
+              designed to handle large networks.
+            homepage_url: 'https://www.eclipse.org/sumo/'
+            repo_url: 'https://github.com/eclipse/sumo'
+            logo: sumo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Country
+            item_type:
+              - Open Specification
+          - item:
+            name: Auto API
+            description: >-
+              The Auto API specification is an open source vehicle data model built for the purpose of providing a consistent data protocol for communication
+              between cars and external 3rd party services.
+            homepage_url: 'https://high-mobility.com/learn/documentation/rest/reference/v3/'
+            repo_url: 'https://github.com/highmobility/auto-api'
+            logo: high_mobility.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Country
+            item_type:
+              - Closed Data
+          - item:
+            name: ADOPT
+            description: >-
+              Developed by NREL, the Automotive Deployment Options Projection Tool (ADOPT) is a light-duty vehicle consumer choice and stock model. ADOPT
+              estimates vehicle technology improvement impacts on future U.S. light-duty vehicle sales, energy use, and emissions.
+            homepage_url: 'https://www.nrel.gov/transportation/adopt.html'
+            repo_url: null
+            logo: adopt.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Closed Source
+      - subcategory:
+        name: Routing 
+        items:
+          - item:
+            name: NextBus
+            description: >-
+              NextBus is a cloud-based solution providing real-time passenger information systems to over 100 transit agencies, organizations, institutions, and
+              airports and serves more than 300 million travelers each year.
+            homepage_url: 'https://www.nextbus.com/'
+            repo_url: null
+            logo: nextbus.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Data
+          - item:
+            name: OneBusAway
+            description: OneBusAway is an open source software system for real-time transit information in urban centers.
+            homepage_url: 'https://onebusaway.org'
+            repo_url: 'https://github.com/OneBusAway/onebusaway'
+            logo: one_bus_away.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+          - item:
+            name: RidePilot
+            description: >-
+              RidePilot is an open-source, web-based transportation scheduling system designed to meet the needs and budgets of smaller public and Open Project
+              specialized transportation agencies.
+            homepage_url: 'http://camsys.software/products/ridepilot'
+            repo_url: 'https://github.com/camsys/ridepilot'
+            logo: ride_pilot.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Long Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+          - item:
+            name: GTFS Real Time
+            description: >-
+              A GTFS Realtime feed lets transit agencies provide consumers with realtime information about disruptions to their service (stations closed, lines
+              not operating, important delays, etc.) location of their vehicles, and expected arrival times.
+            homepage_url: 'https://gtfs.org/reference/realtime/v2/'
+            repo_url: 'https://github.com/MobilityData/gtfs-realtime-bindings'
+            logo: GTFS.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Continuous
+            data_format: Text
+            data_owner:
+              - Government
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Data
+          - item:
+            name: Open Trip Planner
+            description: >-
+              OpenTripPlanner (OTP) is a family of open source software projects that provide passenger information and transportation network analysis
+              services.
+            homepage_url: 'http://www.opentripplanner.org/'
+            repo_url: 'https://github.com/opentripplanner/OpenTripPlanner'
+            logo: opentripplanner.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - European Union
+                  - United Kingdom
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+          - item:
+            name: Transport API
+            description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
+            homepage_url: 'https://www.transportapi.com/'
+            repo_url: null
+            logo: transportapi.svg
+            mode:
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: Europe
+                secondary:
+                  - United Kingdom
+            privacy: Unlinked Trajectories
+            geo_scope: Country
+            item_type:
+              - Closed Data
+          - item:
+            name: Transmodel - Siri
+            description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
+            homepage_url: 'http://www.siri.org.uk/'
+            repo_url: null
+            logo: siri_transmodel.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Government
+            region:
+              - primary: Europe
+                secondary:
+                  - European Union
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Specification
           - item:
             name: RouteE
             description: >-
@@ -2458,31 +2498,4 @@ landscape:
             geo_scope: Multiple Cities
             item_type:
               - Open Source
-      - subcategory:
-        name: Mobility Count Results
-        items:
-          - item:
-            name: TSA Traveler Data
-            description: >-
-              The TSA is releasing data on checkpoints for 2019 and 2020 to the public, in relation to the need for increased mobility data after the CO-VID19
-              pandemic.
-            homepage_url: 'https://www.tsa.gov/coronavirus/passenger-throughput'
-            repo_url: null
-            logo: tsa.svg
-            mode:
-              - primary: Walking
-                secondary:
-                  - Location
-            data_duration: One Year
-            data_frequency: Weekly
-            data_format: Excel
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Data
+        
