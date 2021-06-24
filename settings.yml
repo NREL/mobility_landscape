@@ -140,38 +140,46 @@ big_picture:
     title: Interactive Mobility Landscape
     fullscreen_header: Missing data or request a change?  Submit a pull request!
     elements:
-      - type: VerticalCategory
-        category: Infrastructure
-        cols: 9
-        width: 275
-        height: 1700
-        top: 350
-        left: 0
-        color: 'rgb(109,61,143)'
-      - type: VerticalCategory
-        category: Vehicles
-        cols: 9
-        width: 275
-        height: 1600
-        top: 350
-        left: 350
-        color: 'rgb(46,107,46)'
-      - type: VerticalCategory
-        category: People
-        cols: 9
-        width: 275
-        height: 600
-        top: 350
-        left: 700
-        color: 'rgb(143,88,61)'
       - type: HorizontalCategory
-        category: Infrastructure-Vehicles-People
+        category: Data Collection Method
         rows: 6
         width: 1000
         height: 300
         top: 0
         left: 0
         color: 'rgb(107,61,46)'
+      - type: HorizontalCategory
+        category: Data
+        rows: 6
+        width: 1000
+        height: 300
+        top: 325
+        left: 0
+        color: 'rgb(107,61,46)'
+      - type: HorizontalCategory
+        category: Data Formatting
+        rows: 6
+        width: 1000
+        height: 300
+        top: 650
+        left: 0
+        color: 'rgb(107,61,46)'
+      - type: VerticalCategory
+        category: Tools
+        cols: 9
+        width: 275
+        height: 1700
+        top: 700
+        left: 0
+        color: 'rgb(109,61,143)'
+      - type: VerticalCategory
+        category: Simulations
+        cols: 9
+        width: 275
+        height: 1600
+        top: 700
+        left: 350
+        color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
