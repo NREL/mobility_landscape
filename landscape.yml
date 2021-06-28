@@ -8,7 +8,7 @@ landscape:
           - item:
             name: USDOT Highway Data
             description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
-            homepage_url: 'https://www.fhwa.dot.gov/policyinformation/statistics.cfm'
+            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
             repo_url: null
             logo: usdot_highway.svg
             mode:
@@ -36,7 +36,7 @@ landscape:
             description: >-
               It is the reports that establishes the criteria and requirements for data; their quality, management, policies, business process; and risk
               management for handling of data within FHWA.
-            homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
+            homepage_url: 'https://www.fhwa.dot.gov/datagov/?'
             repo_url: null
             logo: usdot_data_gov.svg
             mode:
@@ -602,7 +602,7 @@ landscape:
             description: >-
               Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
               existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
-            homepage_url: 'http://camsys.software/products/transam'
+            homepage_url: 'http://camsys.software/platforms/transam'
             repo_url: 'https://github.com/camsys/transam_core'
             logo: transam_light.svg
             mode:
@@ -1740,7 +1740,7 @@ landscape:
           - item:
             name: veraset
             description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
-            homepage_url: 'https://www.veraset.com/about-veraset'
+            homepage_url: 'https://www.veraset.com/about/'
             repo_url: null
             logo: veraset.svg
             mode:
