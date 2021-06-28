@@ -1060,9 +1060,6 @@ landscape:
             geo_scope: STATE
             item_type:
               - Open Data
-      - subcategory:
-        name: Infrastructure-People-Vehicles
-        items:
   - category:
     name: Data Formatting
     subcategories:
