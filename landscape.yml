@@ -140,12 +140,6 @@ landscape:
             geo_scope: Multiple Cities
             item_type:
               - Closed Source
-          - item:
-            name: rMove
-          - item:
-            name: INRIX
-          - item: 
-            name: Itinerum
       - subcategory:
         name: Sensing and Surveying
         items:
