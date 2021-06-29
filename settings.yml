@@ -56,6 +56,15 @@ relation:
           additional_relation: member
     - id: member
       label: Mobility Data Landscape Projects
+      children:
+        - id: NREL
+          label: NREL
+          prefix: NREL
+          tag: NREL Project
+          color: '#0B5E90'
+          big_picture_order: 3
+          big_picture_label: NREL Project
+          big_picture_color: 'rgb(24,54,114)'
       tag: CNCF Member
     - id: false
       label: Non-CNCF Member Products/Projects
