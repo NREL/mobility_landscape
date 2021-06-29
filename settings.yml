@@ -166,7 +166,7 @@ big_picture:
         color: 'rgb(107,61,46)'
       - type: VerticalCategory
         category: Tools
-        cols: 9
+        cols: 3
         width: 275
         height: 1300
         top: 900
