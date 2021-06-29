@@ -46,6 +46,14 @@ relation:
           big_picture_order: 2
           big_picture_label: CNCF Incubating
           big_picture_color: 'rgb(83, 113, 189)'
+        - id: NREL
+          label: NREL
+          prefix: NREL
+          tag: NREL Project
+          color: '#0B5E90'
+          big_picture_order: 3
+          big_picture_label: NREL Project
+          big_picture_color: 'rgb(24,54,114)'
         - id: sandbox
           label: CNCF Sandbox Projects
           prefix: CNCF
@@ -56,15 +64,6 @@ relation:
           additional_relation: member
     - id: member
       label: Mobility Data Landscape Projects
-      children:
-        - id: NREL
-          label: NREL
-          prefix: NREL
-          tag: NREL Project
-          color: '#0B5E90'
-          big_picture_order: 3
-          big_picture_label: NREL Project
-          big_picture_color: 'rgb(24,54,114)'
       tag: CNCF Member
     - id: false
       label: Non-CNCF Member Products/Projects
