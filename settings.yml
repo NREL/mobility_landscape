@@ -51,9 +51,9 @@ relation:
           prefix: NREL
           tag: NREL Project
           color: '#0B5E90'
-          big_picture_order: 3
+          big_picture_order: 2
           big_picture_label: NREL Project
-          big_picture_color: 'rgb(24,54,114)'
+          big_picture_color: 'rgb(11,94,144)'
         - id: sandbox
           label: CNCF Sandbox Projects
           prefix: CNCF
@@ -221,6 +221,22 @@ big_picture:
             left: 15
             top: 15
             title: Landscape Logo
+  extra:
+    tab_index: 1
+    url: NREL
+    name: NREL
+    short_name: NREL
+    title: NREL Projects Landscape
+    fullscreen_header: Missing data or request a change?  Submit a pull request!
+    elements:
+      - type: HorizontalCategory
+        category: Vehicles and Mobility
+        rows: 1
+        width: 570
+        height: 100
+        top: 0
+        left: 0
+        color: rgb(143,109,61)
 test:
   header: Interactive Mobility Data Landscape
   section: Landscape Projects
