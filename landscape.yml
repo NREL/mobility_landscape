@@ -2503,29 +2503,5 @@ landscape:
         items:
           - item: 
             name: RouteE!
-            description: >-
-              The Route Energy Prediction Model (RouteE) was developed under ARPA-e TRANSNET and SMART Mobility - CAVs. Applications include vehicle route
-              selection, energy accounting and optimization in transportation simulation, and corridor energy analyses, among others. This tool is applicable in
-              any situation where past, present, or future trip information is available, and does not require high-resolution (i.e. 1 Hz+) like what is
-              required to run a powertrain simulation.
             homepage_url: 'https://www.nrel.gov/transportation/route-energy-prediction-model.html'
-            repo_url: null
             logo: routee.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type:
-              - Open Source
