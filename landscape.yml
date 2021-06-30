@@ -2498,7 +2498,8 @@ landscape:
   - category:
     name: NREL Projects Landscape
     subcategories: 
-      - subcategory: Vehicles and Mobility
+      - subcategory: 
+        name: Vehicles and Mobility
         items:
           - item: 
             name: RouteE
