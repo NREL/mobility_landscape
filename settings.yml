@@ -232,11 +232,27 @@ big_picture:
     fullscreen_header: Missing data or request a change?  Submit a pull request!
     elements:
       - type: HorizontalCategory
-        category: Vehicles and Mobility
+        category: Data Analytics
         rows: 1
         width: 570
         height: 100
         top: 0
+        left: 0
+        color: rgb(143,109,61)
+      - type: HorizontalCategory
+        category: Infrastructure
+        rows: 1
+        width: 570
+        height: 100
+        top: 125
+        left: 0
+        color: rgb(143,109,61)
+      - type: HorizontalCategory
+        category: Vehicles and Mobility
+        rows: 1
+        width: 570
+        height: 100
+        top: 250
         left: 0
         color: rgb(143,109,61)
 test:
