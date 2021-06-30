@@ -228,6 +228,7 @@ big_picture:
     name: NREL
     short_name: NREL
     title: NREL Projects Landscape
+    category: NREL Projects
     fullscreen_header: Missing data or request a change?  Submit a pull request!
     elements:
       - type: HorizontalCategory
