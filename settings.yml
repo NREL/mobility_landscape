@@ -17,6 +17,7 @@ global:
     hide_license_for_categories:
       - Special
       - Members
+      - NREL Projects
     hide_category_from_subcategories:
       - End User Supporter
 twitter:
