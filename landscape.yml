@@ -145,6 +145,7 @@ landscape:
         items:
           - item:
             name: e-mission
+            project: NREL
             description: >-
               e-mission is a project to gather data about user travel patterns using phone apps, and use them to provide an personalized carbon footprint, and
               aggregate them to make data available to urban planners and transportation engineers.
@@ -533,6 +534,7 @@ landscape:
               - Open Data
           - item:
             name: Transportation Secure Data Center
+            project: NREL
             description: >-
               The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies
               conducted across the nation. Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle
@@ -2095,6 +2097,7 @@ landscape:
         items:
           - item:
             name: Transportation Energy & Mobility Pathway Options
+            project: NREL
             description: >-
               The TEMPO model explores pathway options to produce long-term scenarios that reach strategic transportation-energy-environment objectives and
               assess synergies with energy supply. It characterizes opportunities for existing and future fuels, technologies, and business models across
@@ -2127,6 +2130,7 @@ landscape:
               - Closed Data
           - item:
             name: Scenario Evaluation and Regionalization Analysis Model
+            project: NREL
             description: >-
               The Scenario Evaluation and Regionalization Analysis (SERA) model provides insights that can guide infrastructure development and transportation
               investment decisions and accelerate the adoption of electric vehicles.
@@ -2206,6 +2210,7 @@ landscape:
               - Closed Data
           - item:
             name: ADOPT
+            project: NREL
             description: >-
               Developed by NREL, the Automotive Deployment Options Projection Tool (ADOPT) is a light-duty vehicle consumer choice and stock model. ADOPT
               estimates vehicle technology improvement impacts on future U.S. light-duty vehicle sales, energy use, and emissions.
@@ -2490,4 +2495,36 @@ landscape:
             geo_scope: Multiple Cities
             item_type:
               - Open Source
-        
+  - category:
+    name: NREL Projects Landscape
+    subcategories: 
+      - subcategory: Vehicles and Mobility
+        items:
+          - item: 
+            name: RouteE
+            description: >-
+              The Route Energy Prediction Model (RouteE) was developed under ARPA-e TRANSNET and SMART Mobility - CAVs. Applications include vehicle route
+              selection, energy accounting and optimization in transportation simulation, and corridor energy analyses, among others. This tool is applicable in
+              any situation where past, present, or future trip information is available, and does not require high-resolution (i.e. 1 Hz+) like what is
+              required to run a powertrain simulation.
+            homepage_url: 'https://www.nrel.gov/transportation/route-energy-prediction-model.html'
+            repo_url: null
+            logo: routee.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
