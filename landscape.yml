@@ -2496,7 +2496,7 @@ landscape:
             item_type:
               - Open Source
   - category:
-    name: NREL Projects Landscape
+    name: NREL Projects
     subcategories: 
       - subcategory: 
         name: Vehicles and Mobility
