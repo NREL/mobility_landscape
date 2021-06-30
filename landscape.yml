@@ -2615,18 +2615,18 @@ landscape:
         name: Data Analytics
         items:
           - item:
-            name: Mobility Energy Productivity Metric
+            name: Mobility Energy Productivity Metric (MEP)
             homepage_url: 'https://www.nrel.gov/transportation/mobility-energy-productivity-metric.html'
             logo: mep.svg
           - item:
-            name: Transportation Secure Data Center
+            name: Transportation Secure Data Center (TSDC)
             homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/index.html'
             logo: tsdc.svg
       - subcategory:
         name: Infrastructure
         items:
           - item:
-            name: Electric Vehicle Infrastructure - Energy Estimation and Site Optimization Tool
+            name: Electric Vehicle Infrastructure - Energy Estimation and Site Optimization Tool (EVI-EnSite)
             homepage_url: 'https://www.nrel.gov/transportation/evi-ensite.html'
             logo: evi-ensite.svg
           - item:
@@ -2646,7 +2646,7 @@ landscape:
             homepage_url: 'https://www.nrel.gov/hydrogen/h2fills.html'
             logo: h2fills.svg
           - item:
-            name: Scenario Evaluation and Regionalization Analysis Model
+            name: Scenario Evaluation and Regionalization Analysis Model (SERA)
             homepage_url: 'https://www.nrel.gov/hydrogen/sera-model.html'
             logo: sera.svg
           - item:
@@ -2657,18 +2657,18 @@ landscape:
         name: Vehicles and Mobility
         items:
           - item: 
-            name: Automotive Deployment Options Projection Tool
+            name: Automotive Deployment Options Projection Tool (ADOPT)
             homepage_url: 'https://www.nrel.gov/transportation/adopt.html'
             logo: adopt.svg
           - item:
-            name: Highly Integrated Vehicle Ecosystem Framework
+            name: Highly Integrated Vehicle Ecosystem Framework (HIVE)
             homepage_url: 'https://www.nrel.gov/transportation/hive.html'
             logo: hive.svg
           - item: 
-            name: RouteE
+            name: RouteE!
             homepage_url: 'https://www.nrel.gov/transportation/route-energy-prediction-model.html'
             logo: routee.svg
           - item:
-            name: Transportation Energy & Mobility Pathway Options
+            name: Transportation Energy & Mobility Pathway Options (TEMPO)
             homepage_url: 'https://www.nrel.gov/transportation/tempo-model.html'
             logo: tempo.svg
