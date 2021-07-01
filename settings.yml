@@ -175,7 +175,7 @@ big_picture:
         color: 'rgb(140,50,20)'
       - type: HorizontalCategory
         category: Tools
-        rows: 6
+        rows: 2
         width: 1000
         height: 200
         top: 900
@@ -183,7 +183,7 @@ big_picture:
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
         category: Simulations
-        rows: 6
+        rows: 2
         width: 1000
         height: 200
         top: 1150
