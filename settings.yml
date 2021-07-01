@@ -156,7 +156,7 @@ big_picture:
         height: 200
         top: 0
         left: 0
-        color: 'rgb(107,61,46)'
+        color: 'rgb(158,100,81)'
       - type: HorizontalCategory
         category: Data
         rows: 6
@@ -172,29 +172,28 @@ big_picture:
         height: 200
         top: 650
         left: 0
-        color: 'rgb(107,61,46)'
-      - type: VerticalCategory
+        color: 'rgb(140,50,20)'
+      - type: HorizontalCategory
         category: Tools
-        cols: 9
-        rows: 2
-        width: 275
-        height: 1500
+        rows: 6
+        width: 1000
+        height: 200
         top: 900
         left: 0
         color: 'rgb(109,61,143)'
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Simulations
-        cols: 9
-        width: 275
-        height: 800
-        top: 900
-        left: 350
+        rows: 6
+        width: 1000
+        height: 200
+        top: 1150
+        left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 900
-        left: 700
+        top: 1400
+        left: 0
         children:
           - type: text
             text: >
