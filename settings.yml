@@ -177,7 +177,7 @@ big_picture:
         category: Tools
         rows: 2
         width: 1000
-        height: 300
+        height: 400
         top: 900
         left: 0
         color: 'rgb(109,61,143)'
