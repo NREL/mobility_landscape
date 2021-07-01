@@ -177,7 +177,7 @@ big_picture:
         category: Tools
         rows: 2
         width: 1000
-        height: 200
+        height: 300
         top: 900
         left: 0
         color: 'rgb(109,61,143)'
@@ -185,7 +185,7 @@ big_picture:
         category: Simulations
         rows: 2
         width: 1000
-        height: 200
+        height: 300
         top: 1150
         left: 0
         color: 'rgb(46,107,46)'
