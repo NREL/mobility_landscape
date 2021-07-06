@@ -899,7 +899,7 @@ landscape:
       - subcategory: 
         name: Infrastructure
         items:
-        - item:
+          - item:
             name: Mobility Data MarketPlace and DATEX
             description: >-
               Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
@@ -931,7 +931,7 @@ landscape:
       - subcategory: 
         name: People
         items:
-        - item:
+          - item:
             name: Transportation Secure Data Center
             project: NREL
             description: >-
@@ -968,7 +968,7 @@ landscape:
       - subcategory: 
         name: Vehicles
         items:
-        - item:
+          - item:
             name: Federal Aviation Administration
             description: >-
               The FAA conducts research to ensure that commercial and general aviation is the safest in the world. Here you will find information about how the
@@ -995,7 +995,7 @@ landscape:
             geo_scope: Country
             item_type:
               - Open Data
-        - item:
+          - item:
             name: National Transit Database
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
             homepage_url: 'https://www.transit.dot.gov/ntd'
@@ -1020,7 +1020,7 @@ landscape:
             geo_scope: Country
             item_type:
               - Open Data
-        - item:
+          - item:
             name: TranStats
             description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
             homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
