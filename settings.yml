@@ -51,10 +51,10 @@ relation:
           label: NREL
           prefix: NREL
           tag: NREL Project
-          color: '#0B5E90'
+          color: '#0079C2'
           big_picture_order: 2
           big_picture_label: NREL Project
-          big_picture_color: 'rgb(11,94,144)'
+          big_picture_color: 'rgb(0,121,194)'
         - id: sandbox
           label: CNCF Sandbox Projects
           prefix: CNCF
@@ -193,14 +193,14 @@ big_picture:
         category: Simulations
         rows: 2
         width: 1000
-        height: 400
+        height: 450
         top: 1575
         left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 2000
+        top: 2050
         left: 0
         children:
           - type: text
