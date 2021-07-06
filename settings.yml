@@ -169,8 +169,8 @@ big_picture:
         category: Data Repositories
         rows: 6
         width: 1000
-        height: 400
-        top: 225
+        height: 200
+        top: 650
         left: 0
         color: 'rgb(138,51,44)'
       - type: HorizontalCategory
@@ -178,7 +178,7 @@ big_picture:
         rows: 6
         width: 1000
         height: 200
-        top: 650
+        top: 875
         left: 0
         color: 'rgb(140,50,20)'
       - type: HorizontalCategory
@@ -186,7 +186,7 @@ big_picture:
         rows: 2
         width: 1000
         height: 400
-        top: 875
+        top: 1100
         left: 0
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
@@ -194,13 +194,13 @@ big_picture:
         rows: 2
         width: 1000
         height: 300
-        top: 1300
+        top: 1425
         left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1625
+        top: 1750
         left: 0
         children:
           - type: text
