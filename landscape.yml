@@ -211,7 +211,7 @@ landscape:
             item_type:
               - Closed Source
   - category:
-    name: Data
+    name: Datasets
     subcategories:
       - subcategory:
         name: Infrastructure
@@ -420,65 +420,6 @@ landscape:
             item_type:
               - Open Data
           - item:
-            name: Mobility Data MarketPlace and DATEX
-            description: >-
-              Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
-              standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
-              constantly expanding traffic data coverage. The MDM is part of the Federal Government's innovation programme and is funded by the Federal Ministry
-              of Transport and Digital Infrastructure. The Federal Highway Research Institute (BASt) is responsible for managing the project
-            homepage_url: 'https://www.mdm-portal.de/aktuell/'
-            repo_url: null
-            logo: mdm.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: XML
-            data_owner:
-              - Government
-            region:
-              - primary: Europe
-                secondary:
-                  - Germany
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Specification
-              - Closed Data
-          - item:
-            name: Work Zone Data Exchange
-            description: >-
-              The Work Zone Data Exchange (WZDx) Specification enables infrastructure owners and operators (IOOs) to make harmonized work zone data available
-              for third party use. The intent is to make travel on public roads safer and more efficient through ubiquitous access to data on work zone
-              activity. Specifically, the project aims to get data on work zones into vehicles to help automated driving systems (ADS) and human drivers
-              navigate more safely.
-            homepage_url: 'https://www.transportation.gov/av/data/wzdx'
-            repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
-            logo: usdot_work_zone.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Five Years
-            data_frequency: Yearly
-            data_format: JSON
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Specification
-              - Open Data
-          - item:
             name: USDOT Highway Data
             description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
             homepage_url: 'https://datahub.transportation.gov/Roadways-and-Bridges/Highway-Data-Element-Dictionary/nhvr-exvq'
@@ -532,40 +473,6 @@ landscape:
             geo_scope: Country
             item_type:
               - Open Data
-          - item:
-            name: Transportation Secure Data Center
-            project: NREL
-            description: >-
-              The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies
-              conducted across the nation. Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle
-              characteristics and survey participant demographics.  NREL screens the initial data for quality control, translates each data set into a
-              consistent format, and interprets the data for spatial analysis.  NREL’s processing routines add information on vehicle fuel economy and road
-              grades and join data points to the road network.
-            homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/index.html'
-            repo_url: 'https://github.com/NREL/TSDC'
-            logo: tsdc.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-              - primary: Train
-                secondary:
-                  - Rail
-                  - High Speed
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Linked Semantic Visits
-            geo_scope: Multiple Cities
-            item_type:
-              - Open Source
           - item:
             name: NYC DOT Citywide Mobility Survey
             description: >-
@@ -934,82 +841,6 @@ landscape:
             item_type:
               - Open Data
           - item:
-            name: TranStats
-            description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
-            homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
-            repo_url: null
-            logo: usdot_transtats.svg
-            mode:
-              - primary: Air
-                secondary:
-                  - Public
-            data_duration: Ten Years
-            data_frequency: Yearly
-            data_format: Text
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Data
-          - item:
-            name: Federal Aviation Administration
-            description: >-
-              The FAA conducts research to ensure that commercial and general aviation is the safest in the world. Here you will find information about how the
-              research is done, the resulting data and statistics, and information on funding and grant data. The data includes flight times, ridership
-              information, delay information, and more.
-            homepage_url: 'https://www.faa.gov/data_research/'
-            repo_url: null
-            logo: faa.svg
-            mode:
-              - primary: Air
-                secondary:
-                  - Public
-            data_duration: Ten Years
-            data_frequency: Monthly
-            data_format: Excel
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Data
-          - item:
-            name: National Transit Database
-            description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
-            homepage_url: 'https://www.transit.dot.gov/ntd'
-            repo_url: null
-            logo: NTD.svg
-            mode:
-              - primary: Train
-                secondary:
-                  - Rail
-                  - High Speed
-            data_duration: Ten Years
-            data_frequency: Yearly
-            data_format: Text
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Country
-            item_type:
-              - Open Data
-          - item:
             name: High Mobility
             description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
             homepage_url: 'https://about.high-mobility.com'
@@ -1063,11 +894,192 @@ landscape:
             item_type:
               - Open Data
   - category:
+    name: Data Repositories
+    subcategories:
+      - subcategory: 
+        name: Infrastructure
+        items:
+        - item:
+            name: Mobility Data MarketPlace and DATEX
+            description: >-
+              Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
+              standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
+              constantly expanding traffic data coverage. The MDM is part of the Federal Government's innovation programme and is funded by the Federal Ministry
+              of Transport and Digital Infrastructure. The Federal Highway Research Institute (BASt) is responsible for managing the project
+            homepage_url: 'https://www.mdm-portal.de/aktuell/'
+            repo_url: null
+            logo: mdm.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Government
+            region:
+              - primary: Europe
+                secondary:
+                  - Germany
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Specification
+              - Closed Data
+      - subcategory: 
+        name: People
+        items:
+        - item:
+            name: Transportation Secure Data Center
+            project: NREL
+            description: >-
+              The Transportation Secure Data Center (TSDC) provides free access to detailed transportation data from a variety of travel surveys and studies
+              conducted across the nation. Data include global positioning system (GPS) readings for millions of miles of travel, along with vehicle
+              characteristics and survey participant demographics.  NREL screens the initial data for quality control, translates each data set into a
+              consistent format, and interprets the data for spatial analysis.  NREL’s processing routines add information on vehicle fuel economy and road
+              grades and join data points to the road network.
+            homepage_url: 'https://www.nrel.gov/transportation/secure-transportation-data/index.html'
+            repo_url: 'https://github.com/NREL/TSDC'
+            logo: tsdc.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Linked Semantic Visits
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+      - subcategory: 
+        name: Vehicles
+        items:
+        - item:
+            name: Federal Aviation Administration
+            description: >-
+              The FAA conducts research to ensure that commercial and general aviation is the safest in the world. Here you will find information about how the
+              research is done, the resulting data and statistics, and information on funding and grant data. The data includes flight times, ridership
+              information, delay information, and more.
+            homepage_url: 'https://www.faa.gov/data_research/'
+            repo_url: null
+            logo: faa.svg
+            mode:
+              - primary: Air
+                secondary:
+                  - Public
+            data_duration: Ten Years
+            data_frequency: Monthly
+            data_format: Excel
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Data
+        - item:
+            name: National Transit Database
+            description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
+            homepage_url: 'https://www.transit.dot.gov/ntd'
+            repo_url: null
+            logo: NTD.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Data
+        - item:
+            name: TranStats
+            description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
+            homepage_url: 'https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0'
+            repo_url: null
+            logo: usdot_transtats.svg
+            mode:
+              - primary: Air
+                secondary:
+                  - Public
+            data_duration: Ten Years
+            data_frequency: Yearly
+            data_format: Text
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Data
+  - category:
     name: Data Formatting
     subcategories:
       - subcategory:
         name: Specifications
         items:
+          - item:
+            name: Work Zone Data Exchange
+            description: >-
+              The Work Zone Data Exchange (WZDx) Specification enables infrastructure owners and operators (IOOs) to make harmonized work zone data available
+              for third party use. The intent is to make travel on public roads safer and more efficient through ubiquitous access to data on work zone
+              activity. Specifically, the project aims to get data on work zones into vehicles to help automated driving systems (ADS) and human drivers
+              navigate more safely.
+            homepage_url: 'https://www.transportation.gov/av/data/wzdx'
+            repo_url: 'https://github.com/usdot-jpo-ode/jpo-wzdx'
+            logo: usdot_work_zone.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Yearly
+            data_format: JSON
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Country
+            item_type:
+              - Open Specification
+              - Open Data
           - item:
             name: Mobility Data Specification
             description: >-
