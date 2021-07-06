@@ -243,7 +243,7 @@ big_picture:
         rows: 1
         width: 570
         height: 150
-        top: 125
+        top: 175
         left: 0
         color: rgb(143,109,61)
       - type: HorizontalCategory
@@ -251,7 +251,7 @@ big_picture:
         rows: 1
         width: 570
         height: 150
-        top: 250
+        top: 325
         left: 0
         color: rgb(158,100,81)
 test:
