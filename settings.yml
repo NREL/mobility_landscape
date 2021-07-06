@@ -172,7 +172,7 @@ big_picture:
         height: 200
         top: 650
         left: 0
-        color: 'rgb(140,50,20)'
+        color: 'rgb(140,50,20)' 'rgb(158,100,81)'
       - type: HorizontalCategory
         category: Tools
         rows: 2
@@ -234,15 +234,15 @@ big_picture:
         category: Data Analytics
         rows: 1
         width: 570
-        height: 100
+        height: 150
         top: 0
         left: 0
-        color: rgb(143,109,61)
+        color: rgb(140,50,20)
       - type: HorizontalCategory
         category: Infrastructure
         rows: 1
         width: 570
-        height: 100
+        height: 150
         top: 125
         left: 0
         color: rgb(143,109,61)
@@ -250,10 +250,10 @@ big_picture:
         category: Vehicles and Mobility
         rows: 1
         width: 570
-        height: 100
+        height: 150
         top: 250
         left: 0
-        color: rgb(143,109,61)
+        color: rgb(158,100,81)
 test:
   header: Interactive Mobility Data Landscape
   section: Landscape Projects
