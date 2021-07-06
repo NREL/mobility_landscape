@@ -13,7 +13,7 @@ jobs:
     env: 
       PROJECT_PATH: "../landscape"
       SKIP_VERSION_CHECK: 1
-      ROUTE_BASE: "mobility_landscape"
+      ROUTE_BASE: "mobility_landscape_test"
     # We run only on macos here since the repo2docker tests will run on ubuntu
     runs-on: ubuntu-latest
 
