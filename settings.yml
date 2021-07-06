@@ -172,7 +172,7 @@ big_picture:
         height: 200
         top: 650
         left: 0
-        color: 'rgb(140,50,20)' 'rgb(158,100,81)'
+        color: 'rgb(140,50,20)'
       - type: HorizontalCategory
         category: Tools
         rows: 2
