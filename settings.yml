@@ -233,7 +233,7 @@ big_picture:
       - type: HorizontalCategory
         category: Data Analytics
         rows: 1
-        width: 570
+        width: 850
         height: 150
         top: 0
         left: 0
@@ -241,7 +241,7 @@ big_picture:
       - type: HorizontalCategory
         category: Infrastructure
         rows: 1
-        width: 570
+        width: 850
         height: 150
         top: 175
         left: 0
@@ -249,7 +249,7 @@ big_picture:
       - type: HorizontalCategory
         category: Vehicles and Mobility
         rows: 1
-        width: 570
+        width: 850
         height: 150
         top: 325
         left: 0
