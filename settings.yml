@@ -158,7 +158,7 @@ big_picture:
         left: 0
         color: 'rgb(158,100,81)'
       - type: HorizontalCategory
-        category: Data
+        category: Datasets
         rows: 6
         width: 1000
         height: 400
