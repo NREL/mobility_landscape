@@ -166,6 +166,14 @@ big_picture:
         left: 0
         color: 'rgb(107,61,46)'
       - type: HorizontalCategory
+        category: Data Repositories
+        rows: 6
+        width: 1000
+        height: 400
+        top: 225
+        left: 0
+        color: 'rgb(138,51,44)'
+      - type: HorizontalCategory
         category: Data Formatting
         rows: 6
         width: 1000
