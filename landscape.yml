@@ -217,37 +217,6 @@ landscape:
         name: Infrastructure
         items:
           - item:
-            name: Alternative Fuels Data Center
-            description: >-
-              The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets and other transportation decision makers find ways 
-              to reach their energy and economic goals through the use of alternative and renewable fuels, advanced vehicles, and other fuel-saving measures.
-            homepage_url: 'https://afdc.energy.gov'
-            repo_url: null
-            logo: afdc.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: 
-              primary:
-                - CSV
-                - JSON
-                - XML
-            data_owner:
-              - Federal
-              - Government
-            region:
-              - primary: North America
-                secondary: 
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type: 
-              - Open Source
-          - item:
             name: EPA Smart Location Database
             description: >-
               The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes
@@ -999,66 +968,6 @@ landscape:
       - subcategory: 
         name: Vehicles
         items:
-          - item:
-            name: NREL Data Catalog
-            project: NREL
-            description: >-
-              The NREL mission is to develop clean energy and energy efficiency technologies and practices, advance related science and engineering, and 
-              provide knowledge and innovations to integrate energy systems at all scales. The NREL Data Catalog helps accomplish this by ensuring the 
-              data behind the science and engineering are well-documented and useful to the scientific community at large.
-            homepage_url: 'https://data.nrel.gov'
-            repo_url: null
-            logo: nrel.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory 
-            region:
-              - primary: North America
-                secondary: 
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type: 
-              - Open Source
-          - item:
-            name: Livewire
-            description: >-
-              The Livewire Data Platform makes it easy to search and share transportation and mobility-related data. The Livewire Data Platform supports the 
-              U.S. DOE Office of Energy Efficiency and Renewable Energy’s Energy Efficient Mobility Systems (EEMS) Program goal of providing 
-              an affordable, efficient, safe, and accessible transportation future where mobility is decoupled from energy consumption.
-            homepage_url: 'https://livewire.energy.gov'
-            repo_url: null
-            logo: livewire.svg
-            mode: 
-              - primary: Auto
-                secondary: 
-                  - Light
-                  - Heavy
-                  - Rideshare
-              - primary: Micro Mobility
-                secondary: 
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Federal
-              - Government
-            region:
-              - primary: North America
-                secondary: 
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type: 
-              - Closed Source
           - item:
             name: Federal Aviation Administration
             description: >-
