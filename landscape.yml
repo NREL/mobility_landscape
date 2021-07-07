@@ -1051,8 +1051,8 @@ landscape:
               - Department of Energy
             region:
               - primary: North America
-            secondary: 
-              - USA
+                secondary: 
+                  - USA
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type: 
