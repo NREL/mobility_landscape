@@ -935,7 +935,7 @@ landscape:
             description: >-
               Providers and users of traffic data from public authorities and the private sector find here a neutral platform and defined data and quality
               standards for publishing and transferring data. The MDM forms a central component of ITS in Europe as an established standard platform with
-              constantly expanding traffic data coverage. The MDM is part of the Federal Government's innovation programme and is funded by the Federal Ministry
+              constantly expanding traffic data coverage. The MDM is part of the Federal Government innovation programme and is funded by the Federal Ministry
               of Transport and Digital Infrastructure. The Federal Highway Research Institute (BASt) is responsible for managing the project
             homepage_url: 'https://www.mdm-portal.de/aktuell/'
             repo_url: null
@@ -1031,7 +1031,7 @@ landscape:
             name: Livewire
             description: >-
               The Livewire Data Platform makes it easy to search and share transportation and mobility-related data. The Livewire Data Platform supports the 
-              U.S. Department of Energy’s Office of Energy Efficiency and Renewable Energy’s Energy Efficient Mobility Systems (EEMS) Program goal of providing 
+              U.S. DOE Office of Energy Efficiency and Renewable Energy’s Energy Efficient Mobility Systems (EEMS) Program goal of providing 
               an affordable, efficient, safe, and accessible transportation future where mobility is decoupled from energy consumption.
             homepage_url: 'https://livewire.energy.gov'
             repo_url: null
