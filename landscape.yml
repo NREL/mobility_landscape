@@ -237,7 +237,8 @@ landscape:
                 - JSON
                 - XML
             data_owner:
-              - Department of Energy
+              - Federal
+              - Government
             region:
               - primary: North America
                 secondary: 
@@ -1048,7 +1049,8 @@ landscape:
             data_frequency: Unknown
             data_format: Unknown
             data_owner:
-              - Department of Energy
+              - Federal
+              - Government
             region:
               - primary: North America
                 secondary: 
