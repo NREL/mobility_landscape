@@ -115,8 +115,10 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility specifications.
-    This landscape does not capture the specifications for areas such as physical Infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
+    <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility data, specifications, and other resources.
+    Appropriate entries can be added by opening a <a target="_blank" href="https://github.com/NREL/mobility_landscape">pull request</a> with the necessary changes. 
+    In this landspace, entries are considered appropriate when they directly capture or relate to the movement of people or passenger vehicles.
+    This landscape does not capture the specifications for areas such as physical infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
     The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
     and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
   footer: |
