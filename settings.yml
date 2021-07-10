@@ -29,7 +29,7 @@ relation:
   url: cncf
   values:
     - id: hosted
-      label: NREL Projects
+      label: CNCF Projects
       children:
         - id: NREL
           label: NREL
@@ -45,6 +45,9 @@ relation:
     - id: false
       label: Non-CNCF Member Products/Projects
       url: 'no'
+  membership:
+    'false':
+     funding: 'No'
 home:
   header: >
     <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility data, specifications, and other resources.
