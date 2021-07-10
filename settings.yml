@@ -68,43 +68,6 @@ relation:
       label: Non-CNCF Member Products/Projects
       url: 'no'
 membership:
-  Platinum:
-    name: CNCF
-    label: Platinum Member
-    end_user_label: Platinum End User Member
-    funding: Platinum
-    is_large: true
-  Gold:
-    name: CNCF
-    label: Gold Member
-    end_user_label: Gold End User Member
-    funding: Gold
-    is_large: true
-  Silver:
-    name: CNCF
-    label: Silver Member
-    end_user_label: Silver End User Member
-    funding: Silver
-  Academic:
-    name: CNCF
-    label: Academic Member
-    end_user_label: Academic End User Member
-    funding: Academic
-  Nonprofit:
-    name: CNCF
-    label: Nonprofit Member
-    end_user_label: Nonprofit End User Member
-    funding: Nonprofit
-  End User Supporter:
-    name: CNCF
-    label: End User Supporter
-    funding: End User Supporter
-    enduser: true
-  linux_foundation:
-    name: LF
-    label: Project
-    funding: Linux Foundation
-    crunchbase_and_children: 'https://www.crunchbase.com/organization/linux-foundation'
   cncf:
     name: CNCF
     label: Project
