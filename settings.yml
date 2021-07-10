@@ -247,7 +247,7 @@ big_picture:
         height: 150
         top: 0
         left: 0
-        color: rgb(140,50,20)
+        color: rgb(212,82,40)
       - type: HorizontalCategory
         category: Infrastructure
         rows: 1
@@ -255,15 +255,15 @@ big_picture:
         height: 150
         top: 175
         left: 0
-        color: rgb(143,109,61)
+        color: rgb(84,169,68)
       - type: HorizontalCategory
         category: Vehicles and Mobility
         rows: 1
         width: 850
         height: 150
-        top: 325
+        top: 350
         left: 0
-        color: rgb(158,100,81)
+        color: rgb(239,170,33)
 test:
   header: Interactive Mobility Data Landscape
   section: Landscape Projects
