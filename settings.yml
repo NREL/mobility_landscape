@@ -25,7 +25,7 @@ twitter:
   url: 'https://landscape.cncf.io'
   text: Cloud Native Landscape from @CloudNativefdn
 relation:
-  label: CNCF Relation
+  label: NREL Relation
   url: cncf
   values:
     - id: hosted
