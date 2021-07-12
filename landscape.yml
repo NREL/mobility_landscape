@@ -112,35 +112,6 @@ landscape:
             item_type:
               - Closed Source
       - subcategory:
-        name: Surveying
-        items:
-          - item:
-            name: Sigalert Traffic Reports
-            description: >-
-              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
-              US
-            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
-            repo_url: null
-            logo: sigalert.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Five Years
-            data_frequency: Continuous
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Multiple Cities
-            item_type:
-              - Closed Source
-      - subcategory:
         name: Sensing and Surveying
         items:
           - item:
@@ -208,6 +179,35 @@ landscape:
                   - USA
             privacy: Linked Semantic Trajectories
             geo_scope: Country
+            item_type:
+              - Closed Source
+      - subcategory:
+        name: Surveying
+        items:
+          - item:
+            name: Sigalert Traffic Reports
+            description: >-
+              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
+              US
+            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
+            repo_url: null
+            logo: sigalert.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Continuous
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Multiple Cities
             item_type:
               - Closed Source
   - category:
@@ -1462,343 +1462,6 @@ landscape:
     name: Tools
     subcategories:
       - subcategory:
-        name: General
-        items:
-          - item:
-            name: Route Trends
-            description: >-
-              Route Trends is a tool which uses several different forecasting methods, including Seasonal-Trend Decomposition Procedure based on Loess and more,
-              to help analyze mobility data.
-            homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
-            repo_url: 'https://github.com/metrotransit/route-trends'
-            logo: route_trends.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Public
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type:
-              - Open Source
-          - item:
-            name: Moovit
-            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of an urban mobility app'
-            homepage_url: 'https://moovit.com'
-            repo_url: null
-            logo: moovit.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
-            item_type:
-              - Closed Source
-          - item:
-            name: Infrastructure Apps for Government and NGO
-            description: >-
-              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
-              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
-              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
-              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
-              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
-            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
-            repo_url: null
-            logo: usdot_app.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: PDF
-            data_owner:
-              - Government
-              - Federal
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Closed Data
-          - item:
-            name: TransAM
-            description: >-
-              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
-              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
-            homepage_url: 'http://camsys.software/platforms/transam'
-            repo_url: 'https://github.com/camsys/transam_core'
-            logo: transam_light.svg
-            mode:
-              - primary: Train
-                secondary:
-                  - Rail
-                  - High Speed
-            data_duration: Five Years
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Source
-      - subcategory:
-        name: Python Libraries
-        items:
-          - item:
-            name: pybikes
-            description: >-
-              pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of
-              classes and methods to access this sort of information.
-            homepage_url: 'https://pypi.org/project/python-citybikes/'
-            repo_url: 'https://github.com/eskerda/pybikes'
-            logo: pybikes.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type:
-              - Open Source
-          - item:
-            name: OSMnx
-            description: >-
-              OSMnx is a Python package that lets you download spatial geometries and model, project, visualize, and analyze real-world street networks from
-              OpenStreetMap’s APIs. Users can download and model walkable, drivable, or bikeable urban networks with a single line of Python code, and then
-              easily analyze and visualize them. You can just as easily download and work with amenities/points of interest, building footprints, elevation
-              data, street bearings/orientations, speed/travel time, and network routing.
-            homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
-            repo_url: 'https://github.com/gboeing/osmnx'
-            logo: openstreetmap.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Country
-            item_type:
-              - Open Source
-          - item:
-            name: GPX Tool
-            description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
-            homepage_url: 'https://github.com/topics/gpx'
-            repo_url: 'https://github.com/tkrajina/gpxpy'
-            logo: gpx.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: XML
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Specification
-      - subcategory:
-        name: Data Processors
-        items:
-          - item:
-            name: RITIS
-            description: >-
-              RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems. Its broad
-              spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation – provides enhanced,
-              multi-faceted                insight of the transportation system across geographic and agency boundaries.
-            homepage_url: 'https://www.ritis.org/intro'
-            repo_url: null
-            logo: ritis.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-              - primary: Walking
-                secondary:
-                  - Location
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Five Years
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Country
-            item_type:
-              - Closed Source
-          - item:
-            name: Otonomo
-            description: >-
-              Connected car data was designed for vehicle operations, not for powering mobility services. In order for it to be effectively used in apps and
-              services, its raw format requires additional processing. Connected car data must be acquired, cleaned, normalized, and restructured which is the
-              service that Otonomo provides.
-            homepage_url: 'https://www.otonomo.io/connected-car-data/'
-            repo_url: null
-            logo: otonomo.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-            data_duration: Five Years
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Country
-            item_type:
-              - Closed Source
-          - item:
-            name: remix
-            description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
-            homepage_url: 'https://www.remix.com'
-            repo_url: null
-            logo: remix.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-              - primary: Bus
-                secondary:
-                  - Short Haul
-                  - Long Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Cities
-            item_type:
-              - Closed Source
-          - item:
-            name: Shared Streets
-            description: >-
-              SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps
-              connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system,
-              or a commercial basemap.
-            homepage_url: 'https://sharedstreets.io'
-            repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
-            logo: sharedstreets.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Scooter
-                  - Bike
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
-            item_type:
-              - Closed Data
-              - Open Source
-      - subcategory:
         name: Accessibility Metrics
         items:
           - item:
@@ -1947,14 +1610,17 @@ landscape:
             item_type:
               - Closed Source
       - subcategory:
-        name: Public Transit Maps
+        name: Data Processors
         items:
           - item:
-            name: City Lines
-            description: Crowdsourced map of transit systems across the world
-            homepage_url: 'https://www.citylines.co/'
-            repo_url: 'https://github.com/citylines/citylines'
-            logo: citylines.svg
+            name: RITIS
+            description: >-
+              RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems. Its broad
+              spectrum of advanced analytics – from comprehensive situational awareness to in-depth archived data evaluation – provides enhanced,
+              multi-faceted                insight of the transportation system across geographic and agency boundaries.
+            homepage_url: 'https://www.ritis.org/intro'
+            repo_url: null
+            logo: ritis.svg
             mode:
               - primary: Auto
                 secondary:
@@ -1963,96 +1629,232 @@ landscape:
               - primary: Walking
                 secondary:
                   - Location
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
               - primary: Train
                 secondary:
                   - Rail
-            data_duration: Ten Years
-            data_frequency: Randomly
-            data_format: Shapefile
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
             data_owner:
-              - Open Project
+              - Industry
             region:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
+            privacy: Unlinked Trajectories
+            geo_scope: Country
+            item_type:
+              - Closed Source
+          - item:
+            name: Otonomo
+            description: >-
+              Connected car data was designed for vehicle operations, not for powering mobility services. In order for it to be effectively used in apps and
+              services, its raw format requires additional processing. Connected car data must be acquired, cleaned, normalized, and restructured which is the
+              service that Otonomo provides.
+            homepage_url: 'https://www.otonomo.io/connected-car-data/'
+            repo_url: null
+            logo: otonomo.svg
+            mode:
+              - primary: Auto
                 secondary:
-                  - Brazil
-              - primary: Europe
+                  - Light
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
                 secondary:
-                  - Germany
-                  - France
-              - primary: Africa
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Country
+            item_type:
+              - Closed Source
+          - item:
+            name: remix
+            description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
+            homepage_url: 'https://www.remix.com'
+            repo_url: null
+            logo: remix.svg
+            mode:
+              - primary: Auto
                 secondary:
-                  - South Africa
-              - primary: Asia
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
                 secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Bus
                 secondary:
-                  - Australia
+                  - Short Haul
+                  - Long Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Cities
+            item_type:
+              - Closed Source
+          - item:
+            name: Shared Streets
+            description: >-
+              SharedStreets data standards are a way to uniquely identify street space and connect data related to streets. SharedStreets makes maps
+              connectable, and allows porting of data between different street representations, whether data linked to OpenStreetMap, a city-managed GIS system,
+              or a commercial basemap.
+            homepage_url: 'https://sharedstreets.io'
+            repo_url: 'https://github.com/sharedstreets/sharedstreets-ref-system'
+            logo: sharedstreets.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Scooter
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
+              - Closed Data
               - Open Source
+      - subcategory:
+        name: General
+        items:
           - item:
-            name: Transitland
-            description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
-            homepage_url: 'https://transit.land/'
-            repo_url: 'https://github.com/transitland/transitland-atlas'
-            logo: transitland_logo.svg
+            name: Route Trends
+            description: >-
+              Route Trends is a tool which uses several different forecasting methods, including Seasonal-Trend Decomposition Procedure based on Loess and more,
+              to help analyze mobility data.
+            homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
+            repo_url: 'https://github.com/metrotransit/route-trends'
+            logo: route_trends.svg
             mode:
               - primary: Auto
                 secondary:
                   - Light
-                  - Heavy
-              - primary: Walking
+              - primary: Micro Mobility
                 secondary:
-                  - Location
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Ten Years
-            data_frequency: Randomly
-            data_format: Shapefile
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
             data_owner:
               - Open Project
             region:
               - primary: North America
                 secondary:
                   - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+          - item:
+            name: Moovit
+            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of an urban mobility app'
+            homepage_url: 'https://moovit.com'
+            repo_url: null
+            logo: moovit.svg
+            mode:
+              - primary: Micro Mobility
                 secondary:
-                  - Brazil
-              - primary: Europe
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Auto
                 secondary:
-                  - Germany
-                  - France
-              - primary: Africa
+                  - Light
+              - primary: Train
                 secondary:
-                  - South Africa
-              - primary: Asia
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
                 secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
+                  - USA
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
+            item_type:
+              - Closed Source
+          - item:
+            name: Infrastructure Apps for Government and NGO
+            description: >-
+              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
+              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
+              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
+              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
+              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
+            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
+            repo_url: null
+            logo: usdot_app.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: PDF
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Closed Data
+          - item:
+            name: TransAM
+            description: >-
+              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
+              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
+            homepage_url: 'http://camsys.software/platforms/transam'
+            repo_url: 'https://github.com/camsys/transam_core'
+            logo: transam_light.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
             item_type:
               - Open Source
       - subcategory:
@@ -2214,6 +2016,204 @@ landscape:
             geo_scope: Multiple Country
             item_type:
               - Closed Source
+      - subcategory:
+        name: Public Transit Maps
+        items:
+          - item:
+            name: City Lines
+            description: Crowdsourced map of transit systems across the world
+            homepage_url: 'https://www.citylines.co/'
+            repo_url: 'https://github.com/citylines/citylines'
+            logo: citylines.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+          - item:
+            name: Transitland
+            description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
+            homepage_url: 'https://transit.land/'
+            repo_url: 'https://github.com/transitland/transitland-atlas'
+            logo: transitland_logo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+      - subcategory:
+        name: Python Libraries
+        items:
+          - item:
+            name: pybikes
+            description: >-
+              pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of
+              classes and methods to access this sort of information.
+            homepage_url: 'https://pypi.org/project/python-citybikes/'
+            repo_url: 'https://github.com/eskerda/pybikes'
+            logo: pybikes.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+          - item:
+            name: OSMnx
+            description: >-
+              OSMnx is a Python package that lets you download spatial geometries and model, project, visualize, and analyze real-world street networks from
+              OpenStreetMap’s APIs. Users can download and model walkable, drivable, or bikeable urban networks with a single line of Python code, and then
+              easily analyze and visualize them. You can just as easily download and work with amenities/points of interest, building footprints, elevation
+              data, street bearings/orientations, speed/travel time, and network routing.
+            homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
+            repo_url: 'https://github.com/gboeing/osmnx'
+            logo: openstreetmap.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+          - item:
+            name: GPX Tool
+            description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
+            homepage_url: 'https://github.com/topics/gpx'
+            repo_url: 'https://github.com/tkrajina/gpxpy'
+            logo: gpx.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Specification
   - category:
     name: Simulations
     subcategories:
