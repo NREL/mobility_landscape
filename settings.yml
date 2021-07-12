@@ -30,10 +30,13 @@ relation:
   values:
     - id: hosted
       label: NREL Projects
-      prefix: NREL
-      big_picture_order: 
-      big_picture_label: NREL Project
-      big_picture_color: 'rgb(0,121,194)'
+      children:
+        - id: NREL
+          label: NREL Projects
+          prefix: NREL
+          big_picture_order: 
+          big_picture_label: NREL Project
+          big_picture_color: 'rgb(0,121,194)'
     - id: member
       label: Mobility Data Landscape Projects
       tag: CNCF Member
