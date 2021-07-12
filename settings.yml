@@ -10,7 +10,6 @@ global:
     title: Interactive Mobility Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
-    twitter: '@CloudNativeFdn'
     google_site_verification: 8l35EQriJXntsib5sBdRu4gmDV1nAP9PSoHccJC8ABQ
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   flags:
@@ -20,10 +19,6 @@ global:
       - NREL Projects
     hide_category_from_subcategories:
       - End User Supporter
-twitter:
-  search: landscape.cncf.io
-  url: 'https://landscape.cncf.io'
-  text: Cloud Native Landscape from @CloudNativefdn
 relation:
   label: NREL Relation
   url: cncf
@@ -62,7 +57,7 @@ home:
     Crunchbase data is used under license from Crunchbase to CNCF.
 ads:
   - url: 'https://www.nrel.gov'
-    image: /images/nrel.svg
+    image: /images/nrel_logo.svg
     title: Created by NREL
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
