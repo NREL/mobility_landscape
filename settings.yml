@@ -29,7 +29,7 @@ relation:
   url: cncf
   values:
     - id: hosted
-      label: CNCF Projects
+      label: NREL Projects
       children:
         - id: graduated
           label: CNCF Graduated Projects
