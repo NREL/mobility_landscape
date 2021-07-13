@@ -38,7 +38,7 @@ relation:
           big_picture_label: NREL Project
           big_picture_color: 'rgb(0,121,194)'
     - id: member
-      label: Mobility Data Landscape Projects
+      label: Mobility Resource Landscape Projects
       tag: CNCF Member
     - id: false
       label: Non-CNCF Member Products/Projects
@@ -53,8 +53,6 @@ membership:
 home:
   header: >
     <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility data, specifications, and other resources.
-    Appropriate entries can be added by opening a <a target="_blank" href="https://github.com/NREL/mobility_landscape">pull request</a> with the necessary changes. 
-    In this landspace, entries are considered appropriate when they directly capture or relate to the movement of people or passenger vehicles.
     This landscape does not capture the specifications for areas such as physical infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
     The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
     and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
@@ -144,7 +142,7 @@ big_picture:
         children:
           - type: text
             text: >
-              This landscape is intended as a map through the previously uncharted terrain of mobility data. The hope is that this space
+              This landscape is intended as a map through the previously uncharted terrain of mobility resources. The hope is that this space
               can be used for collaboration among mobility data researchers and creators.
             top: 80
             left: 120
@@ -202,7 +200,7 @@ big_picture:
         left: 0
         color: rgb(239,170,33)
 test:
-  header: Interactive Mobility Data Landscape
+  header: Interactive Mobility Resource Landscape
   section: Landscape Projects
   logo: tom-tom.svg
 anonymous_organization:
