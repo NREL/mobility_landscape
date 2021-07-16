@@ -52,7 +52,7 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility data, specifications, and other resources.
+    <h1>Interactive Mobility Resource Landscape</h1> The Interactive Mobility Resource Landscape is made to capture the current state of mobility data, specifications, and other resources.
     This landscape does not capture the specifications for areas such as physical infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
     The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
     and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
