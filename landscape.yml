@@ -181,35 +181,6 @@ landscape:
             geo_scope: Country
             item_type:
               - Closed Source
-      - subcategory:
-        name: Surveying
-        items:
-          - item:
-            name: Sigalert Traffic Reports
-            description: >-
-              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
-              US
-            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
-            repo_url: null
-            logo: sigalert.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Five Years
-            data_frequency: Continuous
-            data_format: Unknown
-            data_owner:
-              - Industry
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: Count Results Only
-            geo_scope: Multiple Cities
-            item_type:
-              - Closed Source
   - category:
     name: Datasets
     subcategories:
@@ -672,6 +643,32 @@ landscape:
       - subcategory:
         name: Vehicles
         items:
+          - item:
+            name: Sigalert Traffic Reports
+            description: >-
+              Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
+              US
+            homepage_url: 'https://play.google.com/store/apps/details?id=com.sigalert.mobile&hl=en_US'
+            repo_url: null
+            logo: sigalert.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Five Years
+            data_frequency: Continuous
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Count Results Only
+            geo_scope: Multiple Cities
+            item_type:
+              - Closed Source
           - item:
             name: Carto
             description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
