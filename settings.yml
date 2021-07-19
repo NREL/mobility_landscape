@@ -54,8 +54,7 @@ home:
   header: >
     <h1>Interactive Mobility Resource Landscape</h1> The Interactive Mobility Resource Landscape is made to capture the current state of mobility data, specifications, and other resources.
     This landscape does not capture the specifications for areas such as physical infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
-    The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
-    and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
+    The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>) is dynamically generated below.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
 ads:
@@ -90,7 +89,7 @@ big_picture:
         category: Data Collection Method
         rows: 6
         width: 1000
-        height: 200
+        height: 100
         top: 0
         left: 0
         color: 'rgb(158,100,81)'
@@ -98,46 +97,46 @@ big_picture:
         category: Datasets
         rows: 6
         width: 1000
-        height: 400
-        top: 225
+        height: 300
+        top: 125
         left: 0
         color: 'rgb(107,61,46)'
       - type: HorizontalCategory
         category: Data Repositories
         rows: 6
         width: 1000
-        height: 200
-        top: 650
+        height: 100
+        top: 450
         left: 0
         color: 'rgb(138,51,44)'
       - type: HorizontalCategory
         category: Data Formatting
         rows: 6
         width: 1000
-        height: 250
-        top: 875
+        height: 200
+        top: 575
         left: 0
         color: 'rgb(140,50,20)'
       - type: HorizontalCategory
         category: Tools
         rows: 2
         width: 1000
-        height: 400
-        top: 1150
+        height: 350
+        top: 800
         left: 0
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
         category: Simulations
         rows: 2
         width: 1000
-        height: 450
-        top: 1575
+        height: 400
+        top: 1175
         left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 2050
+        top: 1600
         left: 0
         children:
           - type: text
@@ -179,7 +178,7 @@ big_picture:
         category: Data Analytics
         rows: 1
         width: 850
-        height: 150
+        height: 100
         top: 0
         left: 0
         color: rgb(212,82,40)
@@ -187,16 +186,16 @@ big_picture:
         category: Infrastructure
         rows: 1
         width: 850
-        height: 150
-        top: 175
+        height: 100
+        top: 125
         left: 0
         color: rgb(84,169,68)
       - type: HorizontalCategory
         category: Vehicles and Mobility
         rows: 1
         width: 850
-        height: 150
-        top: 350
+        height: 100
+        top: 250
         left: 0
         color: rgb(239,170,33)
 test:
