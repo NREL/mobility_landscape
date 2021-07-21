@@ -86,7 +86,7 @@ big_picture:
     fullscreen_header: Missing data or request a change?  Submit a pull request!
     elements:
       - type: HorizontalCategory
-        category: Data Collection Method
+        category: Data Collection Methods
         rows: 6
         width: 1000
         height: 125
@@ -94,7 +94,7 @@ big_picture:
         left: 0
         color: 'rgb(158,100,81)'
       - type: HorizontalCategory
-        category: Datasets
+        category: Data sets
         rows: 6
         width: 1000
         height: 275
