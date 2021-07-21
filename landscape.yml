@@ -1,6 +1,6 @@
 landscape:
   - category:
-    name: Data Collection Method
+    name: Data Collection Methods
     subcategories:
       - subcategory:
         name: Sensing
@@ -182,7 +182,7 @@ landscape:
             item_type:
               - Closed Source
   - category:
-    name: Datasets
+    name: Data sets
     subcategories:
       - subcategory:
         name: Infrastructure
