@@ -182,7 +182,7 @@ landscape:
             item_type:
               - Closed Source
   - category:
-    name: Data sets
+    name: Data Sets
     subcategories:
       - subcategory:
         name: Infrastructure
