@@ -1,6 +1,6 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1767/badge)](https://bestpractices.coreinfrastructure.org/projects/1767)
 
-# Mobility Data Landscape
+# Mobility Landscape
 
 ![Mobility Data Landscape](https://github.com/jpegburch/mobility_landscape/blob/master/images/imdl_logo.png)
 
@@ -18,7 +18,7 @@
   * [Vulnerability reporting](#vulnerability-reporting)
   * [Adjusting the Landscape View](#adjusting-the-landscape-view)
 
-The [Mobility Data Landscape](https://nrel.github.io/mobility_landscape/) is a project intended as a map through the previously uncharted, growing mobility data science field. This attempts to categorize most of the data sources, specifications, and tools in the field of mobility. It has been built by the National Renewable Energy Laboratory's (NREL) Mobility, Behavior, and Advanced Powertrain (MBAP) research group as an internship project.
+The [Mobility Data Landscape](https://nrel.github.io/mobility_landscape/) is a project intended as a map through the previously uncharted, growing mobility data science field. This attempts to categorize most of the data sources, specifications, and tools in the field of mobility. It has been built by the National Renewable Energy Laboratory's (NREL) Mobility, Behavior, and Advanced Powertrains (MBAP) research group as an internship project.
 
 The software for the interactive landscape has been extracted to https://github.com/NREL/mobility_landscapeapp/tree/master/src. This repo includes all of the data and images specific to the mobility data landscape.
 
@@ -100,13 +100,7 @@ If your project isn't showing the license correctly, you may need to paste the u
 
 ## External Data
 
-The canonical source for all data is [landscape.yml](landscape.yml). Once a day, we download data for projects and companies from the following sources:
-
-* Project info from GitHub
-* Market cap data from Yahoo Finance
-* CII Best Practices Badge [data](https://bestpractices.coreinfrastructure.org/)
-
-The update server enhances the source data with the fetched data and saves the result in [processed_landscape.yml](processed_landscape.yml) and as a JSON [file] (https://nrel.github.io/mobility_landscape/data.json), the latter of which is what the app loads to display data.
+The canonical source for all data is [landscape.yml](landscape.yml). Other sources such as Github provide external data for some projects. The update server enhances the source data with the fetched data and saves the result in [processed_landscape.yml](processed_landscape.yml) and as a JSON [file] (https://nrel.github.io/mobility_landscape/data.json), the latter of which is what the app loads to display data.
 
 ## Best Practices Badge
 
