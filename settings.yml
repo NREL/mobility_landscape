@@ -10,7 +10,7 @@ global:
     title: Interactive Mobility Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
-    twitter: '@CloudNativeFdn'
+    twitter: '@NREL'
     google_site_verification: 8l35EQriJXntsib5sBdRu4gmDV1nAP9PSoHccJC8ABQ
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   flags:
@@ -21,9 +21,9 @@ global:
     hide_category_from_subcategories:
       - End User Supporter
 twitter:
-  search: landscape.cncf.io
-  url: 'https://landscape.cncf.io'
-  text: Cloud Native Landscape from @CloudNativefdn
+  search: nrel.github.io/mobility_landscape
+  url: 'https://nrel.github.io/mobility_landscape/'
+  text: Mobility Research Landscape from @NREL
 relation:
   label: NREL Relation
   url: cncf
@@ -70,12 +70,6 @@ presets:
     label: Member cards
   - url: /format=card-mode&grouping=no&sort=stars
     label: Cards by stars
-  - url: '/format=card-mode&grouping=headquarters&headquarters=china,hong-kong,taiwan'
-    label: Cards from China
-  - url: '/format=card-mode&grouping=category&category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer,special'
-    label: Certified K8s/KCSP/KTP
-  - url: /format=card-mode&grouping=no&sort=amount
-    label: Cards by MCap/Funding
 big_picture:
   main:
     tab_index: -1
