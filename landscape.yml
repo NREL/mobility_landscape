@@ -188,33 +188,6 @@ landscape:
         name: Infrastructure
         items:
           - item:
-            name: Alternative Fuels Data Center
-            description: >-
-              The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets and other transportation decision makers find ways 
-              to reach their energy and economic goals through the use of alternative and renewable fuels, advanced vehicles, and other fuel-saving measures.
-            homepage_url: 'https://afdc.energy.gov'
-            repo_url: null
-            logo: afdc.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Federal
-              - Government
-            region:
-              - primary: North America
-                secondary: 
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type: 
-              - Open Source
-          - item:
             name: EPA Smart Location Database
             description: >-
               The Smart Location Database is a nationwide geographic data resource for measuring location efficiency. It includes more than 90 attributes
@@ -373,50 +346,6 @@ landscape:
             geo_scope: Multiple Cities
             item_type:
               - Open Source
-          - item:
-            name: Our Airports
-            description: >-
-              Welcome to OurAirports, a site for discovering and discussing the world's airports. This site currently has information about 58,785 airports
-              around the world,  and our members have personally visited 11,519 of them and left 13,984 comments.
-            homepage_url: 'https://ourairports.com/help/'
-            repo_url: null
-            logo: our_airports.svg
-            mode:
-              - primary: Air
-                secondary:
-                  - Public
-            data_duration: Three Years
-            data_frequency: Randomly
-            data_format: CSV
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: No Mobility
-            geo_scope: Multiple Country
-            item_type:
-              - Open Data
           - item:
             name: USDOT Highway Data
             description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
@@ -644,6 +573,31 @@ landscape:
         name: Vehicles
         items:
           - item:
+            name: pybikes
+            description: >-
+              pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of
+              classes and methods to access this sort of information.
+            homepage_url: 'https://pypi.org/project/python-citybikes/'
+            repo_url: 'https://github.com/eskerda/pybikes'
+            logo: pybikes.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+          - item:
             name: Sigalert Traffic Reports
             description: >-
               Offers information about what speed traffic is flowing, and user-reported traffic problems in real time for more than 75 metropolitan areas in the
@@ -823,48 +777,6 @@ landscape:
             item_type:
               - Closed Source
           - item:
-            name: OpenFlights
-            description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
-            homepage_url: 'https://openflights.org/'
-            repo_url: null
-            logo: openflights.svg
-            mode:
-              - primary: Air
-                secondary:
-                  - Public
-            data_duration: Ten Years
-            data_frequency: Monthly
-            data_format: Text
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
-            item_type:
-              - Open Data
-          - item:
             name: High Mobility
             description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
             homepage_url: 'https://about.high-mobility.com'
@@ -923,6 +835,33 @@ landscape:
       - subcategory: 
         name: Infrastructure
         items:
+          - item:
+            name: Alternative Fuels Data Center
+            description: >-
+              The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets and other transportation decision makers find ways 
+              to reach their energy and economic goals through the use of alternative and renewable fuels, advanced vehicles, and other fuel-saving measures.
+            homepage_url: 'https://afdc.energy.gov'
+            repo_url: null
+            logo: afdc.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Federal
+              - Government
+            region:
+              - primary: North America
+                secondary: 
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type: 
+              - Open Source
           - item:
             name: Mobility Data MarketPlace and DATEX
             description: >-
@@ -1403,6 +1342,62 @@ landscape:
         name: Standards
         items:
           - item:
+            name: Infrastructure Apps for Government and NGO
+            description: >-
+              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
+              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
+              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
+              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
+              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
+            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
+            repo_url: null
+            logo: usdot_app.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: PDF
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Closed Data
+          - item:
+            name: TransAM
+            description: >-
+              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
+              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
+            homepage_url: 'http://camsys.software/platforms/transam'
+            repo_url: 'https://github.com/camsys/transam_core'
+            logo: transam_light.svg
+            mode:
+              - primary: Train
+                secondary:
+                  - Rail
+                  - High Speed
+            data_duration: Five Years
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Source
+          - item:
             name: Transmodel
             description: >-
               Transmodel provides an abstract model of common public transport concepts and data structures that can be used to build many different kinds of
@@ -1610,6 +1605,126 @@ landscape:
         name: Data Processors
         items:
           - item:
+            name: Route Trends
+            description: >-
+              Route Trends is a tool which uses several different forecasting methods, including Seasonal-Trend Decomposition Procedure based on Loess and more,
+              to help analyze mobility data.
+            homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
+            repo_url: 'https://github.com/metrotransit/route-trends'
+            logo: route_trends.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Public
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Open Source
+          - item:
+            name: Moovit
+            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of an urban mobility app'
+            homepage_url: 'https://moovit.com'
+            repo_url: null
+            logo: moovit.svg
+            mode:
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+              - primary: Auto
+                secondary:
+                  - Light
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Closed Source
+          - item:
+            name: OSMnx
+            description: >-
+              OSMnx is a Python package that lets you download spatial geometries and model, project, visualize, and analyze real-world street networks from
+              OpenStreetMap’s APIs. Users can download and model walkable, drivable, or bikeable urban networks with a single line of Python code, and then
+              easily analyze and visualize them. You can just as easily download and work with amenities/points of interest, building footprints, elevation
+              data, street bearings/orientations, speed/travel time, and network routing.
+            homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
+            repo_url: 'https://github.com/gboeing/osmnx'
+            logo: openstreetmap.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+          - item:
+            name: GPX Tool
+            description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
+            homepage_url: 'https://github.com/topics/gpx'
+            repo_url: 'https://github.com/tkrajina/gpxpy'
+            logo: gpx.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Other
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: XML
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Specification
+          - item:
             name: RITIS
             description: >-
               RITIS is the leading big data aggregation and dissemination platform for solving challenging and complex transportation problems. Its broad
@@ -1737,89 +1852,257 @@ landscape:
               - Closed Data
               - Open Source
       - subcategory:
-        name: General
+        name: Crowdsourced Maps
         items:
           - item:
-            name: Route Trends
+            name: Our Airports
             description: >-
-              Route Trends is a tool which uses several different forecasting methods, including Seasonal-Trend Decomposition Procedure based on Loess and more,
-              to help analyze mobility data.
-            homepage_url: 'https://metrotransitmn.shinyapps.io/route-trends/'
-            repo_url: 'https://github.com/metrotransit/route-trends'
-            logo: route_trends.svg
+              Welcome to OurAirports, a site for discovering and discussing the world's airports. This site currently has information about 58,785 airports
+              around the world,  and our members have personally visited 11,519 of them and left 13,984 comments.
+            homepage_url: 'https://ourairports.com/help/'
+            repo_url: null
+            logo: our_airports.svg
             mode:
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Micro Mobility
+              - primary: Air
                 secondary:
                   - Public
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
+            data_duration: Three Years
+            data_frequency: Randomly
+            data_format: CSV
             data_owner:
               - Open Project
             region:
               - primary: North America
                 secondary:
                   - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
             privacy: No Mobility
-            geo_scope: Multiple Cities
+            geo_scope: Multiple Country
             item_type:
-              - Open Source
+              - Open Data
           - item:
-            name: Moovit
-            description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of an urban mobility app'
-            homepage_url: 'https://moovit.com'
+            name: OpenFlights
+            description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
+            homepage_url: 'https://openflights.org/'
             repo_url: null
-            logo: moovit.svg
+            logo: openflights.svg
             mode:
-              - primary: Micro Mobility
+              - primary: Air
                 secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-              - primary: Auto
-                secondary:
-                  - Light
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
+                  - Public
+            data_duration: Ten Years
+            data_frequency: Monthly
+            data_format: Text
             data_owner:
-              - Industry
+              - Open Project
             region:
               - primary: North America
                 secondary:
                   - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Closed Source
+              - Open Data
           - item:
-            name: Infrastructure Apps for Government and NGO
-            description: >-
-              Infrastructure projects require careful planning and management to ensure that projects and services are carried out according to the project
-              specifications. Whether you work on paving roads or focus on private sector projects, infrastructure projects keep people moving safely. From
-              critical infrastructure highway maintenance, to traffic control inspections, infrastructure forms and apps help ensure that infrastructure
-              planning teams stay organized. All infrastructure PDFs can be customized for different infrastructure planning needs. The apps cover critical
-              infrastructure planning checklists, risk management network infrastructure reports and project needs, asset management tools and other services.
-            homepage_url: 'https://www.gocanvas.com/mobile-forms-apps/188-Infrastructure/show_category'
-            repo_url: null
-            logo: usdot_app.svg
+            name: City Lines
+            description: Crowdsourced map of transit systems across the world
+            homepage_url: 'https://www.citylines.co/'
+            repo_url: 'https://github.com/citylines/citylines'
+            logo: citylines.svg
             mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+          - item:
+            name: Transitland
+            description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
+            homepage_url: 'https://transit.land/'
+            repo_url: 'https://github.com/transitland/transitland-atlas'
+            logo: transitland_logo.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary:
+                  - Long Haul
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Ten Years
+            data_frequency: Randomly
+            data_format: Shapefile
+            data_owner:
+              - Open Project
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+              - primary: South America
+                secondary:
+                  - Brazil
+              - primary: Europe
+                secondary:
+                  - Germany
+                  - France
+              - primary: Africa
+                secondary:
+                  - South Africa
+              - primary: Asia
+                secondary:
+                  - China
+                  - Japan
+              - primary: Oceania
+                secondary:
+                  - Australia
+            privacy: Unlinked Trajectories
+            geo_scope: Multiple Country
+            item_type:
+              - Open Source
+  - category:
+    name: Simulations
+    subcategories:
+      - subcategory:
+        name: Infrastructure-based
+        items:
+          - item: 
+            name: Electric Vehicle Infrastructure Project Tool Lite
+            project: NREL
+            description: >-
+              EVI-Pro Lite is a tool for projecting consumer demand for electric vehicle charging infrastructure. EVI-Pro Lite is a simplified version of the 
+              Electric Vehicle Infrastructure Projection Tool (EVI-Pro). EVI-Pro has been developed through a collaboration between the National Renewable Energy 
+              Laboratory and the California Energy Commission, with additional support from the U.S. Department of Energys Office of Energy Efficiency and 
+              Renewable Energys Vehicle Technologies Office. EVI-Pro uses detailed data on personal vehicle travel patterns, electric vehicle attributes, and 
+              charging station characteristics in bottom-up simulations to estimate the quantity and type of charging infrastructure necessary to support 
+              regional adoption of electric vehicles.
+            homepage_url: 'https://afdc.energy.gov/evi-pro-lite'
+            repo_url: null
+            logo: evipro-lite.svg
+            mode: 
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open Source
+          - item:
+            name: Electric Vehicle Infrastructure - Energy Estimation and Site Optimization Tool
+            project: NREL
+            description: >-
+              Researchers use EVI-EnSite to conduct studies related to the development of electric vehicle (EV) charging station infrastructure as well as the 
+              operation and quality of service at such stations. The flexible tool can simulate light-, medium-, and heavy-duty EV charging at different charging 
+              station configurations—from low-power charging scenarios (i.e., Level 1 and Level 2) to high-power, direct current fast-charging (DCFC) stations at 
+              the multimegawatt scale.
+            homepage_url: 'https://www.nrel.gov/transportation/evi-ensite.html'
+            repo_url: null
+            logo: evi-ensite.svg
+            mode: 
               - primary: Auto
                 secondary:
                   - Heavy
                   - Light
             data_duration: Unknown
             data_frequency: Unknown
-            data_format: PDF
+            data_format: Unknown
             data_owner:
-              - Government
-              - Federal
+              - National Renewable Energy Laboratory
             region:
               - primary: North America
                 secondary:
@@ -1829,23 +2112,56 @@ landscape:
             item_type:
               - Closed Data
           - item:
-            name: TransAM
+            name: Transportation Energy & Mobility Pathway Options
+            project: NREL
             description: >-
-              Manage asset lifecycles, project planning, and grants using one platform: TransAM. From data management to reporting to integration with your
-              existing platorms, TransAM offers a sleek, customizable open source solution for effective APM.
-            homepage_url: 'http://camsys.software/platforms/transam'
-            repo_url: 'https://github.com/camsys/transam_core'
-            logo: transam_light.svg
+              The TEMPO model explores pathway options to produce long-term scenarios that reach strategic transportation-energy-environment objectives and
+              assess synergies with energy supply. It characterizes opportunities for existing and future fuels, technologies, and business models across
+              transportation sub-sectors and segments.
+            homepage_url: 'https://www.nrel.gov/transportation/tempo-model.html'
+            repo_url: null
+            logo: tempo.svg
             mode:
-              - primary: Train
+              - primary: Auto
                 secondary:
-                  - Rail
-                  - High Speed
-            data_duration: Five Years
+                  - Heavy
+                  - Light
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+                  - Other
+            data_duration: Unknown
             data_frequency: Unknown
             data_format: Unknown
             data_owner:
-              - Industry
+              - National Renewable Energy Laboratory
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Closed Data
+          - item:
+            name: Scenario Evaluation and Regionalization Analysis Model
+            project: NREL
+            description: >-
+              The Scenario Evaluation and Regionalization Analysis (SERA) model provides insights that can guide infrastructure development and transportation
+              investment decisions and accelerate the adoption of electric vehicles.
+            homepage_url: 'https://www.nrel.gov/hydrogen/sera-model.html'
+            repo_url: null
+            logo: sera.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - National Renewable Energy Laboratory
             region:
               - primary: North America
                 secondary:
@@ -2013,328 +2329,6 @@ landscape:
             geo_scope: Multiple Country
             item_type:
               - Closed Source
-      - subcategory:
-        name: Public Transit Maps
-        items:
-          - item:
-            name: City Lines
-            description: Crowdsourced map of transit systems across the world
-            homepage_url: 'https://www.citylines.co/'
-            repo_url: 'https://github.com/citylines/citylines'
-            logo: citylines.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-              - primary: Walking
-                secondary:
-                  - Location
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Ten Years
-            data_frequency: Randomly
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
-            item_type:
-              - Open Source
-          - item:
-            name: Transitland
-            description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
-            homepage_url: 'https://transit.land/'
-            repo_url: 'https://github.com/transitland/transitland-atlas'
-            logo: transitland_logo.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Light
-                  - Heavy
-              - primary: Walking
-                secondary:
-                  - Location
-              - primary: Bus
-                secondary:
-                  - Long Haul
-                  - Short Haul
-              - primary: Train
-                secondary:
-                  - Rail
-            data_duration: Ten Years
-            data_frequency: Randomly
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-                  - Canada
-                  - Mexico
-              - primary: South America
-                secondary:
-                  - Brazil
-              - primary: Europe
-                secondary:
-                  - Germany
-                  - France
-              - primary: Africa
-                secondary:
-                  - South Africa
-              - primary: Asia
-                secondary:
-                  - China
-                  - Japan
-              - primary: Oceania
-                secondary:
-                  - Australia
-            privacy: Unlinked Trajectories
-            geo_scope: Multiple Country
-            item_type:
-              - Open Source
-      - subcategory:
-        name: Python Libraries
-        items:
-          - item:
-            name: pybikes
-            description: >-
-              pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of
-              classes and methods to access this sort of information.
-            homepage_url: 'https://pypi.org/project/python-citybikes/'
-            repo_url: 'https://github.com/eskerda/pybikes'
-            logo: pybikes.svg
-            mode:
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Cities
-            item_type:
-              - Open Source
-          - item:
-            name: OSMnx
-            description: >-
-              OSMnx is a Python package that lets you download spatial geometries and model, project, visualize, and analyze real-world street networks from
-              OpenStreetMap’s APIs. Users can download and model walkable, drivable, or bikeable urban networks with a single line of Python code, and then
-              easily analyze and visualize them. You can just as easily download and work with amenities/points of interest, building footprints, elevation
-              data, street bearings/orientations, speed/travel time, and network routing.
-            homepage_url: 'https://osmnx.readthedocs.io/en/stable/'
-            repo_url: 'https://github.com/gboeing/osmnx'
-            logo: openstreetmap.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Shapefile
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Multiple Country
-            item_type:
-              - Open Source
-          - item:
-            name: GPX Tool
-            description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
-            homepage_url: 'https://github.com/topics/gpx'
-            repo_url: 'https://github.com/tkrajina/gpxpy'
-            logo: gpx.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: XML
-            data_owner:
-              - Open Project
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Specification
-  - category:
-    name: Simulations
-    subcategories:
-      - subcategory:
-        name: Infrastructure-based
-        items:
-          - item: 
-            name: Electric Vehicle Infrastructure Project Tool Lite
-            project: NREL
-            description: >-
-              EVI-Pro Lite is a tool for projecting consumer demand for electric vehicle charging infrastructure. EVI-Pro Lite is a simplified version of the 
-              Electric Vehicle Infrastructure Projection Tool (EVI-Pro). EVI-Pro has been developed through a collaboration between the National Renewable Energy 
-              Laboratory and the California Energy Commission, with additional support from the U.S. Department of Energys Office of Energy Efficiency and 
-              Renewable Energys Vehicle Technologies Office. EVI-Pro uses detailed data on personal vehicle travel patterns, electric vehicle attributes, and 
-              charging station characteristics in bottom-up simulations to estimate the quantity and type of charging infrastructure necessary to support 
-              regional adoption of electric vehicles.
-            homepage_url: 'https://afdc.energy.gov/evi-pro-lite'
-            repo_url: null
-            logo: evipro-lite.svg
-            mode: 
-              - primary: Auto
-                secondary:
-                  - Light
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Source
-          - item:
-            name: Electric Vehicle Infrastructure - Energy Estimation and Site Optimization Tool
-            project: NREL
-            description: >-
-              Researchers use EVI-EnSite to conduct studies related to the development of electric vehicle (EV) charging station infrastructure as well as the 
-              operation and quality of service at such stations. The flexible tool can simulate light-, medium-, and heavy-duty EV charging at different charging 
-              station configurations—from low-power charging scenarios (i.e., Level 1 and Level 2) to high-power, direct current fast-charging (DCFC) stations at 
-              the multimegawatt scale.
-            homepage_url: 'https://www.nrel.gov/transportation/evi-ensite.html'
-            repo_url: null
-            logo: evi-ensite.svg
-            mode: 
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Closed Data
-          - item:
-            name: Transportation Energy & Mobility Pathway Options
-            project: NREL
-            description: >-
-              The TEMPO model explores pathway options to produce long-term scenarios that reach strategic transportation-energy-environment objectives and
-              assess synergies with energy supply. It characterizes opportunities for existing and future fuels, technologies, and business models across
-              transportation sub-sectors and segments.
-            homepage_url: 'https://www.nrel.gov/transportation/tempo-model.html'
-            repo_url: null
-            logo: tempo.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Heavy
-                  - Light
-              - primary: Micro Mobility
-                secondary:
-                  - Bike
-                  - Scooter
-                  - Other
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Closed Data
-          - item:
-            name: Scenario Evaluation and Regionalization Analysis Model
-            project: NREL
-            description: >-
-              The Scenario Evaluation and Regionalization Analysis (SERA) model provides insights that can guide infrastructure development and transportation
-              investment decisions and accelerate the adoption of electric vehicles.
-            homepage_url: 'https://www.nrel.gov/hydrogen/sera-model.html'
-            repo_url: null
-            logo: sera.svg
-            mode:
-              - primary: Auto
-                secondary:
-                  - Short Haul
-            data_duration: Unknown
-            data_frequency: Unknown
-            data_format: Unknown
-            data_owner:
-              - National Renewable Energy Laboratory
-            region:
-              - primary: North America
-                secondary:
-                  - USA
-            privacy: No Mobility
-            geo_scope: Country
-            item_type:
-              - Open Source
       - subcategory:
         name: Vehicle-based
         items:
