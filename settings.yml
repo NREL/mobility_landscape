@@ -115,22 +115,30 @@ big_picture:
         category: Tools
         rows: 2
         width: 1000
-        height: 350
+        height: 275
         top: 850
         left: 0
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
-        category: Simulations
+        category: Agent-based Simulations
         rows: 2
         width: 1000
         height: 225
-        top: 1225
+        top: 1150
+        left: 0
+        color: 'rgb(46,107,46)'
+      - type: HorizontalCategory
+        category: Aggregate Simulations
+        rows: 2
+        width: 1000
+        height: 225
+        top: 1150
         left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1475
+        top: 1400
         left: 0
         children:
           - type: text
