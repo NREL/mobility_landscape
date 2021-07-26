@@ -107,7 +107,7 @@ big_picture:
         category: Data Formatting
         rows: 6
         width: 1000
-        height: 125
+        height: 225
         top: 600
         left: 0
         color: 'rgb(140,50,20)'
@@ -116,7 +116,7 @@ big_picture:
         rows: 2
         width: 1000
         height: 350
-        top: 750
+        top: 850
         left: 0
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
@@ -124,13 +124,13 @@ big_picture:
         rows: 2
         width: 1000
         height: 225
-        top: 1125
+        top: 1225
         left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1375
+        top: 1475
         left: 0
         children:
           - type: text
