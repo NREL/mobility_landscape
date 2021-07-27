@@ -132,13 +132,13 @@ big_picture:
         rows: 2
         width: 1000
         height: 225
-        top: 1150
+        top: 1400
         left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1400
+        top: 1650
         left: 0
         children:
           - type: text
