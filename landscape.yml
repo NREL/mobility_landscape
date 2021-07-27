@@ -188,6 +188,7 @@ landscape:
             name: Qualtrics
             homepage_url: 'https://www.qualtrics.com/core-xm/survey-software/'
             repo_url: null
+            logo: placeholder.svg
   - category:
     name: Data Sets
     subcategories:
@@ -198,10 +199,12 @@ landscape:
             name: Plugshare
             homepage_url: 'https://www.plugshare.com'
             repo_url: null
+            logo: placeholder.svg
           - item:
             name: chargepoint
             homepage_url: 'https://www.chargepoint.com'
             repo_url: null
+            logo: placeholder.svg
           - item:
             name: EPA Smart Location Database
             description: >-
@@ -394,10 +397,12 @@ landscape:
             name: Costar
             homepage_url: 'https://www.costar.com/products'
             repo_url: null
+            logo: placeholder.svg
           - item:
             name: National Household Travel Survey
             homepage_url: 'https://nhts.ornl.gov'
             repo_url: null
+            logo: placeholder.svg
           - item:
             name: TSA Traveler Data
             description: >-
@@ -2238,6 +2243,7 @@ landscape:
             name: BEAM
             homepage_url: 'https://beam.lbl.gov'
             repo_url: null
+            logo: placeholder.svg
           - item:
             name: Transportation Energy & Mobility Pathway Options
             project: NREL
@@ -2539,6 +2545,7 @@ landscape:
             name: POLARIS
             homepage_url: 'https://www.anl.gov/es/polaris-transportation-system-simulation-tool'
             repo_url: null
+            logo: placeholder.svg
           - item: 
             name: Highly Integrated Vehicle Ecosystem Simulation Framework
             project: NREL
