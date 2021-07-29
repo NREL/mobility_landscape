@@ -188,7 +188,7 @@ landscape:
             name: Qualtrics
             homepage_url: 'https://www.qualtrics.com/core-xm/survey-software/'
             repo_url: null
-            logo: placeholder.svg
+            logo: qualtrics.svg
   - category:
     name: Data Sets
     subcategories:
@@ -199,12 +199,12 @@ landscape:
             name: Plugshare
             homepage_url: 'https://www.plugshare.com'
             repo_url: null
-            logo: placeholder.svg
+            logo: plugshare.svg
           - item:
             name: chargepoint
             homepage_url: 'https://www.chargepoint.com'
             repo_url: null
-            logo: placeholder.svg
+            logo: chargepoint.svg
           - item:
             name: EPA Smart Location Database
             description: >-
@@ -397,12 +397,12 @@ landscape:
             name: Costar
             homepage_url: 'https://www.costar.com/products'
             repo_url: null
-            logo: placeholder.svg
+            logo: costar.svg
           - item:
             name: National Household Travel Survey
             homepage_url: 'https://nhts.ornl.gov'
             repo_url: null
-            logo: placeholder.svg
+            logo: nhts.svg
           - item:
             name: TSA Traveler Data
             description: >-
