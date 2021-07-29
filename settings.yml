@@ -167,39 +167,6 @@ big_picture:
             left: 15
             top: 15
             title: Landscape Logo
-  extra:
-    tab_index: 1
-    url: NREL
-    name: NREL
-    short_name: NREL
-    title: NREL Projects Landscape
-    category: NREL Projects
-    fullscreen_header: Missing data or request a change?  Submit a pull request!
-    elements:
-      - type: HorizontalCategory
-        category: Data Analytics
-        rows: 1
-        width: 850
-        height: 100
-        top: 0
-        left: 0
-        color: rgb(212,82,40)
-      - type: HorizontalCategory
-        category: Infrastructure
-        rows: 1
-        width: 850
-        height: 100
-        top: 125
-        left: 0
-        color: rgb(84,169,68)
-      - type: HorizontalCategory
-        category: Vehicles and Mobility
-        rows: 1
-        width: 850
-        height: 100
-        top: 250
-        left: 0
-        color: rgb(239,170,33)
 test:
   header: Interactive Mobility Resource Landscape
   section: Landscape Projects
