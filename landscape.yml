@@ -2243,7 +2243,7 @@ landscape:
             name: BEAM
             homepage_url: 'https://beam.lbl.gov'
             repo_url: null
-            logo: placeholder.svg
+            logo: beam.svg
           - item:
             name: Transportation Energy & Mobility Pathway Options
             project: NREL
@@ -2545,7 +2545,7 @@ landscape:
             name: POLARIS
             homepage_url: 'https://www.anl.gov/es/polaris-transportation-system-simulation-tool'
             repo_url: null
-            logo: placeholder.svg
+            logo: polaris.svg
           - item: 
             name: Highly Integrated Vehicle Ecosystem Simulation Framework
             project: NREL
