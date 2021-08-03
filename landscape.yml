@@ -86,7 +86,7 @@ landscape:
             privacy: Linked Visits
             geo_scope: Multiple Cities
             item_type:
-              - Closed Data
+              - Closed
           - item:
             name: Fleetsu
             description: 'Fleetsu transform fleet management by enabling businesses to instantly collect, analyse and monetise fleet data, from light cars to trucks'
@@ -1324,10 +1324,13 @@ landscape:
                 secondary:
                   - Bike
                   - Other
-              - primary: Transit
+              - primary: Bus
                 secondary:
-                  - Bus
-                  - Train
+                  - Short Haul
+                  - Long Haul
+              - primary: Train
+                secondary: 
+                  - Rail
             data_duration: Unknown
             data_frequency: Unknown
             data_format: XML
@@ -1694,7 +1697,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: OSMnx
             description: >-
