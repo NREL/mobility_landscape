@@ -21,9 +21,9 @@ landscape:
                 secondary:
                   - Light
                   - Heavy
-              - primary: Micro Mobility
+              - primary: Walking
                 secondary:
-                  - Walking
+                  - Location
             data_duration: Unknown
             data_frequency: Unknown
             data_format: Unknown
@@ -36,7 +36,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Itinerum
             description: >-
@@ -61,9 +61,9 @@ landscape:
                 secondary:
                   - Canada
             privacy: Linked Semantic Trajectories
-            geo_scope: CITY
+            geo_scope: City
             item_type:
-              - Open Data
+              - Open
           - item:
             name: Streetlight Data
             description: Affortable and intuitive mobiilty data at a low cost
@@ -110,7 +110,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
       - subcategory:
         name: Sensing and Surveying
         items:
@@ -154,7 +154,7 @@ landscape:
             privacy: Linked Semantic Trajectories
             geo_scope: Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: rMove
             description: >-
@@ -180,7 +180,7 @@ landscape:
             privacy: Linked Semantic Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
       - subcategory:
         name: Surveying
         items:
@@ -189,6 +189,12 @@ landscape:
             homepage_url: 'https://www.qualtrics.com/core-xm/survey-software/'
             repo_url: null
             logo: qualtrics.svg
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            privacy: No Mobility
+            item_type: 
+              - Closed
   - category:
     name: Data Sets
     subcategories:
@@ -239,7 +245,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: Open Street Map
             description: 'OpenStreetMap, the project that creates and distributes free geographic data for the world.'
@@ -288,7 +294,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: Open Mobility Data
             description: >-
@@ -337,8 +343,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Source
-              - Open Data
+              - Open
           - item:
             name: Open Sidewalks
             description: >-
@@ -363,7 +368,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Open
           - item:
             name: USDOT Highway Data
             description: This is list of data elements and their attributes that are used by data assets at the Federal Highway Administration.
@@ -388,8 +393,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Specification
-              - Open Data
+              - Open
       - subcategory:
         name: People
         items:
@@ -427,7 +431,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: NYC DOT Citywide Mobility Survey
             description: >-
@@ -466,9 +470,9 @@ landscape:
                 secondary:
                   - USA
             privacy: Linked Semantic Visits
-            geo_scope: CITY
+            geo_scope: City
             item_type:
-              - Open Data
+              - Open
           - item:
             name: cubeiq
             description: >-
@@ -493,7 +497,7 @@ landscape:
             privacy: Linked Visits
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: veraset
             description: Veraset is a Data-as-a-Service (DaaS) company fueling a deep understanding of population movement for innovators and problem solvers.
@@ -516,7 +520,7 @@ landscape:
             privacy: Linked Visits
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: SafeGraph
             description: >-
@@ -541,7 +545,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Places
             description: >-
@@ -596,7 +600,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Multiple Country
             item_type:
-              - Closed Source
+              - Closed
       - subcategory:
         name: Vehicles
         items:
@@ -624,7 +628,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Open
           - item:
             name: Sigalert Traffic Reports
             description: >-
@@ -650,7 +654,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Multiple Cities
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Carto
             description: 'Carto compiles a wide range of datasets across categories, from human mobility to points of interest to financial data.'
@@ -677,7 +681,7 @@ landscape:
             privacy: Multiple Datasets
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Autopilot
             description: >-
@@ -705,7 +709,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Open Specification
+              - Open
           - item:
             name: City Bikes API
             description: 'REST API for aggregated bikeshare data from around the world. Supports stations, not trips.'
@@ -728,7 +732,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: Chicago Ride-Sharing Data
             description: >-
@@ -752,9 +756,9 @@ landscape:
                 secondary:
                   - USA
             privacy: Unlinked Trajectories
-            geo_scope: CITY
+            geo_scope: City
             item_type:
-              - Open Data
+              - Open
           - item:
             name: New York City Ride-Sharing Data
             description: The New York City Taxi and Limousine Comission now releases all ride sharing data from New York City.
@@ -776,9 +780,9 @@ landscape:
                 secondary:
                   - USA
             privacy: Unlinked Trajectories
-            geo_scope: CITY
+            geo_scope: City
             item_type:
-              - Open Data
+              - Open
           - item:
             name: wejo
             description: >-
@@ -803,7 +807,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: High Mobility
             description: 'Data from  BMW, MINI, Ford and Mercedes-Benz cars through a single API. Elevate your insurance, charging, maintenance or fleet management service.'
@@ -826,7 +830,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
           - item:
             name: California Statewide Integrated Traffic Records System
             description: >-
@@ -854,9 +858,9 @@ landscape:
                 secondary:
                   - USA
             privacy: Count Results Only
-            geo_scope: STATE
+            geo_scope: State
             item_type:
-              - Open Data
+              - Open
   - category:
     name: Data Repositories
     subcategories:
@@ -889,7 +893,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type: 
-              - Open Source
+              - Open
           - item:
             name: Mobility Data MarketPlace and DATEX
             description: >-
@@ -917,8 +921,8 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Specification
-              - Closed Data
+              - Open 
+              - Closed 
       - subcategory: 
         name: People
         items:
@@ -955,7 +959,7 @@ landscape:
             privacy: Linked Semantic Visits
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Open
       - subcategory: 
         name: Vehicles
         items:
@@ -986,7 +990,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type: 
-              - Open Source
+              - Open
           - item:
             name: Livewire
             description: >-
@@ -1018,7 +1022,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type: 
-              - Closed Source
+              - Closed
           - item:
             name: Federal Aviation Administration
             description: >-
@@ -1045,7 +1049,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: National Transit Database
             description: Congress established the NTD to be the Nation’s primary source for information and statistics on the transit systems of the United States.
@@ -1070,7 +1074,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: TranStats
             description: Aviation statistics specifications reported by the United States Bureau of Transportation Statistics
@@ -1094,7 +1098,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
   - category:
     name: Data Formatting
     subcategories:
@@ -1129,8 +1133,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Specification
-              - Open Data
+              - Open
           - item:
             name: Mobility Data Specification
             description: >-
@@ -1146,11 +1149,13 @@ landscape:
                 secondary:
                   - Scooter
                   - Bike
-                  - Walking
                   - Other
               - primary: Auto
                 secondary:
                   - Rideshare
+              - primary: Walking
+                secondary:
+                  - Location
             data_duration: Unknown
             data_frequency: Unknown
             data_format: JSON
@@ -1182,7 +1187,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: GTFS Ride
             description: >-
@@ -1209,9 +1214,9 @@ landscape:
                 secondary:
                   - USA
             privacy: Unlinked Trajectories
-            geo_scope: STATE
+            geo_scope: State
             item_type:
-              - Open Data
+              - Open 
           - item:
             name: General Bikeshare Feed Specification
             description: >-
@@ -1249,7 +1254,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Specification
+              - Open
           - item:
             name: GTFS Main
             description: >-
@@ -1301,8 +1306,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Data
-              - Open Specification
+              - Open
           - item:
             name: GPX
             description: >-
@@ -1336,7 +1340,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Specification
+              - Open
           - item:
             name: NeTEx
             description: NeTEx is a CEN Technical Standard for exchanging Public Transport schedules and related data.
@@ -1365,7 +1369,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Specification
+              - Open
       - subcategory:
         name: Standards
         items:
@@ -1398,7 +1402,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
           - item:
             name: TransAM
             description: >-
@@ -1424,7 +1428,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: Transmodel
             description: >-
@@ -1453,7 +1457,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Specification
+              - Open
           - item:
             name: USDOT Data Governance
             description: >-
@@ -1477,7 +1481,7 @@ landscape:
             privacy: Count Results Only
             geo_scope: Country
             item_type:
-              - Open Specification
+              - Open
   - category:
     name: Tools
     subcategories:
@@ -1509,7 +1513,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
           - item:
             name: EPA Access to Jobs and Workers Via Transit Tool
             description: >-
@@ -1540,7 +1544,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: EPA National Walkability Index
             description: >-
@@ -1566,7 +1570,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: EPA Smart Location Calculator
             description: >-
@@ -1593,7 +1597,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: Walkscore
             description: 'Company which provides a score between 1-100 based upon ease of walking, biking, transit, and more in a neighborhood. Provides data and APIs.'
@@ -1628,7 +1632,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Closed Source
+              - Closed
       - subcategory:
         name: Data Processors
         items:
@@ -1659,7 +1663,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Open
           - item:
             name: Moovit
             description: 'Moovit, an Intel company, is a leading Mobility as a Service (MaaS) solutions provider and creator of an urban mobility app'
@@ -1723,7 +1727,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: GPX Tool
             description: This is a simple Python library for parsing and manipulating GPX files. GPX is an XML based format for GPS tracks.
@@ -1751,7 +1755,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Specification
+              - Open 
           - item:
             name: RITIS
             description: >-
@@ -1784,7 +1788,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Otonomo
             description: >-
@@ -1810,7 +1814,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: remix
             description: 'Remix is a tool dedicated to connecting transit, street, and mobility data on an easy to use tool for urban landscapes.'
@@ -1846,7 +1850,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Cities
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Shared Streets
             description: >-
@@ -1877,8 +1881,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Closed Data
-              - Open Source
+              - Open
       - subcategory:
         name: Crowdsourced Maps
         items:
@@ -1925,7 +1928,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: OpenFlights
             description: 'As of January 2017, the OpenFlights Airports Database contains over 10,000 airports, train stations and ferry terminals spanning the globe.'
@@ -1967,7 +1970,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: City Lines
             description: Crowdsourced map of transit systems across the world
@@ -2020,7 +2023,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: Transitland
             description: A community-edit data service aggregating transit networks across metropolitan and rural areas around the world.
@@ -2073,7 +2076,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Source
+              - Open
   - category:
     name: Agent-based Simulations
     subcategories:
@@ -2106,7 +2109,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
           - item:
             name: Google Maps
             description: >-
@@ -2167,7 +2170,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: TomTom
             description: >-
@@ -2209,7 +2212,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Mapbox
             description: >-
@@ -2235,7 +2238,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Closed Source
+              - Closed
       - subcategory:
         name: People
         items:
@@ -2276,7 +2279,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
       - subcategory:
         name: Routing 
         items:
@@ -2305,7 +2308,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: OneBusAway
             description: OneBusAway is an open source software system for real-time transit information in urban centers.
@@ -2329,7 +2332,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Open
           - item:
             name: RidePilot
             description: >-
@@ -2358,7 +2361,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Open
           - item:
             name: GTFS Real Time
             description: >-
@@ -2406,7 +2409,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Data
+              - Open
           - item:
             name: Open Trip Planner
             description: >-
@@ -2454,7 +2457,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: Transport API
             description: REST API for aggregated transit data for the United Kingdom. Fee-based access.
@@ -2481,7 +2484,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
           - item:
             name: Transmodel - Siri
             description: 'SIRI, is a XML protocol for exchange of public transport real-time information. The CEN standard is based on Transmodel.'
@@ -2508,7 +2511,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Multiple Country
             item_type:
-              - Open Specification
+              - Open
           - item:
             name: RouteE
             project: NREL
@@ -2537,7 +2540,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Cities
             item_type:
-              - Open Source
+              - Open
       - subcategory:
         name: Vehicle
         items:
@@ -2565,7 +2568,7 @@ landscape:
             data_frequency: Unknown
             data_format: Unknown
             data_owner:
-              - National Renewable Energy Lab
+              - National Renewable Energy Laboratory
             region: 
               - primary: North America
                 secondary:
@@ -2573,7 +2576,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
           - item:
             name: Simulation of Urban MObility
             description: >-
@@ -2599,7 +2602,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Multiple Country
             item_type:
-              - Open Specification
+              - Open
           - item:
             name: Auto API
             description: >-
@@ -2624,7 +2627,7 @@ landscape:
             privacy: Unlinked Trajectories
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
   - category:
     name: Aggregate Simulations
     subcategories:
@@ -2660,7 +2663,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Source
+              - Open
           - item:
             name: Electric Vehicle Infrastructure - Energy Estimation and Site Optimization Tool
             project: NREL
@@ -2689,7 +2692,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Closed Data
+              - Closed
           - item:
             name: Scenario Evaluation and Regionalization Analysis Model
             project: NREL
@@ -2715,7 +2718,7 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Open Source
+              - Open
       - subcategory:
         name: Vehicle
         items: 
@@ -2744,4 +2747,4 @@ landscape:
             privacy: No Mobility
             geo_scope: Country
             item_type:
-              - Closed Source
+              - Closed
