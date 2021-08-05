@@ -929,7 +929,7 @@ landscape:
                 secondary: 
                   - Rideshare
             data_duration: Unknown
-            data_frequnecy: Unknown
+            data_frequency: Unknown
             data_format: CSV
             data_owner: 
               - Open Project
