@@ -626,13 +626,14 @@ landscape:
         items:
           - item:
             name: Airline Origin and Destination (DB1B)
-            description: >-
+            description: >- Origin and Destination airline data
             homepage_url: 'https://www.bts.gov/topics/airlines-and-airports/origin-and-destination-survey-data'
             repo_url: null
             logo: db1b.svg
             mode:
               - primary: Air
-                secondary: Public
+                secondary: 
+                  - Public
             data_duration: Unknown
             data_frequency: Quarterly
             data_format: Unknown
@@ -649,7 +650,7 @@ landscape:
               - Open
           - item:
             name: National Household Travel Survey
-            description: >-
+            description: >- Conducted by the FHWA, the NHTS is the authoritative sources on the travel behavior of the American public. It is the only source of national data that allows one to analyze trends in personal and household travel. It includes daily non-commericial travel by all modes, including characteristics of the people traveling, their households, and their vehicles.
             homepage_url: 'https://nhts.ornl.gov'
             repo_url: null
             logo: nhts.svg
