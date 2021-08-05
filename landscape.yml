@@ -1502,7 +1502,7 @@ landscape:
               The General Modeling Network Specification (GMNS) defines a common human and machine readable format for sharing routable road network files. It 
               is designed to be used in multi-modal static and dynamic transportation planning and operations models.
             homepage_url: 'https://github.com/zephyr-data-specs/GMNS/wiki'
-            repo_url: 'https://github.com/zephyr-data-specs/GMNS'
+            repo_url: null
             logo: gmns.svg
             mode: 
               - primary: Bus
