@@ -36,6 +36,7 @@ These are the steps to go through to upload a new entry:
 1. Please ensure that you additionally add a logo to your new entry as well, see [Logos](#logos)
 1. Once everything is running within your fork, submit a pull request.
 
+* Your project should directly capture or relate to the movement of people or passenger vehicles.
 * We are unlikely to create a new category for products/projects as we'd rather find the best home with the current options.
 * We are generally not including commercial versions of open source software. The exception is that we are showing all Certified Kubernetes implementations.
 * Closed source products need to link to a clear description of your product; no stealth mode companies.

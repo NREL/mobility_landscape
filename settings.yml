@@ -10,94 +10,40 @@ global:
     title: Interactive Mobility Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
-    twitter: '@CloudNativeFdn'
+    twitter: '@NREL'
     google_site_verification: 8l35EQriJXntsib5sBdRu4gmDV1nAP9PSoHccJC8ABQ
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   flags:
     hide_license_for_categories:
       - Special
       - Members
+      - NREL Projects
     hide_category_from_subcategories:
       - End User Supporter
 twitter:
-  search: landscape.cncf.io
-  url: 'https://landscape.cncf.io'
-  text: Cloud Native Landscape from @CloudNativefdn
+  search: nrel.github.io/mobility_landscape
+  url: 'https://nrel.github.io/mobility_landscape/'
+  text: Mobility Research Landscape from @NREL
 relation:
-  label: CNCF Relation
+  label: NREL Relation
   url: cncf
   values:
     - id: hosted
-      label: CNCF Projects
+      label: NREL Projects
       children:
-        - id: graduated
-          label: CNCF Graduated Projects
-          prefix: CNCF
-          tag: Graduated Project
-          color: '#3570af'
-          big_picture_order: 1
-          big_picture_label: CNCF Graduated
-          big_picture_color: 'rgb(24,54,114)'
-        - id: incubating
-          label: CNCF Incubating Projects
-          prefix: CNCF
-          tag: Incubating Project
-          color: '#00cbff'
-          big_picture_order: 2
-          big_picture_label: CNCF Incubating
-          big_picture_color: 'rgb(83, 113, 189)'
-        - id: sandbox
-          label: CNCF Sandbox Projects
-          prefix: CNCF
-          tag: Sandbox Project
-          color: '#d1f7ff'
-          big_picture_label: CNCF Sandbox
-          big_picture_color: 'rgb(108, 165, 209)'
-          additional_relation: member
+        - id: NREL
+          label: NREL Projects
+          prefix: NREL
+          big_picture_order: 
+          big_picture_label: NREL Project
+          big_picture_color: 'rgb(0,121,194)'
     - id: member
-      label: Mobility Data Landscape Projects
+      label: Mobility Resource Landscape Projects
       tag: CNCF Member
     - id: false
       label: Non-CNCF Member Products/Projects
       url: 'no'
 membership:
-  Platinum:
-    name: CNCF
-    label: Platinum Member
-    end_user_label: Platinum End User Member
-    funding: Platinum
-    is_large: true
-  Gold:
-    name: CNCF
-    label: Gold Member
-    end_user_label: Gold End User Member
-    funding: Gold
-    is_large: true
-  Silver:
-    name: CNCF
-    label: Silver Member
-    end_user_label: Silver End User Member
-    funding: Silver
-  Academic:
-    name: CNCF
-    label: Academic Member
-    end_user_label: Academic End User Member
-    funding: Academic
-  Nonprofit:
-    name: CNCF
-    label: Nonprofit Member
-    end_user_label: Nonprofit End User Member
-    funding: Nonprofit
-  End User Supporter:
-    name: CNCF
-    label: End User Supporter
-    funding: End User Supporter
-    enduser: true
-  linux_foundation:
-    name: LF
-    label: Project
-    funding: Linux Foundation
-    crunchbase_and_children: 'https://www.crunchbase.com/organization/linux-foundation'
   cncf:
     name: CNCF
     label: Project
@@ -106,16 +52,15 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Interactive Mobility Data Landscape</h1> The Interactive Mobility Landscape is made to capture the current state of mobility specifications.
-    This landscape does not capture the specifications for areas such as physical Infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
-    The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>),
-    and serverless landscape (<a target="_blank" href="images/serverless.png">png</a>, <a target="_blank" href="images/serverless.pdf">pdf</a>) are dynamically generated below.
+    <h1>Interactive Mobility Resource Landscape</h1> The Interactive Mobility Resource Landscape is made to capture the current state of mobility data, specifications, and other resources.
+    This landscape does not capture the specifications for areas such as physical infrastructure or other standards with regard to construction (ie will not include standards on road roughness but data on how potholes are reported) but instead on specifications for data related to mobility.
+    The interactive mobility landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>) is dynamically generated below.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
 ads:
-  - url: 'https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=cncf_landscape&utm_medium=web&utm_campaign=kccncna20'
-    image: /images/info1.jpg
-    title: KubeCon + CloudNativeCon North America 2020
+  - url: 'https://www.nrel.gov'
+    image: /images/nrel_logo.svg
+    title: Created by NREL
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Cards by age
@@ -125,12 +70,6 @@ presets:
     label: Member cards
   - url: /format=card-mode&grouping=no&sort=stars
     label: Cards by stars
-  - url: '/format=card-mode&grouping=headquarters&headquarters=china,hong-kong,taiwan'
-    label: Cards from China
-  - url: '/format=card-mode&grouping=category&category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer,special'
-    label: Certified K8s/KCSP/KTP
-  - url: /format=card-mode&grouping=no&sort=amount
-    label: Cards by MCap/Funding
 big_picture:
   main:
     tab_index: -1
@@ -140,47 +79,71 @@ big_picture:
     title: Interactive Mobility Landscape
     fullscreen_header: Missing data or request a change?  Submit a pull request!
     elements:
-      - type: VerticalCategory
-        category: Infrastructure
-        cols: 9
-        width: 275
-        height: 1700
-        top: 350
-        left: 0
-        color: 'rgb(109,61,143)'
-      - type: VerticalCategory
-        category: Vehicles
-        cols: 9
-        width: 275
-        height: 1600
-        top: 350
-        left: 350
-        color: 'rgb(46,107,46)'
-      - type: VerticalCategory
-        category: People
-        cols: 9
-        width: 275
-        height: 600
-        top: 350
-        left: 700
-        color: 'rgb(143,88,61)'
       - type: HorizontalCategory
-        category: Infrastructure-Vehicles-People
+        category: Data Collection Methods
         rows: 6
         width: 1000
-        height: 300
+        height: 125
         top: 0
         left: 0
+        color: 'rgb(158,100,81)'
+      - type: HorizontalCategory
+        category: Data Sets
+        rows: 6
+        width: 1000
+        height: 275
+        top: 150
+        left: 0
         color: 'rgb(107,61,46)'
+      - type: HorizontalCategory
+        category: Data Repositories
+        rows: 6
+        width: 1000
+        height: 125
+        top: 450
+        left: 0
+        color: 'rgb(138,51,44)'
+      - type: HorizontalCategory
+        category: Data Formatting
+        rows: 6
+        width: 1000
+        height: 225
+        top: 600
+        left: 0
+        color: 'rgb(140,50,20)'
+      - type: HorizontalCategory
+        category: Tools
+        rows: 2
+        width: 1000
+        height: 225
+        top: 850
+        left: 0
+        color: 'rgb(109,61,143)'
+      - type: HorizontalCategory
+        category: Agent-based Simulations
+        rows: 2
+        width: 1000
+        height: 225
+        top: 1100
+        left: 0
+        color: 'rgb(46,107,46)'
+      - type: HorizontalCategory
+        category: Aggregate Simulations
+        rows: 2
+        width: 1000
+        height: 125
+        top: 1350
+        left: 0
+        color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1800
-        left: 700
+        top: 1500
+        left: 0
         children:
           - type: text
             text: >
-              This landscape is intended as a map through the previously uncharted terrain of mobility data. The hope is that this space
+              This landscape is intended as a map through the previously uncharted terrain of mobility resources. The hope is that this space
               can be used for collaboration among mobility data researchers and creators.
             top: 80
             left: 120
@@ -205,7 +168,7 @@ big_picture:
             top: 15
             title: Landscape Logo
 test:
-  header: Interactive Mobility Data Landscape
+  header: Interactive Mobility Resource Landscape
   section: Landscape Projects
   logo: tom-tom.svg
 anonymous_organization:
