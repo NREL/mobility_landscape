@@ -920,9 +920,9 @@ landscape:
             description: >- 
               Ridesharing is valuable to all citizens, empowers drivers and riders, saves lives and is part of any transportation future. The entire Austin 
               community, not just the technologist, must unite to build our way out of our current situation. RideAustin is a 501c3 non-profit TNC created by 
-              the Austin community & will be how cities of the future will embrace the ride sharing movement. 
-            homepage_url: 'http://www.rideaustin.com/#introducing-ride-austin'
-            repo_url: 'https://data.world/ride-austin'
+              the Austin community & will be how cities of the future will embrace the ride sharing movement. Homepage http://www.rideaustin.com/#introducing-ride-austin
+            homepage_url: 'https://data.world/ride-austin'
+            repo_url: null
             logo: rideaustin.svg
             mode:
               - primary: Auto
