@@ -91,7 +91,7 @@ big_picture:
         category: Data Sets
         rows: 6
         width: 1000
-        height: 275
+        height: 375
         top: 150
         left: 0
         color: 'rgb(107,61,46)'
@@ -100,7 +100,7 @@ big_picture:
         rows: 6
         width: 1000
         height: 125
-        top: 450
+        top: 550
         left: 0
         color: 'rgb(138,51,44)'
       - type: HorizontalCategory
@@ -108,7 +108,7 @@ big_picture:
         rows: 6
         width: 1000
         height: 225
-        top: 600
+        top: 700
         left: 0
         color: 'rgb(140,50,20)'
       - type: HorizontalCategory
@@ -116,7 +116,7 @@ big_picture:
         rows: 2
         width: 1000
         height: 225
-        top: 850
+        top: 950
         left: 0
         color: 'rgb(109,61,143)'
       - type: HorizontalCategory
@@ -124,7 +124,7 @@ big_picture:
         rows: 2
         width: 1000
         height: 225
-        top: 1100
+        top: 1200
         left: 0
         color: 'rgb(46,107,46)'
       - type: HorizontalCategory
@@ -132,13 +132,13 @@ big_picture:
         rows: 2
         width: 1000
         height: 125
-        top: 1350
+        top: 1450
         left: 0
         color: 'rgb(46,107,46)'
       - type: LandscapeInfo
         width: 295
         height: 260
-        top: 1500
+        top: 1600
         left: 0
         children:
           - type: text
