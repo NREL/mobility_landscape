@@ -115,6 +115,57 @@ landscape:
         name: Sensing and Surveying
         items:
           - item:
+            name: Mobility Market Monitor
+            description: >- 
+              Our automated data collection platform has been employed for household and individual-level travel and activity surveys around the globe. Our 
+              platform produces high-resolution, multi-day travel data that is verified by users and provides the full storyline of their mobility and activity 
+              patterns.
+            homepage_url: 'https://www.mobilemarketmonitor.com'
+            repo_url: null
+            logo: mmm.svg
+            mode: 
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Rideshare
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+                  - Scooter
+              - primary: Walking
+                secondary:
+                  - Location
+              - primary: Bus
+                secondary: 
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_frequency: Continuous
+            data_owner: Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+              - primary: South America
+                secondary: 
+                  - Brazil
+              - primary: Oceania
+                secondary: 
+                  - Australia
+              - primary: Africa
+                secondary:
+                  - Tanzania
+              - primary: Europe
+                secondary:
+                  - Belgium
+              - primary: Asia
+                secondary:
+                  - Indonesia
+                  - Singapore
+            geo_scope: City
+            item_type: Closed
+          - item:
             name: e-mission
             project: NREL
             description: >-
@@ -203,14 +254,138 @@ landscape:
         items:
           - item:
             name: Plugshare
+            description: >-
+              PlugShare is a free application for  iOS, Android, and web that allows users to find and review charging stations, and to connect with other 
+              plug-in vehicle owners. PlugShare provides accurate and complete public charging map worldwide, with stations from every major network 
+              in North America and Europe.
             homepage_url: 'https://www.plugshare.com'
             repo_url: null
             logo: plugshare.svg
+            mode:
+              - primary: Auto
+                secondary:
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+                  - Canada
+                  - Mexico
+                  - Jamaica
+                  - Dominican Republic
+                  - Honduras
+                  - Costa Rica
+                  - Panama
+              - primary: South America
+                secondary:
+                  - Brazil
+                  - French Guinea
+                  - Columbia
+                  - Ecuador
+                  - Peru
+                  - Bolivia
+                  - Paraguay
+                  - Argentina 
+                  - Chile
+              - primary: Africa
+                secondary:
+                  - South Africa
+                  - Rwanda
+                  - Uganda
+                  - Kenya
+                  - Nigeria
+                  - Ghana
+                  - Egypt
+                  - Tunisia
+                  - Algeria
+              - primary: Europe
+                secondary:
+                  - Portugal
+                  - Spain
+                  - France
+                  - United Kingdom
+                  - Germany
+                  - Ireland
+                  - Greece
+                  - Italy
+                  - Iceland
+                  - Norawy
+                  - Finland
+                  - Sweden
+                  - Poland
+                  - Ukraine
+                  - Romania
+                  - Switzerland
+                  - Bulgaria
+                  - Croatia
+                  - Hungary
+                  - Austria
+                  - Serbia
+                  - Montenegro
+                  - Estonia
+                  - Belarus
+                  - Moldova
+              - primary: Asia
+                secondary:
+                  - Turkey
+                  - Jordan
+                  - Saudia Arabia
+                  - Armenia
+                  - Qatar
+                  - UAE
+                  - Oman
+                  - Georgia
+                  - Kazakhstan
+                  - Uzbekistan
+                  - China
+                  - Pakistan
+                  - India
+                  - Nepal
+                  - Japan
+                  - South Korea
+                  - Vietnam
+                  - Philippines
+                  - Thailand
+                  - Myanmar
+                  - Malaysia
+                  - Singapore
+                  - Indonesia
+                  - Taiwan
+              - primary: Oceania
+                secondary:
+                  - Australia
+                  - New Zealand
+            privacy: No Mobility
+            geo_scope: City
+            item_type:
+              - Closed
           - item:
             name: chargepoint
+            description: >-
+              ChargePoint offers world-class service products and support to meet your needs at every stage of the EV charging experience. From site planning 
+              to installation and set up, to ongoing care, when you choose ChargePoint, you’re covered.
             homepage_url: 'https://www.chargepoint.com'
             repo_url: null
             logo: chargepoint.svg
+            mode:
+              - primary: Auto
+                secondary: 
+                  - Light
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner: 
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: City
+            item_type: Closed
           - item:
             name: EPA Smart Location Database
             description: >-
@@ -394,19 +569,131 @@ landscape:
             geo_scope: Country
             item_type:
               - Open
+          - item:
+            name: Costar
+            description: >-
+              At CoStar, we provide the most comprehensive information and analytics solutions available to professionals involved in every aspect of commercial 
+              real estate. Through our trusted and verified research and innovative technology, professionals gain the information they need to find their edge 
+              in the market, move their business forward and never miss a step.
+            homepage_url: 'https://www.costar.com/products'
+            repo_url: null
+            logo: costar.svg
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: City
+            item_type:
+              - Closed
+          - item: 
+            name: Coord
+            description: >-
+              Coord helps cities manage their streets, starting with the curb. Coord is the only comprehensive curb management platform, empowering cities 
+              with the necessary tools to digitally inventory, allocate, price and operate the curb at scale to help streets be more efficient, safe, and 
+              equitable.
+            homepage_url: 'https://www.coord.com'
+            repo_url: null
+            logo: coord.svg
+            mode: 
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Bus
+                secondary:
+                  - Short Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: City
+            item_type:
+              - Closed
       - subcategory:
         name: People
         items:
           - item:
-            name: Costar
-            homepage_url: 'https://www.costar.com/products'
+            name: Airline Origin and Destination (DB1B)
+            description: >- 
+              Origin and Destination airline data
+            homepage_url: 'https://www.bts.gov/topics/airlines-and-airports/origin-and-destination-survey-data'
             repo_url: null
-            logo: costar.svg
+            logo: db1b.svg
+            mode:
+              - primary: Air
+                secondary: 
+                  - Public
+            data_duration: Unknown
+            data_frequency: Quarterly
+            data_format: Unknown
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            geo_scope: Country
+            item_type:
+              - Open
           - item:
             name: National Household Travel Survey
+            description: >- 
+              Conducted by the FHWA, the NHTS is the authoritative sources on the travel behavior of the American public. It is the only source of national 
+              data that allows one to analyze trends in personal and household travel. It includes daily non-commericial travel by all modes, including 
+              characteristics of the people traveling, their households, and their vehicles.
             homepage_url: 'https://nhts.ornl.gov'
             repo_url: null
             logo: nhts.svg
+            mode:
+              - primary: Walking
+                secondary: 
+                  - Location
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+                  - Rideshare
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+              - primary: Bus
+                secondary:
+                  - Short Haul
+                  - Shuttle
+                  - Long Haul
+              - primary: Train
+                secondary:
+                  - Rail
+              - primary: Air
+                secondary: 
+                  - Public
+            data_duration: One Year
+            data_frequency: Unknown
+            data_format: CSV
+            data_owner:
+              - Government
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: Multiple Datasets
+            geo_scope: Country
+            item_type:
+              - Open
           - item:
             name: TSA Traveler Data
             description: >-
@@ -604,6 +891,85 @@ landscape:
       - subcategory:
         name: Vehicles
         items:
+          - item: 
+            name: Naturalistic Driving Study
+            description: >-
+              The goal is to analyze the collected naturalistic driving data from the Onboard Monitoring System (OBMS) 
+              Field Operational Test (FOT) in order to assess fatigue and distraction as it relates to crash risk. The OBMS FOT collected continuous naturalistic 
+              driving data for over 200 trucks and buses. This project will analyze the continuous naturalistic driving dataset from the OBMS FOT. 
+            homepage_url: 'https://www.fmcsa.dot.gov/research-and-analysis/research/naturalistic-driving-study-obms-data-analysis'
+            repo_url: null
+            logo: nds.svg
+            mode: 
+              - primary: Auto
+                secondary:
+                  - Heavy
+              - primary: Bus
+                secondary:
+                  - Long Haul
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            privacy: No Mobility
+            item_type: 
+              - Closed
+          - item:
+            name: RideAustin
+            description: >- 
+              Ridesharing is valuable to all citizens, empowers drivers and riders, saves lives and is part of any transportation future. The entire Austin 
+              community, not just the technologist, must unite to build our way out of our current situation. RideAustin is a 501c3 non-profit TNC created by 
+              the Austin community & will be how cities of the future will embrace the ride sharing movement. Homepage http://www.rideaustin.com/#introducing-ride-austin
+            homepage_url: 'https://data.world/ride-austin'
+            repo_url: null
+            logo: rideaustin.svg
+            mode:
+              - primary: Auto
+                secondary: 
+                  - Rideshare
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: CSV
+            data_owner: 
+              - Open Project
+            region:
+              - primary: North America
+                secondary: 
+                  - USA
+            geo_scope: City
+            item_type: 
+              - Open
+          - item:
+            name: Vehicle Inventory and Use Survey
+            description: >-
+              The VIUS has been the principal data source on the physical and operational characteristics of the United States truck population. Its primary goal 
+              is to gain an understanding nationally and statewide on how trucks are being utilized for various goods transport.
+            homepage_url: 'https://www.bts.gov/vius'
+            repo_url: null
+            logo: vius.svg
+            mode: 
+              - primary: Auto
+                secondary: 
+                  - Heavy
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: CSV
+            data_owner: 
+              - Government
+              - Federal
+            region: 
+              - primary: North America
+                secondary: 
+                  - USA
+            privacy: No Mobility
+            item_type:
+              - Open
           - item:
             name: pybikes
             description: >-
@@ -963,6 +1329,36 @@ landscape:
       - subcategory: 
         name: Vehicles
         items:
+          - item: 
+            name: Secure Data Commons
+            description: >-
+              The Secure Data Commons (SDC) is a cloud-based analytics platform that enables traffic engineers, researchers, and data scientists to access 
+              transportation-related datasets. The U.S. Department of Transportation (USDOT) created the SDC to provide a secure platform for sharing and 
+              collaborating on research, tools, algorithms, and analysis involving moderate sensitivity level (PII & CBI) datasets using commercially available 
+              tools, without needing to install tools or software locally.
+            homepage_url: 'https://www.transportation.gov/data/secure'
+            repo_url: null
+            logo: sdc.svg
+            mode: 
+              - primary: Auto
+                secondary:
+                  - Light
+                  - Heavy
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Government
+              - Federal
+            region:
+              - primary: North America
+                secondary:
+                  - USA
+            item_type: 
+              - Open
           - item:
             name: NREL Data Catalog
             project: NREL
@@ -1105,6 +1501,28 @@ landscape:
       - subcategory:
         name: Specifications
         items:
+          - item: 
+            name: GMNS
+            description: >-
+              The General Modeling Network Specification (GMNS) defines a common human and machine readable format for sharing routable road network files. It 
+              is designed to be used in multi-modal static and dynamic transportation planning and operations models.
+            homepage_url: 'https://github.com/zephyr-data-specs/GMNS/wiki'
+            repo_url: null
+            logo: gmns.svg
+            mode: 
+              - primary: Bus
+                secondary: 
+                  - Short Haul
+                  - Long Haul
+                  - Shuttle
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Open Project
+            privacy: No Mobility
+            item_type:
+              - Open
           - item:
             name: Work Zone Data Exchange
             description: >-
@@ -1491,6 +1909,40 @@ landscape:
       - subcategory:
         name: Accessibility Metrics
         items:
+          - item:
+            name: MobilityScore
+            description: >- 
+              MobilityScore takes into account all your options, from public transit to carsharing, bikesharing, and hailed ridesharing services, to give you a 
+              number from 0-100 that will tell you how easy it is to get around.
+            homepage_url: 'https://transitscreen.com/products/mobilityscore/'
+            repo_url: null
+            logo: mobilityScore.svg
+            mode:
+              - primary: Auto
+                secondary: 
+                  - Rideshare
+              - primary: Micro Mobility
+                secondary:
+                  - Bike
+              - primary: Bus
+                secondary: 
+                  - Short Haul
+              - primary: Train
+                secondary:
+                  - Rail
+            data_duration: Unknown
+            data_frequency: Unknown
+            data_format: Unknown
+            data_owner:
+              - Industry
+            region: 
+              - primary: North America
+                secondary: 
+                  - USA
+            privacy: No Mobility
+            geo_scope: Multiple Cities
+            item_type:
+              - Closed
           - item:
             name: Mobility Energy Productivity Metric
             project: NREL
