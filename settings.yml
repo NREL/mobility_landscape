@@ -34,7 +34,7 @@ relation:
         - id: NREL
           label: NREL Projects
           prefix: NREL
-          big_picture_order: 
+          big_picture_order: 1
           big_picture_label: NREL Project
           big_picture_color: 'rgb(0,121,194)'
     - id: member
