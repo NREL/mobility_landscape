@@ -2,7 +2,7 @@ global:
   name: Interactive Mobility Landscape
   short_name: IML
   mode: CNCF
-  repo: cncf/mobility_landscape
+  repo: NREL/mobility_landscape
   website: 'https://nrel.github.io/mobility_landscape/'
   company_url: 'https://www.nrel.gov/index.html'
   email: k.shankari@nrel.gov
